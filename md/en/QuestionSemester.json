@@ -1,0 +1,52 @@
+{
+  "data": {
+    "items": [
+      {
+        "created": 1692281802612983000,
+        "createdFormatted": "2023/08/17 16:16:42",
+        "name": "Winter",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "winter",
+            "name": "دی ماه"
+          },
+          {
+            "languageId": "Winter",
+            "linkerId": "winter",
+            "name": "Winter"
+          }
+        ],
+        "uniqueId": "winter",
+        "updated": 1692281802612983000,
+        "userId": "",
+        "workspaceId": ""
+      },
+      {
+        "created": 1692281802611165000,
+        "createdFormatted": "2023/08/17 16:16:42",
+        "linkerId": "Summer",
+        "name": "Summer",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "Summer",
+            "name": "تیرماه"
+          },
+          {
+            "languageId": "en",
+            "linkerId": "Summer",
+            "name": "Summer"
+          }
+        ],
+        "uniqueId": "Summer",
+        "updated": 1692281802611165000,
+        "userId": "",
+        "workspaceId": ""
+      }
+    ],
+    "itemsPerPage": 99999,
+    "startIndex": 0,
+    "totalItems": 2
+  }
+}

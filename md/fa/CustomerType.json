@@ -1,0 +1,55 @@
+{
+  "data": {
+    "items": [
+      {
+        "created": 1692281802581451000,
+        "createdFormatted": "۲۶ مرداد ۱۴۰۲",
+        "linkerId": "business",
+        "title": "شخص حقوقی",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "business",
+            "title": "شخص حقوقی"
+          },
+          {
+            "languageId": "pl",
+            "linkerId": "business",
+            "title": "firmowe"
+          }
+        ],
+        "uniqueId": "business",
+        "updated": 1692281802581451000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "created": 1692281802579701000,
+        "createdFormatted": "۲۶ مرداد ۱۴۰۲",
+        "linkerId": "personal",
+        "title": "شخص حقیقی",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "personal",
+            "title": "شخص حقیقی"
+          },
+          {
+            "languageId": "pl",
+            "linkerId": "personal",
+            "title": "Prywatne"
+          }
+        ],
+        "uniqueId": "personal",
+        "updated": 1692281802579701000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      }
+    ],
+    "itemsPerPage": 99999,
+    "startIndex": 0,
+    "totalItems": 2
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "data": {
+    "items": [
+      {
+        "created": 1692281802617194000,
+        "createdFormatted": "۲۶ مرداد ۱۴۰۲",
+        "linkerId": "national",
+        "name": "کشوری",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "national",
+            "name": "کشوری"
+          }
+        ],
+        "uniqueId": "national",
+        "updated": 1692281802617194000,
+        "userId": "",
+        "workspaceId": ""
+      },
+      {
+        "created": 1692281802614993000,
+        "createdFormatted": "۲۶ مرداد ۱۴۰۲",
+        "linkerId": "provincial",
+        "name": "استانی",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "provincial",
+            "name": "استانی"
+          }
+        ],
+        "uniqueId": "provincial",
+        "updated": 1692281802614993000,
+        "userId": "",
+        "workspaceId": ""
+      }
+    ],
+    "itemsPerPage": 99999,
+    "startIndex": 0,
+    "totalItems": 2
+  }
+}

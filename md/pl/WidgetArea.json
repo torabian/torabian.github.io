@@ -1,0 +1,141 @@
+{
+  "data": {
+    "items": [
+      {
+        "created": 1692281807919238000,
+        "createdFormatted": "2023/08/17 16:16:47",
+        "name": "Dashboard 1",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "bd0d433d",
+            "name": "داشبورد ۱"
+          }
+        ],
+        "uniqueId": "bd0d433d",
+        "updated": 1692281807919238000,
+        "userId": "",
+        "widgets": [
+          {
+            "created": 1692281807919709000,
+            "data": "{\"dataNodeId\": \"GPIO_1\", \"name\": \"GPIO_1\"}",
+            "h": 2,
+            "linkerId": "bd0d433d",
+            "title": "GPIO1",
+            "translations": [
+              {
+                "languageId": "fa",
+                "linkerId": "6152da1e",
+                "title": "پایه IO ۱"
+              }
+            ],
+            "uniqueId": "6152da1e",
+            "updated": 1692281807919709000,
+            "w": 2,
+            "widget": {
+              "created": 1692281807913338000,
+              "name": "Single Digital Writer",
+              "providerKey": "single_digital_gpio",
+              "uniqueId": "single_digital_gpio",
+              "updated": 1692281807913338000,
+              "userId": "",
+              "workspaceId": ""
+            },
+            "widgetId": "single_digital_gpio",
+            "workspaceId": "root"
+          },
+          {
+            "created": 1692281807919709000,
+            "data": "{\"dataNodeId\": \"GPIO_2\", \"name\": \"GPIO_2\"}",
+            "h": 2,
+            "linkerId": "bd0d433d",
+            "title": "GPIO2",
+            "translations": [
+              {
+                "languageId": "fa",
+                "linkerId": "07f8a24d",
+                "title": "پایه IO ۲"
+              }
+            ],
+            "uniqueId": "07f8a24d",
+            "updated": 1692281807919709000,
+            "w": 2,
+            "widget": {
+              "created": 1692281807913338000,
+              "name": "Single Digital Writer",
+              "providerKey": "single_digital_gpio",
+              "uniqueId": "single_digital_gpio",
+              "updated": 1692281807913338000,
+              "userId": "",
+              "workspaceId": ""
+            },
+            "widgetId": "single_digital_gpio",
+            "x": 2
+          },
+          {
+            "created": 1692281807919709000,
+            "data": "{\"dataNodeId\": \"GPIO_3\", \"name\": \"GPIO_3\"}",
+            "h": 2,
+            "linkerId": "bd0d433d",
+            "title": "GPIO3",
+            "translations": [
+              {
+                "languageId": "fa",
+                "linkerId": "b8a1aac5",
+                "title": "پایه IO ۳"
+              }
+            ],
+            "uniqueId": "b8a1aac5",
+            "updated": 1692281807919709000,
+            "w": 2,
+            "widget": {
+              "created": 1692281807913338000,
+              "name": "Single Digital Writer",
+              "providerKey": "single_digital_gpio",
+              "uniqueId": "single_digital_gpio",
+              "updated": 1692281807913338000,
+              "userId": "",
+              "workspaceId": ""
+            },
+            "widgetId": "single_digital_gpio",
+            "workspaceId": "root",
+            "x": 4
+          },
+          {
+            "created": 1692281807919709000,
+            "data": "{\"dataNodeId\": \"GPIO_8\", \"name\": \"Fan Speed (IO8)\"}",
+            "h": 2,
+            "linkerId": "bd0d433d",
+            "title": "Core Temperature",
+            "translations": [
+              {
+                "languageId": "fa",
+                "linkerId": "5e9353ad",
+                "title": "دمای داخلی CPU"
+              }
+            ],
+            "uniqueId": "5e9353ad",
+            "updated": 1692281807919709000,
+            "w": 2,
+            "widget": {
+              "created": 1692281807916860000,
+              "name": "Numeric Value Realtime Chart",
+              "providerKey": "numeric_value_realtime_chart",
+              "uniqueId": "numeric_value_realtime_chart",
+              "updated": 1692281807916860000,
+              "userId": "",
+              "workspaceId": ""
+            },
+            "widgetId": "numeric_value_realtime_chart",
+            "workspaceId": "root",
+            "x": 4
+          }
+        ],
+        "workspaceId": ""
+      }
+    ],
+    "itemsPerPage": 99999,
+    "startIndex": 0,
+    "totalItems": 1
+  }
+}

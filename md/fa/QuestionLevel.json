@@ -1,0 +1,75 @@
+{
+  "data": {
+    "items": [
+      {
+        "created": 1692281802608747000,
+        "createdFormatted": "۲۶ مرداد ۱۴۰۲",
+        "linkerId": "hard",
+        "name": "سخت",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "hard",
+            "name": "سخت"
+          },
+          {
+            "languageId": "en",
+            "linkerId": "hard",
+            "name": "Hard"
+          }
+        ],
+        "uniqueId": "hard",
+        "updated": 1692281802608747000,
+        "userId": "",
+        "workspaceId": ""
+      },
+      {
+        "created": 1692281802606488000,
+        "createdFormatted": "۲۶ مرداد ۱۴۰۲",
+        "linkerId": "medium",
+        "name": "متوسط",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "medium",
+            "name": "متوسط"
+          },
+          {
+            "languageId": "en",
+            "linkerId": "medium",
+            "name": "Medium"
+          }
+        ],
+        "uniqueId": "medium",
+        "updated": 1692281802606488000,
+        "userId": "",
+        "workspaceId": ""
+      },
+      {
+        "created": 1692281802603964000,
+        "createdFormatted": "۲۶ مرداد ۱۴۰۲",
+        "linkerId": "easy",
+        "name": "آسان",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "easy",
+            "name": "آسان"
+          },
+          {
+            "languageId": "en",
+            "linkerId": "easy",
+            "name": "Easy"
+          }
+        ],
+        "uniqueId": "easy",
+        "updated": 1692281802603964000,
+        "userId": "",
+        "workspaceId": ""
+      }
+    ],
+    "itemsPerPage": 99999,
+    "startIndex": 0,
+    "totalItems": 3
+  }
+}

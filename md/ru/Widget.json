@@ -1,0 +1,60 @@
+{
+  "data": {
+    "items": [
+      {
+        "created": 1692281807916860000,
+        "createdFormatted": "2023/08/17 16:16:47",
+        "name": "Numeric Value Realtime Chart",
+        "providerKey": "numeric_value_realtime_chart",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "numeric_value_realtime_chart",
+            "name": "نمایش نمودار آنلاین عددی"
+          }
+        ],
+        "uniqueId": "numeric_value_realtime_chart",
+        "updated": 1692281807916860000,
+        "userId": "",
+        "workspaceId": ""
+      },
+      {
+        "created": 1692281807915249000,
+        "createdFormatted": "2023/08/17 16:16:47",
+        "name": "Temperature Control",
+        "providerKey": "temperature_control",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "temperature_control",
+            "name": "کنترل دمای ساده"
+          }
+        ],
+        "uniqueId": "temperature_control",
+        "updated": 1692281807915249000,
+        "userId": "",
+        "workspaceId": ""
+      },
+      {
+        "created": 1692281807913338000,
+        "createdFormatted": "2023/08/17 16:16:47",
+        "name": "Single Digital Writer",
+        "providerKey": "single_digital_gpio",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "single_digital_gpio",
+            "name": "پایه خروجی تکی"
+          }
+        ],
+        "uniqueId": "single_digital_gpio",
+        "updated": 1692281807913338000,
+        "userId": "",
+        "workspaceId": ""
+      }
+    ],
+    "itemsPerPage": 99999,
+    "startIndex": 0,
+    "totalItems": 3
+  }
+}

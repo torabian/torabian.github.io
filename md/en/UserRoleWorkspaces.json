@@ -1,0 +1,45 @@
+{
+  "data": {
+    "items": [
+      {
+        "created": 1692281803934420000,
+        "role": {
+          "capabilities": [
+            {
+              "created": 1692281801389142000,
+              "uniqueId": "root/*",
+              "updated": 1692281801389142000
+            }
+          ],
+          "created": 1692281803934121000,
+          "name": "Administrator",
+          "uniqueId": "19936208",
+          "updated": 1692281803934121000,
+          "workspaceId": "8e468576"
+        },
+        "roleId": "19936208",
+        "uniqueId": "1c49899f",
+        "updated": 1692281803934420000,
+        "user": {
+          "created": 1692281802619024000,
+          "firstName": "John",
+          "lastName": "Doe",
+          "uniqueId": "6d79067e",
+          "updated": 1692281802619024000
+        },
+        "userId": "6d79067e",
+        "workspace": {
+          "created": 1692281803933891000,
+          "name": "John",
+          "parentId": "root",
+          "uniqueId": "8e468576",
+          "updated": 1692281803933891000
+        },
+        "workspaceId": "8e468576"
+      }
+    ],
+    "itemsPerPage": 0,
+    "startIndex": 0,
+    "totalItems": 100
+  }
+}
