@@ -4,7 +4,7 @@
   "description": "Ali Torabi Personal and Professional CV",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d out",
+    "deploy": "gh-pages -d out -t true",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
