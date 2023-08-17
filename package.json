@@ -1,0 +1,23 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "Ali Torabi Personal and Professional CV",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d out",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torabian/cv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/torabian/cv/issues"
+  },
+  "homepage": "https://github.com/torabian/cv#readme",
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
