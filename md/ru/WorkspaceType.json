@@ -1,0 +1,63 @@
+{
+  "data": {
+    "items": [
+      {
+        "created": 1693026121432369000,
+        "createdFormatted": "2023/08/26 07:02:01",
+        "description": "Become and school, build tyour learning buliten",
+        "role": {
+          "created": 1693026121430227000,
+          "name": "School",
+          "uniqueId": "SYSTEM_SCHOOL",
+          "updated": 1693026121430226000,
+          "workspaceId": "system"
+        },
+        "roleId": "SYSTEM_SCHOOL",
+        "slug": "school",
+        "title": "school",
+        "translations": [
+          {
+            "description": "مدرسه آنلاین خود را بسازید، دانش آموزان را دعوت کنید",
+            "languageId": "fa",
+            "linkerId": "school",
+            "title": "مدرسه"
+          }
+        ],
+        "uniqueId": "school",
+        "updated": 1693026121432369000,
+        "userId": "",
+        "workspaceId": "root"
+      },
+      {
+        "created": 1693026121431498000,
+        "createdFormatted": "2023/08/26 07:02:01",
+        "description": "Study as an student, join other schools",
+        "role": {
+          "created": 1693026121429796000,
+          "name": "Student",
+          "uniqueId": "SYSTEM_STUDENT",
+          "updated": 1693026121429794000,
+          "workspaceId": "system"
+        },
+        "roleId": "SYSTEM_STUDENT",
+        "slug": "student",
+        "title": "student",
+        "translations": [
+          {
+            "description": "آنلاین یاد بگیرید، آزمون های موجود را بررسی کنید",
+            "languageId": "fa",
+            "linkerId": "student",
+            "title": "دانش آموز"
+          }
+        ],
+        "uniqueId": "student",
+        "updated": 1693026121431498000,
+        "userId": "",
+        "workspaceId": "root"
+      }
+    ],
+    "itemsPerPage": 9999,
+    "startIndex": 0,
+    "totalItems": 2
+  }
+}

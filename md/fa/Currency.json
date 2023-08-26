@@ -2,1631 +2,2583 @@
   "data": {
     "items": [
       {
-        "created": 1692465328481317000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Zimbabwean Dollar",
+        "created": 1693026127705466000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "ZWL",
+        "name": "دلار زیمبابوه",
         "namePlural": "Zimbabwean Dollar",
         "symbol": "ZWL$",
         "symbolNative": "ZWL$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "ZWL",
+            "name": "دلار زیمبابوه"
+          }
+        ],
         "uniqueId": "ZWL",
-        "updated": 1692465328481317000,
+        "updated": 1693026127705466000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328479914000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Zambian Kwacha",
+        "created": 1693026127703741000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "ZMK",
+        "name": "کواچای زامبیا",
         "namePlural": "Zambian kwachas",
         "symbol": "ZK",
         "symbolNative": "ZK",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "ZMK",
+            "name": "کواچای زامبیا"
+          }
+        ],
         "uniqueId": "ZMK",
-        "updated": 1692465328479914000,
+        "updated": 1693026127703741000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328478571000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127702559000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "South African Rand",
+        "linkerId": "ZAR",
+        "name": "راند آفریقای جنوبی",
         "namePlural": "South African rand",
         "symbol": "R",
         "symbolNative": "R",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "ZAR",
+            "name": "راند آفریقای جنوبی"
+          }
+        ],
         "uniqueId": "ZAR",
-        "updated": 1692465328478571000,
+        "updated": 1693026127702559000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328477304000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Yemeni Rial",
+        "created": 1693026127701311000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "YER",
+        "name": "ریال یمن",
         "namePlural": "Yemeni rials",
         "symbol": "YR",
         "symbolNative": "ر.ي.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "YER",
+            "name": "ریال یمن"
+          }
+        ],
         "uniqueId": "YER",
-        "updated": 1692465328477304000,
+        "updated": 1693026127701311000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328476018000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "CFA Franc BCEAO",
+        "created": 1693026127699836000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "XOF",
+        "name": "فرانک سی اف ای BCEAO",
         "namePlural": "CFA francs BCEAO",
         "symbol": "CFA",
         "symbolNative": "CFA",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "XOF",
+            "name": "فرانک سی اف ای BCEAO"
+          }
+        ],
         "uniqueId": "XOF",
-        "updated": 1692465328476018000,
+        "updated": 1693026127699836000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328474665000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "CFA Franc BEAC",
+        "created": 1693026127698245000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "XAF",
+        "name": "فرانک CFA BEAC",
         "namePlural": "CFA francs BEAC",
         "symbol": "FCFA",
         "symbolNative": "FCFA",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "XAF",
+            "name": "فرانک CFA BEAC"
+          }
+        ],
         "uniqueId": "XAF",
-        "updated": 1692465328474665000,
+        "updated": 1693026127698245000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328473361000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Vietnamese Dong",
+        "created": 1693026127696645000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "VND",
+        "name": "دونگ ویتنامی",
         "namePlural": "Vietnamese dong",
         "symbol": "₫",
         "symbolNative": "₫",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "VND",
+            "name": "دونگ ویتنامی"
+          }
+        ],
         "uniqueId": "VND",
-        "updated": 1692465328473361000,
+        "updated": 1693026127696645000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328471980000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127695458000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Venezuelan Bolívar",
+        "linkerId": "VEF",
+        "name": "بولیوار ونزوئلا",
         "namePlural": "Venezuelan bolívars",
         "symbol": "Bs.F.",
         "symbolNative": "Bs.F.",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "VEF",
+            "name": "بولیوار ونزوئلا"
+          }
+        ],
         "uniqueId": "VEF",
-        "updated": 1692465328471980000,
+        "updated": 1693026127695458000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328470365000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Uzbekistan Som",
+        "created": 1693026127694368000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "UZS",
+        "name": "ازبکستان سوم",
         "namePlural": "Uzbekistan som",
         "symbol": "UZS",
         "symbolNative": "UZS",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "UZS",
+            "name": "ازبکستان سوم"
+          }
+        ],
         "uniqueId": "UZS",
-        "updated": 1692465328470365000,
+        "updated": 1693026127694368000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328468383000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127693205000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Uruguayan Peso",
+        "linkerId": "UYU",
+        "name": "پزو اروگوئه",
         "namePlural": "Uruguayan pesos",
         "symbol": "$U",
         "symbolNative": "$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "UYU",
+            "name": "پزو اروگوئه"
+          }
+        ],
         "uniqueId": "UYU",
-        "updated": 1692465328468383000,
+        "updated": 1693026127693205000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328467072000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Ugandan Shilling",
+        "created": 1693026127692038000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "UGX",
+        "name": "شیلینگ اوگاندا",
         "namePlural": "Ugandan shillings",
         "symbol": "USh",
         "symbolNative": "USh",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "UGX",
+            "name": "شیلینگ اوگاندا"
+          }
+        ],
         "uniqueId": "UGX",
-        "updated": 1692465328467072000,
+        "updated": 1693026127692038000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328465765000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127690498000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Ukrainian Hryvnia",
+        "linkerId": "UAH",
+        "name": "هریونیا اوکراینی",
         "namePlural": "Ukrainian hryvnias",
         "symbol": "₴",
         "symbolNative": "₴",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "UAH",
+            "name": "هریونیا اوکراینی"
+          }
+        ],
         "uniqueId": "UAH",
-        "updated": 1692465328465765000,
+        "updated": 1693026127690498000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328464500000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Tanzanian Shilling",
+        "created": 1693026127689378000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "TZS",
+        "name": "شیلینگ تانزانیا",
         "namePlural": "Tanzanian shillings",
         "symbol": "TSh",
         "symbolNative": "TSh",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "TZS",
+            "name": "شیلینگ تانزانیا"
+          }
+        ],
         "uniqueId": "TZS",
-        "updated": 1692465328464500000,
+        "updated": 1693026127689378000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328463209000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127688199000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "New Taiwan Dollar",
+        "linkerId": "TWD",
+        "name": "دلار جدید تایوان",
         "namePlural": "New Taiwan dollars",
         "symbol": "NT$",
         "symbolNative": "NT$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "TWD",
+            "name": "دلار جدید تایوان"
+          }
+        ],
         "uniqueId": "TWD",
-        "updated": 1692465328463209000,
+        "updated": 1693026127688199000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328461834000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127687086000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Trinidad and Tobago Dollar",
+        "linkerId": "TTD",
+        "name": "دلار ترینیداد و توباگو",
         "namePlural": "Trinidad and Tobago dollars",
         "symbol": "TT$",
         "symbolNative": "$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "TTD",
+            "name": "دلار ترینیداد و توباگو"
+          }
+        ],
         "uniqueId": "TTD",
-        "updated": 1692465328461834000,
+        "updated": 1693026127687086000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328460489000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127685775000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Turkish Lira",
+        "linkerId": "TRY",
+        "name": "لیر ترکیه",
         "namePlural": "Turkish Lira",
         "symbol": "TL",
         "symbolNative": "TL",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "TRY",
+            "name": "لیر ترکیه"
+          }
+        ],
         "uniqueId": "TRY",
-        "updated": 1692465328460489000,
+        "updated": 1693026127685775000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328459200000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127684540000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Tongan Paʻanga",
+        "linkerId": "TOP",
+        "name": "پاانگای تونگان",
         "namePlural": "Tongan paʻanga",
         "symbol": "T$",
         "symbolNative": "T$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "TOP",
+            "name": "پاانگای تونگان"
+          }
+        ],
         "uniqueId": "TOP",
-        "updated": 1692465328459200000,
+        "updated": 1693026127684540000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328457861000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127683322000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 3,
-        "name": "Tunisian Dinar",
+        "linkerId": "TND",
+        "name": "دینار تونس",
         "namePlural": "Tunisian dinars",
         "symbol": "DT",
         "symbolNative": "د.ت.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "TND",
+            "name": "دینار تونس"
+          }
+        ],
         "uniqueId": "TND",
-        "updated": 1692465328457861000,
+        "updated": 1693026127683322000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328456543000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127682127000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Thai Baht",
+        "linkerId": "THB",
+        "name": "بات تایلند",
         "namePlural": "Thai baht",
         "symbol": "฿",
         "symbolNative": "฿",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "THB",
+            "name": "بات تایلند"
+          }
+        ],
         "uniqueId": "THB",
-        "updated": 1692465328456543000,
+        "updated": 1693026127682127000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328455250000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Syrian Pound",
+        "created": 1693026127680534000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "SYP",
+        "name": "پوند سوریه",
         "namePlural": "Syrian pounds",
         "symbol": "SY£",
         "symbolNative": "ل.س.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "SYP",
+            "name": "پوند سوریه"
+          }
+        ],
         "uniqueId": "SYP",
-        "updated": 1692465328455250000,
+        "updated": 1693026127680534000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328453940000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Somali Shilling",
+        "created": 1693026127679350000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "SOS",
+        "name": "شیلینگ سومالی",
         "namePlural": "Somali shillings",
         "symbol": "Ssh",
         "symbolNative": "Ssh",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "SOS",
+            "name": "شیلینگ سومالی"
+          }
+        ],
         "uniqueId": "SOS",
-        "updated": 1692465328453940000,
+        "updated": 1693026127679350000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328452617000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127677957000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Singapore Dollar",
+        "linkerId": "SGD",
+        "name": "دلار سنگاپور",
         "namePlural": "Singapore dollars",
         "symbol": "S$",
         "symbolNative": "$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "SGD",
+            "name": "دلار سنگاپور"
+          }
+        ],
         "uniqueId": "SGD",
-        "updated": 1692465328452617000,
+        "updated": 1693026127677957000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328451352000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127676718000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Swedish Krona",
+        "linkerId": "SEK",
+        "name": "کرون سوئد",
         "namePlural": "Swedish kronor",
         "symbol": "Skr",
         "symbolNative": "kr",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "SEK",
+            "name": "کرون سوئد"
+          }
+        ],
         "uniqueId": "SEK",
-        "updated": 1692465328451352000,
+        "updated": 1693026127676718000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328450053000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127675246000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Sudanese Pound",
+        "linkerId": "SDG",
+        "name": "پوند سودان",
         "namePlural": "Sudanese pounds",
         "symbol": "SDG",
         "symbolNative": "SDG",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "SDG",
+            "name": "پوند سودان"
+          }
+        ],
         "uniqueId": "SDG",
-        "updated": 1692465328450053000,
+        "updated": 1693026127675246000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328448769000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127674039000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Saudi Riyal",
+        "linkerId": "SAR",
+        "name": "ریال عربستان",
         "namePlural": "Saudi riyals",
         "symbol": "SR",
         "symbolNative": "ر.س.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "SAR",
+            "name": "ریال عربستان"
+          }
+        ],
         "uniqueId": "SAR",
-        "updated": 1692465328448769000,
+        "updated": 1693026127674039000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328447360000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Rwandan Franc",
+        "created": 1693026127672835000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "RWF",
+        "name": "فرانک رواندا",
         "namePlural": "Rwandan francs",
         "symbol": "RWF",
         "symbolNative": "FR",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "RWF",
+            "name": "فرانک رواندا"
+          }
+        ],
         "uniqueId": "RWF",
-        "updated": 1692465328447360000,
+        "updated": 1693026127672835000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328446078000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127671442000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Russian Ruble",
+        "linkerId": "RUB",
+        "name": "روبل روسیه",
         "namePlural": "Russian rubles",
         "symbol": "RUB",
         "symbolNative": "₽.",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "RUB",
+            "name": "روبل روسیه"
+          }
+        ],
         "uniqueId": "RUB",
-        "updated": 1692465328446078000,
+        "updated": 1693026127671442000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328444657000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Serbian Dinar",
+        "created": 1693026127670259000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "RSD",
+        "name": "دینار صربستان",
         "namePlural": "Serbian dinars",
         "symbol": "din.",
         "symbolNative": "дин.",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "RSD",
+            "name": "دینار صربستان"
+          }
+        ],
         "uniqueId": "RSD",
-        "updated": 1692465328444657000,
+        "updated": 1693026127670259000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328443319000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127668980000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Romanian Leu",
+        "linkerId": "RON",
+        "name": "لئو رومانیایی",
         "namePlural": "Romanian lei",
         "symbol": "RON",
         "symbolNative": "RON",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "RON",
+            "name": "لئو رومانیایی"
+          }
+        ],
         "uniqueId": "RON",
-        "updated": 1692465328443319000,
+        "updated": 1693026127668980000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328441884000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127667083000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Qatari Rial",
+        "linkerId": "QAR",
+        "name": "ریال قطر",
         "namePlural": "Qatari rials",
         "symbol": "QR",
         "symbolNative": "ر.ق.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "QAR",
+            "name": "ریال قطر"
+          }
+        ],
         "uniqueId": "QAR",
-        "updated": 1692465328441884000,
+        "updated": 1693026127667083000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328440556000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Paraguayan Guarani",
+        "created": 1693026127665503000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "PYG",
+        "name": "گوارانی پاراگوئه",
         "namePlural": "Paraguayan guaranis",
         "symbol": "₲",
         "symbolNative": "₲",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "PYG",
+            "name": "گوارانی پاراگوئه"
+          }
+        ],
         "uniqueId": "PYG",
-        "updated": 1692465328440556000,
+        "updated": 1693026127665503000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328439194000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127664089000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Polish Zloty",
+        "linkerId": "PLN",
+        "name": "زلوتی لهستانی",
         "namePlural": "Polish zlotys",
         "symbol": "zł",
         "symbolNative": "zł",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "PLN",
+            "name": "زلوتی لهستانی"
+          }
+        ],
         "uniqueId": "PLN",
-        "updated": 1692465328439194000,
+        "updated": 1693026127664089000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328437747000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Pakistani Rupee",
+        "created": 1693026127662570000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "PKR",
+        "name": "روپیه پاکستان",
         "namePlural": "Pakistani rupees",
         "symbol": "PKRs",
         "symbolNative": "₨",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "PKR",
+            "name": "روپیه پاکستان"
+          }
+        ],
         "uniqueId": "PKR",
-        "updated": 1692465328437747000,
+        "updated": 1693026127662570000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328435735000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127661138000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Philippine Peso",
+        "linkerId": "PHP",
+        "name": "پزو فیلیپین",
         "namePlural": "Philippine pesos",
         "symbol": "₱",
         "symbolNative": "₱",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "PHP",
+            "name": "پزو فیلیپین"
+          }
+        ],
         "uniqueId": "PHP",
-        "updated": 1692465328435735000,
+        "updated": 1693026127661138000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328434469000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127659670000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Peruvian Nuevo Sol",
+        "linkerId": "PEN",
+        "name": "نووو سول پرو",
         "namePlural": "Peruvian nuevos soles",
         "symbol": "S/.",
         "symbolNative": "S/.",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "PEN",
+            "name": "نووو سول پرو"
+          }
+        ],
         "uniqueId": "PEN",
-        "updated": 1692465328434469000,
+        "updated": 1693026127659670000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328433203000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127658429000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Panamanian Balboa",
+        "linkerId": "PAB",
+        "name": "بالبوآ پانامایی",
         "namePlural": "Panamanian balboas",
         "symbol": "B/.",
         "symbolNative": "B/.",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "PAB",
+            "name": "بالبوآ پانامایی"
+          }
+        ],
         "uniqueId": "PAB",
-        "updated": 1692465328433203000,
+        "updated": 1693026127658429000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328431856000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127657029000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 3,
-        "name": "Omani Rial",
+        "linkerId": "OMR",
+        "name": "ریال عمان",
         "namePlural": "Omani rials",
         "symbol": "OMR",
         "symbolNative": "ر.ع.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "OMR",
+            "name": "ریال عمان"
+          }
+        ],
         "uniqueId": "OMR",
-        "updated": 1692465328431856000,
+        "updated": 1693026127657029000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328430545000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127655849000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "New Zealand Dollar",
+        "linkerId": "NZD",
+        "name": "دلار نیوزلند",
         "namePlural": "New Zealand dollars",
         "symbol": "NZ$",
         "symbolNative": "$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "NZD",
+            "name": "دلار نیوزلند"
+          }
+        ],
         "uniqueId": "NZD",
-        "updated": 1692465328430545000,
+        "updated": 1693026127655849000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328429262000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127654511000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Nepalese Rupee",
+        "linkerId": "NPR",
+        "name": "روپیه نپال",
         "namePlural": "Nepalese rupees",
         "symbol": "NPRs",
         "symbolNative": "नेरू",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "NPR",
+            "name": "روپیه نپال"
+          }
+        ],
         "uniqueId": "NPR",
-        "updated": 1692465328429262000,
+        "updated": 1693026127654511000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328427958000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127652917000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Norwegian Krone",
+        "linkerId": "NOK",
+        "name": "کرون نروژ",
         "namePlural": "Norwegian kroner",
         "symbol": "Nkr",
         "symbolNative": "kr",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "NOK",
+            "name": "کرون نروژ"
+          }
+        ],
         "uniqueId": "NOK",
-        "updated": 1692465328427958000,
+        "updated": 1693026127652917000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328426605000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127651700000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Nicaraguan Córdoba",
+        "linkerId": "NIO",
+        "name": "نیکاراگوئه کوردوبا",
         "namePlural": "Nicaraguan córdobas",
         "symbol": "C$",
         "symbolNative": "C$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "NIO",
+            "name": "نیکاراگوئه کوردوبا"
+          }
+        ],
         "uniqueId": "NIO",
-        "updated": 1692465328426605000,
+        "updated": 1693026127651700000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328425213000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127650479000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Nigerian Naira",
+        "linkerId": "NGN",
+        "name": "نایرا نیجریه",
         "namePlural": "Nigerian nairas",
         "symbol": "₦",
         "symbolNative": "₦",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "NGN",
+            "name": "نایرا نیجریه"
+          }
+        ],
         "uniqueId": "NGN",
-        "updated": 1692465328425213000,
+        "updated": 1693026127650479000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328423819000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127649290000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Namibian Dollar",
+        "linkerId": "NAD",
+        "name": "دلار نامیبیا",
         "namePlural": "Namibian dollars",
         "symbol": "N$",
         "symbolNative": "N$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "NAD",
+            "name": "دلار نامیبیا"
+          }
+        ],
         "uniqueId": "NAD",
-        "updated": 1692465328423819000,
+        "updated": 1693026127649290000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328422549000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127648172000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Mozambican Metical",
+        "linkerId": "MZN",
+        "name": "متیکال موزامبیک",
         "namePlural": "Mozambican meticals",
         "symbol": "MTn",
         "symbolNative": "MTn",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "MZN",
+            "name": "متیکال موزامبیک"
+          }
+        ],
         "uniqueId": "MZN",
-        "updated": 1692465328422549000,
+        "updated": 1693026127648172000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328421289000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127647090000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Malaysian Ringgit",
+        "linkerId": "MYR",
+        "name": "رینگیت مالزی",
         "namePlural": "Malaysian ringgits",
         "symbol": "RM",
         "symbolNative": "RM",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "MYR",
+            "name": "رینگیت مالزی"
+          }
+        ],
         "uniqueId": "MYR",
-        "updated": 1692465328421289000,
+        "updated": 1693026127647090000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328419918000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127645615000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Mexican Peso",
+        "linkerId": "MXN",
+        "name": "پزو مکزیک",
         "namePlural": "Mexican pesos",
         "symbol": "MX$",
         "symbolNative": "$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "MXN",
+            "name": "پزو مکزیک"
+          }
+        ],
         "uniqueId": "MXN",
-        "updated": 1692465328419918000,
+        "updated": 1693026127645615000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328418565000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Mauritian Rupee",
+        "created": 1693026127644353000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "MUR",
+        "name": "روپیه موریس",
         "namePlural": "Mauritian rupees",
         "symbol": "MURs",
         "symbolNative": "MURs",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "MUR",
+            "name": "روپیه موریس"
+          }
+        ],
         "uniqueId": "MUR",
-        "updated": 1692465328418565000,
+        "updated": 1693026127644353000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328417190000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127642998000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Macanese Pataca",
+        "linkerId": "MOP",
+        "name": "پاتاکای ماکانی",
         "namePlural": "Macanese patacas",
         "symbol": "MOP$",
         "symbolNative": "MOP$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "MOP",
+            "name": "پاتاکای ماکانی"
+          }
+        ],
         "uniqueId": "MOP",
-        "updated": 1692465328417190000,
+        "updated": 1693026127642998000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328415750000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Myanma Kyat",
+        "created": 1693026127641897000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "MMK",
+        "name": "میانما کیات",
         "namePlural": "Myanma kyats",
         "symbol": "MMK",
         "symbolNative": "K",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "MMK",
+            "name": "میانما کیات"
+          }
+        ],
         "uniqueId": "MMK",
-        "updated": 1692465328415750000,
+        "updated": 1693026127641897000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328414402000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127640683000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Macedonian Denar",
+        "linkerId": "MKD",
+        "name": "دینار مقدونیه",
         "namePlural": "Macedonian denari",
         "symbol": "MKD",
         "symbolNative": "MKD",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "MKD",
+            "name": "دینار مقدونیه"
+          }
+        ],
         "uniqueId": "MKD",
-        "updated": 1692465328414402000,
+        "updated": 1693026127640683000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328413025000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Malagasy Ariary",
+        "created": 1693026127639298000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "MGA",
+        "name": "آریاری مالاگاسی",
         "namePlural": "Malagasy Ariaries",
         "symbol": "MGA",
         "symbolNative": "MGA",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "MGA",
+            "name": "آریاری مالاگاسی"
+          }
+        ],
         "uniqueId": "MGA",
-        "updated": 1692465328413025000,
+        "updated": 1693026127639298000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328411615000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127637855000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Moldovan Leu",
+        "linkerId": "MDL",
+        "name": "لئو مولداوی",
         "namePlural": "Moldovan lei",
         "symbol": "MDL",
         "symbolNative": "MDL",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "MDL",
+            "name": "لئو مولداوی"
+          }
+        ],
         "uniqueId": "MDL",
-        "updated": 1692465328411615000,
+        "updated": 1693026127637855000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328410204000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127636443000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Moroccan Dirham",
+        "linkerId": "MAD",
+        "name": "درهم مراکش",
         "namePlural": "Moroccan dirhams",
         "symbol": "MAD",
         "symbolNative": "د.م.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "MAD",
+            "name": "درهم مراکش"
+          }
+        ],
         "uniqueId": "MAD",
-        "updated": 1692465328410204000,
+        "updated": 1693026127636443000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328408744000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127634876000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 3,
-        "name": "Libyan Dinar",
+        "linkerId": "LYD",
+        "name": "دینار لیبی",
         "namePlural": "Libyan dinars",
         "symbol": "LD",
         "symbolNative": "د.ل.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "LYD",
+            "name": "دینار لیبی"
+          }
+        ],
         "uniqueId": "LYD",
-        "updated": 1692465328408744000,
+        "updated": 1693026127634876000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328406457000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127633738000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Latvian Lats",
+        "linkerId": "LVL",
+        "name": "لات لتونی",
         "namePlural": "Latvian lati",
         "symbol": "Ls",
         "symbolNative": "Ls",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "LVL",
+            "name": "لات لتونی"
+          }
+        ],
         "uniqueId": "LVL",
-        "updated": 1692465328406457000,
+        "updated": 1693026127633738000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328405166000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127631284000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Lithuanian Litas",
+        "linkerId": "LTL",
+        "name": "Litas لیتوانیایی",
         "namePlural": "Lithuanian litai",
         "symbol": "Lt",
         "symbolNative": "Lt",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "LTL",
+            "name": "Litas لیتوانیایی"
+          }
+        ],
         "uniqueId": "LTL",
-        "updated": 1692465328405166000,
+        "updated": 1693026127631284000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328403823000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127629698000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Sri Lankan Rupee",
+        "linkerId": "LKR",
+        "name": "روپیه سریلانکا",
         "namePlural": "Sri Lankan rupees",
         "symbol": "SLRs",
         "symbolNative": "SL Re",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "LKR",
+            "name": "روپیه سریلانکا"
+          }
+        ],
         "uniqueId": "LKR",
-        "updated": 1692465328403823000,
+        "updated": 1693026127629698000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328402477000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Lebanese Pound",
+        "created": 1693026127627659000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "LBP",
+        "name": "پوند لبنان",
         "namePlural": "Lebanese pounds",
         "symbol": "L.L.",
         "symbolNative": "ل.ل.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "LBP",
+            "name": "پوند لبنان"
+          }
+        ],
         "uniqueId": "LBP",
-        "updated": 1692465328402477000,
+        "updated": 1693026127627659000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328401119000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127625868000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Kazakhstani Tenge",
+        "linkerId": "KZT",
+        "name": "تنگه قزاقستانی",
         "namePlural": "Kazakhstani tenges",
         "symbol": "KZT",
         "symbolNative": "тңг.",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "KZT",
+            "name": "تنگه قزاقستانی"
+          }
+        ],
         "uniqueId": "KZT",
-        "updated": 1692465328401119000,
+        "updated": 1693026127625868000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328399644000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127623908000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 3,
-        "name": "Kuwaiti Dinar",
+        "linkerId": "KWD",
+        "name": "دینار کویت",
         "namePlural": "Kuwaiti dinars",
         "symbol": "KD",
         "symbolNative": "د.ك.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "KWD",
+            "name": "دینار کویت"
+          }
+        ],
         "uniqueId": "KWD",
-        "updated": 1692465328399644000,
+        "updated": 1693026127623908000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328398185000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "South Korean Won",
+        "created": 1693026127622464000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "KRW",
+        "name": "وون کره جنوبی",
         "namePlural": "South Korean won",
         "symbol": "₩",
         "symbolNative": "₩",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "KRW",
+            "name": "وون کره جنوبی"
+          }
+        ],
         "uniqueId": "KRW",
-        "updated": 1692465328398185000,
+        "updated": 1693026127622464000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328396651000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Comorian Franc",
+        "created": 1693026127620825000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "KMF",
+        "name": "فرانک کوموریا",
         "namePlural": "Comorian francs",
         "symbol": "CF",
         "symbolNative": "FC",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "KMF",
+            "name": "فرانک کوموریا"
+          }
+        ],
         "uniqueId": "KMF",
-        "updated": 1692465328396651000,
+        "updated": 1693026127620825000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328395384000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127619234000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Cambodian Riel",
+        "linkerId": "KHR",
+        "name": "ریل کامبوج",
         "namePlural": "Cambodian riels",
         "symbol": "KHR",
         "symbolNative": "៛",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "KHR",
+            "name": "ریل کامبوج"
+          }
+        ],
         "uniqueId": "KHR",
-        "updated": 1692465328395384000,
+        "updated": 1693026127619234000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328394098000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127617570000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Kenyan Shilling",
+        "linkerId": "KES",
+        "name": "شیلینگ کنیا",
         "namePlural": "Kenyan shillings",
         "symbol": "Ksh",
         "symbolNative": "Ksh",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "KES",
+            "name": "شیلینگ کنیا"
+          }
+        ],
         "uniqueId": "KES",
-        "updated": 1692465328394098000,
+        "updated": 1693026127617570000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328392748000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Japanese Yen",
+        "created": 1693026127616228000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "JPY",
+        "name": "ین ژاپن",
         "namePlural": "Japanese yen",
         "symbol": "¥",
         "symbolNative": "￥",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "JPY",
+            "name": "ین ژاپن"
+          }
+        ],
         "uniqueId": "JPY",
-        "updated": 1692465328392748000,
+        "updated": 1693026127616228000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328391387000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127614392000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 3,
-        "name": "Jordanian Dinar",
+        "linkerId": "JOD",
+        "name": "دینار اردن",
         "namePlural": "Jordanian dinars",
         "symbol": "JD",
         "symbolNative": "د.أ.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "JOD",
+            "name": "دینار اردن"
+          }
+        ],
         "uniqueId": "JOD",
-        "updated": 1692465328391387000,
+        "updated": 1693026127614392000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328390020000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127613049000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Jamaican Dollar",
+        "linkerId": "JMD",
+        "name": "دلار جامائیکا",
         "namePlural": "Jamaican dollars",
         "symbol": "J$",
         "symbolNative": "$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "JMD",
+            "name": "دلار جامائیکا"
+          }
+        ],
         "uniqueId": "JMD",
-        "updated": 1692465328390020000,
+        "updated": 1693026127613049000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328388694000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Icelandic Króna",
+        "created": 1693026127611759000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "ISK",
+        "name": "کرون ایسلند",
         "namePlural": "Icelandic krónur",
         "symbol": "Ikr",
         "symbolNative": "kr",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "ISK",
+            "name": "کرون ایسلند"
+          }
+        ],
         "uniqueId": "ISK",
-        "updated": 1692465328388694000,
+        "updated": 1693026127611759000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328387331000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Iranian Rial",
+        "created": 1693026127609982000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "IRR",
+        "name": "ریال ایران",
         "namePlural": "Iranian rials",
         "symbol": "IRR",
         "symbolNative": "﷼",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "IRR",
+            "name": "ریال ایران"
+          }
+        ],
         "uniqueId": "IRR",
-        "updated": 1692465328387331000,
+        "updated": 1693026127609982000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328385929000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Iraqi Dinar",
+        "created": 1693026127608173000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "IQD",
+        "name": "دینار عراق",
         "namePlural": "Iraqi dinars",
         "symbol": "IQD",
         "symbolNative": "د.ع.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "IQD",
+            "name": "دینار عراق"
+          }
+        ],
         "uniqueId": "IQD",
-        "updated": 1692465328385929000,
+        "updated": 1693026127608173000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328384595000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127606704000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Indian Rupee",
+        "linkerId": "INR",
+        "name": "روپیه هند",
         "namePlural": "Indian rupees",
         "symbol": "Rs",
         "symbolNative": "টকা",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "INR",
+            "name": "روپیه هند"
+          }
+        ],
         "uniqueId": "INR",
-        "updated": 1692465328384595000,
+        "updated": 1693026127606704000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328383260000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127604809000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Israeli New Sheqel",
+        "linkerId": "ILS",
+        "name": "شکل جدید اسرائیل",
         "namePlural": "Israeli new sheqels",
         "symbol": "₪",
         "symbolNative": "₪",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "ILS",
+            "name": "شکل جدید اسرائیل"
+          }
+        ],
         "uniqueId": "ILS",
-        "updated": 1692465328383260000,
+        "updated": 1693026127604809000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328381946000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Indonesian Rupiah",
+        "created": 1693026127603504000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "IDR",
+        "name": "روپیه اندونزی",
         "namePlural": "Indonesian rupiahs",
         "symbol": "Rp",
         "symbolNative": "Rp",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "IDR",
+            "name": "روپیه اندونزی"
+          }
+        ],
         "uniqueId": "IDR",
-        "updated": 1692465328381946000,
+        "updated": 1693026127603504000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328380534000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Hungarian Forint",
+        "created": 1693026127602053000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "HUF",
+        "name": "فورینت مجارستان",
         "namePlural": "Hungarian forints",
         "symbol": "Ft",
         "symbolNative": "Ft",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "HUF",
+            "name": "فورینت مجارستان"
+          }
+        ],
         "uniqueId": "HUF",
-        "updated": 1692465328380534000,
+        "updated": 1693026127602053000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328379092000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127600582000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Croatian Kuna",
+        "linkerId": "HRK",
+        "name": "کونا کرواسی",
         "namePlural": "Croatian kunas",
         "symbol": "kn",
         "symbolNative": "kn",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "HRK",
+            "name": "کونا کرواسی"
+          }
+        ],
         "uniqueId": "HRK",
-        "updated": 1692465328379092000,
+        "updated": 1693026127600582000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328377687000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127599175000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Honduran Lempira",
+        "linkerId": "HNL",
+        "name": "لمپیرا هندوراس",
         "namePlural": "Honduran lempiras",
         "symbol": "HNL",
         "symbolNative": "L",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "HNL",
+            "name": "لمپیرا هندوراس"
+          }
+        ],
         "uniqueId": "HNL",
-        "updated": 1692465328377687000,
+        "updated": 1693026127599175000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328376244000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127597724000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Hong Kong Dollar",
+        "linkerId": "HKD",
+        "name": "دلار هنگ کنگ",
         "namePlural": "Hong Kong dollars",
         "symbol": "HK$",
         "symbolNative": "$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "HKD",
+            "name": "دلار هنگ کنگ"
+          }
+        ],
         "uniqueId": "HKD",
-        "updated": 1692465328376244000,
+        "updated": 1693026127597724000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328374339000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127596222000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Guatemalan Quetzal",
+        "linkerId": "GTQ",
+        "name": "کوتزال گواتمالا",
         "namePlural": "Guatemalan quetzals",
         "symbol": "GTQ",
         "symbolNative": "Q",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "GTQ",
+            "name": "کوتزال گواتمالا"
+          }
+        ],
         "uniqueId": "GTQ",
-        "updated": 1692465328374339000,
+        "updated": 1693026127596222000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328373020000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Guinean Franc",
+        "created": 1693026127594181000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "GNF",
+        "name": "فرانک گینه",
         "namePlural": "Guinean francs",
         "symbol": "FG",
         "symbolNative": "FG",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "GNF",
+            "name": "فرانک گینه"
+          }
+        ],
         "uniqueId": "GNF",
-        "updated": 1692465328373020000,
+        "updated": 1693026127594181000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328371749000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127592846000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Ghanaian Cedi",
+        "linkerId": "GHS",
+        "name": "سدی غنا",
         "namePlural": "Ghanaian cedis",
         "symbol": "GH₵",
         "symbolNative": "GH₵",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "GHS",
+            "name": "سدی غنا"
+          }
+        ],
         "uniqueId": "GHS",
-        "updated": 1692465328371749000,
+        "updated": 1693026127592846000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328370449000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127591475000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Georgian Lari",
+        "linkerId": "GEL",
+        "name": "لاری گرجستان",
         "namePlural": "Georgian laris",
         "symbol": "GEL",
         "symbolNative": "GEL",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "GEL",
+            "name": "لاری گرجستان"
+          }
+        ],
         "uniqueId": "GEL",
-        "updated": 1692465328370449000,
+        "updated": 1693026127591475000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328369168000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127589725000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "British Pound Sterling",
+        "linkerId": "GBP",
+        "name": "پوند استرلینگ انگلیس",
         "namePlural": "British pounds sterling",
         "symbol": "£",
         "symbolNative": "£",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "GBP",
+            "name": "پوند استرلینگ انگلیس"
+          }
+        ],
         "uniqueId": "GBP",
-        "updated": 1692465328369168000,
+        "updated": 1693026127589725000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328367892000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127588447000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Ethiopian Birr",
+        "linkerId": "ETB",
+        "name": "بیر اتیوپیایی",
         "namePlural": "Ethiopian birrs",
         "symbol": "Br",
         "symbolNative": "Br",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "ETB",
+            "name": "بیر اتیوپیایی"
+          }
+        ],
         "uniqueId": "ETB",
-        "updated": 1692465328367892000,
+        "updated": 1693026127588447000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328366572000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127586896000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Eritrean Nakfa",
+        "linkerId": "ERN",
+        "name": "نکفا اریتره",
         "namePlural": "Eritrean nakfas",
         "symbol": "Nfk",
         "symbolNative": "Nfk",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "ERN",
+            "name": "نکفا اریتره"
+          }
+        ],
         "uniqueId": "ERN",
-        "updated": 1692465328366572000,
+        "updated": 1693026127586896000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328365252000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127585672000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Egyptian Pound",
+        "linkerId": "EGP",
+        "name": "پوند مصر",
         "namePlural": "Egyptian pounds",
         "symbol": "EGP",
         "symbolNative": "ج.م.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "EGP",
+            "name": "پوند مصر"
+          }
+        ],
         "uniqueId": "EGP",
-        "updated": 1692465328365252000,
+        "updated": 1693026127585672000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328363837000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127584381000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Estonian Kroon",
+        "linkerId": "EEK",
+        "name": "کرون استونی",
         "namePlural": "Estonian kroons",
         "symbol": "Ekr",
         "symbolNative": "kr",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "EEK",
+            "name": "کرون استونی"
+          }
+        ],
         "uniqueId": "EEK",
-        "updated": 1692465328363837000,
+        "updated": 1693026127584381000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328362542000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127582531000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Algerian Dinar",
+        "linkerId": "DZD",
+        "name": "دینار الجزایر",
         "namePlural": "Algerian dinars",
         "symbol": "DA",
         "symbolNative": "د.ج.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "DZD",
+            "name": "دینار الجزایر"
+          }
+        ],
         "uniqueId": "DZD",
-        "updated": 1692465328362542000,
+        "updated": 1693026127582531000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328361156000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127580834000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Dominican Peso",
+        "linkerId": "DOP",
+        "name": "پزو دومینیکن",
         "namePlural": "Dominican pesos",
         "symbol": "RD$",
         "symbolNative": "RD$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "DOP",
+            "name": "پزو دومینیکن"
+          }
+        ],
         "uniqueId": "DOP",
-        "updated": 1692465328361156000,
+        "updated": 1693026127580834000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328359865000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127578997000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Danish Krone",
+        "linkerId": "DKK",
+        "name": "کرون دانمارک",
         "namePlural": "Danish kroner",
         "symbol": "Dkr",
         "symbolNative": "kr",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "DKK",
+            "name": "کرون دانمارک"
+          }
+        ],
         "uniqueId": "DKK",
-        "updated": 1692465328359865000,
+        "updated": 1693026127578997000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328358515000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Djiboutian Franc",
+        "created": 1693026127577635000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "DJF",
+        "name": "فرانک جیبوتی",
         "namePlural": "Djiboutian francs",
         "symbol": "Fdj",
         "symbolNative": "Fdj",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "DJF",
+            "name": "فرانک جیبوتی"
+          }
+        ],
         "uniqueId": "DJF",
-        "updated": 1692465328358515000,
+        "updated": 1693026127577635000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328357228000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127575719000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Czech Republic Koruna",
+        "linkerId": "CZK",
+        "name": "کرون جمهوری چک",
         "namePlural": "Czech Republic korunas",
         "symbol": "Kč",
         "symbolNative": "Kč",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "CZK",
+            "name": "کرون جمهوری چک"
+          }
+        ],
         "uniqueId": "CZK",
-        "updated": 1692465328357228000,
+        "updated": 1693026127575719000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328355866000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127574511000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Cape Verdean Escudo",
+        "linkerId": "CVE",
+        "name": "اسکودو کیپ ورد",
         "namePlural": "Cape Verdean escudos",
         "symbol": "CV$",
         "symbolNative": "CV$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "CVE",
+            "name": "اسکودو کیپ ورد"
+          }
+        ],
         "uniqueId": "CVE",
-        "updated": 1692465328355866000,
+        "updated": 1693026127574511000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328354499000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Costa Rican Colón",
+        "created": 1693026127573324000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "CRC",
+        "name": "کولون کاستاریکا",
         "namePlural": "Costa Rican colóns",
         "symbol": "₡",
         "symbolNative": "₡",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "CRC",
+            "name": "کولون کاستاریکا"
+          }
+        ],
         "uniqueId": "CRC",
-        "updated": 1692465328354499000,
+        "updated": 1693026127573324000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328353118000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Colombian Peso",
+        "created": 1693026127571853000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "COP",
+        "name": "پزو کلمبیا",
         "namePlural": "Colombian pesos",
         "symbol": "CO$",
         "symbolNative": "$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "COP",
+            "name": "پزو کلمبیا"
+          }
+        ],
         "uniqueId": "COP",
-        "updated": 1692465328353118000,
+        "updated": 1693026127571853000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328351695000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127570236000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Chinese Yuan",
+        "linkerId": "CNY",
+        "name": "یوان چین",
         "namePlural": "Chinese yuan",
         "symbol": "CN¥",
         "symbolNative": "CN¥",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "CNY",
+            "name": "یوان چین"
+          }
+        ],
         "uniqueId": "CNY",
-        "updated": 1692465328351695000,
+        "updated": 1693026127570236000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328350230000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Chilean Peso",
+        "created": 1693026127568613000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "CLP",
+        "name": "پزو شیلی",
         "namePlural": "Chilean pesos",
         "symbol": "CL$",
         "symbolNative": "$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "CLP",
+            "name": "پزو شیلی"
+          }
+        ],
         "uniqueId": "CLP",
-        "updated": 1692465328350230000,
+        "updated": 1693026127568613000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328348804000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127567170000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Swiss Franc",
+        "linkerId": "CHF",
+        "name": "فرانک سوئیس",
         "namePlural": "Swiss francs",
         "symbol": "CHF",
         "symbolNative": "CHF",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "CHF",
+            "name": "فرانک سوئیس"
+          }
+        ],
         "uniqueId": "CHF",
-        "updated": 1692465328348804000,
+        "updated": 1693026127567170000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328347244000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127566043000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Congolese Franc",
+        "linkerId": "CDF",
+        "name": "فرانک کنگو",
         "namePlural": "Congolese francs",
         "symbol": "CDF",
         "symbolNative": "FrCD",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "CDF",
+            "name": "فرانک کنگو"
+          }
+        ],
         "uniqueId": "CDF",
-        "updated": 1692465328347244000,
+        "updated": 1693026127566043000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328345633000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127564682000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Belize Dollar",
+        "linkerId": "BZD",
+        "name": "دلار بلیز",
         "namePlural": "Belize dollars",
         "symbol": "BZ$",
         "symbolNative": "$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "BZD",
+            "name": "دلار بلیز"
+          }
+        ],
         "uniqueId": "BZD",
-        "updated": 1692465328345633000,
+        "updated": 1693026127564682000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328343991000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127563507000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Belarusian Ruble",
+        "linkerId": "BYN",
+        "name": "روبل بلاروس",
         "namePlural": "Belarusian rubles",
         "symbol": "Br",
         "symbolNative": "руб.",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "BYN",
+            "name": "روبل بلاروس"
+          }
+        ],
         "uniqueId": "BYN",
-        "updated": 1692465328343991000,
+        "updated": 1693026127563507000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328341985000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127561644000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Botswanan Pula",
+        "linkerId": "BWP",
+        "name": "پولای بوتسوانا",
         "namePlural": "Botswanan pulas",
         "symbol": "BWP",
         "symbolNative": "P",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "BWP",
+            "name": "پولای بوتسوانا"
+          }
+        ],
         "uniqueId": "BWP",
-        "updated": 1692465328341985000,
+        "updated": 1693026127561644000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328340406000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127560098000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Brazilian Real",
+        "linkerId": "BRL",
+        "name": "رئال برزیل",
         "namePlural": "Brazilian reals",
         "symbol": "R$",
         "symbolNative": "R$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "BRL",
+            "name": "رئال برزیل"
+          }
+        ],
         "uniqueId": "BRL",
-        "updated": 1692465328340406000,
+        "updated": 1693026127560098000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328338996000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127556982000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Bolivian Boliviano",
+        "linkerId": "BOB",
+        "name": "بولیویایی بولیوی",
         "namePlural": "Bolivian bolivianos",
         "symbol": "Bs",
         "symbolNative": "Bs",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "BOB",
+            "name": "بولیویایی بولیوی"
+          }
+        ],
         "uniqueId": "BOB",
-        "updated": 1692465328338996000,
+        "updated": 1693026127556982000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328337550000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127555724000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Brunei Dollar",
+        "linkerId": "BND",
+        "name": "دلار برونئی",
         "namePlural": "Brunei dollars",
         "symbol": "BN$",
         "symbolNative": "$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "BND",
+            "name": "دلار برونئی"
+          }
+        ],
         "uniqueId": "BND",
-        "updated": 1692465328337550000,
+        "updated": 1693026127555724000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328336137000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Burundian Franc",
+        "created": 1693026127554014000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "BIF",
+        "name": "فرانک بوروندی",
         "namePlural": "Burundian francs",
         "symbol": "FBu",
         "symbolNative": "FBu",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "BIF",
+            "name": "فرانک بوروندی"
+          }
+        ],
         "uniqueId": "BIF",
-        "updated": 1692465328336137000,
+        "updated": 1693026127554014000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328334704000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127552705000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 3,
-        "name": "Bahraini Dinar",
+        "linkerId": "BHD",
+        "name": "دینار بحرین",
         "namePlural": "Bahraini dinars",
         "symbol": "BD",
         "symbolNative": "د.ب.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "BHD",
+            "name": "دینار بحرین"
+          }
+        ],
         "uniqueId": "BHD",
-        "updated": 1692465328334704000,
+        "updated": 1693026127552705000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328333244000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127551391000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Bulgarian Lev",
+        "linkerId": "BGN",
+        "name": "لو بلغارستان",
         "namePlural": "Bulgarian leva",
         "symbol": "BGN",
         "symbolNative": "лв.",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "BGN",
+            "name": "لو بلغارستان"
+          }
+        ],
         "uniqueId": "BGN",
-        "updated": 1692465328333244000,
+        "updated": 1693026127551391000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328331854000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127550042000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Bangladeshi Taka",
+        "linkerId": "BDT",
+        "name": "تاکا بنگلادشی",
         "namePlural": "Bangladeshi takas",
         "symbol": "Tk",
         "symbolNative": "৳",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "BDT",
+            "name": "تاکا بنگلادشی"
+          }
+        ],
         "uniqueId": "BDT",
-        "updated": 1692465328331854000,
+        "updated": 1693026127550042000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328330441000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127548488000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Bosnia-Herzegovina Convertible Mark",
+        "linkerId": "BAM",
+        "name": "علامت قابل تبدیل بوسنی و هرزگوین",
         "namePlural": "Bosnia-Herzegovina convertible marks",
         "symbol": "KM",
         "symbolNative": "KM",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "BAM",
+            "name": "علامت قابل تبدیل بوسنی و هرزگوین"
+          }
+        ],
         "uniqueId": "BAM",
-        "updated": 1692465328330441000,
+        "updated": 1693026127548488000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328328988000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127547131000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Azerbaijani Manat",
+        "linkerId": "AZN",
+        "name": "منات آذربایجان",
         "namePlural": "Azerbaijani manats",
         "symbol": "man.",
         "symbolNative": "ман.",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "AZN",
+            "name": "منات آذربایجان"
+          }
+        ],
         "uniqueId": "AZN",
-        "updated": 1692465328328988000,
+        "updated": 1693026127547131000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328327484000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127545764000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Australian Dollar",
+        "linkerId": "AUD",
+        "name": "دلار استرالیا",
         "namePlural": "Australian dollars",
         "symbol": "AU$",
         "symbolNative": "$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "AUD",
+            "name": "دلار استرالیا"
+          }
+        ],
         "uniqueId": "AUD",
-        "updated": 1692465328327484000,
+        "updated": 1693026127545764000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328325982000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127544420000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Argentine Peso",
+        "linkerId": "ARS",
+        "name": "پزو آرژانتین",
         "namePlural": "Argentine pesos",
         "symbol": "AR$",
         "symbolNative": "$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "ARS",
+            "name": "پزو آرژانتین"
+          }
+        ],
         "uniqueId": "ARS",
-        "updated": 1692465328325982000,
+        "updated": 1693026127544420000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328324422000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Armenian Dram",
+        "created": 1693026127542738000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "AMD",
+        "name": "درام ارمنستان",
         "namePlural": "Armenian drams",
         "symbol": "AMD",
         "symbolNative": "դր.",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "AMD",
+            "name": "درام ارمنستان"
+          }
+        ],
         "uniqueId": "AMD",
-        "updated": 1692465328324422000,
+        "updated": 1693026127542738000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328322905000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Albanian Lek",
+        "created": 1693026127540973000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "ALL",
+        "name": "لک آلبانیایی",
         "namePlural": "Albanian lekë",
         "symbol": "ALL",
         "symbolNative": "Lek",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "ALL",
+            "name": "لک آلبانیایی"
+          }
+        ],
         "uniqueId": "ALL",
-        "updated": 1692465328322905000,
+        "updated": 1693026127540973000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328321255000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
-        "name": "Afghan Afghani",
+        "created": 1693026127538798000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "linkerId": "AFN",
+        "name": "افغانی افغانی",
         "namePlural": "Afghan Afghanis",
         "symbol": "Af",
         "symbolNative": "؋",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "AFN",
+            "name": "افغانی افغانی"
+          }
+        ],
         "uniqueId": "AFN",
-        "updated": 1692465328321255000,
+        "updated": 1693026127538798000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328319683000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127537327000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "United Arab Emirates Dirham",
+        "linkerId": "AED",
+        "name": "درهم امارات متحده عربی",
         "namePlural": "UAE dirhams",
         "symbol": "AED",
         "symbolNative": "د.إ.‏",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "AED",
+            "name": "درهم امارات متحده عربی"
+          }
+        ],
         "uniqueId": "AED",
-        "updated": 1692465328319683000,
+        "updated": 1693026127537327000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328318072000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127535806000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Euro",
+        "linkerId": "EUR",
+        "name": "یورو",
         "namePlural": "euros",
         "symbol": "€",
         "symbolNative": "€",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "EUR",
+            "name": "یورو"
+          }
+        ],
         "uniqueId": "EUR",
-        "updated": 1692465328318072000,
+        "updated": 1693026127535806000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328316438000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127534318000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "Canadian Dollar",
+        "linkerId": "CAD",
+        "name": "دلار کانادایی",
         "namePlural": "Canadian dollars",
         "symbol": "CA$",
         "symbolNative": "$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "CAD",
+            "name": "دلار کانادایی"
+          }
+        ],
         "uniqueId": "CAD",
-        "updated": 1692465328316438000,
+        "updated": 1693026127534318000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1692465328314766000,
-        "createdFormatted": "۲۸ مرداد ۱۴۰۲",
+        "created": 1693026127532381000,
+        "createdFormatted": "۴ شهریور ۱۴۰۲",
         "decimalDigits": 2,
-        "name": "US Dollar",
+        "linkerId": "USD",
+        "name": "دلار آمریکا",
         "namePlural": "US dollars",
         "symbol": "$",
         "symbolNative": "$",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "USD",
+            "name": "دلار آمریکا"
+          }
+        ],
         "uniqueId": "USD",
-        "updated": 1692465328314766000,
+        "updated": 1693026127532381000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
