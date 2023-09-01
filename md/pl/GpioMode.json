@@ -1,0 +1,75 @@
+{
+  "data": {
+    "items": [
+      {
+        "created": 1693599961360383000,
+        "createdFormatted": "2023/09/01 22:26:01",
+        "description": "output and input mode",
+        "index": 3,
+        "uniqueId": "GPIO_MODE_INPUT_OUTPUT",
+        "updated": 1693599961360383000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "created": 1693599961358740000,
+        "createdFormatted": "2023/09/01 22:26:01",
+        "description": "output and input with open-drain mode",
+        "index": 7,
+        "uniqueId": "GPIO_MODE_INPUT_OUTPUT_OD",
+        "updated": 1693599961358740000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "created": 1693599961356904000,
+        "createdFormatted": "2023/09/01 22:26:01",
+        "description": "output only with open-drain mode",
+        "index": 6,
+        "uniqueId": "GPIO_MODE_OUTPUT_OD",
+        "updated": 1693599961356904000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "created": 1693599961355348000,
+        "createdFormatted": "2023/09/01 22:26:01",
+        "description": "output only mode",
+        "index": 2,
+        "uniqueId": "GPIO_MODE_OUTPUT",
+        "updated": 1693599961355348000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "created": 1693599961353893000,
+        "createdFormatted": "2023/09/01 22:26:01",
+        "description": "input only",
+        "index": 1,
+        "uniqueId": "GPIO_MODE_INPUT",
+        "updated": 1693599961353893000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "created": 1693599961352382000,
+        "createdFormatted": "2023/09/01 22:26:01",
+        "description": "disable input and output",
+        "uniqueId": "GPIO_MODE_DISABLE",
+        "updated": 1693599961352382000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      }
+    ],
+    "itemsPerPage": 9999,
+    "startIndex": 0,
+    "totalAvailableItems": 6,
+    "totalItems": 6
+  }
+}

@@ -3,20 +3,21 @@
     "items": [
       {
         "apiKey": "jkwkqje2873189237",
-        "created": 1693026121962742000,
-        "createdFormatted": "2023/08/26 07:02:01",
+        "created": 1693599951682957000,
+        "createdFormatted": "2023/09/01 22:25:51",
         "invokeBody": "{\"from\": \"{sender}\", \"to\":{recipients}}",
         "invokeUrl": "http://smsserversaple.com/",
         "mainSenderNumber": "+18002929",
         "type": "url",
-        "uniqueId": "6e15e55c",
-        "updated": 1693026121962742000,
+        "uniqueId": "57ab6575",
+        "updated": 1693599951682957000,
         "userId": "",
         "workspaceId": ""
       }
     ],
     "itemsPerPage": 9999,
     "startIndex": 0,
+    "totalAvailableItems": 1,
     "totalItems": 1
   }
 }

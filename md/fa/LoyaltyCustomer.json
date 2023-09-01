@@ -3,55 +3,55 @@
     "items": [
       {
         "businessData": {
-          "created": 1693026124245468000,
-          "linkerId": "d68c61e2",
+          "created": 1693599954821364000,
+          "linkerId": "98f042b8",
           "name": "شرکت قهوه ندایی",
           "taxNumber": "2910928",
           "translations": [
             {
               "languageId": "fa",
-              "linkerId": "d68c61e2",
+              "linkerId": "98f042b8",
               "name": "شرکت قهوه ندایی"
             },
             {
               "languageId": "fa",
-              "linkerId": "d68c61e2",
+              "linkerId": "98f042b8",
               "name": "شرکت قهوه ندایی"
             }
           ],
-          "uniqueId": "d68c61e2",
-          "updated": 1693026124245468000,
+          "uniqueId": "98f042b8",
+          "updated": 1693599954821364000,
           "userId": "",
           "workspaceId": ""
         },
-        "businessDataId": "d68c61e2",
-        "created": 1693026124249389000,
-        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "businessDataId": "98f042b8",
+        "created": 1693599954826103000,
+        "createdFormatted": "۱۰ شهریور ۱۴۰۲",
         "fullName": "شرکت قهوه ندایی",
         "locations": [
           {
-            "created": 1693026124248343000,
-            "lat": 35.72085361328543,
-            "lng": 51.4237730660889,
-            "physicalAddress": "اقلیمی",
-            "uniqueId": "056a8974",
-            "updated": 1693026124248343000,
+            "created": 1693599954823192000,
+            "lat": 35.69030342379057,
+            "lng": 51.38994229594488,
+            "physicalAddress": "تهران کاخ مرمر",
+            "uniqueId": "3b5bf7c5",
+            "updated": 1693599954823192000,
             "userId": "",
             "workspaceId": ""
           },
           {
-            "created": 1693026124247143000,
-            "lat": 35.69030342379057,
-            "lng": 51.38994229594488,
-            "physicalAddress": "تهران کاخ مرمر",
-            "uniqueId": "dcd11d8e",
-            "updated": 1693026124247143000,
+            "created": 1693599954824594000,
+            "lat": 35.72085361328543,
+            "lng": 51.4237730660889,
+            "physicalAddress": "اقلیمی",
+            "uniqueId": "8fe9d7b0",
+            "updated": 1693599954824594000,
             "userId": "",
             "workspaceId": ""
           }
         ],
         "type": {
-          "created": 1693026124237932000,
+          "created": 1693599954811687000,
           "linkerId": "business",
           "title": "شخص حقوقی",
           "translations": [
@@ -67,49 +67,49 @@
             }
           ],
           "uniqueId": "business",
-          "updated": 1693026124237932000,
+          "updated": 1693599954811687000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
         },
         "typeId": "business",
         "uniqueId": "nedyai_coffee",
-        "updated": 1693026124249389000,
+        "updated": 1693599954826103000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1693026124243493000,
-        "createdFormatted": "۴ شهریور ۱۴۰۲",
+        "created": 1693599954819091000,
+        "createdFormatted": "۱۰ شهریور ۱۴۰۲",
         "fullName": "علی ترابی",
         "locations": [
           {
-            "created": 1693026124241218000,
-            "lat": 35.69030342379057,
-            "lng": 51.38994229594488,
-            "physicalAddress": "تهران کاخ مرمر",
-            "uniqueId": "9883b9ce",
-            "updated": 1693026124241218000,
+            "created": 1693599954817790000,
+            "lat": 35.72085361328543,
+            "lng": 51.4237730660889,
+            "physicalAddress": "اقلیمی",
+            "uniqueId": "198aded8",
+            "updated": 1693599954817790000,
             "userId": "",
             "workspaceId": ""
           },
           {
-            "created": 1693026124242571000,
-            "lat": 35.72085361328543,
-            "lng": 51.4237730660889,
-            "physicalAddress": "اقلیمی",
-            "uniqueId": "f5dadd89",
-            "updated": 1693026124242571000,
+            "created": 1693599954816285000,
+            "lat": 35.69030342379057,
+            "lng": 51.38994229594488,
+            "physicalAddress": "تهران کاخ مرمر",
+            "uniqueId": "6beee57a",
+            "updated": 1693599954816285000,
             "userId": "",
             "workspaceId": ""
           }
         ],
         "personalData": {
-          "created": 1693026124239732000,
+          "created": 1693599954814538000,
           "firstName": "علی",
           "lastName": "ترابی",
-          "linkerId": "37682234",
+          "linkerId": "8e8c9844",
           "nationalId": "۴۲۷۰۰۰۰۰۰",
           "phoneNumber": "۰۹۱۹۹۴۹۳۹۴۱",
           "translations": [
@@ -117,23 +117,23 @@
               "firstName": "علی",
               "languageId": "fa",
               "lastName": "ترابی",
-              "linkerId": "37682234"
+              "linkerId": "8e8c9844"
             },
             {
               "firstName": "علی",
               "languageId": "fa",
               "lastName": "ترابی",
-              "linkerId": "37682234"
+              "linkerId": "8e8c9844"
             }
           ],
-          "uniqueId": "37682234",
-          "updated": 1693026124239732000,
+          "uniqueId": "8e8c9844",
+          "updated": 1693599954814538000,
           "userId": "",
           "workspaceId": ""
         },
-        "personalDataId": "37682234",
+        "personalDataId": "8e8c9844",
         "type": {
-          "created": 1693026124236628000,
+          "created": 1693599954809823000,
           "linkerId": "personal",
           "title": "شخص حقیقی",
           "translations": [
@@ -149,14 +149,14 @@
             }
           ],
           "uniqueId": "personal",
-          "updated": 1693026124236628000,
+          "updated": 1693599954809823000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
         },
         "typeId": "personal",
         "uniqueId": "torabi",
-        "updated": 1693026124243493000,
+        "updated": 1693599954819091000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
@@ -164,6 +164,7 @@
     ],
     "itemsPerPage": 9999,
     "startIndex": 0,
+    "totalAvailableItems": 2,
     "totalItems": 2
   }
 }

@@ -2,8 +2,8 @@
   "data": {
     "items": [
       {
-        "created": 1693026124259045000,
-        "createdFormatted": "2023/08/26 07:02:04",
+        "created": 1693599954839779000,
+        "createdFormatted": "2023/09/01 22:25:54",
         "name": "Winter",
         "translations": [
           {
@@ -18,13 +18,13 @@
           }
         ],
         "uniqueId": "winter",
-        "updated": 1693026124259045000,
+        "updated": 1693599954839779000,
         "userId": "",
         "workspaceId": ""
       },
       {
-        "created": 1693026124257784000,
-        "createdFormatted": "2023/08/26 07:02:04",
+        "created": 1693599954838167000,
+        "createdFormatted": "2023/09/01 22:25:54",
         "name": "summer",
         "translations": [
           {
@@ -39,13 +39,14 @@
           }
         ],
         "uniqueId": "Summer",
-        "updated": 1693026124257784000,
+        "updated": 1693599954838167000,
         "userId": "",
         "workspaceId": ""
       }
     ],
     "itemsPerPage": 9999,
     "startIndex": 0,
+    "totalAvailableItems": 2,
     "totalItems": 2
   }
 }

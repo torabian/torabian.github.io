@@ -2,8 +2,8 @@
   "data": {
     "items": [
       {
-        "created": 1693026124253924000,
-        "createdFormatted": "2023/08/26 07:02:04",
+        "created": 1693599954832416000,
+        "createdFormatted": "2023/09/01 22:25:54",
         "name": "Hard",
         "translations": [
           {
@@ -18,13 +18,13 @@
           }
         ],
         "uniqueId": "hard",
-        "updated": 1693026124253924000,
+        "updated": 1693599954832416000,
         "userId": "",
         "workspaceId": ""
       },
       {
-        "created": 1693026124252638000,
-        "createdFormatted": "2023/08/26 07:02:04",
+        "created": 1693599954830624000,
+        "createdFormatted": "2023/09/01 22:25:54",
         "name": "Medium",
         "translations": [
           {
@@ -39,13 +39,13 @@
           }
         ],
         "uniqueId": "medium",
-        "updated": 1693026124252638000,
+        "updated": 1693599954830624000,
         "userId": "",
         "workspaceId": ""
       },
       {
-        "created": 1693026124250863000,
-        "createdFormatted": "2023/08/26 07:02:04",
+        "created": 1693599954828208000,
+        "createdFormatted": "2023/09/01 22:25:54",
         "name": "Easy",
         "translations": [
           {
@@ -60,13 +60,14 @@
           }
         ],
         "uniqueId": "easy",
-        "updated": 1693026124250863000,
+        "updated": 1693599954828208000,
         "userId": "",
         "workspaceId": ""
       }
     ],
     "itemsPerPage": 9999,
     "startIndex": 0,
+    "totalAvailableItems": 3,
     "totalItems": 3
   }
 }
