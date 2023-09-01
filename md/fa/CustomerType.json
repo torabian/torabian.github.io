@@ -2,7 +2,7 @@
   "data": {
     "items": [
       {
-        "created": 1693599954811687000,
+        "created": 1693602039639495000,
         "createdFormatted": "۱۰ شهریور ۱۴۰۲",
         "linkerId": "business",
         "title": "شخص حقوقی",
@@ -19,13 +19,13 @@
           }
         ],
         "uniqueId": "business",
-        "updated": 1693599954811687000,
+        "updated": 1693602039639495000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1693599954809823000,
+        "created": 1693602039637651000,
         "createdFormatted": "۱۰ شهریور ۱۴۰۲",
         "linkerId": "personal",
         "title": "شخص حقیقی",
@@ -42,7 +42,7 @@
           }
         ],
         "uniqueId": "personal",
-        "updated": 1693599954809823000,
+        "updated": 1693602039637651000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""

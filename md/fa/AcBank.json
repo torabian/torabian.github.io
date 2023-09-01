@@ -2,7 +2,7 @@
   "data": {
     "items": [
       {
-        "created": 1693599953955191000,
+        "created": 1693602038782149000,
         "createdFormatted": "۱۰ شهریور ۱۴۰۲",
         "linkerId": "bank_mellat_iran",
         "name": "بانک ملت ایران",
@@ -14,13 +14,13 @@
           }
         ],
         "uniqueId": "bank_mellat_iran",
-        "updated": 1693599953955191000,
+        "updated": 1693602038782149000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1693599953953578000,
+        "created": 1693602038780101000,
         "createdFormatted": "۱۰ شهریور ۱۴۰۲",
         "linkerId": "bank_melli_iran",
         "name": "بانک ملی ایران",
@@ -32,7 +32,7 @@
           }
         ],
         "uniqueId": "bank_melli_iran",
-        "updated": 1693599953953578000,
+        "updated": 1693602038780101000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
