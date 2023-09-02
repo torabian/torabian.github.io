@@ -1,50 +1,50 @@
 {
   "data": {
     "passport": null,
-    "token": "583a67191bd5cbe78a904c101cca60eb9aba70ecb0c1a79e00ac3210fffaa802",
+    "token": "14678ac67db878b7a2ae365f33c29ea31943d5a7c4fa6670b49ea39a17325731",
     "user": {
       "firstName": "John",
       "lastName": "Doe",
-      "uniqueId": "8bb2c9fb",
-      "updated": 1693602039684377000,
-      "created": 1693602039684377000
+      "uniqueId": "0bfc186c",
+      "updated": 1693684732507990000,
+      "created": 1693684732507990000
     },
     "userRoleWorkspaces": [
       {
         "workspace": {
           "name": "John",
-          "uniqueId": "2d8f5247",
-          "updated": 1693602040997681000,
-          "created": 1693602040997681000,
+          "uniqueId": "20e6f54f",
+          "updated": 1693684733335049000,
+          "created": 1693684733335049000,
           "parentId": "root"
         },
-        "workspaceId": "2d8f5247",
+        "workspaceId": "20e6f54f",
         "role": {
-          "uniqueId": "0e401dea",
+          "uniqueId": "92f82fd5",
           "name": "Administrator",
           "capabilities": [
             {
               "uniqueId": "root/*",
-              "updated": 1693602035175459000,
-              "created": 1693602035175459000
+              "updated": 1693684729470683000,
+              "created": 1693684729470683000
             }
           ],
-          "workspaceId": "2d8f5247",
-          "updated": 1693602040997975000,
-          "created": 1693602040997975000
+          "workspaceId": "20e6f54f",
+          "updated": 1693684733335241000,
+          "created": 1693684733335241000
         },
-        "roleId": "0e401dea",
+        "roleId": "92f82fd5",
         "user": {
           "firstName": "John",
           "lastName": "Doe",
-          "uniqueId": "8bb2c9fb",
-          "updated": 1693602039684377000,
-          "created": 1693602039684377000
+          "uniqueId": "0bfc186c",
+          "updated": 1693684732507990000,
+          "created": 1693684732507990000
         },
-        "userId": "8bb2c9fb",
-        "uniqueId": "03eac38e",
-        "updated": 1693602040998461000,
-        "created": 1693602040998461000
+        "userId": "0bfc186c",
+        "uniqueId": "a2d71e8c",
+        "updated": 1693684733335561000,
+        "created": 1693684733335561000
       }
     ]
   }
