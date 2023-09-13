@@ -3,7 +3,7 @@
     "items": [
       {
         "bank": {
-          "created": 1693684731897446000,
+          "created": 1694597617182686000,
           "name": "Bank Melat Iran",
           "translations": [
             {
@@ -13,32 +13,32 @@
             }
           ],
           "uniqueId": "bank_mellat_iran",
-          "updated": 1693684731897446000,
+          "updated": 1694597617182686000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
         },
         "bankId": "bank_mellat_iran",
         "city": {
-          "created": 1693684731405161000,
+          "created": 1694597616368479000,
           "name": "شیراز",
           "provinceId": "iran_fars",
           "uniqueId": "iran_city_647",
-          "updated": 1693684731405161000,
+          "updated": 1694597616368479000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
         },
         "cityId": "iran_city_647",
-        "created": 1693684731899887000,
-        "createdFormatted": "2023/09/02 21:58:51",
+        "created": 1694597617186774000,
+        "createdFormatted": "2023/09/13 11:33:37",
         "name": "Shiraz 7-Tir",
         "province": {
           "countryId": "ir",
-          "created": 1693684730656031000,
+          "created": 1694597615212232000,
           "name": "فارس",
           "uniqueId": "iran_fars",
-          "updated": 1693684730656031000,
+          "updated": 1694597615212232000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
@@ -52,14 +52,14 @@
           }
         ],
         "uniqueId": "shiz2",
-        "updated": 1693684731899887000,
+        "updated": 1694597617186774000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "bank": {
-          "created": 1693684731896363000,
+          "created": 1694597617180741000,
           "name": "Bank Melli Iran",
           "translations": [
             {
@@ -69,32 +69,32 @@
             }
           ],
           "uniqueId": "bank_melli_iran",
-          "updated": 1693684731896363000,
+          "updated": 1694597617180741000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
         },
         "bankId": "bank_melli_iran",
         "city": {
-          "created": 1693684731278504000,
+          "created": 1694597616155308000,
           "name": "زنجان",
           "provinceId": "iran_zanjan",
           "uniqueId": "iran_city_536",
-          "updated": 1693684731278504000,
+          "updated": 1694597616155308000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
         },
         "cityId": "iran_city_536",
-        "created": 1693684731898769000,
-        "createdFormatted": "2023/09/02 21:58:51",
+        "created": 1694597617184940000,
+        "createdFormatted": "2023/09/13 11:33:37",
         "name": "Zanjan Main Square",
         "province": {
           "countryId": "ir",
-          "created": 1693684730653067000,
+          "created": 1694597615207191000,
           "name": "زنجان",
           "uniqueId": "iran_zanjan",
-          "updated": 1693684730653067000,
+          "updated": 1694597615207191000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
@@ -108,7 +108,7 @@
           }
         ],
         "uniqueId": "znj1",
-        "updated": 1693684731898769000,
+        "updated": 1694597617184940000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""

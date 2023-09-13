@@ -1,0 +1,75 @@
+{
+  "data": {
+    "items": [
+      {
+        "created": 1694597624913740000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "lammerSequences": [
+          {
+            "created": 1694597624914449000,
+            "linkerId": "wateringtrees",
+            "operationTypeId": "",
+            "uniqueId": "e11c0c61",
+            "updated": 1694597624914449000
+          },
+          {
+            "created": 1694597624914449000,
+            "linkerId": "wateringtrees",
+            "operationTypeId": "",
+            "uniqueId": "95519192",
+            "updated": 1694597624914449000
+          },
+          {
+            "created": 1694597624914449000,
+            "linkerId": "wateringtrees",
+            "operationTypeId": "",
+            "uniqueId": "b8996890",
+            "updated": 1694597624914449000
+          }
+        ],
+        "name": "Garden Watering",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "wateringtrees",
+            "name": "آبیاری درختان"
+          }
+        ],
+        "uniqueId": "wateringtrees",
+        "updated": 1694597624913740000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "created": 1694597624911256000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Turn Lights Off",
+        "script": {
+          "content": "-\u003c SET_GPIO_LOW(1); SET_GPIO_LOW(2); SET_GPIO_LOW(3);",
+          "created": 1694597624911681000,
+          "linkerId": "turnlightsoff",
+          "scriptLanguageId": "c",
+          "uniqueId": "68c8e62d",
+          "updated": 1694597624911681000
+        },
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "turnlightsoff",
+            "name": "خاموش کردن همه چراغ ها"
+          }
+        ],
+        "uniqueId": "turnlightsoff",
+        "updated": 1694597624911256000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      }
+    ],
+    "itemsPerPage": 9999,
+    "startIndex": 0,
+    "totalAvailableItems": 2,
+    "totalItems": 2
+  }
+}

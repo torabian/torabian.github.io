@@ -1,0 +1,78 @@
+{
+  "data": {
+    "items": [
+      {
+        "created": 1694597624852298000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Less than",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "moreThan",
+            "name": "کمتر از"
+          }
+        ],
+        "uniqueId": "moreThan",
+        "updated": 1694597624852298000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "created": 1694597624850602000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Less than",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "lessThan",
+            "name": "کمتر"
+          }
+        ],
+        "uniqueId": "lessThan",
+        "updated": 1694597624850602000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "created": 1694597624849056000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Not equal",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "notEqual",
+            "name": "نامساوی"
+          }
+        ],
+        "uniqueId": "notEqual",
+        "updated": 1694597624849056000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "created": 1694597624847494000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Equal",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "equal",
+            "name": "مساوی"
+          }
+        ],
+        "uniqueId": "equal",
+        "updated": 1694597624847494000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      }
+    ],
+    "itemsPerPage": 9999,
+    "startIndex": 0,
+    "totalAvailableItems": 4,
+    "totalItems": 4
+  }
+}

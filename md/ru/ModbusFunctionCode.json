@@ -1,0 +1,218 @@
+{
+  "data": {
+    "items": [
+      {
+        "code": 43,
+        "created": 1694597624901484000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Read Device Identification",
+        "uniqueId": "43",
+        "updated": 1694597624901484000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 17,
+        "created": 1694597624899741000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Report Slave ID",
+        "uniqueId": "17",
+        "updated": 1694597624899741000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 12,
+        "created": 1694597624897808000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Get Com Event Log",
+        "uniqueId": "12",
+        "updated": 1694597624897808000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 11,
+        "created": 1694597624896260000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Get Com Event Counter",
+        "uniqueId": "11",
+        "updated": 1694597624896260000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 8,
+        "created": 1694597624894744000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Diagnostic",
+        "uniqueId": "8",
+        "updated": 1694597624894744000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 7,
+        "created": 1694597624893283000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Read Exception Status",
+        "uniqueId": "7",
+        "updated": 1694597624893283000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 21,
+        "created": 1694597624891862000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Write File Record",
+        "uniqueId": "21",
+        "updated": 1694597624891862000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 20,
+        "created": 1694597624890417000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Read File Record",
+        "uniqueId": "20",
+        "updated": 1694597624890417000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 24,
+        "created": 1694597624888988000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Read FIFO Queue",
+        "uniqueId": "24",
+        "updated": 1694597624888988000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 22,
+        "created": 1694597624887428000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Mask Write Register",
+        "uniqueId": "22",
+        "updated": 1694597624887428000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 23,
+        "created": 1694597624885886000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Read/Write Multiple Registers",
+        "uniqueId": "23",
+        "updated": 1694597624885886000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 16,
+        "created": 1694597624884276000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Write Multiple Holding Registers",
+        "uniqueId": "16",
+        "updated": 1694597624884276000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 6,
+        "created": 1694597624882659000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Write Single Holding Register",
+        "uniqueId": "6",
+        "updated": 1694597624882659000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 3,
+        "created": 1694597624880788000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Read Multiple Holding Registers",
+        "uniqueId": "3",
+        "updated": 1694597624880788000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 4,
+        "created": 1694597624878823000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Read Input Registers",
+        "uniqueId": "4",
+        "updated": 1694597624878823000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 15,
+        "created": 1694597624877277000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Write Multiple Coils",
+        "uniqueId": "15",
+        "updated": 1694597624877277000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 5,
+        "created": 1694597624875792000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Write Single Coil",
+        "uniqueId": "5",
+        "updated": 1694597624875792000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "created": 1694597624874288000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Read Coils",
+        "uniqueId": "1",
+        "updated": 1694597624874288000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "code": 2,
+        "created": 1694597624872771000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Read Discrete Inputs",
+        "uniqueId": "2",
+        "updated": 1694597624872771000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      }
+    ],
+    "itemsPerPage": 9999,
+    "startIndex": 0,
+    "totalAvailableItems": 19,
+    "totalItems": 19
+  }
+}

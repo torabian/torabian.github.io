@@ -1,0 +1,26 @@
+{
+  "data": {
+    "items": [
+      {
+        "created": 1694597618111054000,
+        "createdFormatted": "2023/09/13 11:33:38",
+        "uniqueId": "sell",
+        "updated": 1694597618111054000,
+        "userId": "",
+        "workspaceId": ""
+      },
+      {
+        "created": 1694597618109596000,
+        "createdFormatted": "2023/09/13 11:33:38",
+        "uniqueId": "buy",
+        "updated": 1694597618109596000,
+        "userId": "",
+        "workspaceId": ""
+      }
+    ],
+    "itemsPerPage": 100,
+    "startIndex": 0,
+    "totalAvailableItems": 2,
+    "totalItems": 2
+  }
+}

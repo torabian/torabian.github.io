@@ -1,0 +1,44 @@
+{
+  "data": {
+    "items": [
+      {
+        "created": 1694597624866123000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "TCP",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "tcp",
+            "name": "TCP"
+          }
+        ],
+        "uniqueId": "tcp",
+        "updated": 1694597624866123000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "created": 1694597624864267000,
+        "createdFormatted": "2023/09/13 11:33:44",
+        "name": "Serial",
+        "translations": [
+          {
+            "languageId": "fa",
+            "linkerId": "serial",
+            "name": "سریال"
+          }
+        ],
+        "uniqueId": "serial",
+        "updated": 1694597624864267000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      }
+    ],
+    "itemsPerPage": 9999,
+    "startIndex": 0,
+    "totalAvailableItems": 2,
+    "totalItems": 2
+  }
+}
