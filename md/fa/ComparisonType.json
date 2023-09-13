@@ -2,7 +2,7 @@
   "data": {
     "items": [
       {
-        "created": 1694601340706413000,
+        "created": 1694603490537733000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "moreThan",
         "name": "کمتر از",
@@ -14,13 +14,13 @@
           }
         ],
         "uniqueId": "moreThan",
-        "updated": 1694601340706413000,
+        "updated": 1694603490537733000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694601340705133000,
+        "created": 1694603490533899000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "lessThan",
         "name": "کمتر",
@@ -32,13 +32,13 @@
           }
         ],
         "uniqueId": "lessThan",
-        "updated": 1694601340705133000,
+        "updated": 1694603490533899000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694601340703967000,
+        "created": 1694603490528502000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "notEqual",
         "name": "نامساوی",
@@ -50,13 +50,13 @@
           }
         ],
         "uniqueId": "notEqual",
-        "updated": 1694601340703967000,
+        "updated": 1694603490528502000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694601340702822000,
+        "created": 1694603490524577000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "equal",
         "name": "مساوی",
@@ -68,7 +68,7 @@
           }
         ],
         "uniqueId": "equal",
-        "updated": 1694601340702822000,
+        "updated": 1694603490524577000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""

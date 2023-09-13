@@ -2,8 +2,8 @@
   "data": {
     "items": [
       {
-        "created": 1694601340714899000,
-        "createdFormatted": "2023/09/13 12:35:40",
+        "created": 1694603490565344000,
+        "createdFormatted": "2023/09/13 13:11:30",
         "name": "RTU",
         "translations": [
           {
@@ -13,7 +13,7 @@
           }
         ],
         "uniqueId": "rtu",
-        "updated": 1694601340714899000,
+        "updated": 1694603490565344000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
