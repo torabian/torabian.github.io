@@ -3,225 +3,225 @@
     "items": [
       {
         "action": "انتخاب گزینه شماره ۶",
-        "created": 1694607760070253000,
+        "created": 1694623182037073000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "defaultCombination": {
           "altKey": false,
-          "created": 1694607760070652000,
+          "created": 1694623182037344000,
           "ctrlKey": false,
           "key": "Digit6",
-          "linkerId": "da980b29",
+          "linkerId": "8221ccf9",
           "metaKey": true,
           "shiftKey": false,
-          "uniqueId": "8ed162bb",
-          "updated": 1694607760070652000
+          "uniqueId": "9a2b9b4e",
+          "updated": 1694623182037344000
         },
-        "linkerId": "da980b29",
+        "linkerId": "8221ccf9",
         "translations": [
           {
             "action": "انتخاب گزینه شماره ۶",
             "languageId": "fa",
-            "linkerId": "da980b29"
+            "linkerId": "8221ccf9"
           }
         ],
-        "uniqueId": "da980b29",
-        "updated": 1694607760070253000,
+        "uniqueId": "8221ccf9",
+        "updated": 1694623182037073000,
         "userId": "",
         "workspaceId": ""
       },
       {
         "action": "انتخاب گزینه شماره ۵",
-        "created": 1694607760068268000,
+        "created": 1694623182035446000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "defaultCombination": {
           "altKey": false,
-          "created": 1694607760068637000,
+          "created": 1694623182035809000,
           "ctrlKey": false,
           "key": "Digit5",
-          "linkerId": "c2dcad0a",
+          "linkerId": "54f45cbd",
           "metaKey": true,
           "shiftKey": false,
-          "uniqueId": "f690054f",
-          "updated": 1694607760068637000
+          "uniqueId": "f38bcd07",
+          "updated": 1694623182035809000
         },
-        "linkerId": "c2dcad0a",
+        "linkerId": "54f45cbd",
         "translations": [
           {
             "action": "انتخاب گزینه شماره ۵",
             "languageId": "fa",
-            "linkerId": "c2dcad0a"
+            "linkerId": "54f45cbd"
           }
         ],
-        "uniqueId": "c2dcad0a",
-        "updated": 1694607760068268000,
+        "uniqueId": "54f45cbd",
+        "updated": 1694623182035446000,
         "userId": "",
         "workspaceId": ""
       },
       {
         "action": "انتخاب گزینه شماره ۴",
-        "created": 1694607760066397000,
+        "created": 1694623182034156000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "defaultCombination": {
           "altKey": false,
-          "created": 1694607760066794000,
+          "created": 1694623182034382000,
           "ctrlKey": false,
           "key": "Digit4",
-          "linkerId": "9ba90945",
+          "linkerId": "1ed8611b",
           "metaKey": true,
           "shiftKey": false,
-          "uniqueId": "cc93411a",
-          "updated": 1694607760066794000
+          "uniqueId": "396011a0",
+          "updated": 1694623182034382000
         },
-        "linkerId": "9ba90945",
+        "linkerId": "1ed8611b",
         "translations": [
           {
             "action": "انتخاب گزینه شماره ۴",
             "languageId": "fa",
-            "linkerId": "9ba90945"
+            "linkerId": "1ed8611b"
           }
         ],
-        "uniqueId": "9ba90945",
-        "updated": 1694607760066397000,
+        "uniqueId": "1ed8611b",
+        "updated": 1694623182034156000,
         "userId": "",
         "workspaceId": ""
       },
       {
         "action": "انتخاب گزینه شماره ۳",
-        "created": 1694607760064294000,
+        "created": 1694623182032906000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "defaultCombination": {
           "altKey": false,
-          "created": 1694607760064664000,
+          "created": 1694623182033124000,
           "ctrlKey": false,
           "key": "Digit3",
-          "linkerId": "814df5c3",
+          "linkerId": "3c71d395",
           "metaKey": true,
           "shiftKey": false,
-          "uniqueId": "2fffbe2f",
-          "updated": 1694607760064664000
+          "uniqueId": "57c59294",
+          "updated": 1694623182033124000
         },
-        "linkerId": "814df5c3",
+        "linkerId": "3c71d395",
         "translations": [
           {
             "action": "انتخاب گزینه شماره ۳",
             "languageId": "fa",
-            "linkerId": "814df5c3"
+            "linkerId": "3c71d395"
           }
         ],
-        "uniqueId": "814df5c3",
-        "updated": 1694607760064294000,
+        "uniqueId": "3c71d395",
+        "updated": 1694623182032906000,
         "userId": "",
         "workspaceId": ""
       },
       {
         "action": "انتخاب گزینه شماره ۲",
-        "created": 1694607760062269000,
+        "created": 1694623182031611000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "defaultCombination": {
           "altKey": false,
-          "created": 1694607760062636000,
+          "created": 1694623182031838000,
           "ctrlKey": false,
           "key": "Digit2",
-          "linkerId": "b945475c",
+          "linkerId": "fa20d1da",
           "metaKey": true,
           "shiftKey": false,
-          "uniqueId": "6e06edac",
-          "updated": 1694607760062636000
+          "uniqueId": "106572ef",
+          "updated": 1694623182031838000
         },
-        "linkerId": "b945475c",
+        "linkerId": "fa20d1da",
         "translations": [
           {
             "action": "انتخاب گزینه شماره ۲",
             "languageId": "fa",
-            "linkerId": "b945475c"
+            "linkerId": "fa20d1da"
           }
         ],
-        "uniqueId": "b945475c",
-        "updated": 1694607760062269000,
+        "uniqueId": "fa20d1da",
+        "updated": 1694623182031611000,
         "userId": "",
         "workspaceId": ""
       },
       {
         "action": "انتخاب گزینه شماره ۱",
-        "created": 1694607760060243000,
+        "created": 1694623182030356000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "defaultCombination": {
           "altKey": false,
-          "created": 1694607760060657000,
+          "created": 1694623182030580000,
           "ctrlKey": false,
           "key": "1",
-          "linkerId": "c827f9a8",
+          "linkerId": "98a9c208",
           "metaKey": true,
           "shiftKey": false,
-          "uniqueId": "eb9f9043",
-          "updated": 1694607760060657000
+          "uniqueId": "3094e1cb",
+          "updated": 1694623182030580000
         },
-        "linkerId": "c827f9a8",
+        "linkerId": "98a9c208",
         "translations": [
           {
             "action": "انتخاب گزینه شماره ۱",
             "languageId": "fa",
-            "linkerId": "c827f9a8"
+            "linkerId": "98a9c208"
           }
         ],
-        "uniqueId": "c827f9a8",
-        "updated": 1694607760060243000,
+        "uniqueId": "98a9c208",
+        "updated": 1694623182030356000,
         "userId": "",
         "workspaceId": ""
       },
       {
         "action": "صفحه قبلی",
-        "created": 1694607760058104000,
+        "created": 1694623182029029000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "defaultCombination": {
           "altKey": false,
-          "created": 1694607760058495000,
+          "created": 1694623182029249000,
           "ctrlKey": false,
           "key": "ArrowLeft",
-          "linkerId": "5256b9fd",
+          "linkerId": "44a65f1d",
           "metaKey": true,
           "shiftKey": false,
-          "uniqueId": "f6de6e66",
-          "updated": 1694607760058495000
+          "uniqueId": "66bab00a",
+          "updated": 1694623182029249000
         },
-        "linkerId": "5256b9fd",
+        "linkerId": "44a65f1d",
         "translations": [
           {
             "action": "صفحه قبلی",
             "languageId": "fa",
-            "linkerId": "5256b9fd"
+            "linkerId": "44a65f1d"
           }
         ],
-        "uniqueId": "5256b9fd",
-        "updated": 1694607760058104000,
+        "uniqueId": "44a65f1d",
+        "updated": 1694623182029029000,
         "userId": "",
         "workspaceId": ""
       },
       {
         "action": "صفحه بعدی",
-        "created": 1694607760056238000,
+        "created": 1694623182027725000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "defaultCombination": {
           "altKey": false,
-          "created": 1694607760056680000,
+          "created": 1694623182027971000,
           "ctrlKey": false,
           "key": "ArrowRight",
-          "linkerId": "2d63585c",
+          "linkerId": "f74bffdd",
           "metaKey": true,
           "shiftKey": false,
-          "uniqueId": "50d78faa",
-          "updated": 1694607760056680000
+          "uniqueId": "05600ecc",
+          "updated": 1694623182027971000
         },
-        "linkerId": "2d63585c",
+        "linkerId": "f74bffdd",
         "translations": [
           {
             "action": "صفحه بعدی",
             "languageId": "fa",
-            "linkerId": "2d63585c"
+            "linkerId": "f74bffdd"
           }
         ],
-        "uniqueId": "2d63585c",
-        "updated": 1694607760056238000,
+        "uniqueId": "f74bffdd",
+        "updated": 1694623182027725000,
         "userId": "",
         "workspaceId": ""
       }

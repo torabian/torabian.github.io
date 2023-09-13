@@ -3,8 +3,8 @@
     "items": [
       {
         "commonName": "Zimbabwe",
-        "created": 1694607758331901000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180808237000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇿🇼",
         "officialName": "Republic of Zimbabwe",
         "status": "officially-assigned",
@@ -95,15 +95,15 @@
           }
         ],
         "uniqueId": "zw",
-        "updated": 1694607758331901000,
+        "updated": 1694623180808237000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "Zambia",
-        "created": 1694607758330190000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180807095000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇿🇲",
         "officialName": "Republic of Zambia",
         "status": "officially-assigned",
@@ -116,15 +116,15 @@
           }
         ],
         "uniqueId": "zm",
-        "updated": 1694607758330190000,
+        "updated": 1694623180807095000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "South Africa",
-        "created": 1694607758328438000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180805949000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇿🇦",
         "officialName": "Republic of South Africa",
         "status": "officially-assigned",
@@ -196,15 +196,15 @@
           }
         ],
         "uniqueId": "za",
-        "updated": 1694607758328438000,
+        "updated": 1694623180805949000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "Yemen",
-        "created": 1694607758326764000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180804825000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇾🇪",
         "officialName": "Republic of Yemen",
         "status": "officially-assigned",
@@ -217,15 +217,15 @@
           }
         ],
         "uniqueId": "ye",
-        "updated": 1694607758326764000,
+        "updated": 1694623180804825000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "Samoa",
-        "created": 1694607758324995000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180803538000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇼🇸",
         "officialName": "Independent State of Samoa",
         "status": "officially-assigned",
@@ -244,15 +244,15 @@
           }
         ],
         "uniqueId": "ws",
-        "updated": 1694607758324995000,
+        "updated": 1694623180803538000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "Wallis and Futuna",
-        "created": 1694607758323320000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180802438000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇼🇫",
         "officialName": "Territory of the Wallis and Futuna Islands",
         "status": "officially-assigned",
@@ -265,15 +265,15 @@
           }
         ],
         "uniqueId": "wf",
-        "updated": 1694607758323320000,
+        "updated": 1694623180802438000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "Vanuatu",
-        "created": 1694607758321586000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180801334000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇻🇺",
         "officialName": "Republic of Vanuatu",
         "status": "officially-assigned",
@@ -298,15 +298,15 @@
           }
         ],
         "uniqueId": "vu",
-        "updated": 1694607758321586000,
+        "updated": 1694623180801334000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "Vietnam",
-        "created": 1694607758319919000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180800204000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇻🇳",
         "officialName": "Socialist Republic of Vietnam",
         "status": "officially-assigned",
@@ -319,15 +319,15 @@
           }
         ],
         "uniqueId": "vn",
-        "updated": 1694607758319919000,
+        "updated": 1694623180800204000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "United States Virgin Islands",
-        "created": 1694607758318129000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180799119000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇻🇮",
         "officialName": "Virgin Islands of the United States",
         "status": "officially-assigned",
@@ -340,15 +340,15 @@
           }
         ],
         "uniqueId": "vi",
-        "updated": 1694607758318129000,
+        "updated": 1694623180799119000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "British Virgin Islands",
-        "created": 1694607758316377000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180797946000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇻🇬",
         "officialName": "Virgin Islands",
         "status": "officially-assigned",
@@ -361,15 +361,15 @@
           }
         ],
         "uniqueId": "vg",
-        "updated": 1694607758316377000,
+        "updated": 1694623180797946000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "Venezuela",
-        "created": 1694607758314297000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180796790000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇻🇪",
         "officialName": "Bolivarian Republic of Venezuela",
         "status": "officially-assigned",
@@ -382,15 +382,15 @@
           }
         ],
         "uniqueId": "ve",
-        "updated": 1694607758314297000,
+        "updated": 1694623180796790000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "Saint Vincent and the Grenadines",
-        "created": 1694607758312609000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180795649000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇻🇨",
         "officialName": "Saint Vincent and the Grenadines",
         "status": "officially-assigned",
@@ -403,15 +403,15 @@
           }
         ],
         "uniqueId": "vc",
-        "updated": 1694607758312609000,
+        "updated": 1694623180795649000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "Vatican City",
-        "created": 1694607758310957000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180794561000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇻🇦",
         "officialName": "Vatican City State",
         "status": "officially-assigned",
@@ -430,15 +430,15 @@
           }
         ],
         "uniqueId": "va",
-        "updated": 1694607758310957000,
+        "updated": 1694623180794561000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "Узбекистан",
-        "created": 1694607758309287000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180793424000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇺🇿",
         "linkerId": "uz",
         "officialName": "Республика Узбекистан",
@@ -458,15 +458,15 @@
           }
         ],
         "uniqueId": "uz",
-        "updated": 1694607758309287000,
+        "updated": 1694623180793424000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "United States",
-        "created": 1694607758307436000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180792310000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇺🇸",
         "officialName": "United States of America",
         "status": "officially-assigned",
@@ -485,15 +485,15 @@
           }
         ],
         "uniqueId": "us",
-        "updated": 1694607758307436000,
+        "updated": 1694623180792310000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "Uruguay",
-        "created": 1694607758305622000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180791158000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇺🇾",
         "officialName": "Oriental Republic of Uruguay",
         "status": "officially-assigned",
@@ -506,15 +506,15 @@
           }
         ],
         "uniqueId": "uy",
-        "updated": 1694607758305622000,
+        "updated": 1694623180791158000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "United States Minor Outlying Islands",
-        "created": 1694607758303793000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180790009000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇺🇲",
         "officialName": "United States Minor Outlying Islands",
         "status": "officially-assigned",
@@ -527,15 +527,15 @@
           }
         ],
         "uniqueId": "um",
-        "updated": 1694607758303793000,
+        "updated": 1694623180790009000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "Ukraine",
-        "created": 1694607758302087000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180788911000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇺🇦",
         "officialName": "Ukraine",
         "status": "officially-assigned",
@@ -548,15 +548,15 @@
           }
         ],
         "uniqueId": "ua",
-        "updated": 1694607758302087000,
+        "updated": 1694623180788911000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "Uganda",
-        "created": 1694607758300337000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180787794000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇺🇬",
         "officialName": "Republic of Uganda",
         "status": "officially-assigned",
@@ -575,15 +575,15 @@
           }
         ],
         "uniqueId": "ug",
-        "updated": 1694607758300337000,
+        "updated": 1694623180787794000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "commonName": "Tanzania",
-        "created": 1694607758298287000,
-        "createdFormatted": "2023/09/13 14:22:38",
+        "created": 1694623180786588000,
+        "createdFormatted": "2023/09/13 18:39:40",
         "flag": "🇹🇿",
         "officialName": "United Republic of Tanzania",
         "status": "officially-assigned",
@@ -602,7 +602,7 @@
           }
         ],
         "uniqueId": "tz",
-        "updated": 1694607758298287000,
+        "updated": 1694623180786588000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""

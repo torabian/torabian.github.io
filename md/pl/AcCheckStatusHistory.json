@@ -3,10 +3,10 @@
     "items": [
       {
         "checkId": "check_1",
-        "created": 1694607760147378000,
-        "createdFormatted": "2023/09/13 14:22:40",
+        "created": 1694623182048465000,
+        "createdFormatted": "2023/09/13 18:39:42",
         "fromState": {
-          "created": 1694607760157922000,
+          "created": 1694623182055187000,
           "name": "Rejected",
           "translations": [
             {
@@ -16,14 +16,14 @@
             }
           ],
           "uniqueId": "rejected",
-          "updated": 1694607760157922000,
+          "updated": 1694623182055187000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
         },
         "fromStateId": "rejected",
         "toState": {
-          "created": 1694607760156232000,
+          "created": 1694623182054129000,
           "name": "Redeemed",
           "translations": [
             {
@@ -33,24 +33,24 @@
             }
           ],
           "uniqueId": "redeemed",
-          "updated": 1694607760156232000,
+          "updated": 1694623182054129000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
         },
         "toStateId": "redeemed",
         "uniqueId": "history_2",
-        "updated": 1694607760147378000,
+        "updated": 1694623182048465000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
         "checkId": "check_1",
-        "created": 1694607760144972000,
-        "createdFormatted": "2023/09/13 14:22:40",
+        "created": 1694623182047512000,
+        "createdFormatted": "2023/09/13 18:39:42",
         "fromState": {
-          "created": 1694607760149450000,
+          "created": 1694623182049691000,
           "name": "Received",
           "translations": [
             {
@@ -60,14 +60,14 @@
             }
           ],
           "uniqueId": "received",
-          "updated": 1694607760149450000,
+          "updated": 1694623182049691000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
         },
         "fromStateId": "received",
         "toState": {
-          "created": 1694607760157922000,
+          "created": 1694623182055187000,
           "name": "Rejected",
           "translations": [
             {
@@ -77,14 +77,14 @@
             }
           ],
           "uniqueId": "rejected",
-          "updated": 1694607760157922000,
+          "updated": 1694623182055187000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
         },
         "toStateId": "rejected",
         "uniqueId": "history_1",
-        "updated": 1694607760144972000,
+        "updated": 1694623182047512000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
