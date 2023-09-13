@@ -2,18 +2,18 @@
   "data": {
     "items": [
       {
-        "created": 1694597618111054000,
+        "created": 1694601336141646000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "uniqueId": "sell",
-        "updated": 1694597618111054000,
+        "updated": 1694601336141646000,
         "userId": "",
         "workspaceId": ""
       },
       {
-        "created": 1694597618109596000,
+        "created": 1694601336140422000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "uniqueId": "buy",
-        "updated": 1694597618109596000,
+        "updated": 1694601336140422000,
         "userId": "",
         "workspaceId": ""
       }

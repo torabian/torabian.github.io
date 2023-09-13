@@ -2,7 +2,7 @@
   "data": {
     "items": [
       {
-        "created": 1694597623713447000,
+        "created": 1694601339855581000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "ZWL",
         "name": "دلار زیمبابوه",
@@ -17,13 +17,13 @@
           }
         ],
         "uniqueId": "ZWL",
-        "updated": 1694597623713447000,
+        "updated": 1694601339855581000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623711511000,
+        "created": 1694601339854127000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "ZMK",
         "name": "کواچای زامبیا",
@@ -38,13 +38,13 @@
           }
         ],
         "uniqueId": "ZMK",
-        "updated": 1694597623711511000,
+        "updated": 1694601339854127000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623709066000,
+        "created": 1694601339852589000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "ZAR",
@@ -60,13 +60,13 @@
           }
         ],
         "uniqueId": "ZAR",
-        "updated": 1694597623709066000,
+        "updated": 1694601339852589000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623707423000,
+        "created": 1694601339850593000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "YER",
         "name": "ریال یمن",
@@ -81,13 +81,13 @@
           }
         ],
         "uniqueId": "YER",
-        "updated": 1694597623707423000,
+        "updated": 1694601339850593000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623705787000,
+        "created": 1694601339848563000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "XOF",
         "name": "فرانک سی اف ای BCEAO",
@@ -102,13 +102,13 @@
           }
         ],
         "uniqueId": "XOF",
-        "updated": 1694597623705787000,
+        "updated": 1694601339848563000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623704153000,
+        "created": 1694601339847151000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "XAF",
         "name": "فرانک CFA BEAC",
@@ -123,13 +123,13 @@
           }
         ],
         "uniqueId": "XAF",
-        "updated": 1694597623704153000,
+        "updated": 1694601339847151000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623702315000,
+        "created": 1694601339845734000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "VND",
         "name": "دونگ ویتنامی",
@@ -144,13 +144,13 @@
           }
         ],
         "uniqueId": "VND",
-        "updated": 1694597623702315000,
+        "updated": 1694601339845734000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623700262000,
+        "created": 1694601339844367000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "VEF",
@@ -166,13 +166,13 @@
           }
         ],
         "uniqueId": "VEF",
-        "updated": 1694597623700262000,
+        "updated": 1694601339844367000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623698246000,
+        "created": 1694601339842983000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "UZS",
         "name": "ازبکستان سوم",
@@ -187,13 +187,13 @@
           }
         ],
         "uniqueId": "UZS",
-        "updated": 1694597623698246000,
+        "updated": 1694601339842983000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623696562000,
+        "created": 1694601339841345000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "UYU",
@@ -209,13 +209,13 @@
           }
         ],
         "uniqueId": "UYU",
-        "updated": 1694597623696562000,
+        "updated": 1694601339841345000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623694886000,
+        "created": 1694601339839967000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "UGX",
         "name": "شیلینگ اوگاندا",
@@ -230,13 +230,13 @@
           }
         ],
         "uniqueId": "UGX",
-        "updated": 1694597623694886000,
+        "updated": 1694601339839967000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623693240000,
+        "created": 1694601339838501000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "UAH",
@@ -252,13 +252,13 @@
           }
         ],
         "uniqueId": "UAH",
-        "updated": 1694597623693240000,
+        "updated": 1694601339838501000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623691571000,
+        "created": 1694601339837042000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "TZS",
         "name": "شیلینگ تانزانیا",
@@ -273,13 +273,13 @@
           }
         ],
         "uniqueId": "TZS",
-        "updated": 1694597623691571000,
+        "updated": 1694601339837042000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623689806000,
+        "created": 1694601339835509000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "TWD",
@@ -295,13 +295,13 @@
           }
         ],
         "uniqueId": "TWD",
-        "updated": 1694597623689806000,
+        "updated": 1694601339835509000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623688030000,
+        "created": 1694601339834054000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "TTD",
@@ -317,13 +317,13 @@
           }
         ],
         "uniqueId": "TTD",
-        "updated": 1694597623688030000,
+        "updated": 1694601339834054000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623686398000,
+        "created": 1694601339832666000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "TRY",
@@ -339,13 +339,13 @@
           }
         ],
         "uniqueId": "TRY",
-        "updated": 1694597623686398000,
+        "updated": 1694601339832666000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623684664000,
+        "created": 1694601339831250000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "TOP",
@@ -361,13 +361,13 @@
           }
         ],
         "uniqueId": "TOP",
-        "updated": 1694597623684664000,
+        "updated": 1694601339831250000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623682842000,
+        "created": 1694601339829677000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 3,
         "linkerId": "TND",
@@ -383,13 +383,13 @@
           }
         ],
         "uniqueId": "TND",
-        "updated": 1694597623682842000,
+        "updated": 1694601339829677000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623681199000,
+        "created": 1694601339828289000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "THB",
@@ -405,13 +405,13 @@
           }
         ],
         "uniqueId": "THB",
-        "updated": 1694597623681199000,
+        "updated": 1694601339828289000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623679438000,
+        "created": 1694601339826914000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "SYP",
         "name": "پوند سوریه",
@@ -426,13 +426,13 @@
           }
         ],
         "uniqueId": "SYP",
-        "updated": 1694597623679438000,
+        "updated": 1694601339826914000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623677654000,
+        "created": 1694601339825601000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "SOS",
         "name": "شیلینگ سومالی",
@@ -447,13 +447,13 @@
           }
         ],
         "uniqueId": "SOS",
-        "updated": 1694597623677654000,
+        "updated": 1694601339825601000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623675900000,
+        "created": 1694601339824232000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "SGD",
@@ -469,13 +469,13 @@
           }
         ],
         "uniqueId": "SGD",
-        "updated": 1694597623675900000,
+        "updated": 1694601339824232000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623674236000,
+        "created": 1694601339822894000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "SEK",
@@ -491,13 +491,13 @@
           }
         ],
         "uniqueId": "SEK",
-        "updated": 1694597623674236000,
+        "updated": 1694601339822894000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623672625000,
+        "created": 1694601339821591000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "SDG",
@@ -513,13 +513,13 @@
           }
         ],
         "uniqueId": "SDG",
-        "updated": 1694597623672625000,
+        "updated": 1694601339821591000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623670930000,
+        "created": 1694601339820060000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "SAR",
@@ -535,13 +535,13 @@
           }
         ],
         "uniqueId": "SAR",
-        "updated": 1694597623670930000,
+        "updated": 1694601339820060000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623669176000,
+        "created": 1694601339818267000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "RWF",
         "name": "فرانک رواندا",
@@ -556,13 +556,13 @@
           }
         ],
         "uniqueId": "RWF",
-        "updated": 1694597623669176000,
+        "updated": 1694601339818267000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623667378000,
+        "created": 1694601339817004000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "RUB",
@@ -578,13 +578,13 @@
           }
         ],
         "uniqueId": "RUB",
-        "updated": 1694597623667378000,
+        "updated": 1694601339817004000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623665670000,
+        "created": 1694601339815693000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "RSD",
         "name": "دینار صربستان",
@@ -599,13 +599,13 @@
           }
         ],
         "uniqueId": "RSD",
-        "updated": 1694597623665670000,
+        "updated": 1694601339815693000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623663805000,
+        "created": 1694601339814166000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "RON",
@@ -621,13 +621,13 @@
           }
         ],
         "uniqueId": "RON",
-        "updated": 1694597623663805000,
+        "updated": 1694601339814166000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623661404000,
+        "created": 1694601339812821000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "QAR",
@@ -643,13 +643,13 @@
           }
         ],
         "uniqueId": "QAR",
-        "updated": 1694597623661404000,
+        "updated": 1694601339812821000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623659183000,
+        "created": 1694601339811498000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "PYG",
         "name": "گوارانی پاراگوئه",
@@ -664,13 +664,13 @@
           }
         ],
         "uniqueId": "PYG",
-        "updated": 1694597623659183000,
+        "updated": 1694601339811498000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623657590000,
+        "created": 1694601339810137000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "PLN",
@@ -686,13 +686,13 @@
           }
         ],
         "uniqueId": "PLN",
-        "updated": 1694597623657590000,
+        "updated": 1694601339810137000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623655948000,
+        "created": 1694601339808682000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "PKR",
         "name": "روپیه پاکستان",
@@ -707,13 +707,13 @@
           }
         ],
         "uniqueId": "PKR",
-        "updated": 1694597623655948000,
+        "updated": 1694601339808682000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623654305000,
+        "created": 1694601339806901000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "PHP",
@@ -729,13 +729,13 @@
           }
         ],
         "uniqueId": "PHP",
-        "updated": 1694597623654305000,
+        "updated": 1694601339806901000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623652683000,
+        "created": 1694601339805453000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "PEN",
@@ -751,13 +751,13 @@
           }
         ],
         "uniqueId": "PEN",
-        "updated": 1694597623652683000,
+        "updated": 1694601339805453000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623650911000,
+        "created": 1694601339804049000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "PAB",
@@ -773,13 +773,13 @@
           }
         ],
         "uniqueId": "PAB",
-        "updated": 1694597623650911000,
+        "updated": 1694601339804049000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623649003000,
+        "created": 1694601339802652000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 3,
         "linkerId": "OMR",
@@ -795,13 +795,13 @@
           }
         ],
         "uniqueId": "OMR",
-        "updated": 1694597623649003000,
+        "updated": 1694601339802652000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623647146000,
+        "created": 1694601339801207000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "NZD",
@@ -817,13 +817,13 @@
           }
         ],
         "uniqueId": "NZD",
-        "updated": 1694597623647146000,
+        "updated": 1694601339801207000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623645186000,
+        "created": 1694601339799685000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "NPR",
@@ -839,13 +839,13 @@
           }
         ],
         "uniqueId": "NPR",
-        "updated": 1694597623645186000,
+        "updated": 1694601339799685000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623643585000,
+        "created": 1694601339797786000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "NOK",
@@ -861,13 +861,13 @@
           }
         ],
         "uniqueId": "NOK",
-        "updated": 1694597623643585000,
+        "updated": 1694601339797786000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623641972000,
+        "created": 1694601339796194000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "NIO",
@@ -883,13 +883,13 @@
           }
         ],
         "uniqueId": "NIO",
-        "updated": 1694597623641972000,
+        "updated": 1694601339796194000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623640335000,
+        "created": 1694601339794742000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "NGN",
@@ -905,13 +905,13 @@
           }
         ],
         "uniqueId": "NGN",
-        "updated": 1694597623640335000,
+        "updated": 1694601339794742000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623638659000,
+        "created": 1694601339793363000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "NAD",
@@ -927,13 +927,13 @@
           }
         ],
         "uniqueId": "NAD",
-        "updated": 1694597623638659000,
+        "updated": 1694601339793363000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623636900000,
+        "created": 1694601339791938000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "MZN",
@@ -949,13 +949,13 @@
           }
         ],
         "uniqueId": "MZN",
-        "updated": 1694597623636900000,
+        "updated": 1694601339791938000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623635209000,
+        "created": 1694601339790398000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "MYR",
@@ -971,13 +971,13 @@
           }
         ],
         "uniqueId": "MYR",
-        "updated": 1694597623635209000,
+        "updated": 1694601339790398000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623633566000,
+        "created": 1694601339788997000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "MXN",
@@ -993,13 +993,13 @@
           }
         ],
         "uniqueId": "MXN",
-        "updated": 1694597623633566000,
+        "updated": 1694601339788997000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623631803000,
+        "created": 1694601339787429000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "MUR",
         "name": "روپیه موریس",
@@ -1014,13 +1014,13 @@
           }
         ],
         "uniqueId": "MUR",
-        "updated": 1694597623631803000,
+        "updated": 1694601339787429000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623630131000,
+        "created": 1694601339785772000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "MOP",
@@ -1036,13 +1036,13 @@
           }
         ],
         "uniqueId": "MOP",
-        "updated": 1694597623630131000,
+        "updated": 1694601339785772000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623628415000,
+        "created": 1694601339784015000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "MMK",
         "name": "میانما کیات",
@@ -1057,13 +1057,13 @@
           }
         ],
         "uniqueId": "MMK",
-        "updated": 1694597623628415000,
+        "updated": 1694601339784015000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623626716000,
+        "created": 1694601339782173000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "MKD",
@@ -1079,13 +1079,13 @@
           }
         ],
         "uniqueId": "MKD",
-        "updated": 1694597623626716000,
+        "updated": 1694601339782173000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623625011000,
+        "created": 1694601339780240000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "MGA",
         "name": "آریاری مالاگاسی",
@@ -1100,13 +1100,13 @@
           }
         ],
         "uniqueId": "MGA",
-        "updated": 1694597623625011000,
+        "updated": 1694601339780240000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623623325000,
+        "created": 1694601339778075000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "MDL",
@@ -1122,13 +1122,13 @@
           }
         ],
         "uniqueId": "MDL",
-        "updated": 1694597623623325000,
+        "updated": 1694601339778075000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623621655000,
+        "created": 1694601339776776000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "MAD",
@@ -1144,13 +1144,13 @@
           }
         ],
         "uniqueId": "MAD",
-        "updated": 1694597623621655000,
+        "updated": 1694601339776776000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623619998000,
+        "created": 1694601339775369000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 3,
         "linkerId": "LYD",
@@ -1166,13 +1166,13 @@
           }
         ],
         "uniqueId": "LYD",
-        "updated": 1694597623619998000,
+        "updated": 1694601339775369000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623618378000,
+        "created": 1694601339773876000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "LVL",
@@ -1188,13 +1188,13 @@
           }
         ],
         "uniqueId": "LVL",
-        "updated": 1694597623618378000,
+        "updated": 1694601339773876000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623616521000,
+        "created": 1694601339772400000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "LTL",
@@ -1210,13 +1210,13 @@
           }
         ],
         "uniqueId": "LTL",
-        "updated": 1694597623616521000,
+        "updated": 1694601339772400000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623614717000,
+        "created": 1694601339771082000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "LKR",
@@ -1232,13 +1232,13 @@
           }
         ],
         "uniqueId": "LKR",
-        "updated": 1694597623614717000,
+        "updated": 1694601339771082000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623612808000,
+        "created": 1694601339769760000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "LBP",
         "name": "پوند لبنان",
@@ -1253,13 +1253,13 @@
           }
         ],
         "uniqueId": "LBP",
-        "updated": 1694597623612808000,
+        "updated": 1694601339769760000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623610947000,
+        "created": 1694601339768451000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "KZT",
@@ -1275,13 +1275,13 @@
           }
         ],
         "uniqueId": "KZT",
-        "updated": 1694597623610947000,
+        "updated": 1694601339768451000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623608796000,
+        "created": 1694601339767099000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 3,
         "linkerId": "KWD",
@@ -1297,13 +1297,13 @@
           }
         ],
         "uniqueId": "KWD",
-        "updated": 1694597623608796000,
+        "updated": 1694601339767099000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623607034000,
+        "created": 1694601339765612000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "KRW",
         "name": "وون کره جنوبی",
@@ -1318,13 +1318,13 @@
           }
         ],
         "uniqueId": "KRW",
-        "updated": 1694597623607034000,
+        "updated": 1694601339765612000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623605112000,
+        "created": 1694601339764152000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "KMF",
         "name": "فرانک کوموریا",
@@ -1339,13 +1339,13 @@
           }
         ],
         "uniqueId": "KMF",
-        "updated": 1694597623605112000,
+        "updated": 1694601339764152000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623603099000,
+        "created": 1694601339762830000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "KHR",
@@ -1361,13 +1361,13 @@
           }
         ],
         "uniqueId": "KHR",
-        "updated": 1694597623603099000,
+        "updated": 1694601339762830000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623601216000,
+        "created": 1694601339761504000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "KES",
@@ -1383,13 +1383,13 @@
           }
         ],
         "uniqueId": "KES",
-        "updated": 1694597623601216000,
+        "updated": 1694601339761504000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623599412000,
+        "created": 1694601339760217000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "JPY",
         "name": "ین ژاپن",
@@ -1404,13 +1404,13 @@
           }
         ],
         "uniqueId": "JPY",
-        "updated": 1694597623599412000,
+        "updated": 1694601339760217000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623597477000,
+        "created": 1694601339758845000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 3,
         "linkerId": "JOD",
@@ -1426,13 +1426,13 @@
           }
         ],
         "uniqueId": "JOD",
-        "updated": 1694597623597477000,
+        "updated": 1694601339758845000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623595750000,
+        "created": 1694601339757406000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "JMD",
@@ -1448,13 +1448,13 @@
           }
         ],
         "uniqueId": "JMD",
-        "updated": 1694597623595750000,
+        "updated": 1694601339757406000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623594159000,
+        "created": 1694601339756053000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "ISK",
         "name": "کرون ایسلند",
@@ -1469,13 +1469,13 @@
           }
         ],
         "uniqueId": "ISK",
-        "updated": 1694597623594159000,
+        "updated": 1694601339756053000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623592378000,
+        "created": 1694601339754626000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "IRR",
         "name": "ریال ایران",
@@ -1490,13 +1490,13 @@
           }
         ],
         "uniqueId": "IRR",
-        "updated": 1694597623592378000,
+        "updated": 1694601339754626000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623590720000,
+        "created": 1694601339753286000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "IQD",
         "name": "دینار عراق",
@@ -1511,13 +1511,13 @@
           }
         ],
         "uniqueId": "IQD",
-        "updated": 1694597623590720000,
+        "updated": 1694601339753286000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623589014000,
+        "created": 1694601339751984000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "INR",
@@ -1533,13 +1533,13 @@
           }
         ],
         "uniqueId": "INR",
-        "updated": 1694597623589014000,
+        "updated": 1694601339751984000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623587313000,
+        "created": 1694601339750654000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "ILS",
@@ -1555,13 +1555,13 @@
           }
         ],
         "uniqueId": "ILS",
-        "updated": 1694597623587313000,
+        "updated": 1694601339750654000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623585671000,
+        "created": 1694601339749326000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "IDR",
         "name": "روپیه اندونزی",
@@ -1576,13 +1576,13 @@
           }
         ],
         "uniqueId": "IDR",
-        "updated": 1694597623585671000,
+        "updated": 1694601339749326000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623583758000,
+        "created": 1694601339747894000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "HUF",
         "name": "فورینت مجارستان",
@@ -1597,13 +1597,13 @@
           }
         ],
         "uniqueId": "HUF",
-        "updated": 1694597623583758000,
+        "updated": 1694601339747894000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623581526000,
+        "created": 1694601339746522000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "HRK",
@@ -1619,13 +1619,13 @@
           }
         ],
         "uniqueId": "HRK",
-        "updated": 1694597623581526000,
+        "updated": 1694601339746522000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623579568000,
+        "created": 1694601339745183000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "HNL",
@@ -1641,13 +1641,13 @@
           }
         ],
         "uniqueId": "HNL",
-        "updated": 1694597623579568000,
+        "updated": 1694601339745183000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623577819000,
+        "created": 1694601339743782000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "HKD",
@@ -1663,13 +1663,13 @@
           }
         ],
         "uniqueId": "HKD",
-        "updated": 1694597623577819000,
+        "updated": 1694601339743782000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623575968000,
+        "created": 1694601339742392000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "GTQ",
@@ -1685,13 +1685,13 @@
           }
         ],
         "uniqueId": "GTQ",
-        "updated": 1694597623575968000,
+        "updated": 1694601339742392000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623574000000,
+        "created": 1694601339741004000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "GNF",
         "name": "فرانک گینه",
@@ -1706,13 +1706,13 @@
           }
         ],
         "uniqueId": "GNF",
-        "updated": 1694597623574000000,
+        "updated": 1694601339741004000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623572204000,
+        "created": 1694601339739350000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "GHS",
@@ -1728,13 +1728,13 @@
           }
         ],
         "uniqueId": "GHS",
-        "updated": 1694597623572204000,
+        "updated": 1694601339739350000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623570478000,
+        "created": 1694601339737539000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "GEL",
@@ -1750,13 +1750,13 @@
           }
         ],
         "uniqueId": "GEL",
-        "updated": 1694597623570478000,
+        "updated": 1694601339737539000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623568830000,
+        "created": 1694601339736306000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "GBP",
@@ -1772,13 +1772,13 @@
           }
         ],
         "uniqueId": "GBP",
-        "updated": 1694597623568830000,
+        "updated": 1694601339736306000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623567141000,
+        "created": 1694601339735050000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "ETB",
@@ -1794,13 +1794,13 @@
           }
         ],
         "uniqueId": "ETB",
-        "updated": 1694597623567141000,
+        "updated": 1694601339735050000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623565072000,
+        "created": 1694601339733796000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "ERN",
@@ -1816,13 +1816,13 @@
           }
         ],
         "uniqueId": "ERN",
-        "updated": 1694597623565072000,
+        "updated": 1694601339733796000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623563095000,
+        "created": 1694601339732560000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "EGP",
@@ -1838,13 +1838,13 @@
           }
         ],
         "uniqueId": "EGP",
-        "updated": 1694597623563095000,
+        "updated": 1694601339732560000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623560339000,
+        "created": 1694601339731188000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "EEK",
@@ -1860,13 +1860,13 @@
           }
         ],
         "uniqueId": "EEK",
-        "updated": 1694597623560339000,
+        "updated": 1694601339731188000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623558570000,
+        "created": 1694601339729645000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "DZD",
@@ -1882,13 +1882,13 @@
           }
         ],
         "uniqueId": "DZD",
-        "updated": 1694597623558570000,
+        "updated": 1694601339729645000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623556798000,
+        "created": 1694601339728413000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "DOP",
@@ -1904,13 +1904,13 @@
           }
         ],
         "uniqueId": "DOP",
-        "updated": 1694597623556798000,
+        "updated": 1694601339728413000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623555079000,
+        "created": 1694601339727155000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "DKK",
@@ -1926,13 +1926,13 @@
           }
         ],
         "uniqueId": "DKK",
-        "updated": 1694597623555079000,
+        "updated": 1694601339727155000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623553210000,
+        "created": 1694601339725916000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "DJF",
         "name": "فرانک جیبوتی",
@@ -1947,13 +1947,13 @@
           }
         ],
         "uniqueId": "DJF",
-        "updated": 1694597623553210000,
+        "updated": 1694601339725916000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623551444000,
+        "created": 1694601339724623000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "CZK",
@@ -1969,13 +1969,13 @@
           }
         ],
         "uniqueId": "CZK",
-        "updated": 1694597623551444000,
+        "updated": 1694601339724623000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623549623000,
+        "created": 1694601339723194000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "CVE",
@@ -1991,13 +1991,13 @@
           }
         ],
         "uniqueId": "CVE",
-        "updated": 1694597623549623000,
+        "updated": 1694601339723194000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623547710000,
+        "created": 1694601339721909000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "CRC",
         "name": "کولون کاستاریکا",
@@ -2012,13 +2012,13 @@
           }
         ],
         "uniqueId": "CRC",
-        "updated": 1694597623547710000,
+        "updated": 1694601339721909000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623546061000,
+        "created": 1694601339720570000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "COP",
         "name": "پزو کلمبیا",
@@ -2033,13 +2033,13 @@
           }
         ],
         "uniqueId": "COP",
-        "updated": 1694597623546061000,
+        "updated": 1694601339720570000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623544495000,
+        "created": 1694601339719242000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "CNY",
@@ -2055,13 +2055,13 @@
           }
         ],
         "uniqueId": "CNY",
-        "updated": 1694597623544495000,
+        "updated": 1694601339719242000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623542836000,
+        "created": 1694601339717847000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "CLP",
         "name": "پزو شیلی",
@@ -2076,13 +2076,13 @@
           }
         ],
         "uniqueId": "CLP",
-        "updated": 1694597623542836000,
+        "updated": 1694601339717847000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623541104000,
+        "created": 1694601339716350000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "CHF",
@@ -2098,13 +2098,13 @@
           }
         ],
         "uniqueId": "CHF",
-        "updated": 1694597623541104000,
+        "updated": 1694601339716350000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623539411000,
+        "created": 1694601339714887000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "CDF",
@@ -2120,13 +2120,13 @@
           }
         ],
         "uniqueId": "CDF",
-        "updated": 1694597623539411000,
+        "updated": 1694601339714887000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623537695000,
+        "created": 1694601339713439000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BZD",
@@ -2142,13 +2142,13 @@
           }
         ],
         "uniqueId": "BZD",
-        "updated": 1694597623537695000,
+        "updated": 1694601339713439000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623535952000,
+        "created": 1694601339711830000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BYN",
@@ -2164,13 +2164,13 @@
           }
         ],
         "uniqueId": "BYN",
-        "updated": 1694597623535952000,
+        "updated": 1694601339711830000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623534081000,
+        "created": 1694601339710004000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BWP",
@@ -2186,13 +2186,13 @@
           }
         ],
         "uniqueId": "BWP",
-        "updated": 1694597623534081000,
+        "updated": 1694601339710004000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623532166000,
+        "created": 1694601339708399000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BRL",
@@ -2208,13 +2208,13 @@
           }
         ],
         "uniqueId": "BRL",
-        "updated": 1694597623532166000,
+        "updated": 1694601339708399000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623530599000,
+        "created": 1694601339706773000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BOB",
@@ -2230,13 +2230,13 @@
           }
         ],
         "uniqueId": "BOB",
-        "updated": 1694597623530599000,
+        "updated": 1694601339706773000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623528995000,
+        "created": 1694601339705572000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BND",
@@ -2252,13 +2252,13 @@
           }
         ],
         "uniqueId": "BND",
-        "updated": 1694597623528995000,
+        "updated": 1694601339705572000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623527329000,
+        "created": 1694601339704484000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "BIF",
         "name": "فرانک بوروندی",
@@ -2273,13 +2273,13 @@
           }
         ],
         "uniqueId": "BIF",
-        "updated": 1694597623527329000,
+        "updated": 1694601339704484000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623525399000,
+        "created": 1694601339703331000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 3,
         "linkerId": "BHD",
@@ -2295,13 +2295,13 @@
           }
         ],
         "uniqueId": "BHD",
-        "updated": 1694597623525399000,
+        "updated": 1694601339703331000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623523654000,
+        "created": 1694601339701901000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BGN",
@@ -2317,13 +2317,13 @@
           }
         ],
         "uniqueId": "BGN",
-        "updated": 1694597623523654000,
+        "updated": 1694601339701901000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623521964000,
+        "created": 1694601339700618000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BDT",
@@ -2339,13 +2339,13 @@
           }
         ],
         "uniqueId": "BDT",
-        "updated": 1694597623521964000,
+        "updated": 1694601339700618000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623520302000,
+        "created": 1694601339699148000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BAM",
@@ -2361,13 +2361,13 @@
           }
         ],
         "uniqueId": "BAM",
-        "updated": 1694597623520302000,
+        "updated": 1694601339699148000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623518298000,
+        "created": 1694601339697129000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "AZN",
@@ -2383,13 +2383,13 @@
           }
         ],
         "uniqueId": "AZN",
-        "updated": 1694597623518298000,
+        "updated": 1694601339697129000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623516465000,
+        "created": 1694601339695343000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "AUD",
@@ -2405,13 +2405,13 @@
           }
         ],
         "uniqueId": "AUD",
-        "updated": 1694597623516465000,
+        "updated": 1694601339695343000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623514825000,
+        "created": 1694601339693883000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "ARS",
@@ -2427,13 +2427,13 @@
           }
         ],
         "uniqueId": "ARS",
-        "updated": 1694597623514825000,
+        "updated": 1694601339693883000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623513167000,
+        "created": 1694601339692286000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "AMD",
         "name": "درام ارمنستان",
@@ -2448,13 +2448,13 @@
           }
         ],
         "uniqueId": "AMD",
-        "updated": 1694597623513167000,
+        "updated": 1694601339692286000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623511017000,
+        "created": 1694601339690736000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "ALL",
         "name": "لک آلبانیایی",
@@ -2469,13 +2469,13 @@
           }
         ],
         "uniqueId": "ALL",
-        "updated": 1694597623511017000,
+        "updated": 1694601339690736000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623508606000,
+        "created": 1694601339688924000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "linkerId": "AFN",
         "name": "افغانی افغانی",
@@ -2490,13 +2490,13 @@
           }
         ],
         "uniqueId": "AFN",
-        "updated": 1694597623508606000,
+        "updated": 1694601339688924000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623506912000,
+        "created": 1694601339687410000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "AED",
@@ -2512,13 +2512,13 @@
           }
         ],
         "uniqueId": "AED",
-        "updated": 1694597623506912000,
+        "updated": 1694601339687410000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623505082000,
+        "created": 1694601339686073000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "EUR",
@@ -2534,13 +2534,13 @@
           }
         ],
         "uniqueId": "EUR",
-        "updated": 1694597623505082000,
+        "updated": 1694601339686073000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623503213000,
+        "created": 1694601339684792000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "CAD",
@@ -2556,13 +2556,13 @@
           }
         ],
         "uniqueId": "CAD",
-        "updated": 1694597623503213000,
+        "updated": 1694601339684792000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694597623501292000,
+        "created": 1694601339683519000,
         "createdFormatted": "۲۲ شهریور ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "USD",
@@ -2578,7 +2578,7 @@
           }
         ],
         "uniqueId": "USD",
-        "updated": 1694597623501292000,
+        "updated": 1694601339683519000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
