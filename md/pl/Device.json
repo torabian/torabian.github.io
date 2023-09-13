@@ -2,18 +2,18 @@
   "data": {
     "items": [
       {
-        "created": 1694603490678987000,
-        "createdFormatted": "2023/09/13 13:11:30",
+        "created": 1694607767827621000,
+        "createdFormatted": "2023/09/13 14:22:47",
         "deviceModbusConfig": {
           "baudRate": 9600,
-          "created": 1694603490679933000,
+          "created": 1694607767828018000,
           "dataBits": 8,
           "linkerId": "device_modbus",
           "parity": 2,
           "stopBit": 4,
           "timeout": 2000,
-          "uniqueId": "c377634c",
-          "updated": 1694603490679933000
+          "uniqueId": "5a81ffa9",
+          "updated": 1694607767828018000
         },
         "ip": "192.168.1.2",
         "model": "298031984920",
@@ -27,17 +27,17 @@
           }
         ],
         "type": {
-          "created": 1694603490557708000,
+          "created": 1694607767781659000,
           "name": "Modbus",
           "uniqueId": "modbus",
-          "updated": 1694603490557708000,
+          "updated": 1694607767781659000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
         },
         "typeId": "modbus",
         "uniqueId": "device_modbus",
-        "updated": 1694603490678987000,
+        "updated": 1694607767827621000,
         "userId": "",
         "visibility": "A",
         "wifiPassword": "12345678",

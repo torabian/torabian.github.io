@@ -2,8 +2,8 @@
   "data": {
     "items": [
       {
-        "created": 1694603490589078000,
-        "createdFormatted": "2023/09/13 13:11:30",
+        "created": 1694607767793603000,
+        "createdFormatted": "2023/09/13 14:22:47",
         "name": "Word",
         "translations": [
           {
@@ -13,14 +13,14 @@
           }
         ],
         "uniqueId": "word",
-        "updated": 1694603490589078000,
+        "updated": 1694607767793603000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694603490583837000,
-        "createdFormatted": "2023/09/13 13:11:30",
+        "created": 1694607767791410000,
+        "createdFormatted": "2023/09/13 14:22:47",
         "name": "Integer",
         "translations": [
           {
@@ -30,7 +30,7 @@
           }
         ],
         "uniqueId": "integer",
-        "updated": 1694603490583837000,
+        "updated": 1694607767791410000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""

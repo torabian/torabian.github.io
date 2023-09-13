@@ -2,14 +2,14 @@
   "data": {
     "items": [
       {
-        "created": 1694603472529347000,
-        "createdFormatted": "2023/09/13 13:11:12",
+        "created": 1694607757347391000,
+        "createdFormatted": "2023/09/13 14:22:37",
         "description": "Become and school, build tyour learning buliten",
         "role": {
-          "created": 1694603472523889000,
+          "created": 1694607757344081000,
           "name": "School",
           "uniqueId": "SYSTEM_SCHOOL",
-          "updated": 1694603472523888000,
+          "updated": 1694607757344080000,
           "workspaceId": "system"
         },
         "roleId": "SYSTEM_SCHOOL",
@@ -24,19 +24,19 @@
           }
         ],
         "uniqueId": "school",
-        "updated": 1694603472529347000,
+        "updated": 1694607757347391000,
         "userId": "",
         "workspaceId": "root"
       },
       {
-        "created": 1694603472527686000,
-        "createdFormatted": "2023/09/13 13:11:12",
+        "created": 1694607757346115000,
+        "createdFormatted": "2023/09/13 14:22:37",
         "description": "Study as an student, join other schools",
         "role": {
-          "created": 1694603472522549000,
+          "created": 1694607757342619000,
           "name": "Student",
           "uniqueId": "SYSTEM_STUDENT",
-          "updated": 1694603472522544000,
+          "updated": 1694607757342617000,
           "workspaceId": "system"
         },
         "roleId": "SYSTEM_STUDENT",
@@ -51,7 +51,7 @@
           }
         ],
         "uniqueId": "student",
-        "updated": 1694603472527686000,
+        "updated": 1694607757346115000,
         "userId": "",
         "workspaceId": "root"
       }

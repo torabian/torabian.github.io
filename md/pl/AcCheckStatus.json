@@ -2,8 +2,8 @@
   "data": {
     "items": [
       {
-        "created": 1694603479752910000,
-        "createdFormatted": "2023/09/13 13:11:19",
+        "created": 1694607760157922000,
+        "createdFormatted": "2023/09/13 14:22:40",
         "name": "Rejected",
         "translations": [
           {
@@ -13,14 +13,14 @@
           }
         ],
         "uniqueId": "rejected",
-        "updated": 1694603479752910000,
+        "updated": 1694607760157922000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694603479748196000,
-        "createdFormatted": "2023/09/13 13:11:19",
+        "created": 1694607760156232000,
+        "createdFormatted": "2023/09/13 14:22:40",
         "name": "Redeemed",
         "translations": [
           {
@@ -30,14 +30,14 @@
           }
         ],
         "uniqueId": "redeemed",
-        "updated": 1694603479748196000,
+        "updated": 1694607760156232000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694603479736718000,
-        "createdFormatted": "2023/09/13 13:11:19",
+        "created": 1694607760154579000,
+        "createdFormatted": "2023/09/13 14:22:40",
         "name": "Spent",
         "translations": [
           {
@@ -47,14 +47,14 @@
           }
         ],
         "uniqueId": "spent",
-        "updated": 1694603479736718000,
+        "updated": 1694607760154579000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694603479728961000,
-        "createdFormatted": "2023/09/13 13:11:19",
+        "created": 1694607760152943000,
+        "createdFormatted": "2023/09/13 14:22:40",
         "name": "Payed",
         "translations": [
           {
@@ -64,14 +64,14 @@
           }
         ],
         "uniqueId": "payed",
-        "updated": 1694603479728961000,
+        "updated": 1694607760152943000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694603479721332000,
-        "createdFormatted": "2023/09/13 13:11:19",
+        "created": 1694607760151248000,
+        "createdFormatted": "2023/09/13 14:22:40",
         "name": "Sent to bank",
         "translations": [
           {
@@ -81,14 +81,14 @@
           }
         ],
         "uniqueId": "sentToBank",
-        "updated": 1694603479721332000,
+        "updated": 1694607760151248000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694603479717856000,
-        "createdFormatted": "2023/09/13 13:11:19",
+        "created": 1694607760149450000,
+        "createdFormatted": "2023/09/13 14:22:40",
         "name": "Received",
         "translations": [
           {
@@ -98,7 +98,7 @@
           }
         ],
         "uniqueId": "received",
-        "updated": 1694603479717856000,
+        "updated": 1694607760149450000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
