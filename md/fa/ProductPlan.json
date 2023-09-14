@@ -2,26 +2,26 @@
   "data": {
     "items": [
       {
-        "created": 1694623186110141000,
-        "createdFormatted": "۲۲ شهریور ۱۴۰۲",
+        "created": 1694725753286595000,
+        "createdFormatted": "۲۳ شهریور ۱۴۰۲",
         "duration": 10,
         "linkerId": "email_sender_only",
         "name": "مدیریت ایمیل سرویس",
         "permissions": [
           {
             "capabilityId": "root/emailsender/*",
-            "created": 1694623186110468000,
+            "created": 1694725753286928000,
             "linkerId": "email_sender_only",
-            "uniqueId": "245fc884",
-            "updated": 1694623186110468000
+            "uniqueId": "38cd971f",
+            "updated": 1694725753286928000
           }
         ],
         "product": {
-          "created": 1694623186106247000,
+          "created": 1694725753282582000,
           "name": "OSB Media player",
           "publicKey": "ARR2YUC4DPYH2CDG556BYDZXWVMD2WEFFO3XOA7F3MTAGXCZSPZXTCZL2KPT3OVGXQIB27QCXLB6CIYFLD66V43QAN5KU2I2MATQ7VTTW7N74HINXZL372HZY7PYOJSE4WU6X5ZJJN2QD5M2NWWC47X7ZLVQ====",
           "uniqueId": "osb_media_player",
-          "updated": 1694623186106247000,
+          "updated": 1694725753282582000,
           "userId": "",
           "workspaceId": ""
         },
@@ -34,32 +34,32 @@
           }
         ],
         "uniqueId": "email_sender_only",
-        "updated": 1694623186110141000,
+        "updated": 1694725753286595000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694623186108838000,
-        "createdFormatted": "۲۲ شهریور ۱۴۰۲",
+        "created": 1694725753285176000,
+        "createdFormatted": "۲۳ شهریور ۱۴۰۲",
         "duration": 5,
         "linkerId": "virtual_account_only",
         "name": "مدیریت کیف پول ها",
         "permissions": [
           {
             "capabilityId": "root/virtualaccount/*",
-            "created": 1694623186109147000,
+            "created": 1694725753285513000,
             "linkerId": "virtual_account_only",
-            "uniqueId": "2e0e4fee",
-            "updated": 1694623186109147000
+            "uniqueId": "1878b3c9",
+            "updated": 1694725753285513000
           }
         ],
         "product": {
-          "created": 1694623186106247000,
+          "created": 1694725753282582000,
           "name": "OSB Media player",
           "publicKey": "ARR2YUC4DPYH2CDG556BYDZXWVMD2WEFFO3XOA7F3MTAGXCZSPZXTCZL2KPT3OVGXQIB27QCXLB6CIYFLD66V43QAN5KU2I2MATQ7VTTW7N74HINXZL372HZY7PYOJSE4WU6X5ZJJN2QD5M2NWWC47X7ZLVQ====",
           "uniqueId": "osb_media_player",
-          "updated": 1694623186106247000,
+          "updated": 1694725753282582000,
           "userId": "",
           "workspaceId": ""
         },
@@ -72,7 +72,7 @@
           }
         ],
         "uniqueId": "virtual_account_only",
-        "updated": 1694623186108838000,
+        "updated": 1694725753285176000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""

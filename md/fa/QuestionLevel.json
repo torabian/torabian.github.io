@@ -2,8 +2,8 @@
   "data": {
     "items": [
       {
-        "created": 1694623182622548000,
-        "createdFormatted": "۲۲ شهریور ۱۴۰۲",
+        "created": 1694725749786435000,
+        "createdFormatted": "۲۳ شهریور ۱۴۰۲",
         "linkerId": "national",
         "name": "کشوری",
         "translations": [
@@ -14,13 +14,13 @@
           }
         ],
         "uniqueId": "national",
-        "updated": 1694623182622548000,
+        "updated": 1694725749786435000,
         "userId": "",
         "workspaceId": ""
       },
       {
-        "created": 1694623182621431000,
-        "createdFormatted": "۲۲ شهریور ۱۴۰۲",
+        "created": 1694725749785149000,
+        "createdFormatted": "۲۳ شهریور ۱۴۰۲",
         "linkerId": "provincial",
         "name": "استانی",
         "translations": [
@@ -31,7 +31,7 @@
           }
         ],
         "uniqueId": "provincial",
-        "updated": 1694623182621431000,
+        "updated": 1694725749785149000,
         "userId": "",
         "workspaceId": ""
       }
