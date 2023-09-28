@@ -2,8 +2,8 @@
   "data": {
     "items": [
       {
-        "created": 1694725754109611000,
-        "createdFormatted": "2023/09/14 23:09:14",
+        "created": 1695885217665013000,
+        "createdFormatted": "2023/09/28 09:13:37",
         "name": "Less than",
         "translations": [
           {
@@ -13,14 +13,14 @@
           }
         ],
         "uniqueId": "moreThan",
-        "updated": 1694725754109611000,
+        "updated": 1695885217665013000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694725754108491000,
-        "createdFormatted": "2023/09/14 23:09:14",
+        "created": 1695885217663486000,
+        "createdFormatted": "2023/09/28 09:13:37",
         "name": "Less than",
         "translations": [
           {
@@ -30,14 +30,14 @@
           }
         ],
         "uniqueId": "lessThan",
-        "updated": 1694725754108491000,
+        "updated": 1695885217663486000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694725754107421000,
-        "createdFormatted": "2023/09/14 23:09:14",
+        "created": 1695885217660797000,
+        "createdFormatted": "2023/09/28 09:13:37",
         "name": "Not equal",
         "translations": [
           {
@@ -47,14 +47,14 @@
           }
         ],
         "uniqueId": "notEqual",
-        "updated": 1694725754107421000,
+        "updated": 1695885217660797000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694725754106366000,
-        "createdFormatted": "2023/09/14 23:09:14",
+        "created": 1695885217659066000,
+        "createdFormatted": "2023/09/28 09:13:37",
         "name": "Equal",
         "translations": [
           {
@@ -64,7 +64,7 @@
           }
         ],
         "uniqueId": "equal",
-        "updated": 1694725754106366000,
+        "updated": 1695885217659066000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""

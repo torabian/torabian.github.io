@@ -3,53 +3,53 @@
     "items": [
       {
         "businessData": {
-          "created": 1694725749774608000,
+          "created": 1695885211081364000,
           "name": "Nedayi coffe company",
           "taxNumber": "2910928",
           "translations": [
             {
               "languageId": "fa",
-              "linkerId": "383584f2",
+              "linkerId": "35d03f63",
               "name": "شرکت قهوه ندایی"
             },
             {
               "languageId": "fa",
-              "linkerId": "383584f2",
+              "linkerId": "35d03f63",
               "name": "شرکت قهوه ندایی"
             }
           ],
-          "uniqueId": "383584f2",
-          "updated": 1694725749774608000,
+          "uniqueId": "35d03f63",
+          "updated": 1695885211081364000,
           "userId": "",
           "workspaceId": ""
         },
-        "businessDataId": "383584f2",
-        "created": 1694725749778827000,
-        "createdFormatted": "2023/09/14 23:09:09",
+        "businessDataId": "35d03f63",
+        "created": 1695885211085469000,
+        "createdFormatted": "2023/09/28 09:13:31",
         "locations": [
           {
-            "created": 1694725749777586000,
-            "lat": 35.72085361328543,
-            "lng": 51.4237730660889,
-            "physicalAddress": "اقلیمی",
-            "uniqueId": "d498b94c",
-            "updated": 1694725749777586000,
+            "created": 1695885211082940000,
+            "lat": 35.69030342379057,
+            "lng": 51.38994229594488,
+            "physicalAddress": "تهران کاخ مرمر",
+            "uniqueId": "637f480e",
+            "updated": 1695885211082940000,
             "userId": "",
             "workspaceId": ""
           },
           {
-            "created": 1694725749776326000,
-            "lat": 35.69030342379057,
-            "lng": 51.38994229594488,
-            "physicalAddress": "تهران کاخ مرمر",
-            "uniqueId": "ee17e386",
-            "updated": 1694725749776326000,
+            "created": 1695885211084232000,
+            "lat": 35.72085361328543,
+            "lng": 51.4237730660889,
+            "physicalAddress": "اقلیمی",
+            "uniqueId": "b3ee835d",
+            "updated": 1695885211084232000,
             "userId": "",
             "workspaceId": ""
           }
         ],
         "type": {
-          "created": 1694725749766569000,
+          "created": 1695885211073038000,
           "linkerId": "business",
           "title": "firmowe",
           "translations": [
@@ -65,46 +65,46 @@
             }
           ],
           "uniqueId": "business",
-          "updated": 1694725749766569000,
+          "updated": 1695885211073038000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
         },
         "typeId": "business",
         "uniqueId": "nedyai_coffee",
-        "updated": 1694725749778827000,
+        "updated": 1695885211085469000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1694725749772746000,
-        "createdFormatted": "2023/09/14 23:09:09",
+        "created": 1695885211079411000,
+        "createdFormatted": "2023/09/28 09:13:31",
         "fullName": " ",
         "locations": [
           {
-            "created": 1694725749771623000,
-            "lat": 35.72085361328543,
-            "lng": 51.4237730660889,
-            "physicalAddress": "اقلیمی",
-            "uniqueId": "aee21878",
-            "updated": 1694725749771623000,
+            "created": 1695885211076952000,
+            "lat": 35.69030342379057,
+            "lng": 51.38994229594488,
+            "physicalAddress": "تهران کاخ مرمر",
+            "uniqueId": "640f6a1a",
+            "updated": 1695885211076952000,
             "userId": "",
             "workspaceId": ""
           },
           {
-            "created": 1694725749769578000,
-            "lat": 35.69030342379057,
-            "lng": 51.38994229594488,
-            "physicalAddress": "تهران کاخ مرمر",
-            "uniqueId": "d1b572ae",
-            "updated": 1694725749769578000,
+            "created": 1695885211078294000,
+            "lat": 35.72085361328543,
+            "lng": 51.4237730660889,
+            "physicalAddress": "اقلیمی",
+            "uniqueId": "6ebd8c7c",
+            "updated": 1695885211078294000,
             "userId": "",
             "workspaceId": ""
           }
         ],
         "personalData": {
-          "created": 1694725749768381000,
+          "created": 1695885211075530000,
           "firstName": "Ali",
           "lastName": "Torabi",
           "nationalId": "۴۲۷۰۰۰۰۰۰",
@@ -114,23 +114,23 @@
               "firstName": "علی",
               "languageId": "fa",
               "lastName": "ترابی",
-              "linkerId": "0256d14f"
+              "linkerId": "807d5c3f"
             },
             {
               "firstName": "علی",
               "languageId": "fa",
               "lastName": "ترابی",
-              "linkerId": "0256d14f"
+              "linkerId": "807d5c3f"
             }
           ],
-          "uniqueId": "0256d14f",
-          "updated": 1694725749768381000,
+          "uniqueId": "807d5c3f",
+          "updated": 1695885211075530000,
           "userId": "",
           "workspaceId": ""
         },
-        "personalDataId": "0256d14f",
+        "personalDataId": "807d5c3f",
         "type": {
-          "created": 1694725749765400000,
+          "created": 1695885211071493000,
           "linkerId": "personal",
           "title": "Prywatne",
           "translations": [
@@ -146,14 +146,14 @@
             }
           ],
           "uniqueId": "personal",
-          "updated": 1694725749765400000,
+          "updated": 1695885211071493000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
         },
         "typeId": "personal",
         "uniqueId": "torabi",
-        "updated": 1694725749772746000,
+        "updated": 1695885211079411000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""

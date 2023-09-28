@@ -2,8 +2,8 @@
   "data": {
     "items": [
       {
-        "created": 1694725749800812000,
-        "createdFormatted": "۲۳ شهریور ۱۴۰۲",
+        "created": 1695885211109982000,
+        "createdFormatted": "۶ مهر ۱۴۰۲",
         "linkerId": "1400-1401",
         "name": "سال ۱۴۰۰- ۱۴۰۱",
         "translations": [
@@ -14,13 +14,13 @@
           }
         ],
         "uniqueId": "1400-1401",
-        "updated": 1694725749800812000,
+        "updated": 1695885211109982000,
         "userId": "",
         "workspaceId": ""
       },
       {
-        "created": 1694725749799638000,
-        "createdFormatted": "۲۳ شهریور ۱۴۰۲",
+        "created": 1695885211108402000,
+        "createdFormatted": "۶ مهر ۱۴۰۲",
         "linkerId": "88-89",
         "name": "سال ۸۸-۸۹",
         "translations": [
@@ -31,7 +31,7 @@
           }
         ],
         "uniqueId": "88-89",
-        "updated": 1694725749799638000,
+        "updated": 1695885211108402000,
         "userId": "",
         "workspaceId": ""
       }

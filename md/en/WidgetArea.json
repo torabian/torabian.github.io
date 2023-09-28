@@ -2,8 +2,8 @@
   "data": {
     "items": [
       {
-        "created": 1694725753117924000,
-        "createdFormatted": "2023/09/14 23:09:13",
+        "created": 1695885216408755000,
+        "createdFormatted": "2023/09/28 09:13:36",
         "layouts": "{\"lg\":[{\"w\":2,\"h\":3,\"x\":0,\"y\":0,\"i\":\"gpio1\",\"moved\":false,\"static\":false},{\"w\":2,\"h\":3,\"x\":2,\"y\":0,\"i\":\"gpio2\",\"moved\":false,\"static\":false},{\"w\":2,\"h\":3,\"x\":4,\"y\":0,\"i\":\"gpio3\",\"moved\":false,\"static\":false},{\"w\":6,\"h\":3,\"x\":6,\"y\":0,\"i\":\"temperature_widget\",\"moved\":false,\"static\":false}],\"xs\":[{\"w\":1,\"h\":3,\"x\":0,\"y\":0,\"i\":\"gpio1\",\"moved\":false,\"static\":false},{\"w\":2,\"h\":3,\"x\":1,\"y\":0,\"i\":\"gpio2\",\"moved\":false,\"static\":false},{\"w\":1,\"h\":3,\"x\":3,\"y\":0,\"i\":\"gpio3\",\"moved\":false,\"static\":false},{\"w\":4,\"h\":5,\"x\":0,\"y\":3,\"i\":\"temperature_widget\",\"moved\":false,\"static\":false}],\"md\":[{\"w\":2,\"h\":3,\"x\":0,\"y\":0,\"i\":\"gpio1\",\"moved\":false,\"static\":false},{\"w\":2,\"h\":3,\"x\":2,\"y\":0,\"i\":\"gpio2\",\"moved\":false,\"static\":false},{\"w\":2,\"h\":3,\"x\":4,\"y\":0,\"i\":\"gpio3\",\"moved\":false,\"static\":false},{\"w\":4,\"h\":3,\"x\":6,\"y\":0,\"i\":\"temperature_widget\",\"moved\":false,\"static\":false}],\"sm\":[{\"w\":2,\"h\":3,\"x\":0,\"y\":0,\"i\":\"gpio1\",\"moved\":false,\"static\":false},{\"w\":2,\"h\":3,\"x\":2,\"y\":0,\"i\":\"gpio2\",\"moved\":false,\"static\":false},{\"w\":2,\"h\":6,\"x\":4,\"y\":0,\"i\":\"gpio3\",\"moved\":false,\"static\":false},{\"w\":4,\"h\":3,\"x\":0,\"y\":3,\"i\":\"temperature_widget\",\"moved\":false,\"static\":false}],\"xxs\":[{\"w\":1,\"h\":3,\"x\":0,\"y\":0,\"i\":\"gpio1\",\"moved\":false,\"static\":false},{\"w\":1,\"h\":3,\"x\":0,\"y\":5,\"i\":\"gpio2\",\"moved\":false,\"static\":false},{\"w\":1,\"h\":3,\"x\":1,\"y\":0,\"i\":\"gpio3\",\"moved\":false,\"static\":false},{\"w\":2,\"h\":2,\"x\":0,\"y\":3,\"i\":\"temperature_widget\",\"moved\":false,\"static\":false}]}",
         "name": "Dashboard 1",
         "translations": [
@@ -14,11 +14,11 @@
           }
         ],
         "uniqueId": "dashboard_iot",
-        "updated": 1694725753117924000,
+        "updated": 1695885216408755000,
         "userId": "",
         "widgets": [
           {
-            "created": 1694725753118255000,
+            "created": 1695885216409162000,
             "data": "{\"dataNodeId\": \"GPIO_1\", \"name\": \"GPIO_1\"}",
             "h": 2,
             "linkerId": "dashboard_iot",
@@ -31,23 +31,25 @@
               }
             ],
             "uniqueId": "gpio1",
-            "updated": 1694725753118255000,
+            "updated": 1695885216409162000,
             "w": 2,
             "widget": {
-              "created": 1694725753113722000,
+              "created": 1695885216402888000,
               "name": "Single Digital Writer",
               "providerKey": "single_digital_gpio",
               "uniqueId": "single_digital_gpio",
-              "updated": 1694725753113722000,
+              "updated": 1695885216402888000,
               "userId": "",
               "visibility": "A",
               "workspaceId": ""
             },
             "widgetId": "single_digital_gpio",
-            "workspaceId": "root"
+            "workspaceId": "root",
+            "x": 0,
+            "y": 0
           },
           {
-            "created": 1694725753118255000,
+            "created": 1695885216409162000,
             "data": "{\"dataNodeId\": \"GPIO_2\", \"name\": \"GPIO_2\"}",
             "h": 2,
             "linkerId": "dashboard_iot",
@@ -60,23 +62,24 @@
               }
             ],
             "uniqueId": "gpio2",
-            "updated": 1694725753118255000,
+            "updated": 1695885216409162000,
             "w": 2,
             "widget": {
-              "created": 1694725753113722000,
+              "created": 1695885216402888000,
               "name": "Single Digital Writer",
               "providerKey": "single_digital_gpio",
               "uniqueId": "single_digital_gpio",
-              "updated": 1694725753113722000,
+              "updated": 1695885216402888000,
               "userId": "",
               "visibility": "A",
               "workspaceId": ""
             },
             "widgetId": "single_digital_gpio",
-            "x": 2
+            "x": 2,
+            "y": 0
           },
           {
-            "created": 1694725753118255000,
+            "created": 1695885216409162000,
             "data": "{\"dataNodeId\": \"GPIO_3\", \"name\": \"GPIO_3\"}",
             "h": 2,
             "linkerId": "dashboard_iot",
@@ -89,24 +92,25 @@
               }
             ],
             "uniqueId": "gpio3",
-            "updated": 1694725753118255000,
+            "updated": 1695885216409162000,
             "w": 2,
             "widget": {
-              "created": 1694725753113722000,
+              "created": 1695885216402888000,
               "name": "Single Digital Writer",
               "providerKey": "single_digital_gpio",
               "uniqueId": "single_digital_gpio",
-              "updated": 1694725753113722000,
+              "updated": 1695885216402888000,
               "userId": "",
               "visibility": "A",
               "workspaceId": ""
             },
             "widgetId": "single_digital_gpio",
             "workspaceId": "root",
-            "x": 4
+            "x": 4,
+            "y": 0
           },
           {
-            "created": 1694725753118255000,
+            "created": 1695885216409162000,
             "data": "{\"dataNodeId\": \"GPIO_8\", \"name\": \"Fan Speed (IO8)\"}",
             "h": 2,
             "linkerId": "dashboard_iot",
@@ -119,21 +123,22 @@
               }
             ],
             "uniqueId": "temperature_widget",
-            "updated": 1694725753118255000,
+            "updated": 1695885216409162000,
             "w": 2,
             "widget": {
-              "created": 1694725753116280000,
+              "created": 1695885216406515000,
               "name": "Numeric Value Realtime Chart",
               "providerKey": "numeric_value_realtime_chart",
               "uniqueId": "numeric_value_realtime_chart",
-              "updated": 1694725753116280000,
+              "updated": 1695885216406515000,
               "userId": "",
               "visibility": "A",
               "workspaceId": ""
             },
             "widgetId": "numeric_value_realtime_chart",
             "workspaceId": "root",
-            "x": 4
+            "x": 4,
+            "y": 0
           }
         ],
         "workspaceId": ""

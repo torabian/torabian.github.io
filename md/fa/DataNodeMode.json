@@ -1,0 +1,40 @@
+{
+  "data": {
+    "items": [
+      {
+        "created": 1695885217743004000,
+        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "name": "readwrite",
+        "uniqueId": "readwrite",
+        "updated": 1695885217743004000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "created": 1695885217741763000,
+        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "name": "Write",
+        "uniqueId": "write",
+        "updated": 1695885217741763000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      },
+      {
+        "created": 1695885217740521000,
+        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "name": "Read",
+        "uniqueId": "read",
+        "updated": 1695885217740521000,
+        "userId": "",
+        "visibility": "A",
+        "workspaceId": ""
+      }
+    ],
+    "itemsPerPage": 9999,
+    "startIndex": 0,
+    "totalAvailableItems": 3,
+    "totalItems": 3
+  }
+}

@@ -2,14 +2,14 @@
   "data": {
     "items": [
       {
-        "created": 1694725754148708000,
-        "createdFormatted": "2023/09/14 23:09:14",
+        "created": 1695885217730373000,
+        "createdFormatted": "2023/09/28 09:13:37",
         "name": "GPIO Trigger",
         "triggerType": {
-          "created": 1694725754103899000,
+          "created": 1695885217654821000,
           "name": "GPIO Change",
           "uniqueId": "gpiovalue",
-          "updated": 1694725754103899000,
+          "updated": 1695885217654821000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
@@ -18,43 +18,43 @@
           "beginHour": 1500,
           "compareTypeId": "moreThan",
           "compareValueInt": 100,
-          "created": 1694725754148932000,
+          "created": 1695885217730678000,
           "endHour": 1930,
           "gpioId": "ESP32_GPIO0",
           "linkerId": "gpiovalue",
           "thresholdPrecentage": 10,
-          "uniqueId": "7787bf20",
-          "updated": 1694725754148932000
+          "uniqueId": "d674146b",
+          "updated": 1695885217730678000
         },
         "triggerTypeId": "gpiovalue",
         "uniqueId": "gpiovalue",
-        "updated": 1694725754148708000,
+        "updated": 1695885217730373000,
         "userId": "",
         "workspaceId": ""
       },
       {
-        "created": 1694725754147435000,
-        "createdFormatted": "2023/09/14 23:09:14",
+        "created": 1695885217728641000,
+        "createdFormatted": "2023/09/28 09:13:37",
         "name": "Time Trigger",
         "triggerType": {
-          "created": 1694725754105056000,
+          "created": 1695885217656489000,
           "name": "Cronjob",
           "uniqueId": "cronjob",
-          "updated": 1694725754105056000,
+          "updated": 1695885217656489000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
         },
         "triggerTypeCronjob": {
-          "created": 1694725754147664000,
+          "created": 1695885217728953000,
           "expression": "* 2 8 5 2",
           "linkerId": "trigger",
-          "uniqueId": "ca3a2d49",
-          "updated": 1694725754147664000
+          "uniqueId": "451387f4",
+          "updated": 1695885217728953000
         },
         "triggerTypeId": "cronjob",
         "uniqueId": "trigger",
-        "updated": 1694725754147435000,
+        "updated": 1695885217728641000,
         "userId": "",
         "workspaceId": ""
       }
