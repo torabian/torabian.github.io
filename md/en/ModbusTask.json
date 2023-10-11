@@ -3,26 +3,26 @@
     "items": [
       {
         "connectionType": {
-          "created": 1697058135927193000,
+          "created": 1697067574806390000,
           "name": "TCP",
           "uniqueId": "tcp",
-          "updated": 1697058135927193000,
+          "updated": 1697067574806390000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
         },
         "connectionTypeId": "tcp",
-        "created": 1697058135970998000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574845265000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "device": {
-          "created": 1697058135954644000,
+          "created": 1697067574832182000,
           "ip": "192.168.1.2",
           "model": "298031984920",
           "name": "Device 1",
           "securityType": "WAP2",
           "typeId": "modbus",
           "uniqueId": "device_modbus",
-          "updated": 1697058135954644000,
+          "updated": 1697067574832182000,
           "userId": "",
           "visibility": "A",
           "wifiPassword": "12345678",
@@ -32,10 +32,10 @@
         "deviceId": "device_modbus",
         "functionCode": {
           "code": 5,
-          "created": 1697058135933671000,
+          "created": 1697067574812109000,
           "name": "Write Single Coil",
           "uniqueId": "5",
-          "updated": 1697058135933671000,
+          "updated": 1697067574812109000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""
@@ -48,13 +48,13 @@
         "readInterval": 50,
         "register": 10,
         "uniqueId": "Task 1",
-        "updated": 1697058135970998000,
+        "updated": 1697067574845265000,
         "userId": "",
         "variableType": {
-          "created": 1697058135928596000,
+          "created": 1697067574807596000,
           "name": "Integer",
           "uniqueId": "integer",
-          "updated": 1697058135928596000,
+          "updated": 1697067574807596000,
           "userId": "",
           "visibility": "A",
           "workspaceId": ""

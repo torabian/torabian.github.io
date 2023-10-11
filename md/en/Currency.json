@@ -2,8 +2,8 @@
   "data": {
     "items": [
       {
-        "created": 1697058135149195000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574051635000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "Zimbabwean Dollar",
         "namePlural": "Zimbabwean Dollar",
@@ -18,14 +18,14 @@
           }
         ],
         "uniqueId": "ZWL",
-        "updated": 1697058135149195000,
+        "updated": 1697067574051635000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135148152000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574050596000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "Zambian Kwacha",
         "namePlural": "Zambian kwachas",
@@ -40,14 +40,14 @@
           }
         ],
         "uniqueId": "ZMK",
-        "updated": 1697058135148152000,
+        "updated": 1697067574050596000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135147163000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574049406000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "South African Rand",
         "namePlural": "South African rand",
@@ -62,14 +62,14 @@
           }
         ],
         "uniqueId": "ZAR",
-        "updated": 1697058135147163000,
+        "updated": 1697067574049406000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135146131000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574047799000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "Yemeni Rial",
         "namePlural": "Yemeni rials",
@@ -84,14 +84,14 @@
           }
         ],
         "uniqueId": "YER",
-        "updated": 1697058135146131000,
+        "updated": 1697067574047799000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135145098000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574046744000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "CFA Franc BCEAO",
         "namePlural": "CFA francs BCEAO",
@@ -106,14 +106,14 @@
           }
         ],
         "uniqueId": "XOF",
-        "updated": 1697058135145098000,
+        "updated": 1697067574046744000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135143619000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574045756000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "CFA Franc BEAC",
         "namePlural": "CFA francs BEAC",
@@ -128,14 +128,14 @@
           }
         ],
         "uniqueId": "XAF",
-        "updated": 1697058135143619000,
+        "updated": 1697067574045756000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135142605000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574044765000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "Vietnamese Dong",
         "namePlural": "Vietnamese dong",
@@ -150,14 +150,14 @@
           }
         ],
         "uniqueId": "VND",
-        "updated": 1697058135142605000,
+        "updated": 1697067574044765000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135141620000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574043715000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Venezuelan Bolívar",
         "namePlural": "Venezuelan bolívars",
@@ -172,14 +172,14 @@
           }
         ],
         "uniqueId": "VEF",
-        "updated": 1697058135141620000,
+        "updated": 1697067574043715000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135140626000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574042635000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "Uzbekistan Som",
         "namePlural": "Uzbekistan som",
@@ -194,14 +194,14 @@
           }
         ],
         "uniqueId": "UZS",
-        "updated": 1697058135140626000,
+        "updated": 1697067574042635000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135139601000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574041640000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Uruguayan Peso",
         "namePlural": "Uruguayan pesos",
@@ -216,14 +216,14 @@
           }
         ],
         "uniqueId": "UYU",
-        "updated": 1697058135139601000,
+        "updated": 1697067574041640000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135138536000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574040572000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "Ugandan Shilling",
         "namePlural": "Ugandan shillings",
@@ -238,14 +238,14 @@
           }
         ],
         "uniqueId": "UGX",
-        "updated": 1697058135138536000,
+        "updated": 1697067574040572000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135137478000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574039355000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Ukrainian Hryvnia",
         "namePlural": "Ukrainian hryvnias",
@@ -260,14 +260,14 @@
           }
         ],
         "uniqueId": "UAH",
-        "updated": 1697058135137478000,
+        "updated": 1697067574039355000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135136175000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574038343000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "Tanzanian Shilling",
         "namePlural": "Tanzanian shillings",
@@ -282,14 +282,14 @@
           }
         ],
         "uniqueId": "TZS",
-        "updated": 1697058135136175000,
+        "updated": 1697067574038343000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135135139000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574037177000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "New Taiwan Dollar",
         "namePlural": "New Taiwan dollars",
@@ -304,14 +304,14 @@
           }
         ],
         "uniqueId": "TWD",
-        "updated": 1697058135135139000,
+        "updated": 1697067574037177000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135134089000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574036012000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Trinidad and Tobago Dollar",
         "namePlural": "Trinidad and Tobago dollars",
@@ -326,14 +326,14 @@
           }
         ],
         "uniqueId": "TTD",
-        "updated": 1697058135134089000,
+        "updated": 1697067574036012000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135132939000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574035028000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Turkish Lira",
         "namePlural": "Turkish Lira",
@@ -348,14 +348,14 @@
           }
         ],
         "uniqueId": "TRY",
-        "updated": 1697058135132939000,
+        "updated": 1697067574035028000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135131961000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574034019000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Tongan Paʻanga",
         "namePlural": "Tongan paʻanga",
@@ -370,14 +370,14 @@
           }
         ],
         "uniqueId": "TOP",
-        "updated": 1697058135131961000,
+        "updated": 1697067574034019000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135130898000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574032974000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 3,
         "name": "Tunisian Dinar",
         "namePlural": "Tunisian dinars",
@@ -392,14 +392,14 @@
           }
         ],
         "uniqueId": "TND",
-        "updated": 1697058135130898000,
+        "updated": 1697067574032974000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135129905000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574031945000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Thai Baht",
         "namePlural": "Thai baht",
@@ -414,14 +414,14 @@
           }
         ],
         "uniqueId": "THB",
-        "updated": 1697058135129905000,
+        "updated": 1697067574031945000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135128914000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574030964000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "Syrian Pound",
         "namePlural": "Syrian pounds",
@@ -436,14 +436,14 @@
           }
         ],
         "uniqueId": "SYP",
-        "updated": 1697058135128914000,
+        "updated": 1697067574030964000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135127545000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574029960000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "Somali Shilling",
         "namePlural": "Somali shillings",
@@ -458,14 +458,14 @@
           }
         ],
         "uniqueId": "SOS",
-        "updated": 1697058135127545000,
+        "updated": 1697067574029960000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135126140000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574028957000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Singapore Dollar",
         "namePlural": "Singapore dollars",
@@ -480,14 +480,14 @@
           }
         ],
         "uniqueId": "SGD",
-        "updated": 1697058135126140000,
+        "updated": 1697067574028957000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135125156000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574027928000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Swedish Krona",
         "namePlural": "Swedish kronor",
@@ -502,14 +502,14 @@
           }
         ],
         "uniqueId": "SEK",
-        "updated": 1697058135125156000,
+        "updated": 1697067574027928000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135124066000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574026809000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Sudanese Pound",
         "namePlural": "Sudanese pounds",
@@ -524,14 +524,14 @@
           }
         ],
         "uniqueId": "SDG",
-        "updated": 1697058135124066000,
+        "updated": 1697067574026809000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135123079000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574025788000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Saudi Riyal",
         "namePlural": "Saudi riyals",
@@ -546,14 +546,14 @@
           }
         ],
         "uniqueId": "SAR",
-        "updated": 1697058135123079000,
+        "updated": 1697067574025788000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135122026000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574024421000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "Rwandan Franc",
         "namePlural": "Rwandan francs",
@@ -568,14 +568,14 @@
           }
         ],
         "uniqueId": "RWF",
-        "updated": 1697058135122026000,
+        "updated": 1697067574024421000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135120970000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574023027000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Russian Ruble",
         "namePlural": "Russian rubles",
@@ -590,14 +590,14 @@
           }
         ],
         "uniqueId": "RUB",
-        "updated": 1697058135120970000,
+        "updated": 1697067574023027000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135119881000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574021941000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "Serbian Dinar",
         "namePlural": "Serbian dinars",
@@ -612,14 +612,14 @@
           }
         ],
         "uniqueId": "RSD",
-        "updated": 1697058135119881000,
+        "updated": 1697067574021941000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135118833000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574020792000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Romanian Leu",
         "namePlural": "Romanian lei",
@@ -634,14 +634,14 @@
           }
         ],
         "uniqueId": "RON",
-        "updated": 1697058135118833000,
+        "updated": 1697067574020792000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135117673000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574019646000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Qatari Rial",
         "namePlural": "Qatari rials",
@@ -656,14 +656,14 @@
           }
         ],
         "uniqueId": "QAR",
-        "updated": 1697058135117673000,
+        "updated": 1697067574019646000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135116678000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574018463000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "Paraguayan Guarani",
         "namePlural": "Paraguayan guaranis",
@@ -678,14 +678,14 @@
           }
         ],
         "uniqueId": "PYG",
-        "updated": 1697058135116678000,
+        "updated": 1697067574018463000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135115664000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574017355000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Polish Zloty",
         "namePlural": "Polish zlotys",
@@ -700,14 +700,14 @@
           }
         ],
         "uniqueId": "PLN",
-        "updated": 1697058135115664000,
+        "updated": 1697067574017355000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135114629000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574016284000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "Pakistani Rupee",
         "namePlural": "Pakistani rupees",
@@ -722,14 +722,14 @@
           }
         ],
         "uniqueId": "PKR",
-        "updated": 1697058135114629000,
+        "updated": 1697067574016284000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135113253000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574015309000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Philippine Peso",
         "namePlural": "Philippine pesos",
@@ -744,14 +744,14 @@
           }
         ],
         "uniqueId": "PHP",
-        "updated": 1697058135113253000,
+        "updated": 1697067574015309000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135111919000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574014259000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Peruvian Nuevo Sol",
         "namePlural": "Peruvian nuevos soles",
@@ -766,14 +766,14 @@
           }
         ],
         "uniqueId": "PEN",
-        "updated": 1697058135111919000,
+        "updated": 1697067574014259000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135110799000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574013295000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Panamanian Balboa",
         "namePlural": "Panamanian balboas",
@@ -788,14 +788,14 @@
           }
         ],
         "uniqueId": "PAB",
-        "updated": 1697058135110799000,
+        "updated": 1697067574013295000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135109804000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574012311000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 3,
         "name": "Omani Rial",
         "namePlural": "Omani rials",
@@ -810,14 +810,14 @@
           }
         ],
         "uniqueId": "OMR",
-        "updated": 1697058135109804000,
+        "updated": 1697067574012311000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135108752000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574011185000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "New Zealand Dollar",
         "namePlural": "New Zealand dollars",
@@ -832,14 +832,14 @@
           }
         ],
         "uniqueId": "NZD",
-        "updated": 1697058135108752000,
+        "updated": 1697067574011185000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135107669000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574010161000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Nepalese Rupee",
         "namePlural": "Nepalese rupees",
@@ -854,14 +854,14 @@
           }
         ],
         "uniqueId": "NPR",
-        "updated": 1697058135107669000,
+        "updated": 1697067574010161000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135106223000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574009069000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Norwegian Krone",
         "namePlural": "Norwegian kroner",
@@ -876,14 +876,14 @@
           }
         ],
         "uniqueId": "NOK",
-        "updated": 1697058135106223000,
+        "updated": 1697067574009069000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135104715000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574008006000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Nicaraguan Córdoba",
         "namePlural": "Nicaraguan córdobas",
@@ -898,14 +898,14 @@
           }
         ],
         "uniqueId": "NIO",
-        "updated": 1697058135104715000,
+        "updated": 1697067574008006000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135103452000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574007006000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Nigerian Naira",
         "namePlural": "Nigerian nairas",
@@ -920,14 +920,14 @@
           }
         ],
         "uniqueId": "NGN",
-        "updated": 1697058135103452000,
+        "updated": 1697067574007006000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135102237000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574005821000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Namibian Dollar",
         "namePlural": "Namibian dollars",
@@ -942,14 +942,14 @@
           }
         ],
         "uniqueId": "NAD",
-        "updated": 1697058135102237000,
+        "updated": 1697067574005821000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135101195000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574004817000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Mozambican Metical",
         "namePlural": "Mozambican meticals",
@@ -964,14 +964,14 @@
           }
         ],
         "uniqueId": "MZN",
-        "updated": 1697058135101195000,
+        "updated": 1697067574004817000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135100078000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574003827000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Malaysian Ringgit",
         "namePlural": "Malaysian ringgits",
@@ -986,14 +986,14 @@
           }
         ],
         "uniqueId": "MYR",
-        "updated": 1697058135100078000,
+        "updated": 1697067574003827000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135099095000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574002814000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Mexican Peso",
         "namePlural": "Mexican pesos",
@@ -1008,14 +1008,14 @@
           }
         ],
         "uniqueId": "MXN",
-        "updated": 1697058135099095000,
+        "updated": 1697067574002814000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135098043000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574001750000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 0,
         "name": "Mauritian Rupee",
         "namePlural": "Mauritian rupees",
@@ -1030,14 +1030,14 @@
           }
         ],
         "uniqueId": "MUR",
-        "updated": 1697058135098043000,
+        "updated": 1697067574001750000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135097047000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574000442000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "decimalDigits": 2,
         "name": "Macanese Pataca",
         "namePlural": "Macanese patacas",
@@ -1052,14 +1052,14 @@
           }
         ],
         "uniqueId": "MOP",
-        "updated": 1697058135097047000,
+        "updated": 1697067574000442000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135096054000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573999455000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Myanma Kyat",
         "namePlural": "Myanma kyats",
@@ -1074,14 +1074,14 @@
           }
         ],
         "uniqueId": "MMK",
-        "updated": 1697058135096054000,
+        "updated": 1697067573999455000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135094988000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573998463000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Macedonian Denar",
         "namePlural": "Macedonian denari",
@@ -1096,14 +1096,14 @@
           }
         ],
         "uniqueId": "MKD",
-        "updated": 1697058135094988000,
+        "updated": 1697067573998463000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135093960000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573997433000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Malagasy Ariary",
         "namePlural": "Malagasy Ariaries",
@@ -1118,14 +1118,14 @@
           }
         ],
         "uniqueId": "MGA",
-        "updated": 1697058135093960000,
+        "updated": 1697067573997433000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135092892000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573996426000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Moldovan Leu",
         "namePlural": "Moldovan lei",
@@ -1140,14 +1140,14 @@
           }
         ],
         "uniqueId": "MDL",
-        "updated": 1697058135092892000,
+        "updated": 1697067573996426000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135090948000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573995332000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Moroccan Dirham",
         "namePlural": "Moroccan dirhams",
@@ -1162,14 +1162,14 @@
           }
         ],
         "uniqueId": "MAD",
-        "updated": 1697058135090948000,
+        "updated": 1697067573995332000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135089946000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573994348000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 3,
         "name": "Libyan Dinar",
         "namePlural": "Libyan dinars",
@@ -1184,14 +1184,14 @@
           }
         ],
         "uniqueId": "LYD",
-        "updated": 1697058135089946000,
+        "updated": 1697067573994348000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135088793000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573993336000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Latvian Lats",
         "namePlural": "Latvian lati",
@@ -1206,14 +1206,14 @@
           }
         ],
         "uniqueId": "LVL",
-        "updated": 1697058135088793000,
+        "updated": 1697067573993336000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135087800000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573992305000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Lithuanian Litas",
         "namePlural": "Lithuanian litai",
@@ -1228,14 +1228,14 @@
           }
         ],
         "uniqueId": "LTL",
-        "updated": 1697058135087800000,
+        "updated": 1697067573992305000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135086795000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573990949000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Sri Lankan Rupee",
         "namePlural": "Sri Lankan rupees",
@@ -1250,14 +1250,14 @@
           }
         ],
         "uniqueId": "LKR",
-        "updated": 1697058135086795000,
+        "updated": 1697067573990949000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135085815000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573989604000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Lebanese Pound",
         "namePlural": "Lebanese pounds",
@@ -1272,14 +1272,14 @@
           }
         ],
         "uniqueId": "LBP",
-        "updated": 1697058135085815000,
+        "updated": 1697067573989604000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135084734000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573988592000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Kazakhstani Tenge",
         "namePlural": "Kazakhstani tenges",
@@ -1294,14 +1294,14 @@
           }
         ],
         "uniqueId": "KZT",
-        "updated": 1697058135084734000,
+        "updated": 1697067573988592000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135083479000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573987613000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 3,
         "name": "Kuwaiti Dinar",
         "namePlural": "Kuwaiti dinars",
@@ -1316,14 +1316,14 @@
           }
         ],
         "uniqueId": "KWD",
-        "updated": 1697058135083479000,
+        "updated": 1697067573987613000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135082486000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573986602000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "South Korean Won",
         "namePlural": "South Korean won",
@@ -1338,14 +1338,14 @@
           }
         ],
         "uniqueId": "KRW",
-        "updated": 1697058135082486000,
+        "updated": 1697067573986602000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135081187000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573985380000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Comorian Franc",
         "namePlural": "Comorian francs",
@@ -1360,14 +1360,14 @@
           }
         ],
         "uniqueId": "KMF",
-        "updated": 1697058135081187000,
+        "updated": 1697067573985380000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135080166000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573984233000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Cambodian Riel",
         "namePlural": "Cambodian riels",
@@ -1382,14 +1382,14 @@
           }
         ],
         "uniqueId": "KHR",
-        "updated": 1697058135080166000,
+        "updated": 1697067573984233000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135079171000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573983252000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Kenyan Shilling",
         "namePlural": "Kenyan shillings",
@@ -1404,14 +1404,14 @@
           }
         ],
         "uniqueId": "KES",
-        "updated": 1697058135079171000,
+        "updated": 1697067573983252000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135077845000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573982211000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Japanese Yen",
         "namePlural": "Japanese yen",
@@ -1426,14 +1426,14 @@
           }
         ],
         "uniqueId": "JPY",
-        "updated": 1697058135077845000,
+        "updated": 1697067573982211000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135076176000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573981193000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 3,
         "name": "Jordanian Dinar",
         "namePlural": "Jordanian dinars",
@@ -1448,14 +1448,14 @@
           }
         ],
         "uniqueId": "JOD",
-        "updated": 1697058135076176000,
+        "updated": 1697067573981193000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135074590000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573980195000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Jamaican Dollar",
         "namePlural": "Jamaican dollars",
@@ -1470,14 +1470,14 @@
           }
         ],
         "uniqueId": "JMD",
-        "updated": 1697058135074590000,
+        "updated": 1697067573980195000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135073282000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573978838000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Icelandic Króna",
         "namePlural": "Icelandic krónur",
@@ -1492,14 +1492,14 @@
           }
         ],
         "uniqueId": "ISK",
-        "updated": 1697058135073282000,
+        "updated": 1697067573978838000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135071884000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573977813000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Iranian Rial",
         "namePlural": "Iranian rials",
@@ -1514,14 +1514,14 @@
           }
         ],
         "uniqueId": "IRR",
-        "updated": 1697058135071884000,
+        "updated": 1697067573977813000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135070272000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573976727000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Iraqi Dinar",
         "namePlural": "Iraqi dinars",
@@ -1536,14 +1536,14 @@
           }
         ],
         "uniqueId": "IQD",
-        "updated": 1697058135070272000,
+        "updated": 1697067573976727000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135068707000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573975661000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Indian Rupee",
         "namePlural": "Indian rupees",
@@ -1558,14 +1558,14 @@
           }
         ],
         "uniqueId": "INR",
-        "updated": 1697058135068707000,
+        "updated": 1697067573975661000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135067194000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573974642000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Israeli New Sheqel",
         "namePlural": "Israeli new sheqels",
@@ -1580,14 +1580,14 @@
           }
         ],
         "uniqueId": "ILS",
-        "updated": 1697058135067194000,
+        "updated": 1697067573974642000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135065981000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573973486000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Indonesian Rupiah",
         "namePlural": "Indonesian rupiahs",
@@ -1602,14 +1602,14 @@
           }
         ],
         "uniqueId": "IDR",
-        "updated": 1697058135065981000,
+        "updated": 1697067573973486000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135064581000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573972447000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Hungarian Forint",
         "namePlural": "Hungarian forints",
@@ -1624,14 +1624,14 @@
           }
         ],
         "uniqueId": "HUF",
-        "updated": 1697058135064581000,
+        "updated": 1697067573972447000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135063184000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573971391000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Croatian Kuna",
         "namePlural": "Croatian kunas",
@@ -1646,14 +1646,14 @@
           }
         ],
         "uniqueId": "HRK",
-        "updated": 1697058135063184000,
+        "updated": 1697067573971391000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135061641000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573970359000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Honduran Lempira",
         "namePlural": "Honduran lempiras",
@@ -1668,14 +1668,14 @@
           }
         ],
         "uniqueId": "HNL",
-        "updated": 1697058135061641000,
+        "updated": 1697067573970359000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135060011000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573969159000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Hong Kong Dollar",
         "namePlural": "Hong Kong dollars",
@@ -1690,14 +1690,14 @@
           }
         ],
         "uniqueId": "HKD",
-        "updated": 1697058135060011000,
+        "updated": 1697067573969159000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135058472000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573967775000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Guatemalan Quetzal",
         "namePlural": "Guatemalan quetzals",
@@ -1712,14 +1712,14 @@
           }
         ],
         "uniqueId": "GTQ",
-        "updated": 1697058135058472000,
+        "updated": 1697067573967775000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135056990000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573966430000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Guinean Franc",
         "namePlural": "Guinean francs",
@@ -1734,14 +1734,14 @@
           }
         ],
         "uniqueId": "GNF",
-        "updated": 1697058135056990000,
+        "updated": 1697067573966430000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135055721000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573965300000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Ghanaian Cedi",
         "namePlural": "Ghanaian cedis",
@@ -1756,14 +1756,14 @@
           }
         ],
         "uniqueId": "GHS",
-        "updated": 1697058135055721000,
+        "updated": 1697067573965300000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135054396000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573964257000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Georgian Lari",
         "namePlural": "Georgian laris",
@@ -1778,14 +1778,14 @@
           }
         ],
         "uniqueId": "GEL",
-        "updated": 1697058135054396000,
+        "updated": 1697067573964257000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135053342000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573963236000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "British Pound Sterling",
         "namePlural": "British pounds sterling",
@@ -1800,14 +1800,14 @@
           }
         ],
         "uniqueId": "GBP",
-        "updated": 1697058135053342000,
+        "updated": 1697067573963236000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135052122000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573962142000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Ethiopian Birr",
         "namePlural": "Ethiopian birrs",
@@ -1822,14 +1822,14 @@
           }
         ],
         "uniqueId": "ETB",
-        "updated": 1697058135052122000,
+        "updated": 1697067573962142000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135050570000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573961070000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Eritrean Nakfa",
         "namePlural": "Eritrean nakfas",
@@ -1844,14 +1844,14 @@
           }
         ],
         "uniqueId": "ERN",
-        "updated": 1697058135050570000,
+        "updated": 1697067573961070000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135049084000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573960116000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Egyptian Pound",
         "namePlural": "Egyptian pounds",
@@ -1866,14 +1866,14 @@
           }
         ],
         "uniqueId": "EGP",
-        "updated": 1697058135049084000,
+        "updated": 1697067573960116000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135047892000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573958865000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Estonian Kroon",
         "namePlural": "Estonian kroons",
@@ -1888,14 +1888,14 @@
           }
         ],
         "uniqueId": "EEK",
-        "updated": 1697058135047892000,
+        "updated": 1697067573958865000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135046741000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573957900000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Algerian Dinar",
         "namePlural": "Algerian dinars",
@@ -1910,14 +1910,14 @@
           }
         ],
         "uniqueId": "DZD",
-        "updated": 1697058135046741000,
+        "updated": 1697067573957900000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135044967000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573956664000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Dominican Peso",
         "namePlural": "Dominican pesos",
@@ -1932,14 +1932,14 @@
           }
         ],
         "uniqueId": "DOP",
-        "updated": 1697058135044967000,
+        "updated": 1697067573956664000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135043907000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573955193000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Danish Krone",
         "namePlural": "Danish kroner",
@@ -1954,14 +1954,14 @@
           }
         ],
         "uniqueId": "DKK",
-        "updated": 1697058135043907000,
+        "updated": 1697067573955193000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135042856000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573953868000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Djiboutian Franc",
         "namePlural": "Djiboutian francs",
@@ -1976,14 +1976,14 @@
           }
         ],
         "uniqueId": "DJF",
-        "updated": 1697058135042856000,
+        "updated": 1697067573953868000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135040784000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573952567000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Czech Republic Koruna",
         "namePlural": "Czech Republic korunas",
@@ -1998,14 +1998,14 @@
           }
         ],
         "uniqueId": "CZK",
-        "updated": 1697058135040784000,
+        "updated": 1697067573952567000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135039797000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573951305000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Cape Verdean Escudo",
         "namePlural": "Cape Verdean escudos",
@@ -2020,14 +2020,14 @@
           }
         ],
         "uniqueId": "CVE",
-        "updated": 1697058135039797000,
+        "updated": 1697067573951305000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135038794000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573950139000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Costa Rican Colón",
         "namePlural": "Costa Rican colóns",
@@ -2042,14 +2042,14 @@
           }
         ],
         "uniqueId": "CRC",
-        "updated": 1697058135038794000,
+        "updated": 1697067573950139000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135037104000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573949011000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Colombian Peso",
         "namePlural": "Colombian pesos",
@@ -2064,14 +2064,14 @@
           }
         ],
         "uniqueId": "COP",
-        "updated": 1697058135037104000,
+        "updated": 1697067573949011000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135036089000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573948037000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Chinese Yuan",
         "namePlural": "Chinese yuan",
@@ -2086,14 +2086,14 @@
           }
         ],
         "uniqueId": "CNY",
-        "updated": 1697058135036089000,
+        "updated": 1697067573948037000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135034375000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573946730000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Chilean Peso",
         "namePlural": "Chilean pesos",
@@ -2108,14 +2108,14 @@
           }
         ],
         "uniqueId": "CLP",
-        "updated": 1697058135034375000,
+        "updated": 1697067573946730000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135032462000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573945743000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Swiss Franc",
         "namePlural": "Swiss francs",
@@ -2130,14 +2130,14 @@
           }
         ],
         "uniqueId": "CHF",
-        "updated": 1697058135032462000,
+        "updated": 1697067573945743000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135030450000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573944696000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Congolese Franc",
         "namePlural": "Congolese francs",
@@ -2152,14 +2152,14 @@
           }
         ],
         "uniqueId": "CDF",
-        "updated": 1697058135030450000,
+        "updated": 1697067573944696000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135029403000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573943719000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Belize Dollar",
         "namePlural": "Belize dollars",
@@ -2174,14 +2174,14 @@
           }
         ],
         "uniqueId": "BZD",
-        "updated": 1697058135029403000,
+        "updated": 1697067573943719000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135027894000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573942593000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Belarusian Ruble",
         "namePlural": "Belarusian rubles",
@@ -2196,14 +2196,14 @@
           }
         ],
         "uniqueId": "BYN",
-        "updated": 1697058135027894000,
+        "updated": 1697067573942593000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135026695000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573941611000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Botswanan Pula",
         "namePlural": "Botswanan pulas",
@@ -2218,14 +2218,14 @@
           }
         ],
         "uniqueId": "BWP",
-        "updated": 1697058135026695000,
+        "updated": 1697067573941611000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135025487000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573940510000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Brazilian Real",
         "namePlural": "Brazilian reals",
@@ -2240,14 +2240,14 @@
           }
         ],
         "uniqueId": "BRL",
-        "updated": 1697058135025487000,
+        "updated": 1697067573940510000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135024268000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573939441000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Bolivian Boliviano",
         "namePlural": "Bolivian bolivianos",
@@ -2262,14 +2262,14 @@
           }
         ],
         "uniqueId": "BOB",
-        "updated": 1697058135024268000,
+        "updated": 1697067573939441000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135023068000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573938294000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Brunei Dollar",
         "namePlural": "Brunei dollars",
@@ -2284,14 +2284,14 @@
           }
         ],
         "uniqueId": "BND",
-        "updated": 1697058135023068000,
+        "updated": 1697067573938294000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135021740000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573937123000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Burundian Franc",
         "namePlural": "Burundian francs",
@@ -2306,14 +2306,14 @@
           }
         ],
         "uniqueId": "BIF",
-        "updated": 1697058135021740000,
+        "updated": 1697067573937123000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135020590000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573936030000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 3,
         "name": "Bahraini Dinar",
         "namePlural": "Bahraini dinars",
@@ -2328,14 +2328,14 @@
           }
         ],
         "uniqueId": "BHD",
-        "updated": 1697058135020590000,
+        "updated": 1697067573936030000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135019235000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573934946000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Bulgarian Lev",
         "namePlural": "Bulgarian leva",
@@ -2350,14 +2350,14 @@
           }
         ],
         "uniqueId": "BGN",
-        "updated": 1697058135019235000,
+        "updated": 1697067573934946000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135018256000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573933758000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Bangladeshi Taka",
         "namePlural": "Bangladeshi takas",
@@ -2372,14 +2372,14 @@
           }
         ],
         "uniqueId": "BDT",
-        "updated": 1697058135018256000,
+        "updated": 1697067573933758000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135017263000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573932670000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Bosnia-Herzegovina Convertible Mark",
         "namePlural": "Bosnia-Herzegovina convertible marks",
@@ -2394,14 +2394,14 @@
           }
         ],
         "uniqueId": "BAM",
-        "updated": 1697058135017263000,
+        "updated": 1697067573932670000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135016281000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573931576000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Azerbaijani Manat",
         "namePlural": "Azerbaijani manats",
@@ -2416,14 +2416,14 @@
           }
         ],
         "uniqueId": "AZN",
-        "updated": 1697058135016281000,
+        "updated": 1697067573931576000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135015027000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573930415000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Australian Dollar",
         "namePlural": "Australian dollars",
@@ -2438,14 +2438,14 @@
           }
         ],
         "uniqueId": "AUD",
-        "updated": 1697058135015027000,
+        "updated": 1697067573930415000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135013407000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573929060000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Argentine Peso",
         "namePlural": "Argentine pesos",
@@ -2460,14 +2460,14 @@
           }
         ],
         "uniqueId": "ARS",
-        "updated": 1697058135013407000,
+        "updated": 1697067573929060000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135012253000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573927934000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Armenian Dram",
         "namePlural": "Armenian drams",
@@ -2482,14 +2482,14 @@
           }
         ],
         "uniqueId": "AMD",
-        "updated": 1697058135012253000,
+        "updated": 1697067573927934000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135010816000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573926671000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Albanian Lek",
         "namePlural": "Albanian lekë",
@@ -2504,14 +2504,14 @@
           }
         ],
         "uniqueId": "ALL",
-        "updated": 1697058135010816000,
+        "updated": 1697067573926671000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135009162000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573925467000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 0,
         "name": "Afghan Afghani",
         "namePlural": "Afghan Afghanis",
@@ -2526,14 +2526,14 @@
           }
         ],
         "uniqueId": "AFN",
-        "updated": 1697058135009162000,
+        "updated": 1697067573925467000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135007681000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573924168000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "United Arab Emirates Dirham",
         "namePlural": "UAE dirhams",
@@ -2548,14 +2548,14 @@
           }
         ],
         "uniqueId": "AED",
-        "updated": 1697058135007681000,
+        "updated": 1697067573924168000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135006459000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573922656000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Euro",
         "namePlural": "euros",
@@ -2570,14 +2570,14 @@
           }
         ],
         "uniqueId": "EUR",
-        "updated": 1697058135006459000,
+        "updated": 1697067573922656000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135004773000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573921267000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "Canadian Dollar",
         "namePlural": "Canadian dollars",
@@ -2592,14 +2592,14 @@
           }
         ],
         "uniqueId": "CAD",
-        "updated": 1697058135004773000,
+        "updated": 1697067573921267000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135003059000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067573919789000,
+        "createdFormatted": "2023/10/12 01:39:33",
         "decimalDigits": 2,
         "name": "US Dollar",
         "namePlural": "US dollars",
@@ -2614,7 +2614,7 @@
           }
         ],
         "uniqueId": "USD",
-        "updated": 1697058135003059000,
+        "updated": 1697067573919789000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""

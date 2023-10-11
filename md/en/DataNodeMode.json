@@ -2,31 +2,31 @@
   "data": {
     "items": [
       {
-        "created": 1697058135975425000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574849082000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "name": "readwrite",
         "uniqueId": "readwrite",
-        "updated": 1697058135975425000,
+        "updated": 1697067574849082000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135974422000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574848225000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "name": "Write",
         "uniqueId": "write",
-        "updated": 1697058135974422000,
+        "updated": 1697067574848225000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1697058135973421000,
-        "createdFormatted": "2023/10/11 23:02:15",
+        "created": 1697067574847290000,
+        "createdFormatted": "2023/10/12 01:39:34",
         "name": "Read",
         "uniqueId": "read",
-        "updated": 1697058135973421000,
+        "updated": 1697067574847290000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
