@@ -2,8 +2,8 @@
   "data": {
     "items": [
       {
-        "created": 1695885216406515000,
-        "createdFormatted": "2023/09/28 09:13:36",
+        "created": 1697058134997676000,
+        "createdFormatted": "2023/10/11 23:02:14",
         "name": "Numeric Value Realtime Chart",
         "providerKey": "numeric_value_realtime_chart",
         "translations": [
@@ -14,14 +14,14 @@
           }
         ],
         "uniqueId": "numeric_value_realtime_chart",
-        "updated": 1695885216406515000,
+        "updated": 1697058134997676000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216404847000,
-        "createdFormatted": "2023/09/28 09:13:36",
+        "created": 1697058134996500000,
+        "createdFormatted": "2023/10/11 23:02:14",
         "name": "Temperature Control",
         "providerKey": "temperature_control",
         "translations": [
@@ -32,14 +32,14 @@
           }
         ],
         "uniqueId": "temperature_control",
-        "updated": 1695885216404847000,
+        "updated": 1697058134996500000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216402888000,
-        "createdFormatted": "2023/09/28 09:13:36",
+        "created": 1697058134995111000,
+        "createdFormatted": "2023/10/11 23:02:14",
         "name": "Single Digital Writer",
         "providerKey": "single_digital_gpio",
         "translations": [
@@ -50,7 +50,7 @@
           }
         ],
         "uniqueId": "single_digital_gpio",
-        "updated": 1695885216402888000,
+        "updated": 1697058134995111000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""

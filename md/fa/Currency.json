@@ -2,8 +2,8 @@
   "data": {
     "items": [
       {
-        "created": 1695885216603850000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135149195000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "ZWL",
         "name": "دلار زیمبابوه",
@@ -19,14 +19,14 @@
           }
         ],
         "uniqueId": "ZWL",
-        "updated": 1695885216603850000,
+        "updated": 1697058135149195000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216602302000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135148152000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "ZMK",
         "name": "کواچای زامبیا",
@@ -42,14 +42,14 @@
           }
         ],
         "uniqueId": "ZMK",
-        "updated": 1695885216602302000,
+        "updated": 1697058135148152000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216600662000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135147163000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "ZAR",
         "name": "راند آفریقای جنوبی",
@@ -65,14 +65,14 @@
           }
         ],
         "uniqueId": "ZAR",
-        "updated": 1695885216600662000,
+        "updated": 1697058135147163000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216599027000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135146131000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "YER",
         "name": "ریال یمن",
@@ -88,14 +88,14 @@
           }
         ],
         "uniqueId": "YER",
-        "updated": 1695885216599027000,
+        "updated": 1697058135146131000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216597480000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135145098000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "XOF",
         "name": "فرانک سی اف ای BCEAO",
@@ -111,14 +111,14 @@
           }
         ],
         "uniqueId": "XOF",
-        "updated": 1695885216597480000,
+        "updated": 1697058135145098000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216595940000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135143619000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "XAF",
         "name": "فرانک CFA BEAC",
@@ -134,14 +134,14 @@
           }
         ],
         "uniqueId": "XAF",
-        "updated": 1695885216595940000,
+        "updated": 1697058135143619000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216594367000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135142605000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "VND",
         "name": "دونگ ویتنامی",
@@ -157,14 +157,14 @@
           }
         ],
         "uniqueId": "VND",
-        "updated": 1695885216594367000,
+        "updated": 1697058135142605000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216592821000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135141620000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "VEF",
         "name": "بولیوار ونزوئلا",
@@ -180,14 +180,14 @@
           }
         ],
         "uniqueId": "VEF",
-        "updated": 1695885216592821000,
+        "updated": 1697058135141620000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216591304000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135140626000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "UZS",
         "name": "ازبکستان سوم",
@@ -203,14 +203,14 @@
           }
         ],
         "uniqueId": "UZS",
-        "updated": 1695885216591304000,
+        "updated": 1697058135140626000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216589778000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135139601000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "UYU",
         "name": "پزو اروگوئه",
@@ -226,14 +226,14 @@
           }
         ],
         "uniqueId": "UYU",
-        "updated": 1695885216589778000,
+        "updated": 1697058135139601000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216587868000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135138536000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "UGX",
         "name": "شیلینگ اوگاندا",
@@ -249,14 +249,14 @@
           }
         ],
         "uniqueId": "UGX",
-        "updated": 1695885216587868000,
+        "updated": 1697058135138536000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216585974000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135137478000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "UAH",
         "name": "هریونیا اوکراینی",
@@ -272,14 +272,14 @@
           }
         ],
         "uniqueId": "UAH",
-        "updated": 1695885216585974000,
+        "updated": 1697058135137478000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216584165000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135136175000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "TZS",
         "name": "شیلینگ تانزانیا",
@@ -295,14 +295,14 @@
           }
         ],
         "uniqueId": "TZS",
-        "updated": 1695885216584165000,
+        "updated": 1697058135136175000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216582646000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135135139000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "TWD",
         "name": "دلار جدید تایوان",
@@ -318,14 +318,14 @@
           }
         ],
         "uniqueId": "TWD",
-        "updated": 1695885216582646000,
+        "updated": 1697058135135139000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216581039000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135134089000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "TTD",
         "name": "دلار ترینیداد و توباگو",
@@ -341,14 +341,14 @@
           }
         ],
         "uniqueId": "TTD",
-        "updated": 1695885216581039000,
+        "updated": 1697058135134089000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216579547000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135132939000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "TRY",
         "name": "لیر ترکیه",
@@ -364,14 +364,14 @@
           }
         ],
         "uniqueId": "TRY",
-        "updated": 1695885216579547000,
+        "updated": 1697058135132939000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216578043000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135131961000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "TOP",
         "name": "پاانگای تونگان",
@@ -387,14 +387,14 @@
           }
         ],
         "uniqueId": "TOP",
-        "updated": 1695885216578043000,
+        "updated": 1697058135131961000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216576540000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135130898000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 3,
         "linkerId": "TND",
         "name": "دینار تونس",
@@ -410,14 +410,14 @@
           }
         ],
         "uniqueId": "TND",
-        "updated": 1695885216576540000,
+        "updated": 1697058135130898000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216574953000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135129905000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "THB",
         "name": "بات تایلند",
@@ -433,14 +433,14 @@
           }
         ],
         "uniqueId": "THB",
-        "updated": 1695885216574953000,
+        "updated": 1697058135129905000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216573373000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135128914000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "SYP",
         "name": "پوند سوریه",
@@ -456,14 +456,14 @@
           }
         ],
         "uniqueId": "SYP",
-        "updated": 1695885216573373000,
+        "updated": 1697058135128914000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216571807000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135127545000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "SOS",
         "name": "شیلینگ سومالی",
@@ -479,14 +479,14 @@
           }
         ],
         "uniqueId": "SOS",
-        "updated": 1695885216571807000,
+        "updated": 1697058135127545000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216570336000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135126140000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "SGD",
         "name": "دلار سنگاپور",
@@ -502,14 +502,14 @@
           }
         ],
         "uniqueId": "SGD",
-        "updated": 1695885216570336000,
+        "updated": 1697058135126140000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216568782000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135125156000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "SEK",
         "name": "کرون سوئد",
@@ -525,14 +525,14 @@
           }
         ],
         "uniqueId": "SEK",
-        "updated": 1695885216568782000,
+        "updated": 1697058135125156000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216567291000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135124066000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "SDG",
         "name": "پوند سودان",
@@ -548,14 +548,14 @@
           }
         ],
         "uniqueId": "SDG",
-        "updated": 1695885216567291000,
+        "updated": 1697058135124066000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216565788000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135123079000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "SAR",
         "name": "ریال عربستان",
@@ -571,14 +571,14 @@
           }
         ],
         "uniqueId": "SAR",
-        "updated": 1695885216565788000,
+        "updated": 1697058135123079000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216564283000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135122026000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "RWF",
         "name": "فرانک رواندا",
@@ -594,14 +594,14 @@
           }
         ],
         "uniqueId": "RWF",
-        "updated": 1695885216564283000,
+        "updated": 1697058135122026000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216562752000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135120970000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "RUB",
         "name": "روبل روسیه",
@@ -617,14 +617,14 @@
           }
         ],
         "uniqueId": "RUB",
-        "updated": 1695885216562752000,
+        "updated": 1697058135120970000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216561221000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135119881000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "RSD",
         "name": "دینار صربستان",
@@ -640,14 +640,14 @@
           }
         ],
         "uniqueId": "RSD",
-        "updated": 1695885216561221000,
+        "updated": 1697058135119881000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216559636000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135118833000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "RON",
         "name": "لئو رومانیایی",
@@ -663,14 +663,14 @@
           }
         ],
         "uniqueId": "RON",
-        "updated": 1695885216559636000,
+        "updated": 1697058135118833000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216558066000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135117673000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "QAR",
         "name": "ریال قطر",
@@ -686,14 +686,14 @@
           }
         ],
         "uniqueId": "QAR",
-        "updated": 1695885216558066000,
+        "updated": 1697058135117673000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216556575000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135116678000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "PYG",
         "name": "گوارانی پاراگوئه",
@@ -709,14 +709,14 @@
           }
         ],
         "uniqueId": "PYG",
-        "updated": 1695885216556575000,
+        "updated": 1697058135116678000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216554948000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135115664000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "PLN",
         "name": "زلوتی لهستانی",
@@ -732,14 +732,14 @@
           }
         ],
         "uniqueId": "PLN",
-        "updated": 1695885216554948000,
+        "updated": 1697058135115664000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216553021000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135114629000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "PKR",
         "name": "روپیه پاکستان",
@@ -755,14 +755,14 @@
           }
         ],
         "uniqueId": "PKR",
-        "updated": 1695885216553021000,
+        "updated": 1697058135114629000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216551262000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135113253000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "PHP",
         "name": "پزو فیلیپین",
@@ -778,14 +778,14 @@
           }
         ],
         "uniqueId": "PHP",
-        "updated": 1695885216551262000,
+        "updated": 1697058135113253000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216549758000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135111919000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "PEN",
         "name": "نووو سول پرو",
@@ -801,14 +801,14 @@
           }
         ],
         "uniqueId": "PEN",
-        "updated": 1695885216549758000,
+        "updated": 1697058135111919000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216548244000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135110799000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "PAB",
         "name": "بالبوآ پانامایی",
@@ -824,14 +824,14 @@
           }
         ],
         "uniqueId": "PAB",
-        "updated": 1695885216548244000,
+        "updated": 1697058135110799000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216546697000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135109804000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 3,
         "linkerId": "OMR",
         "name": "ریال عمان",
@@ -847,14 +847,14 @@
           }
         ],
         "uniqueId": "OMR",
-        "updated": 1695885216546697000,
+        "updated": 1697058135109804000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216545030000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135108752000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "NZD",
         "name": "دلار نیوزلند",
@@ -870,14 +870,14 @@
           }
         ],
         "uniqueId": "NZD",
-        "updated": 1695885216545030000,
+        "updated": 1697058135108752000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216543446000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135107669000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "NPR",
         "name": "روپیه نپال",
@@ -893,14 +893,14 @@
           }
         ],
         "uniqueId": "NPR",
-        "updated": 1695885216543446000,
+        "updated": 1697058135107669000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216541683000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135106223000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "NOK",
         "name": "کرون نروژ",
@@ -916,14 +916,14 @@
           }
         ],
         "uniqueId": "NOK",
-        "updated": 1695885216541683000,
+        "updated": 1697058135106223000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216539683000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135104715000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "NIO",
         "name": "نیکاراگوئه کوردوبا",
@@ -939,14 +939,14 @@
           }
         ],
         "uniqueId": "NIO",
-        "updated": 1695885216539683000,
+        "updated": 1697058135104715000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216537998000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135103452000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "NGN",
         "name": "نایرا نیجریه",
@@ -962,14 +962,14 @@
           }
         ],
         "uniqueId": "NGN",
-        "updated": 1695885216537998000,
+        "updated": 1697058135103452000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216536407000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135102237000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "NAD",
         "name": "دلار نامیبیا",
@@ -985,14 +985,14 @@
           }
         ],
         "uniqueId": "NAD",
-        "updated": 1695885216536407000,
+        "updated": 1697058135102237000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216534892000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135101195000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "MZN",
         "name": "متیکال موزامبیک",
@@ -1008,14 +1008,14 @@
           }
         ],
         "uniqueId": "MZN",
-        "updated": 1695885216534892000,
+        "updated": 1697058135101195000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216533429000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135100078000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "MYR",
         "name": "رینگیت مالزی",
@@ -1031,14 +1031,14 @@
           }
         ],
         "uniqueId": "MYR",
-        "updated": 1695885216533429000,
+        "updated": 1697058135100078000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216531906000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135099095000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "MXN",
         "name": "پزو مکزیک",
@@ -1054,14 +1054,14 @@
           }
         ],
         "uniqueId": "MXN",
-        "updated": 1695885216531906000,
+        "updated": 1697058135099095000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216530362000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135098043000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "MUR",
         "name": "روپیه موریس",
@@ -1077,14 +1077,14 @@
           }
         ],
         "uniqueId": "MUR",
-        "updated": 1695885216530362000,
+        "updated": 1697058135098043000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216528772000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135097047000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "MOP",
         "name": "پاتاکای ماکانی",
@@ -1100,14 +1100,14 @@
           }
         ],
         "uniqueId": "MOP",
-        "updated": 1695885216528772000,
+        "updated": 1697058135097047000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216527219000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135096054000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "MMK",
         "name": "میانما کیات",
@@ -1123,14 +1123,14 @@
           }
         ],
         "uniqueId": "MMK",
-        "updated": 1695885216527219000,
+        "updated": 1697058135096054000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216525606000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135094988000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "MKD",
         "name": "دینار مقدونیه",
@@ -1146,14 +1146,14 @@
           }
         ],
         "uniqueId": "MKD",
-        "updated": 1695885216525606000,
+        "updated": 1697058135094988000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216524092000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135093960000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "MGA",
         "name": "آریاری مالاگاسی",
@@ -1169,14 +1169,14 @@
           }
         ],
         "uniqueId": "MGA",
-        "updated": 1695885216524092000,
+        "updated": 1697058135093960000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216522544000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135092892000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "MDL",
         "name": "لئو مولداوی",
@@ -1192,14 +1192,14 @@
           }
         ],
         "uniqueId": "MDL",
-        "updated": 1695885216522544000,
+        "updated": 1697058135092892000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216521014000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135090948000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "MAD",
         "name": "درهم مراکش",
@@ -1215,14 +1215,14 @@
           }
         ],
         "uniqueId": "MAD",
-        "updated": 1695885216521014000,
+        "updated": 1697058135090948000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216519153000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135089946000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 3,
         "linkerId": "LYD",
         "name": "دینار لیبی",
@@ -1238,14 +1238,14 @@
           }
         ],
         "uniqueId": "LYD",
-        "updated": 1695885216519153000,
+        "updated": 1697058135089946000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216517341000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135088793000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "LVL",
         "name": "لات لتونی",
@@ -1261,14 +1261,14 @@
           }
         ],
         "uniqueId": "LVL",
-        "updated": 1695885216517341000,
+        "updated": 1697058135088793000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216515669000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135087800000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "LTL",
         "name": "Litas لیتوانیایی",
@@ -1284,14 +1284,14 @@
           }
         ],
         "uniqueId": "LTL",
-        "updated": 1695885216515669000,
+        "updated": 1697058135087800000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216514083000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135086795000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "LKR",
         "name": "روپیه سریلانکا",
@@ -1307,14 +1307,14 @@
           }
         ],
         "uniqueId": "LKR",
-        "updated": 1695885216514083000,
+        "updated": 1697058135086795000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216512560000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135085815000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "LBP",
         "name": "پوند لبنان",
@@ -1330,14 +1330,14 @@
           }
         ],
         "uniqueId": "LBP",
-        "updated": 1695885216512560000,
+        "updated": 1697058135085815000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216511095000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135084734000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "KZT",
         "name": "تنگه قزاقستانی",
@@ -1353,14 +1353,14 @@
           }
         ],
         "uniqueId": "KZT",
-        "updated": 1695885216511095000,
+        "updated": 1697058135084734000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216509585000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135083479000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 3,
         "linkerId": "KWD",
         "name": "دینار کویت",
@@ -1376,14 +1376,14 @@
           }
         ],
         "uniqueId": "KWD",
-        "updated": 1695885216509585000,
+        "updated": 1697058135083479000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216507925000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135082486000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "KRW",
         "name": "وون کره جنوبی",
@@ -1399,14 +1399,14 @@
           }
         ],
         "uniqueId": "KRW",
-        "updated": 1695885216507925000,
+        "updated": 1697058135082486000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216506415000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135081187000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "KMF",
         "name": "فرانک کوموریا",
@@ -1422,14 +1422,14 @@
           }
         ],
         "uniqueId": "KMF",
-        "updated": 1695885216506415000,
+        "updated": 1697058135081187000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216504922000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135080166000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "KHR",
         "name": "ریل کامبوج",
@@ -1445,14 +1445,14 @@
           }
         ],
         "uniqueId": "KHR",
-        "updated": 1695885216504922000,
+        "updated": 1697058135080166000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216503364000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135079171000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "KES",
         "name": "شیلینگ کنیا",
@@ -1468,14 +1468,14 @@
           }
         ],
         "uniqueId": "KES",
-        "updated": 1695885216503364000,
+        "updated": 1697058135079171000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216501729000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135077845000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "JPY",
         "name": "ین ژاپن",
@@ -1491,14 +1491,14 @@
           }
         ],
         "uniqueId": "JPY",
-        "updated": 1695885216501729000,
+        "updated": 1697058135077845000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216500180000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135076176000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 3,
         "linkerId": "JOD",
         "name": "دینار اردن",
@@ -1514,14 +1514,14 @@
           }
         ],
         "uniqueId": "JOD",
-        "updated": 1695885216500180000,
+        "updated": 1697058135076176000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216498660000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135074590000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "JMD",
         "name": "دلار جامائیکا",
@@ -1537,14 +1537,14 @@
           }
         ],
         "uniqueId": "JMD",
-        "updated": 1695885216498660000,
+        "updated": 1697058135074590000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216497048000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135073282000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "ISK",
         "name": "کرون ایسلند",
@@ -1560,14 +1560,14 @@
           }
         ],
         "uniqueId": "ISK",
-        "updated": 1695885216497048000,
+        "updated": 1697058135073282000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216495048000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135071884000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "IRR",
         "name": "ریال ایران",
@@ -1583,14 +1583,14 @@
           }
         ],
         "uniqueId": "IRR",
-        "updated": 1695885216495048000,
+        "updated": 1697058135071884000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216493043000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135070272000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "IQD",
         "name": "دینار عراق",
@@ -1606,14 +1606,14 @@
           }
         ],
         "uniqueId": "IQD",
-        "updated": 1695885216493043000,
+        "updated": 1697058135070272000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216491563000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135068707000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "INR",
         "name": "روپیه هند",
@@ -1629,14 +1629,14 @@
           }
         ],
         "uniqueId": "INR",
-        "updated": 1695885216491563000,
+        "updated": 1697058135068707000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216490104000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135067194000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "ILS",
         "name": "شکل جدید اسرائیل",
@@ -1652,14 +1652,14 @@
           }
         ],
         "uniqueId": "ILS",
-        "updated": 1695885216490104000,
+        "updated": 1697058135067194000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216488616000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135065981000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "IDR",
         "name": "روپیه اندونزی",
@@ -1675,14 +1675,14 @@
           }
         ],
         "uniqueId": "IDR",
-        "updated": 1695885216488616000,
+        "updated": 1697058135065981000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216486973000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135064581000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "HUF",
         "name": "فورینت مجارستان",
@@ -1698,14 +1698,14 @@
           }
         ],
         "uniqueId": "HUF",
-        "updated": 1695885216486973000,
+        "updated": 1697058135064581000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216485367000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135063184000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "HRK",
         "name": "کونا کرواسی",
@@ -1721,14 +1721,14 @@
           }
         ],
         "uniqueId": "HRK",
-        "updated": 1695885216485367000,
+        "updated": 1697058135063184000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216483661000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135061641000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "HNL",
         "name": "لمپیرا هندوراس",
@@ -1744,14 +1744,14 @@
           }
         ],
         "uniqueId": "HNL",
-        "updated": 1695885216483661000,
+        "updated": 1697058135061641000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216481852000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135060011000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "HKD",
         "name": "دلار هنگ کنگ",
@@ -1767,14 +1767,14 @@
           }
         ],
         "uniqueId": "HKD",
-        "updated": 1695885216481852000,
+        "updated": 1697058135060011000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216480224000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135058472000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "GTQ",
         "name": "کوتزال گواتمالا",
@@ -1790,14 +1790,14 @@
           }
         ],
         "uniqueId": "GTQ",
-        "updated": 1695885216480224000,
+        "updated": 1697058135058472000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216478655000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135056990000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "GNF",
         "name": "فرانک گینه",
@@ -1813,14 +1813,14 @@
           }
         ],
         "uniqueId": "GNF",
-        "updated": 1695885216478655000,
+        "updated": 1697058135056990000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216477143000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135055721000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "GHS",
         "name": "سدی غنا",
@@ -1836,14 +1836,14 @@
           }
         ],
         "uniqueId": "GHS",
-        "updated": 1695885216477143000,
+        "updated": 1697058135055721000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216475566000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135054396000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "GEL",
         "name": "لاری گرجستان",
@@ -1859,14 +1859,14 @@
           }
         ],
         "uniqueId": "GEL",
-        "updated": 1695885216475566000,
+        "updated": 1697058135054396000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216474047000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135053342000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "GBP",
         "name": "پوند استرلینگ انگلیس",
@@ -1882,14 +1882,14 @@
           }
         ],
         "uniqueId": "GBP",
-        "updated": 1695885216474047000,
+        "updated": 1697058135053342000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216472484000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135052122000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "ETB",
         "name": "بیر اتیوپیایی",
@@ -1905,14 +1905,14 @@
           }
         ],
         "uniqueId": "ETB",
-        "updated": 1695885216472484000,
+        "updated": 1697058135052122000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216470973000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135050570000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "ERN",
         "name": "نکفا اریتره",
@@ -1928,14 +1928,14 @@
           }
         ],
         "uniqueId": "ERN",
-        "updated": 1695885216470973000,
+        "updated": 1697058135050570000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216469451000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135049084000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "EGP",
         "name": "پوند مصر",
@@ -1951,14 +1951,14 @@
           }
         ],
         "uniqueId": "EGP",
-        "updated": 1695885216469451000,
+        "updated": 1697058135049084000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216467919000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135047892000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "EEK",
         "name": "کرون استونی",
@@ -1974,14 +1974,14 @@
           }
         ],
         "uniqueId": "EEK",
-        "updated": 1695885216467919000,
+        "updated": 1697058135047892000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216466288000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135046741000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "DZD",
         "name": "دینار الجزایر",
@@ -1997,14 +1997,14 @@
           }
         ],
         "uniqueId": "DZD",
-        "updated": 1695885216466288000,
+        "updated": 1697058135046741000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216464578000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135044967000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "DOP",
         "name": "پزو دومینیکن",
@@ -2020,14 +2020,14 @@
           }
         ],
         "uniqueId": "DOP",
-        "updated": 1695885216464578000,
+        "updated": 1697058135044967000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216462986000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135043907000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "DKK",
         "name": "کرون دانمارک",
@@ -2043,14 +2043,14 @@
           }
         ],
         "uniqueId": "DKK",
-        "updated": 1695885216462986000,
+        "updated": 1697058135043907000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216461511000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135042856000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "DJF",
         "name": "فرانک جیبوتی",
@@ -2066,14 +2066,14 @@
           }
         ],
         "uniqueId": "DJF",
-        "updated": 1695885216461511000,
+        "updated": 1697058135042856000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216459993000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135040784000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "CZK",
         "name": "کرون جمهوری چک",
@@ -2089,14 +2089,14 @@
           }
         ],
         "uniqueId": "CZK",
-        "updated": 1695885216459993000,
+        "updated": 1697058135040784000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216458470000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135039797000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "CVE",
         "name": "اسکودو کیپ ورد",
@@ -2112,14 +2112,14 @@
           }
         ],
         "uniqueId": "CVE",
-        "updated": 1695885216458470000,
+        "updated": 1697058135039797000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216456874000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135038794000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "CRC",
         "name": "کولون کاستاریکا",
@@ -2135,14 +2135,14 @@
           }
         ],
         "uniqueId": "CRC",
-        "updated": 1695885216456874000,
+        "updated": 1697058135038794000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216455318000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135037104000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "COP",
         "name": "پزو کلمبیا",
@@ -2158,14 +2158,14 @@
           }
         ],
         "uniqueId": "COP",
-        "updated": 1695885216455318000,
+        "updated": 1697058135037104000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216453864000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135036089000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "CNY",
         "name": "یوان چین",
@@ -2181,14 +2181,14 @@
           }
         ],
         "uniqueId": "CNY",
-        "updated": 1695885216453864000,
+        "updated": 1697058135036089000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216452339000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135034375000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "CLP",
         "name": "پزو شیلی",
@@ -2204,14 +2204,14 @@
           }
         ],
         "uniqueId": "CLP",
-        "updated": 1695885216452339000,
+        "updated": 1697058135034375000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216450765000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135032462000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "CHF",
         "name": "فرانک سوئیس",
@@ -2227,14 +2227,14 @@
           }
         ],
         "uniqueId": "CHF",
-        "updated": 1695885216450765000,
+        "updated": 1697058135032462000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216449148000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135030450000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "CDF",
         "name": "فرانک کنگو",
@@ -2250,14 +2250,14 @@
           }
         ],
         "uniqueId": "CDF",
-        "updated": 1695885216449148000,
+        "updated": 1697058135030450000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216446392000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135029403000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BZD",
         "name": "دلار بلیز",
@@ -2273,14 +2273,14 @@
           }
         ],
         "uniqueId": "BZD",
-        "updated": 1695885216446392000,
+        "updated": 1697058135029403000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216444868000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135027894000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BYN",
         "name": "روبل بلاروس",
@@ -2296,14 +2296,14 @@
           }
         ],
         "uniqueId": "BYN",
-        "updated": 1695885216444868000,
+        "updated": 1697058135027894000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216443245000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135026695000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BWP",
         "name": "پولای بوتسوانا",
@@ -2319,14 +2319,14 @@
           }
         ],
         "uniqueId": "BWP",
-        "updated": 1695885216443245000,
+        "updated": 1697058135026695000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216441640000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135025487000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BRL",
         "name": "رئال برزیل",
@@ -2342,14 +2342,14 @@
           }
         ],
         "uniqueId": "BRL",
-        "updated": 1695885216441640000,
+        "updated": 1697058135025487000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216439972000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135024268000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BOB",
         "name": "بولیویایی بولیوی",
@@ -2365,14 +2365,14 @@
           }
         ],
         "uniqueId": "BOB",
-        "updated": 1695885216439972000,
+        "updated": 1697058135024268000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216438355000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135023068000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BND",
         "name": "دلار برونئی",
@@ -2388,14 +2388,14 @@
           }
         ],
         "uniqueId": "BND",
-        "updated": 1695885216438355000,
+        "updated": 1697058135023068000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216436720000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135021740000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "BIF",
         "name": "فرانک بوروندی",
@@ -2411,14 +2411,14 @@
           }
         ],
         "uniqueId": "BIF",
-        "updated": 1695885216436720000,
+        "updated": 1697058135021740000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216435166000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135020590000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 3,
         "linkerId": "BHD",
         "name": "دینار بحرین",
@@ -2434,14 +2434,14 @@
           }
         ],
         "uniqueId": "BHD",
-        "updated": 1695885216435166000,
+        "updated": 1697058135020590000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216433498000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135019235000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BGN",
         "name": "لو بلغارستان",
@@ -2457,14 +2457,14 @@
           }
         ],
         "uniqueId": "BGN",
-        "updated": 1695885216433498000,
+        "updated": 1697058135019235000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216431883000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135018256000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BDT",
         "name": "تاکا بنگلادشی",
@@ -2480,14 +2480,14 @@
           }
         ],
         "uniqueId": "BDT",
-        "updated": 1695885216431883000,
+        "updated": 1697058135018256000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216430286000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135017263000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "BAM",
         "name": "علامت قابل تبدیل بوسنی و هرزگوین",
@@ -2503,14 +2503,14 @@
           }
         ],
         "uniqueId": "BAM",
-        "updated": 1695885216430286000,
+        "updated": 1697058135017263000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216428663000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135016281000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "AZN",
         "name": "منات آذربایجان",
@@ -2526,14 +2526,14 @@
           }
         ],
         "uniqueId": "AZN",
-        "updated": 1695885216428663000,
+        "updated": 1697058135016281000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216427036000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135015027000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "AUD",
         "name": "دلار استرالیا",
@@ -2549,14 +2549,14 @@
           }
         ],
         "uniqueId": "AUD",
-        "updated": 1695885216427036000,
+        "updated": 1697058135015027000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216425404000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135013407000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "ARS",
         "name": "پزو آرژانتین",
@@ -2572,14 +2572,14 @@
           }
         ],
         "uniqueId": "ARS",
-        "updated": 1695885216425404000,
+        "updated": 1697058135013407000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216423765000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135012253000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "AMD",
         "name": "درام ارمنستان",
@@ -2595,14 +2595,14 @@
           }
         ],
         "uniqueId": "AMD",
-        "updated": 1695885216423765000,
+        "updated": 1697058135012253000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216422129000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135010816000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "ALL",
         "name": "لک آلبانیایی",
@@ -2618,14 +2618,14 @@
           }
         ],
         "uniqueId": "ALL",
-        "updated": 1695885216422129000,
+        "updated": 1697058135010816000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216420520000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135009162000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 0,
         "linkerId": "AFN",
         "name": "افغانی افغانی",
@@ -2641,14 +2641,14 @@
           }
         ],
         "uniqueId": "AFN",
-        "updated": 1695885216420520000,
+        "updated": 1697058135009162000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216418831000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135007681000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "AED",
         "name": "درهم امارات متحده عربی",
@@ -2664,14 +2664,14 @@
           }
         ],
         "uniqueId": "AED",
-        "updated": 1695885216418831000,
+        "updated": 1697058135007681000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216417209000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135006459000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "EUR",
         "name": "یورو",
@@ -2687,14 +2687,14 @@
           }
         ],
         "uniqueId": "EUR",
-        "updated": 1695885216417209000,
+        "updated": 1697058135006459000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216415574000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135004773000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "CAD",
         "name": "دلار کانادایی",
@@ -2710,14 +2710,14 @@
           }
         ],
         "uniqueId": "CAD",
-        "updated": 1695885216415574000,
+        "updated": 1697058135004773000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""
       },
       {
-        "created": 1695885216413852000,
-        "createdFormatted": "۶ مهر ۱۴۰۲",
+        "created": 1697058135003059000,
+        "createdFormatted": "۱۹ مهر ۱۴۰۲",
         "decimalDigits": 2,
         "linkerId": "USD",
         "name": "دلار آمریکا",
@@ -2733,7 +2733,7 @@
           }
         ],
         "uniqueId": "USD",
-        "updated": 1695885216413852000,
+        "updated": 1697058135003059000,
         "userId": "",
         "visibility": "A",
         "workspaceId": ""

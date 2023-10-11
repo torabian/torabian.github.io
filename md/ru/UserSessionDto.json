@@ -1,14 +1,14 @@
 {
   "data": {
     "passport": null,
-    "token": "78a183262e7006e7ae88e1cf395945307e441efb9ccd0c5dbb2300eaea7847b4",
+    "token": "67c174d84921a1d2eec2f4e910f70966b913cbaa99b5e9849228ce22a5593da3",
     "user": {
-      "uniqueId": "ba54f01f",
-      "userId": "eb82a1a9",
+      "uniqueId": "9b366d73",
+      "userId": "9a32c897",
       "firstName": "John",
       "lastName": "Doe",
-      "updated": 1695885211111137000,
-      "created": 1695885211111137000
+      "updated": 1697058131694614000,
+      "created": 1697058131694614000
     },
     "userRoleWorkspaces": []
   }
