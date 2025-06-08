@@ -1,0 +1,65 @@
+---
+title: Why to use lottie in React Native mobile development
+excerpt: Animations are essential for most of user interfaces. Human being naturally are used to see things change in transition, a leaf is falling down with an speed. No one expecting to see the leaf on the tree, and immediately on the ground.
+lang: en
+---
+
+import { AnimatedLogo } from '../components/lottie/Lottie'
+
+Animations are essential for most of user interfaces. Human being naturally are used to see things change in transition,
+a leaf is falling down with an speed. No one expecting to see the leaf on the tree, and immediately on the ground.
+
+For the very same reason, we build applications in a way that actions are happening in an animation sequence. Creating
+animations in dedicated softwares are easy, for example in AfterEffects, you have a time line, keyframes and tons
+of visual tools to create all kind of custom animations you want, and exporting them as Gif or many different formats.
+
+**In programming, creating animation is difficult**, most of the time you are not able to see how the animation works
+until you run it, and you need to work with scripts, and selecting elements then using JavaScript build those sequences, like:
+
+```js
+Animated.sequence([
+  // decay, then spring to start and twirl
+  Animated.decay(position, {
+    // coast to a stop
+    velocity: { x: gestureState.vx, y: gestureState.vy }, // velocity from gesture release
+    deceleration: 0.997
+  }),
+  Animated.parallel([
+    // after decay, in parallel:
+    Animated.spring(position, {
+      toValue: { x: 0, y: 0 } // return to start
+    }),
+    Animated.timing(twirl, {
+      // and twirl
+      toValue: 360
+    })
+  ])
+]).start(); // start the sequence group
+```
+
+Animating using scripts like this might be only option for some actions, but it has drawbacks such as:
+
+* You are limited. It's only allowing some parameters of elements to be animated, such as transform, opacity
+* Only a programmer can adjust these. You loose all talent that UI/UX team has built in years.
+* It's not supporting advanced animations. If you want to create an envelop being closed after user clicking on "Send mail"
+button, it's gonna take hours and hours of work, if even possible after all.
+
+## Designing animations in AfterEffects
+
+An alternative to all these problems is to design animations in an advanced tool such as AfterEffecs. Using plugin called lottie,
+you can export the 2d motion graphics into a json format, which later allows you to use it in Web, React Native or desktop applications
+
+For example we created PixelPlux logo animated:
+<AnimatedLogo loop path="/blog/pixelplux_logo.json" className="large-animate-preview" />
+
+<br />
+Or you can take a look at my design for Github logo:
+<AnimatedLogo loop path="/blog/github_logo_animated_ali_torabi.json" className="large-animate-preview" />
+
+<br />
+<br />
+## Effects on the Mobile Project.
+
+Using Lottie animations, specially well built ones, increases the user experience quality, for tasks such as
+processing a payment, searching for content, giving news bullitens and many more.
+

@@ -1,0 +1,212 @@
+---
+title: Zatrzymaj Chaos! Tłumaczenia Angular Wykonane Jak Trzeba Raz
+author: Ali Torabi
+excerpt: Masz problemy z tłumaczeniem aplikacji Angular? Czy zawsze pojawiają się kłopoty z kluczami, dodatkowymi rurkami czy też statycznymi tłumaczeniami? Dołącz do mnie w tej tutoriale, a raz na zawsze rozwiążemy ten problem.
+og_image: /content/angular_translate_logo.png
+lang: pl
+---
+
+## Krytyczne problemy z ng translate, i18n i innymi
+
+Znaczenie tłumaczeń wydaje się być pomijane, a drugi język często traktowany jest po macoszemu w moich projektach; niektóre z nich nawet zaczynają się od niewłaściwych ciągów znaków w szablonach, aby później napotkać trudności przy próbie ich modyfikacji, ponieważ brak bezpieczeństwa typów uniemożliwia natychmiastowe wykrycie wszystkich wystąpień, co prowadzi do niejednolitego doświadczenia użytkownika, gdzie angielskie słowa mogą niespodziewanie pojawić się w hiszpańskim interfejsie, co negatywnie wpływa na reputację marki.
+
+Moduł ng translate, choć początkowo wygodne narzędzie do obsługi tłumaczeń w aplikacjach Angular, często zawodzi w kilku kluczowych obszarach. Jednym z powszechnych problemów jest obecność statycznych ciągów znaków w szablonach, co sprawia, że utrzymanie i aktualizacja tłumaczeń staje się wyzwaniem. Dodatkowo, brak wsparcia IntelliSense ogranicza produktywność deweloperów, prowadząc do potencjalnych błędów i niekonsekwencji w tłumaczeniach. Ponadto, ograniczone możliwości modułu w zarządzaniu różnymi językami skutkują kłopotliwymi procesami i trudnościami w utrzymaniu treści związanych z językiem.
+
+Innym istotnym problemem jest kłopotliwy proces przechowywania tłumaczeń w oddzielnych plikach JSON, co może prowadzić do zagraconych struktur projektu i problemów z kontrolą wersji. Te wyzwania wspólnie przyczyniają się do niedostatecznego doświadczenia związanego z tłumaczeniami, zmuszając deweloperów do poszukiwania alternatywnych rozwiązań dla swoich potrzeb lokalizacyjnych.
+
+## Rozwiązanie jest proste; I nie potrzeba biblioteki
+
+W rzeczywistości, stworzenie niezawodnego mechanizmu tłumaczenia dla projektów Angular nie wymaga dodatkowej biblioteki. W tym samouczku rozwiążemy ten problem za pomocą dwóch elementów:
+
+- Komponentu podstawowego dla wszystkich komponentów w aplikacji
+- Usługi LocaleService, która będzie obsługiwać zmiany języka i publikować je wszędzie
+
+## Co potrzebujesz wcześniej
+
+**Możesz zastosować to, czego się nauczysz tutaj do nowych projektów, a także do istniejącego projektu**
+
+- Aby nadążyć za szkoleniem, potrzebujesz pustego projektu angular 2+.
+  Używam tutaj najnowszej wersji, która ma 'samodzielne' komponenty, ale jeśli korzystasz
+  z starszej wersji Angular, nie będzie to miało znaczenia.
+
+- Zainstaluj fireback v1.1.9 lub nowszą wersję. Installers dla różnych systemów można znaleźć tutaj:
+  <a href="https://github.com/torabian/fireback/releases" target="_blank">https://github.com/torabian/fireback/releases</a>
+
+- Korzystam z VSCode, a rozszerzenie Run On Save jest włączone. Możesz uruchamiać tłumaczenie
+  również z wiersza poleceń, ale posiadanie tego rozszerzenia znacznie ułatwia życie.
+
+## Krok 1: Sprawdź, czy masz dostęp do fireback
+
+Musisz upewnić się, że masz dostęp do binariów fireback, czy to zainstalowanych globalnie,
+czy też umieszczonych w katalogu projektu i zignorowanych.
+
+## Krok 2: Stwórz usługę LocaleService
+
+Oto przekształcona wersja:
+
+Usługa `LocaleService` jest prostą usługą, która będzie używana niemal wszędzie w projekcie,
+z jednym celem: przechowywać i synchronizować dane dotyczące lokalizacji.
+
+W tej usłudze istnieje obserwowalna o nazwie `locale$`, którą będziemy subskrybować w
+komponencie, aby zmienić słownik zmiennych tłumaczeń. Dodatkowo, jest funkcja `setLocale`,
+która ustawia język. Na przykład, `setLocale('en')` zmieni język na angielski.
+
+```ts
+import { Injectable } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
+
+@Injectable({
+  providedIn: 'root',
+})
+export class LocaleService {
+  private localeSubject = new BehaviorSubject<string>('en');
+  locale$ = this.localeSubject.asObservable();
+
+  constructor() {}
+
+  setLocale(locale: string) {
+    this.localeSubject.next(locale);
+  }
+}
+```
+
+## Krok 3: Stwórz komponent bazowy
+
+Stworzenie komponentu bazowego to potężna funkcja Angulara i TypeScriptu,
+która ułatwia rozszerzanie niektórych podstawowych funkcji dla każdego komponentu w projekcie.
+Jeśli już masz taki komponent w projekcie, możesz zastosować tutaj kod do niego.
+Jeśli zaczynasz od nowa, utwórz nowy komponent o nazwie `base.component.ts`.
+
+**Ważne:** Musisz użyć dekoratora `@Directive` zamiast `@Component`; w przeciwnym razie,
+Angular nie będzie go kompilować.
+
+Po pierwsze, potrzebujemy zmiennej, na przykład `s`, aby przechowywać kluczowe tłumaczenia dla szablonu
+lub komponentu. Będzie ona `chroniona`, aby klasy rozszerzają
+
+ce faktycznie miały do niej dostęp,
+jak również do pliku szablonu.
+
+Następnie musimy wstrzyknąć `LocaleService` oraz obiekt kluczów tłumaczeń podczas konstrukcji.
+Ten obiekt będzie przechowywał tłumaczenia dla wszystkich języków (jak zobaczysz później, po wygenerowaniu
+pliku `translations.ts`). W konstruktorze będziemy wywoływać funkcję `handleLocale`,
+która jest po prostu subskrypcją do lokalizacji i zastąpi słownik zawartości `s`
+wybranym językiem.
+
+## Krok 4: Stwórz folder 'strings'
+
+Jak zorganizujesz tłumaczenia, zależy od Ciebie. Ja preferuję tworzenie folderu `strings`
+dla każdego modułu i umieszczanie wszystkich ich tłumaczeń w tym katalogu.
+W ten sposób, gdy przeniosę folder modułu do innego projektu lub chcę go uczynić biblioteką,
+nie będę musiał martwić się o tłumaczenia; już są rozwiązane i dołączone do komponentu
+lub modułu.
+
+Z drugiej strony, jeśli chcesz utworzyć folder `strings` dla całej aplikacji, nic Cię nie zatrzyma.
+
+## Krok 5: Stwórz plik strings/strings-en.yml
+
+Krytyczne jest pamiętanie, że moduł Fireback Language Editor zakłada angielski
+jako główny język aplikacji. Innymi słowy, angielski musi być obecny, a inne języki
+będą synchronizowane z kluczami z tego.
+
+Teraz umieśćmy `treść` wewnątrz YAML.
+**Wszystkie klucze tłumaczeń muszą być umieszczone pod kluczem `content`**,
+w przeciwnym razie nie zostaną one uznane za tłumaczenia.
+
+Jeśli nie jesteś zaznajomiony z YAML, myśl o nim jak o JSON bez cudzysłowów, i pamiętaj:
+
+```yaml
+content:
+  loading: Loading
+  done: Ready :)
+```
+
+Jest różny od kodu poniżej. (Podstawowa różnica to wcięcia).
+
+```yaml
+content:
+loading: Ładowanie...
+  done: Gotowe :)
+```
+
+Do tej pory to wszystkie niezbędne kroki, które musieliśmy podjąć, aby przetłumaczyć naszą aplikację.
+
+## Krok 6: Użyj i skonfiguruj generator języka fireback
+
+Teraz musimy użyć generatora języka Fireback do uproszczenia generowania kluczy dla nas.
+
+```bash
+fireback gen strings --path ./src/app/components/loader-sample/strings/strings-en.yml --targets ts --langs pl,fa
+```
+
+To polecenie wygeneruje dwa dodatkowe pliki w tym samym katalogu:
+`strings-pl.yml` i `strings-fa.yml`. Jeśli je otworzysz, zobaczysz identyczną
+treść jak w twoim `strings-en.yml`.
+
+Również w tym samym katalogu znajdziesz plik `translations.ts`.
+Zawiera on treść podobną do fragmentu poniżej, który wygenerował stałe TypeScript
+dla wszystkich trzech języków i wyeksportował je jako `strings`.
+
+## Krok 7: Zautomatyzuj to za pomocą VSCode run-on-save
+
+Używanie CLI za każdym razem do budowania tłumaczeń jest kłopotliwe. Dlatego korzystamy z rozszerzenia "Run on save" w VSCode, które możesz zainstalować.
+
+Następnie w pliku `settings.json` w VSCode musimy dodać te reguły.
+(Jeśli nigdy nie modyfikowałeś tego pliku, utwórz folder o nazwie `.vscode` w głównym katalogu
+twojego projektu i dodaj w nim plik `settings.json`.)
+
+```
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "strings-([a-z][a-z]).yml$",
+                "cmd": "fireback gen strings --path ${file} --langs en,fa"
+            }
+        ]
+    }
+}
+```
+
+To w zasadzie wykryje każdą zmianę `strings-xx.yml` w projekcie i uruchomi dla ciebie kompilator ciągów.
+
+## Krok 8: Użyj tłumaczeń
+
+W tej fazie, jesteśmy praktycznie gotowi do wykorzystania pliku tłumaczeń.
+W każdym komponencie, który rozszerza `BaseComponent`, będziesz mógł przekazać `strings` i
+uzyskać dostęp do zmiennej `s` zarówno wewnątrz komponentu, jak i w szablonie.
+
+
+```ts
+import { Component } from '@angular/core';
+import { BaseComponent } from '../base.component';
+import { LocaleService } from '../../locale.service';
+import { strings } from './strings/translations';
+
+@Component({
+  selector: 'app-loader-sample',
+  standalone: true,
+  imports: [],
+  templateUrl: './loader-sample.component.html',
+  styleUrl: './loader-sample.component.scss',
+})
+export class LoaderSampleComponent extends BaseComponent {
+  override s = strings;
+  constructor(private locale: LocaleService) {
+    super(locale, strings);
+  }
+}
+```
+
+I możesz uzyskać dostęp do `s` i wszystkich kluczy bezpiecznie w szablonach HTML. *Jak zauważyłeś*,
+faktycznie nie musimy używać rurki do tłumaczeń w ogóle, co stanowi znaczącą korzyść
+zarówno pod względem wydajności, jak i czystości kodu.
+
+```html
+<p>{{ s.loading }}</p>
+```
+## Podsumowanie
+
+Podsumowując, właśnie stworzyliśmy solidny system dodawania tłumaczeń do naszej aplikacji Angular.
+Ta metoda pomoże uniknąć wielu błędów, takich jak brakujące klucze w niektórych
+językach i twardo zakodowane ciągi dla tłumaczenia.
+

@@ -1,0 +1,94 @@
+---
+title: ATS-01 Standard for React Native List based projects
+author: Ali Torabi
+excerpt: Set of rules to follow and check against for high quality, low maintenance react native lists screens. By implementing these rules, you make sure every screen in your app has a good UI experience for the user.
+lang: en
+---
+
+
+ATS-01 is a set of rules, which will be granted into any list, if it meets certain level of the conditions.
+Lack of quality in many products which we see, is due to missing full implementation of these rules.
+*You might already have this rules available in your app* - therefor no need to make adjustments just to use this document
+as reference.
+
+**Technologies**: React Native
+
+**Programming Languages**: JavaScript/TypeScript
+
+
+## Why the lists are important?
+
+Mobile applications are built heavily around lists. In a mobile device, user is usually swiping vertically and less often horizontally.
+Thus, software companies need to focus on building better lists which interacts more smoothly.
+
+## Conditions to meet ATS-01
+
+Here is the interactive list of ATS-01 standard. ATS-01 is met when the screen must implement or be implemeneted:
+
+* Only in React Native framework
+* By FlatList or other virtual list
+* Error handling for first-fetch strategy
+* Error handling when a set of data is present to the user
+* Empty list strategy
+* Pagination
+* Skeleton loader
+* Taking too long indication
+* Timeout and retry mechanism
+* Request cancellation on leaving the screen
+
+
+### Only in React Native framework
+
+The application needs to be written in React Native. Android/IOS/Ionic/Xamarin and etc are not accpted in this standard.
+
+### By FlatList or other virtual list
+
+Starndard only applies to screens which need to show dataset, usually from remote service or bluetooth, WIFI devices.
+It does not apply to stationary elements, which are put in **ScrollView**
+
+Examples:
+
+- List of posts
+- List of images
+- Bluetooth devices around
+
+### Error handling for first-fetch strategy
+
+Screen needs to have a clear strategy, to show the errors occured while fetching information from remote, or any other
+permission issues, requirement in the first list.
+
+### Error handling when a set of data is present to the user
+
+Screen should handle in case of subsequent failures of fetching data, or changes to parameters, and show them on top of the list,
+as header and give user clear action point to move next steps.
+
+
+### Empty list strategy
+
+Screen needs to clearly give user feedback if the remote list is empty.
+**It should be different than network failures, other impediments precluding user to understand real data availabilty.**
+
+
+### Pagination
+
+The screen should load the data from it's remote based on user scroll threshold. Even if the remote source does not have such possiblity,
+you need to make a `PaginatableArray` out of it pass it to this component.
+
+### Skeleton loader
+
+On the first pull, you need to have skeleton porportional to the real items implemented. User should not see a loader,
+while the screen is opened first time.
+
+### Taking too long indication
+
+In case loading of data is taking longer than usual, there should be indication of that, tell the user that they can
+cancel or retry in specific amount of time.
+
+### Timeout and retry mechanism
+
+It should be giving user message "Pull to retry" in case of failure in first or subsequent requests.
+
+### Request cancellation on leaving the screen
+
+Screen needs to keep an strategy to clean up remote requests, BLE scanning, or any ongoing process to provide data
+in to screen, in case user tried to leave the screen.
