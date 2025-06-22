@@ -424,6 +424,7 @@ to modify them, as the lack of type safety prevents immediate detection of all
 occurrences, resulting in an inconsistent user experience where English words may
 unexpectedly appear in a Spanish interface,
 negatively impacting the brand's reputation.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-vVQ9iI2CNU?si=iRFH9tvQIrJiGkvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 <p>The i18n module, while initially a convenient tool for handling translations
 in React and React Native apps, often falls short in several key areas. One prevalent issue is the
 prevalence of hardcoded strings within templates, making it challenging to maintain
