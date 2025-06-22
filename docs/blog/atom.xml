@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://torabi.io/blog</id>
-    <title>Torabian Blog</title>
+    <title>Ali Torabi Blog</title>
     <updated>2025-06-08T18:33:01.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://torabi.io/blog"/>
-    <subtitle>Torabian Blog</subtitle>
+    <subtitle>Ali Torabi Blog</subtitle>
     <icon>https://torabi.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[7 Reasons why Golang is the best backend programming language]]></title>
