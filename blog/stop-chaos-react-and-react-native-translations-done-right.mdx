@@ -63,6 +63,9 @@ install it as dev dependency, so it's binaries do not bundle with react native a
 ## Step 2: Create useLocale hook
 
 ```tsx
+
+import { useState } from 'react'
+
 export function useLocale() {
   const [lang, setLang] = useState('en')
   // further implementation to change locale, or detect based on the browser
@@ -98,10 +101,10 @@ export function useS<T>(v: T): T {
    */
   if (!lang || lang === "en") {
     return v;
-  } else if (!v["$" + lang]) {
+  } else if (!(v as any)["$" + lang]) {
     return v;
   } else {
-    return v["$" + lang];
+    return (v as any)["$" + lang];
   }
 }
 ```
