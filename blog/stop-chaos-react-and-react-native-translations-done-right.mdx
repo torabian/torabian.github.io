@@ -64,16 +64,50 @@ install it as dev dependency, so it's binaries do not bundle with react native a
 
 ```tsx
 
-import { useState } from 'react'
+import React, { createContext, useContext, useState } from "react";
 
-export function useLocale() {
-  const [lang, setLang] = useState('en')
-  // further implementation to change locale, or detect based on the browser
+type Locale = string; // e.g. 'en', 'pl', 'fr'
+type LocaleContextType = {
+  locale: Locale;
+  setLocale: (locale: Locale) => void;
+};
 
-  return { lang }
-}
+const LocaleContext = createContext<LocaleContextType | undefined>(undefined);
+
+export const LocaleProvider = ({ children }: { children: React.ReactNode }) => {
+  const [locale, setLocale] = useState<Locale>("en");
+
+  return (
+    <LocaleContext.Provider value={{ locale, setLocale }}>
+      {children}
+    </LocaleContext.Provider>
+  );
+};
+
+export const useLocale = () => {
+  const context = useContext(LocaleContext);
+  if (!context) {
+    throw new Error("useLocale must be used within a LocaleProvider");
+  }
+  return context;
+};
+
 ```
 
+### Make sure you use the LocaleProvider
+
+In order to get all components the correct state of the locale, make sure that the LocaleProvider is there, it could
+look like something:
+
+```tsx
+const AppWrapper = () => {
+  return (
+    <LocaleProvider>
+      <App />
+    </LocaleProvider>
+  );
+};
+```
 
 ## Step 3: Create the useS hook.
 
@@ -90,7 +124,7 @@ export function useS<T>(v: T): T {
    * you might also extend it to separate the language-locale such as en-us
    * i haven't done yet due to no need
    */
-  const { lang } = useLocale();
+  const { locale } = useLocale();
 
   /*
    * Here we check if there lang is anything other than en, and in translation
@@ -99,12 +133,12 @@ export function useS<T>(v: T): T {
    * so all the translations will be typesafe anyway from typescript compiler
    * perspective
    */
-  if (!lang || lang === "en") {
+  if (!locale || locale === "en") {
     return v;
-  } else if (!(v as any)["$" + lang]) {
+  } else if (!(v as any)["$" + locale]) {
     return v;
   } else {
-    return (v as any)["$" + lang];
+    return (v as any)["$" + locale];
   }
 }
 ```
