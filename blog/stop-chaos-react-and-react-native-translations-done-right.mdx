@@ -64,18 +64,10 @@ install it as dev dependency, so it's binaries do not bundle with react native a
 
 ```tsx
 export function useLocale() {
-  const [locale, setLocale] = useState({
-    lang: 'en',
-    region: 'us',
-  })
+  const [lang, setLang] = useState('en')
+  // further implementation to change locale, or detect based on the browser
 
-  const dir = locale.lang === 'fa' || locale.lang === 'ar' ? 'rtl' : 'ltr'
-
-  // Here you can implement the rest of the necessary functionality
-  // for detecting the locale, or for example, extra function to set
-  // only the language or so.
-
-  return {lang, region, dir}
+  return { lang }
 }
 ```
 
