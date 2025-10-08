@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktorabian_github_io=self.webpackChunktorabian_github_io||[]).push([[9647],{7121:(e,r,a)=>{a.r(r),a.d(r,{default:()=>o});a(6540);var s=a(4164),t=a(5500),u=a(7559),i=a(2831),n=a(1656),c=a(4848);function o(e){return(0,c.jsx)(t.e3,{className:(0,s.A)(u.G.wrapper.docsPages),children:(0,c.jsx)(n.A,{children:(0,i.v)(e.route.routes)})})}}}]);
