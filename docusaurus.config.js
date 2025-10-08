@@ -38,7 +38,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "pl"],
   },
 
   scripts: ["/lottie.min.js"],
@@ -92,6 +92,8 @@ const config = {
         },
         items: [
           { to: "/blog", label: "Blog", position: "left" },
+          { to: "/products", label: "Products", position: "left" },
+          { to: "/trainings", label: "Trainings", position: "left" },
           {
             href: "https://github.com/torabian",
             label: "GitHub",

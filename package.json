@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "touch docs/index.md && docusaurus start",
+    "start": "docusaurus start",
     "build": "rm -rf docs && mkdir docs && touch docs/index.mdx && docusaurus build && rm -rf docs && mv build docs && mv dom3d docs && git checkout docs/CNAME",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",

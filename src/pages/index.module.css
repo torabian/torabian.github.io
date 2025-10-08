@@ -1,23 +1,138 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
-.buttons {
+.main {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+/* Hero section: full-width split */
+.hero {
+  display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 6rem 5vw;
+  flex-wrap: wrap;
+  background: var(--ifm-color-emphasis-100);
+}
+
+.heroContent {
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+}
+
+.heroText {
+  flex: 1 1 400px;
+  max-width: 600px;
+}
+
+.heroImg {
+  flex: 0 0 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+
+
+/* Section container spanning nearly full width */
+.fullSection {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.videoGrid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 1.5rem;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.productsGrid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.productCard {
+  background: var(--ifm-color-emphasis-100);
+  padding: 2rem;
+  border-radius: 12px;
+  transition: transform 0.2s;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.productCard h3 {
+  margin: 0 0 1rem 0;
+  color: var(--ifm-color-primary);
+  font-size: 1.5rem;
+}
+
+.productDescription {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0 0 1rem 0;
+  color: var(--ifm-color-content);
+}
+
+.productDetails {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+  color: var(--ifm-color-content-secondary);
+}
+
+.cardRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  flex: 1 1 300px;
+  background: var(--ifm-color-emphasis-100);
+  padding: 1.5rem;
+  border-radius: 12px;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.servicesGrid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.service {
+  background: var(--ifm-color-emphasis-100);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.cta {
+  width: 100%;
+  text-align: center;
+  padding: 5rem 1rem;
+  background: var(--ifm-color-emphasis-200);
 }
