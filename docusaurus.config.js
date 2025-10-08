@@ -38,7 +38,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "pl"],
+    locales: ["en"],
   },
 
   scripts: ["/lottie.min.js"],
@@ -85,15 +85,15 @@ const config = {
       // Replace with your project's social card
       image: "img/docusaurus-social-card.jpg",
       navbar: {
-        title: "Torabian",
-        logo: {
-          alt: "Torabian",
-          src: "img/logo.svg",
-        },
+        title: "TORABI",
         items: [
           { to: "/blog", label: "Blog", position: "left" },
           { to: "/products", label: "Products", position: "left" },
           { to: "/trainings", label: "Trainings", position: "left" },
+          { to: "/services", label: "Services", position: "left" },
+          { to: "/workshops", label: "Workshops", position: "left" },
+          { to: "/experiences", label: "Experiences", position: "left" },
+          { to: "/skills", label: "Skills", position: "left" },
           {
             href: "https://github.com/torabian",
             label: "GitHub",
@@ -104,7 +104,7 @@ const config = {
       footer: {
         style: "dark",
         links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} Ali Torabi, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ali Torabi Software services.`,
       },
       prism: {
         theme: prismThemes.github,

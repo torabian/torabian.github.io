@@ -112,9 +112,126 @@
   padding: 1.5rem;
   border-radius: 12px;
   transition: transform 0.2s;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid var(--ifm-color-emphasis-200);
 }
 .card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary);
+}
+
+.workshopMeta {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.workshopDuration {
+  background: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary);
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.workshopLevel {
+  background: var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-content);
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Experience Card Styles */
+.experienceHeader {
+  margin-bottom: 1rem;
+}
+
+.experienceMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.experienceCategory {
+  background: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary);
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.experienceDate {
+  background: var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-content);
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.experienceFeatured {
+  background: #f59e0b;
+  color: white;
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Service Card Styles */
+.serviceHeader {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: flex-start;
+}
+
+.serviceIcon {
+  font-size: 2rem;
+  flex-shrink: 0;
+}
+
+.serviceInfo {
+  flex: 1;
+}
+
+.serviceInfo h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.serviceMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.servicePrice {
+  background: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary);
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.serviceDuration {
+  background: var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-content);
+  padding: 0.25rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  width: fit-content;
 }
 
 .servicesGrid {

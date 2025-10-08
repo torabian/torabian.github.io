@@ -1,0 +1,324 @@
+.main {
+  min-height: calc(100vh - 200px);
+  background: var(--ifm-color-emphasis-100);
+  padding: 2rem 0;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 0 2rem;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  color: var(--ifm-color-primary);
+  background: linear-gradient(135deg, var(--ifm-color-primary), var(--ifm-color-primary-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header p {
+  font-size: 1.2rem;
+  color: var(--ifm-color-content-secondary);
+  margin: 0;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.section {
+  max-width: 1200px;
+  margin: 0 auto 4rem auto;
+  padding: 0 2rem;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0 0 2rem 0;
+  color: var(--ifm-color-primary);
+  text-align: center;
+}
+
+/* Skill Categories */
+.skillCategories {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.skillCategoryCard {
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.skillCategoryCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary);
+}
+
+.skillCategoryHeader h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: var(--ifm-color-primary);
+}
+
+.skillCategoryDescription {
+  color: var(--ifm-color-content-secondary);
+  margin: 0 0 1.5rem 0;
+  font-size: 0.95rem;
+}
+
+.skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skillTag {
+  background: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-contrast-foreground);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.skillTag:hover {
+  background: var(--ifm-color-primary-dark);
+  transform: scale(1.05);
+}
+
+/* Language Skills */
+.languageGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.languageCard {
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.languageCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary);
+}
+
+.languageHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.languageHeader h4 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: var(--ifm-color-primary);
+}
+
+.languageLevel {
+  background: var(--ifm-color-primary-light);
+  color: var(--ifm-color-primary-contrast-foreground);
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.languageDescription {
+  color: var(--ifm-color-content-secondary);
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.futureLanguages {
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+}
+
+.futureLanguages h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  color: var(--ifm-color-primary);
+}
+
+.futureLanguageList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.futureLanguageTag {
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-content);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+/* Other Skills */
+.otherSkillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.otherSkillCard {
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.otherSkillCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary);
+}
+
+.otherSkillCard h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+  color: var(--ifm-color-primary);
+}
+
+.otherSkillDescription {
+  color: var(--ifm-color-content-secondary);
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+}
+
+.otherSkillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.otherSkillTag {
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-content);
+  padding: 0.4rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+/* About Section */
+.aboutSection {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.aboutSection h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0 0 2rem 0;
+  color: var(--ifm-color-primary);
+  text-align: center;
+}
+
+.aboutContent {
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.aboutContent p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--ifm-color-content);
+  margin: 0 0 1.5rem 0;
+}
+
+.aboutContent p:last-child {
+  margin-bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2.5rem;
+  }
+  
+  .section h2 {
+    font-size: 2rem;
+  }
+  
+  .skillCategories {
+    grid-template-columns: 1fr;
+  }
+  
+  .languageGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .otherSkillsGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .aboutContent {
+    padding: 1.5rem;
+  }
+  
+  .aboutContent p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    padding: 1rem 0;
+  }
+  
+  .header {
+    margin-bottom: 2rem;
+  }
+  
+  .section {
+    margin-bottom: 3rem;
+  }
+  
+  .skillCategoryCard,
+  .languageCard,
+  .otherSkillCard {
+    padding: 1.25rem;
+  }
+  
+  .aboutContent {
+    padding: 1.25rem;
+  }
+}

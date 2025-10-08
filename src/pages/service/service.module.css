@@ -1,0 +1,457 @@
+.main {
+  min-height: calc(100vh - 200px);
+  background: var(--ifm-color-emphasis-100);
+}
+
+.serviceHeader {
+  background: var(--ifm-color-emphasis-200);
+  padding: 3rem 2rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.serviceInfo {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.serviceMeta {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.serviceIcon {
+  font-size: 3rem;
+  flex-shrink: 0;
+}
+
+.metaInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.category, .featuredBadge {
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  width: fit-content;
+}
+
+.category {
+  background: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary);
+}
+
+.featuredBadge {
+  background: #f59e0b;
+  color: white;
+}
+
+.serviceTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 1.5rem 0;
+  color: var(--ifm-color-primary);
+  background: linear-gradient(135deg, var(--ifm-color-primary), var(--ifm-color-primary-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.serviceDescription {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--ifm-color-content);
+  margin: 0 0 2rem 0;
+  max-width: 800px;
+}
+
+.serviceDetails {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  max-width: 600px;
+}
+
+.detailItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 12px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.detailLabel {
+  font-size: 0.9rem;
+  color: var(--ifm-color-content-secondary);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.detailValue {
+  font-size: 1.1rem;
+  color: var(--ifm-color-content);
+  font-weight: 600;
+}
+
+.featuresSection {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.featuresSection h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0 0 2rem 0;
+  color: var(--ifm-color-content);
+  text-align: center;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.featureIcon {
+  background: var(--ifm-color-primary);
+  color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.featureText {
+  color: var(--ifm-color-content);
+  font-weight: 500;
+}
+
+.technologiesSection {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem 3rem 2rem;
+}
+
+.technologiesSection h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0 0 2rem 0;
+  color: var(--ifm-color-content);
+  text-align: center;
+}
+
+.technologiesList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.techTag {
+  background: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border: 1px solid var(--ifm-color-primary-light);
+}
+
+.contentSection {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem 3rem 2rem;
+}
+
+.markdownContent {
+  line-height: 1.7;
+  color: var(--ifm-color-content);
+  font-size: 1.1rem;
+}
+
+.markdownContent h1,
+.markdownContent h2,
+.markdownContent h3,
+.markdownContent h4,
+.markdownContent h5,
+.markdownContent h6 {
+  color: var(--ifm-color-content);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.markdownContent h1 {
+  font-size: 2rem;
+  border-bottom: 2px solid var(--ifm-color-primary);
+  padding-bottom: 0.5rem;
+}
+
+.markdownContent h2 {
+  font-size: 1.6rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+  padding-bottom: 0.3rem;
+}
+
+.markdownContent h3 {
+  font-size: 1.4rem;
+}
+
+.markdownContent p {
+  margin-bottom: 1.5rem;
+  line-height: 1.7;
+}
+
+.markdownContent ul,
+.markdownContent ol {
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+
+.markdownContent li {
+  margin-bottom: 0.5rem;
+}
+
+.markdownContent code {
+  background: var(--ifm-color-emphasis-200);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.9rem;
+}
+
+.markdownContent pre {
+  background: var(--ifm-color-emphasis-200);
+  padding: 1.5rem;
+  border-radius: 8px;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.markdownContent pre code {
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+
+.markdownContent blockquote {
+  border-left: 4px solid var(--ifm-color-primary);
+  padding-left: 1.5rem;
+  margin: 1.5rem 0;
+  color: var(--ifm-color-content-secondary);
+  font-style: italic;
+}
+
+.markdownContent table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.markdownContent th,
+.markdownContent td {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.markdownContent th {
+  background: var(--ifm-color-emphasis-200);
+  font-weight: 600;
+}
+
+.ctaSection {
+  background: var(--ifm-color-primary);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.ctaSection h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+.ctaSection p {
+  font-size: 1.2rem;
+  margin: 0 0 2rem 0;
+  opacity: 0.9;
+}
+
+.ctaButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.primaryButton, .secondaryButton {
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  font-size: 1rem;
+}
+
+.primaryButton {
+  background: white;
+  color: var(--ifm-color-primary);
+}
+
+.primaryButton:hover {
+  background: var(--ifm-color-emphasis-100);
+  transform: translateY(-2px);
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.secondaryButton {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.secondaryButton:hover {
+  background: white;
+  color: var(--ifm-color-primary);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.navigation {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.backButton {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-content);
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.backButton:hover {
+  background: var(--ifm-color-emphasis-300);
+  transform: translateY(-2px);
+  color: var(--ifm-color-content);
+  text-decoration: none;
+}
+
+.error {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--ifm-color-content-secondary);
+}
+
+.error h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-content);
+}
+
+.error p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .serviceHeader {
+    padding: 2rem 1rem;
+  }
+  
+  .serviceTitle {
+    font-size: 2rem;
+  }
+  
+  .serviceMeta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .serviceDetails {
+    grid-template-columns: 1fr;
+  }
+  
+  .featuresSection,
+  .technologiesSection,
+  .contentSection {
+    padding: 2rem 1rem;
+  }
+  
+  .featuresGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .ctaSection {
+    padding: 3rem 1rem;
+  }
+  
+  .ctaButtons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .primaryButton,
+  .secondaryButton {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .serviceHeader {
+    padding: 1.5rem 1rem;
+  }
+  
+  .serviceTitle {
+    font-size: 1.8rem;
+  }
+  
+  .serviceIcon {
+    font-size: 2.5rem;
+  }
+  
+  .ctaSection h2 {
+    font-size: 1.6rem;
+  }
+  
+  .ctaSection p {
+    font-size: 1rem;
+  }
+}

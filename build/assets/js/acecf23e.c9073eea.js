@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktorabi_io=self.webpackChunktorabi_io||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);

@@ -5,7 +5,8 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "rm -rf docs && mkdir docs && touch docs/index.mdx && docusaurus build && rm -rf docs && mv build docs && mv dom3d docs && git checkout docs/CNAME",
+    "build12": "rm -rf docs && mkdir docs && touch docs/index.mdx && docusaurus build && rm -rf docs && mv build docs && mv dom3d docs && git checkout docs/CNAME",
+    "build": "docusaurus build ",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -20,7 +21,8 @@
     "clsx": "^2.0.0",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.8.0",
