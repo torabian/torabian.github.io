@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://torabi.io/blog</id>
     <title>Ali Torabi Blog</title>
-    <updated>2025-10-08T20:50:26.000Z</updated>
+    <updated>2025-10-08T20:52:10.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://torabi.io/blog"/>
     <subtitle>Ali Torabi Blog</subtitle>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[7 Reasons why Golang is the best backend programming language]]></title>
         <id>https://torabi.io/blog/7-reasons-why-Golang-is-the-best-backend-programming-language</id>
         <link href="https://torabi.io/blog/7-reasons-why-Golang-is-the-best-backend-programming-language"/>
-        <updated>2025-10-08T20:50:26.000Z</updated>
+        <updated>2025-10-08T20:52:10.000Z</updated>
         <summary type="html"><![CDATA[In case you never heared Golang before, it is a staticly typed, compiled language, which is developed by google]]></summary>
         <content type="html"><![CDATA[<p>In case you never heared Golang before, it is a staticly typed, compiled language, which is developed by google
 to reduce their need for C/C++ in web area. This language has some benefits over C/C++ besides seems to be true winner
@@ -61,7 +61,7 @@ and you can create CLI apps and Web apps much easier than you think.</p>]]></con
         <title type="html"><![CDATA[ATS-01 Standard for React Native List based projects]]></title>
         <id>https://torabi.io/blog/ats-01-standard-react-native-list</id>
         <link href="https://torabi.io/blog/ats-01-standard-react-native-list"/>
-        <updated>2025-10-08T20:50:26.000Z</updated>
+        <updated>2025-10-08T20:52:10.000Z</updated>
         <summary type="html"><![CDATA[ATS-01 is a set of rules, which will be granted into any list, if it meets certain level of the conditions.]]></summary>
         <content type="html"><![CDATA[<p>ATS-01 is a set of rules, which will be granted into any list, if it meets certain level of the conditions.
 Lack of quality in many products which we see, is due to missing full implementation of these rules.
@@ -128,7 +128,7 @@ in to screen, in case user tried to leave the screen.</p>]]></content>
         <title type="html"><![CDATA[Honest comparision of hybrid app vs. Native finally]]></title>
         <id>https://torabi.io/blog/honest-comparision-of-hybrid-app-vs-native-finally</id>
         <link href="https://torabi.io/blog/honest-comparision-of-hybrid-app-vs-native-finally"/>
-        <updated>2025-10-08T20:50:26.000Z</updated>
+        <updated>2025-10-08T20:52:10.000Z</updated>
         <summary type="html"><![CDATA[When considering the development of an app for your idea or business needs,]]></summary>
         <content type="html"><![CDATA[<p>When considering the development of an app for your idea or business needs,
 you'll inevitably confront a pivotal question: whether to pursue a hybrid or native approach.
@@ -291,7 +291,7 @@ Dive in and kickstart your mobile app development journey with confidence!</p>]]
         <title type="html"><![CDATA[Stop Chaos! Angular Translations Done Right Once]]></title>
         <id>https://torabi.io/blog/stop-chaos-angular-translations-done-right</id>
         <link href="https://torabi.io/blog/stop-chaos-angular-translations-done-right"/>
-        <updated>2025-10-08T20:50:26.000Z</updated>
+        <updated>2025-10-08T20:52:10.000Z</updated>
         <summary type="html"><![CDATA[Critical problems with ng translate, i18n and others]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="critical-problems-with-ng-translate-i18n-and-others">Critical problems with ng translate, i18n and others<a href="https://torabi.io/blog/stop-chaos-angular-translations-done-right#critical-problems-with-ng-translate-i18n-and-others" class="hash-link" aria-label="Direct link to Critical problems with ng translate, i18n and others" title="Direct link to Critical problems with ng translate, i18n and others">​</a></h2>
 <p>The significance of translations appears to be overlooked, with the second language
@@ -425,7 +425,7 @@ This feature is available starting from Fireback v1.1.9</p>]]></content>
         <title type="html"><![CDATA[Stop Chaos! React & React Native Translations Done Right Once]]></title>
         <id>https://torabi.io/blog/stop-chaos-react-and-react-native-translations-done-right</id>
         <link href="https://torabi.io/blog/stop-chaos-react-and-react-native-translations-done-right"/>
-        <updated>2025-10-08T20:50:26.000Z</updated>
+        <updated>2025-10-08T20:52:10.000Z</updated>
         <summary type="html"><![CDATA[Critical problems with usual react translation libraries, i18n and others]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="critical-problems-with-usual-react-translation-libraries-i18n-and-others">Critical problems with usual react translation libraries, i18n and others<a href="https://torabi.io/blog/stop-chaos-react-and-react-native-translations-done-right#critical-problems-with-usual-react-translation-libraries-i18n-and-others" class="hash-link" aria-label="Direct link to Critical problems with usual react translation libraries, i18n and others" title="Direct link to Critical problems with usual react translation libraries, i18n and others">​</a></h2>
 <p>The significance of translations appears to be overlooked, with the second language
@@ -542,7 +542,7 @@ This feature is available starting from Fireback v1.1.9</p>]]></content>
         <title type="html"><![CDATA[Top reasons software teams and companies suffer from their own decisions]]></title>
         <id>https://torabi.io/blog/top-reasons-software-teams-and-companies-suffer-from-their-own-decisions</id>
         <link href="https://torabi.io/blog/top-reasons-software-teams-and-companies-suffer-from-their-own-decisions"/>
-        <updated>2025-10-08T20:50:26.000Z</updated>
+        <updated>2025-10-08T20:52:10.000Z</updated>
         <summary type="html"><![CDATA[When I join a company and I see managers complaining, coders complaining and designer complaining, I see a quite common]]></summary>
         <content type="html"><![CDATA[<p>When I join a company and I see managers complaining, coders complaining and designer complaining, I see a quite common
 pattern which I tried to not them happen in PixePlux projects and clients.</p>
@@ -595,7 +595,7 @@ would end up 10% of the time.</p>]]></content>
         <title type="html"><![CDATA[Why to use lottie in React Native mobile development]]></title>
         <id>https://torabi.io/blog/why-use-lottie-in-react-native-mobile-development</id>
         <link href="https://torabi.io/blog/why-use-lottie-in-react-native-mobile-development"/>
-        <updated>2025-10-08T20:50:26.000Z</updated>
+        <updated>2025-10-08T20:52:10.000Z</updated>
         <summary type="html"><![CDATA[Animations are essential for most of user interfaces. Human being naturally are used to see things change in transition,]]></summary>
         <content type="html"><![CDATA[<p>Animations are essential for most of user interfaces. Human being naturally are used to see things change in transition,
 a leaf is falling down with an speed. No one expecting to see the leaf on the tree, and immediately on the ground.</p>
@@ -630,7 +630,7 @@ processing a payment, searching for content, giving news bullitens and many more
         <title type="html"><![CDATA[Zatrzymaj Chaos! Tłumaczenia Angular Wykonane Jak Trzeba Raz]]></title>
         <id>https://torabi.io/blog/zatrzymaj-chaos-tłumaczenia-angular-wykonane-poprawnie</id>
         <link href="https://torabi.io/blog/zatrzymaj-chaos-tłumaczenia-angular-wykonane-poprawnie"/>
-        <updated>2025-10-08T20:50:26.000Z</updated>
+        <updated>2025-10-08T20:52:10.000Z</updated>
         <summary type="html"><![CDATA[Krytyczne problemy z ng translate, i18n i innymi]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="krytyczne-problemy-z-ng-translate-i18n-i-innymi">Krytyczne problemy z ng translate, i18n i innymi<a href="https://torabi.io/blog/zatrzymaj-chaos-t%C5%82umaczenia-angular-wykonane-poprawnie#krytyczne-problemy-z-ng-translate-i18n-i-innymi" class="hash-link" aria-label="Direct link to Krytyczne problemy z ng translate, i18n i innymi" title="Direct link to Krytyczne problemy z ng translate, i18n i innymi">​</a></h2>
 <p>Znaczenie tłumaczeń wydaje się być pomijane, a drugi język często traktowany jest po macoszemu w moich projektach; niektóre z nich nawet zaczynają się od niewłaściwych ciągów znaków w szablonach, aby później napotkać trudności przy próbie ich modyfikacji, ponieważ brak bezpieczeństwa typów uniemożliwia natychmiastowe wykrycie wszystkich wystąpień, co prowadzi do niejednolitego doświadczenia użytkownika, gdzie angielskie słowa mogą niespodziewanie pojawić się w hiszpańskim interfejsie, co negatywnie wpływa na reputację marki.</p>
