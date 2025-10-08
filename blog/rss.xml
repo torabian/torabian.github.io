@@ -4,7 +4,7 @@
         <title>Ali Torabi Blog</title>
         <link>https://torabi.io/blog</link>
         <description>Ali Torabi Blog</description>
-        <lastBuildDate>Wed, 08 Oct 2025 21:31:04 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Oct 2025 21:34:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[7 Reasons why Golang is the best backend programming language]]></title>
             <link>https://torabi.io/blog/7-reasons-why-Golang-is-the-best-backend-programming-language</link>
             <guid>https://torabi.io/blog/7-reasons-why-Golang-is-the-best-backend-programming-language</guid>
-            <pubDate>Wed, 08 Oct 2025 21:31:04 GMT</pubDate>
+            <pubDate>Wed, 08 Oct 2025 21:34:13 GMT</pubDate>
             <description><![CDATA[In case you never heared Golang before, it is a staticly typed, compiled language, which is developed by google]]></description>
             <content:encoded><![CDATA[<p>In case you never heared Golang before, it is a staticly typed, compiled language, which is developed by google
 to reduce their need for C/C++ in web area. This language has some benefits over C/C++ besides seems to be true winner
@@ -59,7 +59,7 @@ and you can create CLI apps and Web apps much easier than you think.</p>]]></con
             <title><![CDATA[ATS-01 Standard for React Native List based projects]]></title>
             <link>https://torabi.io/blog/ats-01-standard-react-native-list</link>
             <guid>https://torabi.io/blog/ats-01-standard-react-native-list</guid>
-            <pubDate>Wed, 08 Oct 2025 21:31:04 GMT</pubDate>
+            <pubDate>Wed, 08 Oct 2025 21:34:13 GMT</pubDate>
             <description><![CDATA[ATS-01 is a set of rules, which will be granted into any list, if it meets certain level of the conditions.]]></description>
             <content:encoded><![CDATA[<p>ATS-01 is a set of rules, which will be granted into any list, if it meets certain level of the conditions.
 Lack of quality in many products which we see, is due to missing full implementation of these rules.
@@ -123,7 +123,7 @@ in to screen, in case user tried to leave the screen.</p>]]></content:encoded>
             <title><![CDATA[Honest comparision of hybrid app vs. Native finally]]></title>
             <link>https://torabi.io/blog/honest-comparision-of-hybrid-app-vs-native-finally</link>
             <guid>https://torabi.io/blog/honest-comparision-of-hybrid-app-vs-native-finally</guid>
-            <pubDate>Wed, 08 Oct 2025 21:31:04 GMT</pubDate>
+            <pubDate>Wed, 08 Oct 2025 21:34:13 GMT</pubDate>
             <description><![CDATA[When considering the development of an app for your idea or business needs,]]></description>
             <content:encoded><![CDATA[<p>When considering the development of an app for your idea or business needs,
 you'll inevitably confront a pivotal question: whether to pursue a hybrid or native approach.
@@ -283,7 +283,7 @@ Dive in and kickstart your mobile app development journey with confidence!</p>]]
             <title><![CDATA[Stop Chaos! Angular Translations Done Right Once]]></title>
             <link>https://torabi.io/blog/stop-chaos-angular-translations-done-right</link>
             <guid>https://torabi.io/blog/stop-chaos-angular-translations-done-right</guid>
-            <pubDate>Wed, 08 Oct 2025 21:31:04 GMT</pubDate>
+            <pubDate>Wed, 08 Oct 2025 21:34:13 GMT</pubDate>
             <description><![CDATA[Critical problems with ng translate, i18n and others]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="critical-problems-with-ng-translate-i18n-and-others">Critical problems with ng translate, i18n and others<a href="https://torabi.io/blog/stop-chaos-angular-translations-done-right#critical-problems-with-ng-translate-i18n-and-others" class="hash-link" aria-label="Direct link to Critical problems with ng translate, i18n and others" title="Direct link to Critical problems with ng translate, i18n and others">​</a></h2>
 <p>The significance of translations appears to be overlooked, with the second language
@@ -414,7 +414,7 @@ This feature is available starting from Fireback v1.1.9</p>]]></content:encoded>
             <title><![CDATA[Stop Chaos! React & React Native Translations Done Right Once]]></title>
             <link>https://torabi.io/blog/stop-chaos-react-and-react-native-translations-done-right</link>
             <guid>https://torabi.io/blog/stop-chaos-react-and-react-native-translations-done-right</guid>
-            <pubDate>Wed, 08 Oct 2025 21:31:04 GMT</pubDate>
+            <pubDate>Wed, 08 Oct 2025 21:34:13 GMT</pubDate>
             <description><![CDATA[Critical problems with usual react translation libraries, i18n and others]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="critical-problems-with-usual-react-translation-libraries-i18n-and-others">Critical problems with usual react translation libraries, i18n and others<a href="https://torabi.io/blog/stop-chaos-react-and-react-native-translations-done-right#critical-problems-with-usual-react-translation-libraries-i18n-and-others" class="hash-link" aria-label="Direct link to Critical problems with usual react translation libraries, i18n and others" title="Direct link to Critical problems with usual react translation libraries, i18n and others">​</a></h2>
 <p>The significance of translations appears to be overlooked, with the second language
@@ -528,7 +528,7 @@ This feature is available starting from Fireback v1.1.9</p>]]></content:encoded>
             <title><![CDATA[Top reasons software teams and companies suffer from their own decisions]]></title>
             <link>https://torabi.io/blog/top-reasons-software-teams-and-companies-suffer-from-their-own-decisions</link>
             <guid>https://torabi.io/blog/top-reasons-software-teams-and-companies-suffer-from-their-own-decisions</guid>
-            <pubDate>Wed, 08 Oct 2025 21:31:04 GMT</pubDate>
+            <pubDate>Wed, 08 Oct 2025 21:34:13 GMT</pubDate>
             <description><![CDATA[When I join a company and I see managers complaining, coders complaining and designer complaining, I see a quite common]]></description>
             <content:encoded><![CDATA[<p>When I join a company and I see managers complaining, coders complaining and designer complaining, I see a quite common
 pattern which I tried to not them happen in PixePlux projects and clients.</p>
@@ -581,7 +581,7 @@ would end up 10% of the time.</p>]]></content:encoded>
             <title><![CDATA[Why to use lottie in React Native mobile development]]></title>
             <link>https://torabi.io/blog/why-use-lottie-in-react-native-mobile-development</link>
             <guid>https://torabi.io/blog/why-use-lottie-in-react-native-mobile-development</guid>
-            <pubDate>Wed, 08 Oct 2025 21:31:04 GMT</pubDate>
+            <pubDate>Wed, 08 Oct 2025 21:34:13 GMT</pubDate>
             <description><![CDATA[Animations are essential for most of user interfaces. Human being naturally are used to see things change in transition,]]></description>
             <content:encoded><![CDATA[<p>Animations are essential for most of user interfaces. Human being naturally are used to see things change in transition,
 a leaf is falling down with an speed. No one expecting to see the leaf on the tree, and immediately on the ground.</p>
@@ -616,7 +616,7 @@ processing a payment, searching for content, giving news bullitens and many more
             <title><![CDATA[Zatrzymaj Chaos! Tłumaczenia Angular Wykonane Jak Trzeba Raz]]></title>
             <link>https://torabi.io/blog/zatrzymaj-chaos-tłumaczenia-angular-wykonane-poprawnie</link>
             <guid>https://torabi.io/blog/zatrzymaj-chaos-tłumaczenia-angular-wykonane-poprawnie</guid>
-            <pubDate>Wed, 08 Oct 2025 21:31:04 GMT</pubDate>
+            <pubDate>Wed, 08 Oct 2025 21:34:13 GMT</pubDate>
             <description><![CDATA[Krytyczne problemy z ng translate, i18n i innymi]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="krytyczne-problemy-z-ng-translate-i18n-i-innymi">Krytyczne problemy z ng translate, i18n i innymi<a href="https://torabi.io/blog/zatrzymaj-chaos-t%C5%82umaczenia-angular-wykonane-poprawnie#krytyczne-problemy-z-ng-translate-i18n-i-innymi" class="hash-link" aria-label="Direct link to Krytyczne problemy z ng translate, i18n i innymi" title="Direct link to Krytyczne problemy z ng translate, i18n i innymi">​</a></h2>
 <p>Znaczenie tłumaczeń wydaje się być pomijane, a drugi język często traktowany jest po macoszemu w moich projektach; niektóre z nich nawet zaczynają się od niewłaściwych ciągów znaków w szablonach, aby później napotkać trudności przy próbie ich modyfikacji, ponieważ brak bezpieczeństwa typów uniemożliwia natychmiastowe wykrycie wszystkich wystąpień, co prowadzi do niejednolitego doświadczenia użytkownika, gdzie angielskie słowa mogą niespodziewanie pojawić się w hiszpańskim interfejsie, co negatywnie wpływa na reputację marki.</p>
