@@ -1,42 +1,32 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #1e6fbf;
+  --ifm-color-primary-dark: #185aa3;
+  --ifm-color-primary-darker: #14488a;
+  --ifm-color-primary-darkest: #0f3670;
+  --ifm-color-primary-light: #287fd0;
+  --ifm-color-primary-lighter: #3490e1;
+  --ifm-color-primary-lightest: #4ba6f2;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #3390ff;
+  --ifm-color-primary-dark: #2877d1;
+  --ifm-color-primary-darker: #205fb0;
+  --ifm-color-primary-darkest: #18488a;
+  --ifm-color-primary-light: #4aa0ff;
+  --ifm-color-primary-lighter: #6ab3ff;
+  --ifm-color-primary-lightest: #8cc5ff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* Center the navbar content like a container */
 .navbar__inner {
-  max-width: 1500px;     /* your preferred width */
-  margin: 0 auto;         /* centers it */
-  padding: 0 1.5rem;      /* small side padding */
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
 
-/* Optional: make background stretch full width but content centered */
 .navbar {
   background-color: var(--ifm-navbar-background-color);
   box-shadow: var(--ifm-navbar-shadow);
