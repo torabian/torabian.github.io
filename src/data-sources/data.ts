@@ -38,68 +38,21 @@ export interface Product {
     demo?: string;
     download?: string;
   };
-  trainingRelated?: string[]; // Array of training IDs
+  trainingRelated?: string[];
   features: string[];
   status: "active" | "beta" | "deprecated";
   lastUpdated: string;
-}
 
-export const products: Product[] = [
-  {
-    id: "fireback",
-    title: "Fireback",
-    type: "Web Framework",
-    description:
-      "A powerful Golang framework for building modern web applications with built-in features for rapid development.",
-    details:
-      "Fireback provides a comprehensive set of tools and utilities for Go developers, including routing, middleware, database integration, and more. It's designed to streamline the development process while maintaining high performance and scalability. Built with modern Go practices and designed for both beginners and experienced developers.",
-    links: {
-      github: "https://github.com/torabian/fireback",
-      documentation: "https://fireback.dev/docs",
-      demo: "https://demo.fireback.dev",
-    },
-    trainingRelated: ["avoid-software-failure"],
-    features: [
-      "Fast HTTP routing with middleware support",
-      "Built-in database ORM with migration tools",
-      "Comprehensive testing utilities",
-      "Auto-generated API documentation",
-      "WebSocket support out of the box",
-      "Environment-based configuration",
-      "Graceful shutdown handling",
-      "Request validation and sanitization",
-    ],
-    status: "active",
-    lastUpdated: "2024-01-15",
-  },
-  {
-    id: "emi",
-    title: "Emi",
-    type: "Compiler",
-    description:
-      "The Emi compiler - a cutting-edge compilation tool for modern software development.",
-    details:
-      "Emi is an advanced compiler that brings innovative compilation techniques to help developers optimize their code, improve performance, and streamline the build process. It supports multiple languages and provides intelligent code analysis, dead code elimination, and advanced optimization strategies.",
-    links: {
-      github: "https://github.com/torabian/emi",
-      documentation: "https://emi.dev/docs",
-      download: "https://emi.dev/download",
-    },
-    trainingRelated: ["avoid-software-failure"],
-    features: [
-      "Multi-language support (Go, Rust, C++)",
-      "Advanced dead code elimination",
-      "Intelligent optimization algorithms",
-      "Parallel compilation support",
-      "Cross-platform compatibility",
-      "Plugin architecture for extensibility",
-      "Real-time compilation feedback",
-      "Memory usage optimization",
-    ],
-    status: "beta",
-    lastUpdated: "2024-01-10",
-  },
-];
+  relatedWorkshop?: Workshop;
+
+  artifacts?: {
+    name: string;
+    type: "installer" | "binary" | "archive" | "apk";
+    url: string;
+    os: "windows" | "linux" | "macos" | "android" | "ios" | string;
+    arch: "x64" | "arm64" | "armv7" | string;
+  }[];
+}
 
 // Workshop interfaces
 export interface WorkshopSection {
@@ -109,11 +62,15 @@ export interface WorkshopSection {
   duration: string; // e.g., "15 min", "1h 30min"
   content: string; // Markdown content
   isCompleted?: boolean;
+  mainVideo?: {
+    url: string;
+  };
 }
 
 export interface Workshop {
   id: string;
   title: string;
+
   description: string;
   language: string;
   totalDuration: string;
@@ -212,6 +169,71 @@ export const trainings: Training[] = [
 ];
 
 export const workshops: Workshop[] = [
+  {
+    id: "mastering-fireback-workshop",
+    title: "Mastering Fireback",
+    description:
+      "A complete workshop to learn Fireback — from setup to building production-grade backends and cross-platform apps. Covers definitions, code generation, CLI usage, database integration, and embedding backends in mobile and desktop apps.",
+    language: "English",
+    totalDuration: "4h 30m",
+    level: "intermediate",
+    category: "Backend Development",
+    prerequisites: [
+      "Basic understanding of Go or TypeScript",
+      "Familiarity with REST or WebSocket APIs",
+      "General backend development experience",
+    ],
+    tools: [
+      "Fireback CLI",
+      "Golang",
+      "PostgreSQL",
+      "Node.js",
+      "React",
+      "Android Studio",
+      "Xcode",
+    ],
+    sections: [
+      {
+        title: "XHTML and Fireback",
+        description: `Ever wonder there is an easier way of creating websites, instead of using different frameworks, bundlers, constantly updating frameworks.
+
+Let's explore how can we build a website with pure javascript, pure css, and simple html.`,
+        duration: "13m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/jEgbZGyhMNw?si=BZrYVkOddeXGFNAg",
+        },
+        content: "",
+        id: "xhtml-and-fireback",
+      },
+
+      {
+        title: "Fireback Post Request Handling Features",
+        description: `In this video I am demoing the default features of Fireback framework when creating APIs.
+
+Parsing json
+Error handling on json
+Parsing Yaml
+Form data, formdata urlencoded
+XML support on API requests.`,
+        duration: "12m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/BfSGCpExi8o?si=-KLq2bW80rP7taCf",
+        },
+        content: "",
+        id: "fireback-post-request-handling",
+      },
+      {
+        title: "How we develop backend in 3 minutes",
+        description: `Fireback features overview.`,
+        duration: "25m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/gMInPjCu3pY?si=nvVeOCim1f14U4To",
+        },
+        content: "",
+        id: "fireback-overview-build-in-3-minutes",
+      },
+    ],
+  },
   {
     id: "react-translation-workshop",
     title: "React Translation Workshop",
@@ -1396,6 +1418,223 @@ This project demonstrates all the key concepts of React i18n and provides a soli
         isCompleted: false,
       },
     ],
+  },
+];
+
+export const products: Product[] = [
+  {
+    id: "fireback",
+    title: "Fireback",
+    relatedWorkshop: workshops.find(
+      (workshop) => workshop.id === "mastering-fireback-workshop"
+    ),
+    type: "Web Framework",
+    description:
+      "A full-stack Golang framework for rapidly building web, mobile, and desktop apps — with built-in backend and client code generation.",
+    details:
+      "Fireback provides a comprehensive set of tools and utilities for Go developers, including routing, middleware, database integration, and more. It's designed to streamline the development process while maintaining high performance and scalability. Built with modern Go practices and designed for both beginners and experienced developers.",
+    links: {
+      github: "https://github.com/torabian/fireback",
+      documentation: "https://torabian.github.io/fireback/docs/intro",
+      demo: "https://torabian.github.io/fireback/demo",
+    },
+    artifacts: [
+      {
+        name: "Installer",
+        url: "https://github.com/torabian/fireback/releases/latest/download/fireback-amd64.deb",
+        os: "linux",
+        arch: "x64",
+        type: "installer",
+      },
+      {
+        name: "Installer",
+        url: "https://github.com/torabian/fireback/releases/latest/download/fireback-arm64.deb",
+        os: "linux",
+        arch: "arm64",
+        type: "installer",
+      },
+      {
+        name: "Monolith",
+        url: "https://github.com/torabian/fireback/releases/latest/download/fireback-boilerplate.zip",
+        os: "other",
+        arch: "",
+        type: "archive",
+      },
+      {
+        name: "Android Demo",
+        url: "https://github.com/torabian/fireback/releases/latest/download/fireback-capcitor.apk",
+        os: "other",
+        arch: "arm64",
+        type: "apk",
+      },
+      {
+        name: "Microservice",
+        url: "https://github.com/torabian/fireback/releases/latest/download/fireback-microservice-boilerplate.zip",
+        os: "other",
+        arch: "",
+        type: "archive",
+      },
+      {
+        name: "Binary",
+        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_amd64_darwin.zip",
+        os: "macos",
+        arch: "x64",
+        type: "binary",
+      },
+      {
+        name: "Binary",
+        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_amd64_linux.zip",
+        os: "linux",
+        arch: "x64",
+        type: "binary",
+      },
+      {
+        name: "Binary",
+        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_amd64_windows.zip",
+        os: "windows",
+        arch: "x64",
+        type: "binary",
+      },
+      {
+        name: "Binary",
+        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_arm64_darwin.zip",
+        os: "macos",
+        arch: "arm64",
+        type: "binary",
+      },
+      {
+        name: "Binary",
+        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_arm64_linux.zip",
+        os: "linux",
+        arch: "arm64",
+        type: "binary",
+      },
+      {
+        name: "Binary",
+        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_arm64_windows.zip",
+        os: "windows",
+        arch: "arm64",
+        type: "binary",
+      },
+      {
+        name: "Installer",
+        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_intel_amd64.pkg",
+        os: "macos",
+        arch: "x64",
+        type: "installer",
+      },
+      {
+        name: "Installer",
+        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_silicon_arm64.pkg",
+        os: "macos",
+        arch: "arm64",
+        type: "installer",
+      },
+      {
+        name: "Installer",
+        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_win_amd64_installer.msi",
+        os: "windows",
+        arch: "x64",
+        type: "installer",
+      },
+      {
+        name: "Installer",
+        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_win_arm64_installer.msi",
+        os: "windows",
+        arch: "arm64",
+        type: "installer",
+      },
+    ],
+
+    // trainingRelated: ["avoid-software-failure"],
+    features: [
+      "Compile the fastest (within 10 seconds or less), use the least memory (less than 5MB in idle mode), and ensure type safety.",
+      "Products should have a minimum lifespan of 20 years after their initial build.",
+      "Never rewrite the code, due to bad structure or skipping important details.",
+      "Achieve machine independence without relying on Docker or similar tools.",
+      "Compile for various platforms including web, native mobile (iOS, Android), desktop, and embedded devices.",
+      "Do not address ambiguity regarding roles, workspaces, permissions, or email/SMS/OAuth authentication.",
+      "Utilize SQL with an organized data structure.",
+      "Prioritize code management over code generation.",
+      "Significantly reduce build times for clients in Android, React, Angular, and SwiftUI.",
+      "Zero setup backend usage for front-end or app developers.",
+      "Always provide more than anyone’s need, always before they ask.",
+      "Integrated desktop app support using Wails.",
+      "Binaries ready to be embedded on Android and iOS native, as well as Cordova for offline backend usage (same code base).",
+      "Build on top of Golang — fast build time, blazing runtime, minimal memory usage.",
+      "Terminal (CLI) for everything, even user signup and password reset.",
+      "User/Role/Workspace built into everything.",
+      "User permission management.",
+      "Relational Database support (SQLite, MySQL, Oracle, Postgres).",
+      "Nested, Object in Object, Array in Object, Object in Array post form handler.",
+      "Polyglot (Multilingual) built into the definition.",
+      "File upload system with virtual directories based on resumable uploads (TUS).",
+      "Form validation for nested objects.",
+      "Reactive stream query via WebSocket on Module3 definition.",
+      "Bulk Patch (Update) on every entity.",
+      "Publicly available vs workspace/user protected actions.",
+      "Custom action definition with auto cast from HTTP and CLI.",
+      "Generate Post, Patch, Query, Delete, Bulk Patch for every entity.",
+      "HTML and rich text content storage.",
+      "Dynamic data via JSON and ERD data storage.",
+      "QueryDSL for every entity — query, filter, sort without dependencies.",
+      "Built-in search mechanism.",
+      "Multilingual menu, sidebar, and tabbar system.",
+      "Generate APIs and actions for nested entities (add/remove/etc).",
+      "Auto handle unique IDs and relations between non-nested elements.",
+      "Format dates, currency, and time based on client region.",
+      "Backend errors translated based on Accept-Language.",
+      "Unified Google JSON styleguide response without exception.",
+      "Manual and automatic mocking system for all entities.",
+      "Seeder system for including initial or necessary content (yaml/json/csv).",
+      "Advanced background operations for import/export of all entities.",
+      "Default and custom permission definitions.",
+      "CSV/YAML data template generation for import.",
+      "Auto sanitize content.",
+      "Advanced form validation and excerpt generation.",
+      "Casting DTO/entity from CLI parameters.",
+      "PDF export for queries (beta) without third-party dependencies.",
+      "JsonDSL (complex query conditions) and QueryDSL (textual query).",
+      "Predefined SQL queries (Pivot and Recursive CTE).",
+      "Event system for entity changes, broadcasted via WebSocket.",
+      "CLI wipe and multi-row delete for entities.",
+      "Automatic privilege enforcement on content creation/modification.",
+      "Multiple workspaces and multiple roles per workspace.",
+      "Multiple workspace types (e.g., School, Student).",
+      "Direct signup to a team via public join key.",
+      "Distinct-by-user workspace operation flag.",
+      "Interactive CLI tools for entity creation.",
+      "Support for complex enums, auto-casting to major programming languages.",
+    ],
+    status: "active",
+    lastUpdated: "2024-01-15",
+  },
+  {
+    id: "emi",
+    title: "Emi",
+    type: "Compiler",
+    description:
+      "The Emi compiler - a cutting-edge compilation tool for modern software development.",
+    details:
+      "Emi is an advanced compiler that brings innovative compilation techniques to help developers optimize their code, improve performance, and streamline the build process. It supports multiple languages and provides intelligent code analysis, dead code elimination, and advanced optimization strategies.",
+    links: {
+      github: "https://github.com/torabian/emi",
+      documentation: "https://emi.dev/docs",
+      download: "https://emi.dev/download",
+    },
+    trainingRelated: ["avoid-software-failure"],
+    features: [
+      "Multi-language support (Go, Rust, C++)",
+      "Advanced dead code elimination",
+      "Intelligent optimization algorithms",
+      "Parallel compilation support",
+      "Cross-platform compatibility",
+      "Plugin architecture for extensibility",
+      "Real-time compilation feedback",
+      "Memory usage optimization",
+    ],
+    status: "beta",
+    lastUpdated: "2024-01-10",
   },
 ];
 

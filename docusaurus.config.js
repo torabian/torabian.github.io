@@ -18,6 +18,15 @@ const config = {
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
+  headTags: [
+    {
+      tagName: 'meta',
+      attributes: {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1.0',
+      },
+    },
+  ],
 
   // Set the production url of your site here
   url: "https://torabi.io",
@@ -73,7 +82,7 @@ const config = {
           onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: "./src/css/custom.css",
+          customCss: ["./src/css/custom.css", "./src/css/bootstrap-grid.min.css"],
         },
       }),
     ],

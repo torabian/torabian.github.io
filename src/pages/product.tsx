@@ -85,15 +85,43 @@ export default function ProductPage({ product }: { product: Product }) {
                 🚀 Demo
               </a>
             )}
-            {product.links.download && (
-              <a
-                href={product.links.download}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={styles.actionButton}
-              >
-                ⬇️ Download
-              </a>
+            {product.artifacts?.length > 0 && (
+              <div className={styles.section}>
+                <h2>Downloads</h2>
+
+                <div className="row">
+                  {Object.entries(
+                    product.artifacts.reduce<
+                      Record<string, typeof product.artifacts>
+                    >((acc, art) => {
+                      (acc[art.os] = acc[art.os] || []).push(art);
+                      return acc;
+                    }, {})
+                  ).map(([os, artifacts]) => (
+                    <div key={os} className="os-group col-sm-12 col-md-3">
+                      <h3 className={styles.osTitle}>{os.toUpperCase()}</h3>
+                      <div className={styles.artifactList}>
+                        <ul>
+                          {artifacts.map((artifact, index) => (
+                            <li>
+                              <a
+                                key={index}
+                                href={artifact.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={styles.artifactItem}
+                              >
+                                ⬇️ {artifact.name}{" "}
+                                {artifact.arch ? "(" + artifact.arch + ")" : ""}
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
             )}
           </div>
         </div>
@@ -103,6 +131,40 @@ export default function ProductPage({ product }: { product: Product }) {
             <h2>About {product.title}</h2>
             <p>{product.details}</p>
           </div>
+
+          {product.relatedWorkshop?.sections?.length > 0 && (
+            <div className={styles.section}>
+              <h2>Related workshops</h2>
+
+              {product.relatedWorkshop?.sections.map((section, idx) => (
+                <div key={idx} className={styles.sectionItem}>
+                  {section.mainVideo ? (
+                    <div className="row">
+                      <div className="col-sm-12 col-md-6">
+                        <iframe
+                          width="100%"
+                          style={{ flex: 1 }}
+                          height="270"
+                          src={section.mainVideo.url}
+                          title={`Video`}
+                          frameBorder="0"
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                          allowFullScreen
+                        ></iframe>
+                      </div>
+                      <div
+                        style={{ paddingLeft: "20px" }}
+                        className="col-sm-12 col-md-6"
+                      >
+                        <h3>{section.title}</h3>
+                        <p>{section.description}</p>
+                      </div>
+                    </div>
+                  ) : null}
+                </div>
+              ))}
+            </div>
+          )}
 
           <div className={styles.section}>
             <h2>Key Features</h2>
@@ -140,7 +202,7 @@ export default function ProductPage({ product }: { product: Product }) {
             </div>
           )}
 
-          <div className={styles.section}>
+          {/* <div className={styles.section}>
             <h2>Product Information</h2>
             <div className={styles.productInfo}>
               <div className={styles.infoItem}>
@@ -156,7 +218,7 @@ export default function ProductPage({ product }: { product: Product }) {
                 <strong>Last Updated:</strong> {product.lastUpdated}
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </main>
     </Layout>
