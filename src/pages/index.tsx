@@ -2,9 +2,15 @@ import React from "react";
 import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import styles from "./index.module.css";
-import { generalInfo, featuredVideos, products } from "../data-sources/data";
+import {
+  generalInfo,
+  featuredVideos,
+  products,
+  workshops,
+} from "../data-sources/data";
 
 export default function Home() {
+  const workshop = workshops[0];
   return (
     <Layout
       title={generalInfo.introductionTitle}
@@ -13,45 +19,57 @@ export default function Home() {
       <main className={styles.main}>
         {/* Hero Section */}
         <section className={styles.hero}>
-          <div className={styles.heroContent}>
-            <div className={styles.heroText}>
-              <h1>{generalInfo.introductionTitle}</h1>
-              <p>{generalInfo.introductionLine}</p>
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-sm-12 col-md-6">
+                <div className={styles.heroText}>
+                  <h1>{generalInfo.introductionTitle}</h1>
+                  <p>{generalInfo.introductionLine}</p>
+                </div>
+              </div>
+              <div className="col-sm-12 col-md-6 text-center">
+                <img
+                  className={styles.heroImg}
+                  src="/ali/ali3.png"
+                  alt="Ali Torabi"
+                />
+              </div>
             </div>
-            <img
-              className={styles.heroImg}
-              src="/ali/ali3.png"
-              alt="Ali Torabi"
-            />
           </div>
         </section>
 
         {/* Products */}
         <section className={styles.fullSection}>
           <h2>🧩 Products</h2>
-          <div className={styles.productsGrid}>
-            {products.map((product, index) => (
-              <div key={index} className={styles.productCard}>
-                <h3>{product.title}</h3>
-                <p className={styles.productDescription}>
-                  {product.description}
-                </p>
-                <p className={styles.productDetails}>{product.details}</p>
-              </div>
-            ))}
+          <div className="container">
+            <div className={"row d-flex align-items-stretch"}>
+              {products.map((product, index) => (
+                <div key={index} className="col-sm-12 col-md-6">
+                  <div className={styles.productCard}>
+                    <h3>
+                      <Link to={`/product/${product.id}`}>{product.title}</Link>
+                    </h3>
+                    <p className={styles.productDescription}>
+                      {product.description}
+                    </p>
+                    <p className={styles.productDetails}>{product.details}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </section>
 
         {/* Videos */}
         <section className={styles.fullSection}>
           <h2>🎥 Featured Videos</h2>
-          <div className={styles.videoGrid}>
+          <div className={"videoGrid row"}>
             {featuredVideos.map((video, index) => (
-              <div key={index} className={styles.videoWrapper}>
+              <div key={index} className={"videoWrapper col-sm-12 col-md-6"}>
                 <iframe
                   src={video.src}
                   title={video.info.title}
-                  width={video.info.width}
+                  width={"100%"}
                   height={video.info.height}
                   allowFullScreen
                 ></iframe>
@@ -91,11 +109,11 @@ export default function Home() {
           <h2>🛠️ Workshops</h2>
           <div className={styles.cardRow}>
             <WorkshopCard
-              title="React Translation Workshop"
-              description="Master internationalization (i18n) in React applications"
-              link="/workshop/react-translation-workshop"
-              duration="3h 15min"
-              level="Intermediate"
+              title={workshop.title}
+              description={workshop.description}
+              link={`/workshop/${workshop.id}`}
+              duration={workshop.totalDuration}
+              level={workshop.level}
             />
           </div>
           <Link to="/workshops" className={styles.moreLink}>

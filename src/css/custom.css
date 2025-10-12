@@ -22,7 +22,7 @@
 }
 
 .navbar__inner {
-  max-width: 1500px;
+  max-width: 1160px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -58,3 +58,4 @@
   list-style-type: none;
   text-align: left;
 }
+

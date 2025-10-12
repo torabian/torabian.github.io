@@ -152,6 +152,18 @@ export default function WorkshopViewer({ workshop }: { workshop: Workshop }) {
                     )}
                   </div>
                 </div>
+                {selectedSection.mainVideo ? (
+                  <iframe
+                    width="100%"
+                    style={{ flex: 1 }}
+                    height="470"
+                    src={selectedSection.mainVideo?.url}
+                    title={`Video`}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                ) : null}
 
                 <div className={styles.sectionDescription}>
                   <p>{selectedSection.description}</p>

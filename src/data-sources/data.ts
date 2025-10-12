@@ -1,7 +1,9 @@
 export const generalInfo = {
   introductionTitle: "Hi, I am Ali 👋",
-  introductionLine:
-    "I build digital products, share knowledge, and help others create.",
+  introductionLine: `I build digital products, share knowledge, and help others create.
+I’m deeply passionate about programming, engineering, and continuous learning — always pushing to master new technologies and understand how things work from the ground up.
+I enjoy bridging practical skills with digital innovation, from building software frameworks like Fireback to learning welding, electrical systems, and construction.
+For me, creating — whether it’s code, a tool, or a physical structure — is both a craft and a lifelong pursuit of excellence.`,
 };
 
 // Training interfaces
