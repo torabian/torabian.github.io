@@ -96,74 +96,91 @@ export const trainings: Training[] = [
     chapters: [
       {
         id: "chapter-1",
-        title: "Introduction to Software Reliability",
-        description:
-          "Understanding what software failure means and why it happens in modern development environments.",
-        duration: "25 min",
-        videoUrl: "https://www.youtube.com/embed/sample1",
+        title:
+          "What is a reliable, multiplatform, and long lasting software? Part 1",
+        description: `In this series, we are exploring why many bad software are out there, why do they fail, and how to avoid it in the first place. Later in the course I show how to build software correctly from the beginning.
+
+In Part 1, I explain what are reliable software, how to make it last long, and create for as many as platforms as we can.
+
+I recommend to watch the entire series if you want to build a software, by yourself as a programmer or as an startup founder.
+`,
+        duration: "11 min",
+        videoUrl:
+          "https://www.youtube.com/embed/OdMFRt5O3fc?si=9HCwATsPqFPQJS17",
         isCompleted: false,
       },
       {
         id: "chapter-2",
-        title: "Common Failure Patterns",
-        description:
-          "Exploring the most frequent causes of software failures and how to identify them early.",
-        duration: "35 min",
-        videoUrl: "https://www.youtube.com/embed/sample2",
+        title: "Why should you build high quality software? Part 2",
+        description: `
+In Part 2, I explain why we need to build high quality from the beginning, and who are the main audience of this course.
+`,
+        duration: "4 min",
+        videoUrl:
+          "https://www.youtube.com/embed/WeGUtO9xVJA?si=d9ta0kXU4bpQwKq7",
         isCompleted: false,
       },
       {
         id: "chapter-3",
-        title: "Testing Strategies That Work",
-        description:
-          "Implementing effective testing methodologies to catch issues before they reach production.",
-        duration: "40 min",
-        videoUrl: "https://www.youtube.com/embed/sample3",
+        title: "Terrible choices for database in a software project. Part 3",
+        description: `In Part 3: I explain why choosing non-relational database will affect significantly your project quality in the first place, and what are the great choices to build your product on top of them. We discuss the necessity of data normalization later in the video.`,
+        duration: "9 min",
+        videoUrl:
+          "https://www.youtube.com/embed/QuY3m_qpZxw?si=fh9CavnSIBZTKAF0",
         isCompleted: false,
       },
       {
         id: "chapter-4",
-        title: "Code Quality and Maintainability",
-        description:
-          "Writing clean, maintainable code that reduces the likelihood of bugs and failures.",
-        duration: "30 min",
-        videoUrl: "https://www.youtube.com/embed/sample4",
+        title:
+          "Terrible choice between Angular, React and Vue js in front-end? Part 4",
+        description: `In Part 4, we review the options for web applications, so called front-ends, and why we need to choose React over the other options such as Angular and Vue.js.
+
+In fact, so many products quickly become hard to edit, just by wrong choice of the front-end framework.
+`,
+        duration: "5 min",
+        videoUrl:
+          "https://www.youtube.com/embed/YD_Kh2uXYgg?si=sC_hA_x_K9n2fGJI",
         isCompleted: false,
       },
       {
         id: "chapter-5",
-        title: "Monitoring and Observability",
-        description:
-          "Setting up proper monitoring systems to detect and respond to issues quickly.",
-        duration: "35 min",
-        videoUrl: "https://www.youtube.com/embed/sample5",
+        title:
+          "Terrible backend choices to build a software, app or any product. Part 5",
+        description: `In Part 5 let's explain what is the best programming language for building apps, to avoid limits, expensive hardware, make it portable for many frameworks as possible, and see how a stack, or language can in fact slow down the pace of development.`,
+        duration: "10 min",
+        videoUrl:
+          "https://www.youtube.com/embed/gQaqMIu6its?si=9UNCO40J8sa8-MgA",
         isCompleted: false,
       },
       {
         id: "chapter-6",
-        title: "Error Handling Best Practices",
-        description:
-          "Implementing robust error handling mechanisms that gracefully manage unexpected situations.",
-        duration: "25 min",
-        videoUrl: "https://www.youtube.com/embed/sample6",
+        title: " Terrible mobile frameworks, and why use cordova? Part 6",
+        description: `In Part 6, let's think about why cordova might be a good option, and other hybrid frameworks might set you back. I think every successful app in any store, if not 100%, but mostly is native. I am explaining why you should also avoid hybrid frameworks as much as you can, until your native app arrives.`,
+        duration: "5 min",
+        videoUrl:
+          "https://www.youtube.com/embed/85GJre7DrVs?si=MwTU75FFOac5qLYg",
         isCompleted: false,
       },
       {
         id: "chapter-7",
-        title: "Deployment and Rollback Strategies",
-        description:
-          "Safe deployment practices and quick rollback procedures to minimize failure impact.",
-        duration: "30 min",
-        videoUrl: "https://www.youtube.com/embed/sample7",
+        title:
+          "Terrible strategies in software or app development and how to avoid? Part 7",
+        description: `In Part 7, we see why a bad strategy can fail a software product, or an startup, and vice versa. So many people are building bad software, but how do they succeed? Various great software fail very quickly, even done by smart people. This video would be an answer to that.`,
+        duration: "9 min",
+        videoUrl:
+          "https://www.youtube.com/embed/EGI1RaW3akI?si=EsjVz3oB6xb6ZSCr",
         isCompleted: false,
       },
       {
         id: "chapter-8",
-        title: "Building Resilient Systems",
-        description:
-          "Architecting systems that can withstand failures and continue operating under adverse conditions.",
-        duration: "40 min",
-        videoUrl: "https://www.youtube.com/embed/sample8",
+        title: "How I build products for clients? Part 8",
+        description: `In Part 8, I show how would I build most of software products for startups and my clients. By using fireback and some good strategies, I build things 20x, 25x faster in the beginning, and product with few features, which are polished, are available in 2 weeks.
+It might sound impossible, but let's watch this video and I will show you me coding :)
+
+`,
+        duration: "22 min",
+        videoUrl:
+          "https://www.youtube.com/embed/sGhQF2NkJOg?si=1ngxaAGnHaqwg3cO",
         isCompleted: false,
       },
     ],

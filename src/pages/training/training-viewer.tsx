@@ -93,9 +93,7 @@ export default function TrainingViewer({ training }: { training: Training }) {
                   <div className={styles.chapterNumber}>{index + 1}</div>
                   <div className={styles.chapterContent}>
                     <h4 className={styles.chapterTitle}>{chapter.title}</h4>
-                    <p className={styles.chapterDescription}>
-                      {chapter.description}
-                    </p>
+
                     <div className={styles.chapterMeta}>
                       <span className={styles.chapterDuration}>
                         {chapter.duration}
