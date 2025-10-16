@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktorabian_github_io=self.webpackChunktorabian_github_io||[]).push([[1903],{1912:t=>{t.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);
