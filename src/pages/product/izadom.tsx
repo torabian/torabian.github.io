@@ -55,7 +55,7 @@ export default function IzadomProduct() {
         <iframe
           allowFullScreen
           ref={iframeRef}
-          src="http://localhost:5173/izadom/"
+          src="http://torabian.github.io/izadom/"
           width={"100%"}
           style={{ height: "60vh" }}
         />
