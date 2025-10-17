@@ -1,10 +1,16 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import Layout from "@theme/Layout";
 import styles from "./product.module.css";
 import { trainings, Product } from "../data-sources/data";
 import Link from "@docusaurus/Link";
 
-export default function ProductPage({ product }: { product: Product }) {
+export default function ProductPage({
+  product,
+  children,
+}: {
+  product: Product;
+  children: ReactNode;
+}) {
   if (!product) {
     return (
       <Layout
@@ -201,6 +207,8 @@ export default function ProductPage({ product }: { product: Product }) {
               </div>
             </div>
           )}
+
+          {children}
 
           {/* <div className={styles.section}>
             <h2>Product Information</h2>

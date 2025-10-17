@@ -4,6 +4,8 @@
   --ifm-color-primary-darker: #14488a;
   --ifm-color-primary-darkest: #0f3670;
   --ifm-color-primary-light: #287fd0;
+  --ifm-container-width: 1140px;
+  --ifm-container-width-xl: 1140px;
   --ifm-color-primary-lighter: #3490e1;
   --ifm-color-primary-lightest: #4ba6f2;
   --ifm-code-font-size: 95%;

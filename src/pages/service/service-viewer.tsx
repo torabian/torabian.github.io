@@ -93,12 +93,10 @@ export default function ServiceViewer({ service }: { service: Service }) {
           </p>
           <div className={styles.ctaButtons}>
             <a
-              href="mailto:contact@example.com"
-              className={styles.primaryButton}
+              href="https://calendly.com/ali-torabian/30min"
+              className={styles.secondaryButton}
+              target="_blank"
             >
-              Get Free Quote
-            </a>
-            <a href="tel:+1234567890" className={styles.secondaryButton}>
               Schedule Call
             </a>
           </div>

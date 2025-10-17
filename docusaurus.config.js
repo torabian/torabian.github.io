@@ -20,10 +20,10 @@ const config = {
   },
   headTags: [
     {
-      tagName: 'meta',
+      tagName: "meta",
       attributes: {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1.0',
+        name: "viewport",
+        content: "width=device-width, initial-scale=1.0",
       },
     },
   ],
@@ -82,7 +82,10 @@ const config = {
           onUntruncatedBlogPosts: "warn",
         },
         theme: {
-          customCss: ["./src/css/custom.css", "./src/css/bootstrap-grid.min.css"],
+          customCss: [
+            "./src/css/custom.css",
+            "./src/css/bootstrap-grid.min.css",
+          ],
         },
       }),
     ],
@@ -96,12 +99,11 @@ const config = {
       navbar: {
         title: "TORABI",
         items: [
-          { to: "/blog", label: "Blog", position: "left" },
           { to: "/products", label: "Products", position: "left" },
           { to: "/trainings", label: "Trainings", position: "left" },
           { to: "/services", label: "Services", position: "left" },
           { to: "/workshops", label: "Workshops", position: "left" },
-          { to: "/experiences", label: "Experiences", position: "left" },
+          // { to: "/experiences", label: "Experiences", position: "left" },
           { to: "/skills", label: "Skills", position: "left" },
           {
             href: "https://github.com/torabian",
