@@ -514,8 +514,8 @@ export const products: Product[] = [
       "Emi is an advanced compiler that brings innovative compilation techniques to help developers optimize their code, improve performance, and streamline the build process. It supports multiple languages and provides intelligent code analysis, dead code elimination, and advanced optimization strategies.",
     links: {
       github: "https://github.com/torabian/emi",
-      documentation: "https://emi.dev/docs",
-      download: "https://emi.dev/download",
+      documentation: "https://torabian.github.io/emi/",
+      download: "https://github.com/torabian/emi/releases",
     },
     trainingRelated: ["avoid-software-failure"],
     features: [
