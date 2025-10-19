@@ -85,6 +85,110 @@ export interface Workshop {
 
 export const trainings: Training[] = [
   {
+    id: "emi-compiler-training",
+    title: "Emi Compiler Training",
+    description:
+      "A hands-on training for understanding and using the Emi compiler. Learn how to define DTOs, explore data types, generate TypeScript code, and use VSCode autocompletion effectively.",
+    language: "English",
+    totalDuration: "55min",
+    level: "intermediate",
+    category: "Software Development",
+    chapters: [
+      {
+        id: "chapter-1",
+        title: "Emi compiler introduction",
+        description:
+          "Introduction to the Emi compiler, its purpose, and core features.",
+        duration: "5:57",
+        videoUrl:
+          "https://www.youtube.com/embed/p_hkbarIQjM?si=_wFU_XarYwcXDfHK",
+        isCompleted: false,
+      },
+      {
+        id: "chapter-2",
+        title: "Emi definition overview and setup (PART 1/3)",
+        description:
+          "Overall overview of the Emi definition, setting up your environment for the first time.",
+        duration: "1:45",
+        videoUrl:
+          "https://www.youtube.com/embed/4JB7vr7u9iM?si=WjAAtn0GxSEc3Dnh",
+        isCompleted: false,
+      },
+      {
+        id: "chapter-3",
+        title: "Download and install and npx emicc (PART 2/3)",
+        description:
+          "Download Emi and learn how to use the command line interface with npx emicc.",
+        duration: "4:09",
+        videoUrl:
+          "https://www.youtube.com/embed/w4b6BqY0exA?si=07oCstzEhlpSX62E",
+        isCompleted: false,
+      },
+      {
+        id: "chapter-4",
+        title: "Emi Compiler: Compiling the Emi into actual code (PART 3/3)",
+        description: "Compiling Emi definitions into actual TypeScript code.",
+        duration: "7:05",
+        videoUrl:
+          "https://www.youtube.com/embed/7j3FgidvIAk?si=0-WNQb03_JYvSVnu",
+        isCompleted: false,
+      },
+
+      {
+        id: "chapter-5",
+        title:
+          "Emi Compiler: VSCode/Cursor autocompletion for the Emi YAML definitions",
+        description:
+          "Using the RedHat YAML plugin to enable autocompletion for Emi definitions in VSCode.",
+        duration: "3:25",
+        videoUrl:
+          "https://www.youtube.com/embed/QgTvLPF4Gg8?si=D8KvdOTIyH-M3r1r",
+        isCompleted: false,
+      },
+      {
+        id: "chapter-6",
+        title: "Emi Compiler: Compiler internal features, and details",
+        description:
+          "Exploring general features, the playground, tags, and other internal aspects of the Emi compiler.",
+        duration: "4:51",
+        videoUrl:
+          "https://www.youtube.com/embed/srBSwiBVChg?si=dqZo7ah_br3UulZ3",
+        isCompleted: false,
+      },
+      {
+        id: "chapter-7",
+        title: "Emi Compiler: Why not use OpenAPI spec for the code generation",
+        description:
+          "Explaining why OpenAPI is not suitable as a source for code generation in our workflow.",
+        duration: "3:33",
+        videoUrl:
+          "https://www.youtube.com/embed/Q6TofW2ogZg?si=2JWhP7ZVW3GQv_l_",
+        isCompleted: false,
+      },
+      {
+        id: "chapter-8",
+        title: "Emi Compiler: Why alternative GRPC is a bad option",
+        description:
+          "Discussing the limitations of using alternatives like GRPC for our products.",
+        duration: "5:04",
+        videoUrl:
+          "https://www.youtube.com/embed/-MUT2uN-V9A?si=ITdAArEnq15qCUny",
+        isCompleted: false,
+      },
+      {
+        id: "chapter-9",
+        title:
+          "Emi Compiler: Dto compilation, data types, and generated TypeScript file",
+        description:
+          "Practical demonstration of how a DTO is generated in JavaScript, exploring different data types.",
+        duration: "18:47",
+        videoUrl:
+          "https://www.youtube.com/embed/4JwsYdvOAy4?si=DnZGoMLA0JEdZ5z6",
+        isCompleted: false,
+      },
+    ],
+  },
+  {
     id: "avoid-software-failure",
     title: "How to Avoid Software Failure",
     description:
