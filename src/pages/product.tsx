@@ -132,6 +132,22 @@ export default function ProductPage({
           </div>
         </div>
 
+        {product.mainVideo ? (
+          <div className="row">
+            <div className="col-12">
+              <iframe
+                style={{ flex: 1, width: "100%" }}
+                height="470"
+                src={product.mainVideo}
+                title={`Video`}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        ) : null}
+
         <div className={styles.content}>
           <div className={styles.section}>
             <h2>About {product.title}</h2>
@@ -189,7 +205,7 @@ export default function ProductPage({
                 {relatedTrainings.map((training) => (
                   <Link
                     key={training.id}
-                    to={`/trainings?id=${training.id}`}
+                    to={`/training/${training.id}`}
                     className={styles.trainingCard}
                   >
                     <h3>{training.title}</h3>
