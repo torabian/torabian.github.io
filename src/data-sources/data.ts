@@ -31,6 +31,7 @@ export interface Training {
 export interface Product {
   id: string;
   title: string;
+  mainVideo?: string;
   type: string;
   description: string;
   details: string;
@@ -612,6 +613,7 @@ export const products: Product[] = [
     id: "emi",
     title: "Emi",
     type: "Compiler",
+    mainVideo: "https://www.youtube.com/embed/p_hkbarIQjM?si=_wFU_XarYwcXDfHK",
     description:
       "The Emi compiler - a cutting-edge compilation tool for modern software development.",
     details:
@@ -621,7 +623,7 @@ export const products: Product[] = [
       documentation: "https://torabian.github.io/emi/",
       download: "https://github.com/torabian/emi/releases",
     },
-    trainingRelated: ["avoid-software-failure"],
+    trainingRelated: ["emi-compiler-training"],
     features: [
       "Multi-language support (Go, Rust, C++)",
       "Advanced dead code elimination",
@@ -633,6 +635,57 @@ export const products: Product[] = [
       "Memory usage optimization",
     ],
     status: "beta",
+    artifacts: [
+      {
+        name: "Node WASM Package",
+        url: "https://github.com/torabian/emi/releases/latest/download/emi-node-wasm-package.zip",
+        os: "other",
+        arch: "",
+        type: "archive",
+      },
+      {
+        name: "Binary",
+        url: "https://github.com/torabian/emi/releases/latest/download/emi_amd64_darwin.zip",
+        os: "macos",
+        arch: "x64",
+        type: "binary",
+      },
+      {
+        name: "Binary",
+        url: "https://github.com/torabian/emi/releases/latest/download/emi_amd64_linux.zip",
+        os: "linux",
+        arch: "x64",
+        type: "binary",
+      },
+      {
+        name: "Binary",
+        url: "https://github.com/torabian/emi/releases/latest/download/emi_amd64_windows.zip",
+        os: "windows",
+        arch: "x64",
+        type: "binary",
+      },
+      {
+        name: "Binary",
+        url: "https://github.com/torabian/emi/releases/latest/download/emi_arm64_darwin.zip",
+        os: "macos",
+        arch: "arm64",
+        type: "binary",
+      },
+      {
+        name: "Binary",
+        url: "https://github.com/torabian/emi/releases/latest/download/emi_arm64_linux.zip",
+        os: "linux",
+        arch: "arm64",
+        type: "binary",
+      },
+      {
+        name: "Binary",
+        url: "https://github.com/torabian/emi/releases/latest/download/emi_arm64_windows.zip",
+        os: "windows",
+        arch: "arm64",
+        type: "binary",
+      },
+    ],
     lastUpdated: "2024-01-10",
   },
   {
