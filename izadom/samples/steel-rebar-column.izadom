@@ -1,0 +1,1624 @@
+{
+  "particles": [
+    {
+      "type": "group",
+      "children": [
+        {
+          "position": [
+            0,
+            22.8,
+            -1.2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 350,
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            0,
+            1.2,
+            -22.8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 350,
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            0,
+            1.2,
+            -1.2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 350,
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            0,
+            22.8,
+            -22.8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 350,
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            30,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            50,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            70,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            90,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            110,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            130,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            150,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            170,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            190,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            210,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            230,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            250,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            270,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            290,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            310,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        }
+      ],
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "group",
+      "children": [
+        {
+          "position": [
+            0,
+            22.8,
+            -1.2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 250,
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            0,
+            1.2,
+            -22.8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 250,
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            0,
+            1.2,
+            -1.2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 250,
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            0,
+            22.8,
+            -22.8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 250,
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            30,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            50,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            70,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            90,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            110,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            130,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            150,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            170,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            190,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            210,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        }
+      ],
+      "position": [
+        351.53930870359824,
+        1.1811909390898245,
+        -0.4035900221227635
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ]
+    },
+    {
+      "type": "group",
+      "children": [
+        {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": "100",
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            0,
+            0,
+            -15
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": "100",
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            0,
+            0,
+            -30
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": "100",
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            0,
+            0,
+            -45
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": "100",
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            0,
+            0,
+            -60
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": "100",
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            0,
+            0,
+            -75
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": "100",
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            0,
+            0,
+            -90
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": "100",
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            5,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 100,
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            20,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 100,
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            35,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 100,
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            50,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 100,
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            65,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 100,
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            80,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 100,
+            "bends": []
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            95,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 100,
+            "bends": []
+          },
+          "type": "rebar"
+        }
+      ],
+      "position": [
+        292.47359444651266,
+        -10.595054444161867,
+        36.49659225857028
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "group",
+      "children": [
+        {
+          "position": [
+            0,
+            22.8,
+            -1.2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 150,
+            "bends": [
+              {
+                "length": 40,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            0,
+            1.2,
+            -22.8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 150,
+            "bends": [
+              {
+                "length": 40,
+                "angle": -90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            0,
+            1.2,
+            -1.2
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 150,
+            "bends": [
+              {
+                "length": 40,
+                "angle": -90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            0,
+            22.8,
+            -22.8
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 150,
+            "bends": [
+              {
+                "length": 40,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            70,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            90,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        },
+        {
+          "position": [
+            110,
+            0,
+            0
+          ],
+          "rotation": [
+            1.5707963267948966,
+            1.5707963267948966,
+            0
+          ],
+          "element": {
+            "diameter": 0.6,
+            "baseLength": 0,
+            "bends": [
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              },
+              {
+                "length": -24,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        }
+      ],
+      "position": [
+        327.017777440516,
+        138.81388357465212,
+        -2.3832889633776304
+      ],
+      "rotation": [
+        0,
+        0,
+        -1.5707963267948966
+      ]
+    },
+    {
+      "position": [
+        301.1500175162037,
+        22.894449726263133,
+        -2.144001015741965
+      ],
+      "type": "group",
+      "children": [
+        {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 50,
+            "color": "yellow",
+            "bends": [
+              {
+                "length": 50,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        }
+      ],
+      "name": "Bended rod (yellow)",
+      "rotation": [
+        -1.5707963267948961,
+        0,
+        0
+      ]
+    },
+    {
+      "position": [
+        300.18381566055905,
+        1.1825632391745042,
+        -2.717445733531033
+      ],
+      "type": "group",
+      "children": [
+        {
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "element": {
+            "diameter": 1.2,
+            "baseLength": 50,
+            "color": "green",
+            "bends": [
+              {
+                "length": 50,
+                "angle": 90
+              }
+            ]
+          },
+          "type": "rebar"
+        }
+      ],
+      "name": "Bended rod (green)",
+      "rotation": [
+        -1.570796326794896,
+        0,
+        0
+      ]
+    }
+  ],
+  "camera": {
+    "position": [
+      520.3419549869819,
+      220.4843132105273,
+      186.14978038366954
+    ],
+    "target": [
+      333.1703543247581,
+      38.55201062506746,
+      -19.992286218817867
+    ]
+  }
+}
