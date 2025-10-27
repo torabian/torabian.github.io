@@ -9,7 +9,7 @@ export default function ProductPage({
   children,
 }: {
   product: Product;
-  children: ReactNode;
+  children?: ReactNode;
 }) {
   if (!product) {
     return (

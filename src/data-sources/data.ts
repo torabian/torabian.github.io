@@ -713,6 +713,36 @@ export const products: Product[] = [
     status: "beta",
     lastUpdated: "2025-10-16",
   },
+  {
+    id: "meshora-thermo",
+    title: "Meshora Thermo",
+    type: "DIY Heating Control",
+    description:
+      "Meshora Thermo — a DIY-friendly heat control system for underfloor heating circuits, pumps and wood-burner automation with live monitoring and consumption tracking.",
+    details:
+      "Meshora Thermo lets home users and hobbyist installers control multiple underfloor heating circuits (valves), manage pump speed, and automate wood-burning stoves. It provides live sensor readings (pressure, flow, temperature, energy), consumption history, and an admin area for configuration and safety rules. Built to be modular and simple to extend — replace the mock hooks with a real backend when ready.",
+    links: {
+      demo: "https://torabian.github.io/meshora-thermo",
+    },
+    trainingRelated: [
+      "home-heating-automation",
+      "hvac-diy",
+      "energy-efficiency",
+    ],
+    features: [
+      "Control multiple underfloor heating circuits (open/close valves)",
+      "Per-room thermostat UI with on/off and disabled states",
+      "Pump control (0–100%) with Stop button",
+      "Sensor dashboard: pressure, flow, energy, temperature",
+      "Consumption tracking and simple history charts",
+      "Wood-burner automation (set schedules & safety interlocks)",
+      "Admin section for user/access and system configuration",
+      "Theme-aware UI (dark/light) and responsive dashboard",
+      "Mocked react-query-style hooks ready to swap for real API",
+    ],
+    status: "active",
+    lastUpdated: "2025-10-27",
+  },
 ];
 
 // Experience interfaces
