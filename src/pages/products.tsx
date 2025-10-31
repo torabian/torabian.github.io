@@ -7,14 +7,14 @@ import Link from "@docusaurus/Link";
 export default function Products() {
   return (
     <Layout
-      title="Products Archive"
+      title="Products"
       description="Explore our collection of innovative products and tools for modern development."
     >
       <main className={styles.main}>
         <div className={styles.header}>
-          <h1>🧩 Products Archive</h1>
+          <h1>Products</h1>
           <p>
-            Discover our collection of innovative products and development tools
+            Discover my collection of innovative products and development tools
           </p>
         </div>
 
