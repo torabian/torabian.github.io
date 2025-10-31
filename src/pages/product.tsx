@@ -95,10 +95,11 @@ export default function ProductPage({
               <a
                 href={product.links.download}
                 target="_blank"
+                style={{backgroundColor: 'green'}}
                 rel="noopener noreferrer"
                 className={styles.actionButton}
               >
-                Download Artifacts
+                ⬇️ Download Artifacts  {product.links.downloadSize ? `(${product.links.downloadSize})` : null}
               </a>
             )}
             {product.artifacts?.length > 0 && (

@@ -40,6 +40,7 @@ export interface Product {
     documentation?: string;
     demo?: string;
     download?: string;
+    downloadSize?: string;
   };
   trainingRelated?: string[];
   features: string[];
@@ -724,6 +725,7 @@ export const products: Product[] = [
     links: {
       demo: "https://torabian.github.io/meshora-thermo",
       download: "https://torabian.github.io/meshora-thermo-latest.zip",
+      downloadSize: '15MB',
      },
     trainingRelated: [
       "home-heating-automation",
