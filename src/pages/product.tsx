@@ -91,6 +91,16 @@ export default function ProductPage({
                 🚀 Demo
               </a>
             )}
+            {product.links.download && (
+              <a
+                href={product.links.download}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.actionButton}
+              >
+                Download Artifacts
+              </a>
+            )}
             {product.artifacts?.length > 0 && (
               <div className={styles.section}>
                 <h2>Downloads</h2>

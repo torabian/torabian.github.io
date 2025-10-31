@@ -723,12 +723,14 @@ export const products: Product[] = [
       "Meshora Thermo lets home users and hobbyist installers control multiple underfloor heating circuits (valves), manage pump speed, and automate wood-burning stoves. It provides live sensor readings (pressure, flow, temperature, energy), consumption history, and an admin area for configuration and safety rules. Built to be modular and simple to extend — replace the mock hooks with a real backend when ready.",
     links: {
       demo: "https://torabian.github.io/meshora-thermo",
-    },
+      download: "https://torabian.github.io/meshora-thermo-latest.zip",
+     },
     trainingRelated: [
       "home-heating-automation",
       "hvac-diy",
       "energy-efficiency",
     ],
+     
     features: [
       "Control multiple underfloor heating circuits (open/close valves)",
       "Per-room thermostat UI with on/off and disabled states",
