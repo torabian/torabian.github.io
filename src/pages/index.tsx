@@ -47,7 +47,7 @@ export default function Home() {
                 .map((product, index) => {
                   const hasThumb = Boolean(product.thumbnail)
                   return (
-                    <div key={index} className={`col-sm-12 ${hasThumb ? '' : 'col-md-6'} `} style={{marginBottom: '20px'}}>
+                    <div key={index} className={`col-sm-12 ${hasThumb ? '' : 'col-md-6'} `} style={{ marginBottom: '20px' }}>
                       <div
                         className={`${styles.productCard} ${hasThumb ? styles.productCardWithThumb : ''
                           }`}
@@ -93,7 +93,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Experiences */}
+        {/* Experiences
         <section className={styles.fullSection}>
           <h2>🚀 Development Experiences</h2>
           <div className={styles.cardRow}>
@@ -117,7 +117,7 @@ export default function Home() {
           <Link to="/experiences" className={styles.moreLink}>
             View all experiences →
           </Link>
-        </section>
+        </section> */}
 
         {/* Workshops */}
         <section className={styles.fullSection}>
@@ -185,17 +185,22 @@ export default function Home() {
         </section>
 
         {/* Contact */}
-        <section className={styles.cta}>
-          <h2>Let’s Work Together</h2>
-          <p>Have a project or collaboration idea?</p>
-          <div>ali-torabian@outlook.com</div>
-          <a
-            className="button button--primary button--lg"
-            href="mailto:ali-torabian@outlook.com"
-          >
-            Contact Me →
-          </a>
-        </section>
+        <div className={"ctaSection"}>
+          <h2>Ready to Get Started?</h2>
+          <p>
+            Let's discuss your project requirements and create something amazing
+            together.
+          </p>
+          <div className={"ctaButtons"}>
+            <a
+              href="https://calendly.com/ali-torabian/30min"
+              className={"secondaryButton"}
+              target="_blank"
+            >
+              Schedule Call
+            </a>
+          </div>
+        </div>
       </main>
     </Layout>
   );
