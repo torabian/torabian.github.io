@@ -34,6 +34,7 @@ export interface Product {
   mainVideo?: string;
   type: string;
   description: string;
+  thumbnail?: string;
   details: string;
   links: {
     github?: string;
@@ -692,6 +693,7 @@ export const products: Product[] = [
   {
     id: "izadom",
     title: "Izadom",
+    thumbnail: "/izadom/demo.png",
     type: "3D Design Program",
     description:
       "Izadom — a structural 3D house design tool that calculates precise material needs based on the Polish construction market.",
@@ -726,13 +728,14 @@ export const products: Product[] = [
       demo: "https://torabian.github.io/meshora-thermo",
       download: "https://torabian.github.io/meshora-thermo-latest.zip",
       downloadSize: '15MB',
-     },
+    },
+    thumbnail: "/meshora-thermo/demo.png",
     trainingRelated: [
       "home-heating-automation",
       "hvac-diy",
       "energy-efficiency",
     ],
-     
+
     features: [
       "Control multiple underfloor heating circuits (open/close valves)",
       "Per-room thermostat UI with on/off and disabled states",

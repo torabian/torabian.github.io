@@ -42,23 +42,38 @@ export default function Home() {
         <section className={styles.fullSection}>
           <h2>🧩 Products</h2>
           <div className="container">
-            <div className={"row d-flex align-items-stretch"}>
-              {products.map((product, index) => (
-                <div key={index} className="col-sm-12 col-md-6">
-                  <div className={styles.productCard}>
-                    <h3>
-                      <Link to={`/product/${product.id}`}>{product.title}</Link>
-                    </h3>
-                    <p className={styles.productDescription}>
-                      {product.description}
-                    </p>
-                    <p className={styles.productDetails}>{product.details}</p>
-                  </div>
-                </div>
-              ))}
+            <div className="row d-flex align-items-stretch">
+              {products.sort((a, b) => (b.thumbnail ? 1 : 0) - (a.thumbnail ? 1 : 0))
+                .map((product, index) => {
+                  const hasThumb = Boolean(product.thumbnail)
+                  return (
+                    <div key={index} className={`col-sm-12 ${hasThumb ? '' : 'col-md-6'} `} style={{marginBottom: '20px'}}>
+                      <div
+                        className={`${styles.productCard} ${hasThumb ? styles.productCardWithThumb : ''
+                          }`}
+                      >
+                        {hasThumb && (
+                          <div className={styles.thumb}>
+                            <img src={product.thumbnail} alt={product.title} />
+                          </div>
+                        )}
+                        <div className={hasThumb ? styles.content : ''}>
+                          <h3>
+                            <Link to={`/product/${product.id}`}>{product.title}</Link>
+                          </h3>
+                          <p className={styles.productDescription}>
+                            {product.description}
+                          </p>
+                          <p className={styles.productDetails}>{product.details}</p>
+                        </div>
+                      </div>
+                    </div>
+                  )
+                })}
             </div>
           </div>
         </section>
+
 
         {/* Videos */}
         <section className={styles.fullSection}>

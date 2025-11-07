@@ -19,12 +19,19 @@ export default function Products() {
         </div>
 
         <div className={styles.productsGrid}>
-          {products.map((product, index) => (
-            <Link
+          {products.sort((a, b) => (b.thumbnail ? 1 : 0) - (a.thumbnail ? 1 : 0)).map((product, index) => {
+            const hasThumb = Boolean(product.thumbnail)
+
+            return <Link
               key={index}
               to={`/product/${product.id}`}
               className={styles.productCard}
             >
+              {hasThumb && (
+                <div className={styles.thumb}>
+                  <img src={product.thumbnail} alt={product.title} />
+                </div>
+              )}
               <div className={styles.productHeader}>
                 <h2 className={styles.productName}>{product.title}</h2>
                 <span className={`${styles.status} ${styles[product.status]}`}>
@@ -50,7 +57,8 @@ export default function Products() {
                 </div>
               </div>
             </Link>
-          ))}
+          }
+          )}
         </div>
 
         {products.length === 0 && (

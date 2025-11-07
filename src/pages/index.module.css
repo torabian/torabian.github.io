@@ -59,6 +59,7 @@
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
+
 .productCard h3 {
   margin: 0 0 1rem 0;
   color: var(--ifm-color-primary);
@@ -70,6 +71,14 @@
   font-weight: 500;
   margin: 0 0 1rem 0;
   color: var(--ifm-color-content);
+}
+
+.productCardWithThumb {
+  display: flex;
+}
+
+.content {
+  padding-left: 20px;
 }
 
 .productDetails {
