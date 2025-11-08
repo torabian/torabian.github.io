@@ -34,8 +34,8 @@ export default function ProductPage({
 
   const relatedTrainings = product.trainingRelated
     ? trainings.filter((training) =>
-        product.trainingRelated?.includes(training.id)
-      )
+      product.trainingRelated?.includes(training.id)
+    )
     : [];
 
   return (
@@ -95,11 +95,11 @@ export default function ProductPage({
               <a
                 href={product.links.download}
                 target="_blank"
-                style={{backgroundColor: 'green'}}
+                style={{ backgroundColor: 'green' }}
                 rel="noopener noreferrer"
                 className={styles.actionButton}
               >
-                ⬇️ Download Artifacts  {product.links.downloadSize ? `(${product.links.downloadSize})` : null}
+                ⬇️ {product?.links?.downloadLabel || 'Download Artifacts'}  {product.links.downloadSize ? `(${product.links.downloadSize})` : null}
               </a>
             )}
             {product.artifacts?.length > 0 && (

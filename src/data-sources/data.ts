@@ -42,6 +42,7 @@ export interface Product {
     demo?: string;
     download?: string;
     downloadSize?: string;
+    downloadLabel?: string
   };
   trainingRelated?: string[];
   features: string[];
@@ -701,6 +702,9 @@ export const products: Product[] = [
       "Izadom enables users to design houses from a structural perspective with real-world precision. It automatically estimates the exact quantities of materials, components, and products required for construction, aligned with Polish market standards and suppliers. Ideal for architects, builders, and DIY enthusiasts who want accurate cost and material planning without guesswork.",
     links: {
       demo: "https://torabian.github.io/izadom",
+      download: "https://torabian.github.io/izadom-latest.apk",
+      downloadLabel: "Download Android",
+      downloadSize: '18MB',
     },
     trainingRelated: ["construction-efficiency", "smart-building-planning"],
     features: [
