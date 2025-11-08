@@ -1,0 +1,31 @@
+# Banking transaction auditing tool.
+
+I have created a front-end part of a banking tool, for one of the largest investment banks in Europe. A outsourcing company 
+approached me, to create a special tool for auditing currency exchange operations. In first glance,
+it sounded quite easy, to show a list of transactions, maybe few columns of data, and a pagination at most. 
+
+Moving forward, I have realised how much details we had to implement such software. 
+
+- Users had to be able to select columns they want; they can be nested objects coming in.
+- Locking and unlocking columns both at the end and start, since they were so many columns and horizontal scrolling
+would of happened regardless.
+- Searching, filtering, in a very advanced mode.
+- Sorting with custom logics coming from backend; allowing sort, cascading sort, changes in the logic when a special
+combination of sort is happening.
+- Multiple editing, inline editing and also opening a modal for selected item(s), and handling errors across them.
+- Saving a view, creating snapshot, exporting a result into csv and pdf.
+- Drag and dropping columns to reorder
+- Expanding each row, to see extra details, features, and keepign them visually aligned with parent row
+
+The list of features are so long, and it got me suprising how much details are involved in such tool. Often in
+most projects, we make a simple table for showing information, but banking environment is very different. Such table,
+is often what major workers in bank use for 90% of time, so even small glitches and hardship using them would
+quickly become annoying and unproductive.
+
+For anyone likes to understand a bit more about the possiblities, they can take a look the underlying module which I have used,
+and in mid time of project I had to modify a lot of features in the source to make it work with my client requirements.
+
+<a target="_blank" href="https://devexpress.github.io/devextreme-reactive/react/grid/docs/guides/getting-started/">https://devexpress.github.io/devextreme-reactive/react/grid/docs/guides/getting-started/</a>
+
+I loved the library though, it had a lot of things though through in it, which wouldn't come to my mind or hard to implement,
+all from scratch.

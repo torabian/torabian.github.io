@@ -1,0 +1,26 @@
+# Telephony app
+
+One of my great experience in terms of mobile application, was a telephony app which would allow users
+to create teams which would take calls in need of emergency.
+
+The usecase of the software is in medical and take caring services mostly, when a phone number is given
+for people who need immediate care, and their call is being forwarded between nursing people available on
+the phone number.
+
+The application, consists of few features:
+
+- Creating a virtual phone book for the team,
+- Precise calender planning, in order to make sure all 24 hours is covered at least by someone
+- Call forwarding, if a single agent is not able to answer;
+- Sending email to extra services in case a phone call has been initiated.
+
+The end user, is only having a phone number to call, and the application is being used by the answering team,
+and used for planning.
+
+One of the challenges in developing such app is, to make sure modifying times, do not overlap, and overlapped 
+availability, would be splited. It was a bit challenging since the software backend was started already in
+firebase serverless services, and at the time there was no data base locking or concurrent request access
+management to implement this. Hence, needed a lot of extra checks on client side.
+
+From technical perspective, it was written on React Native, and made available for IOS and Android, in fact mostly
+using manually artifacts creation, signing and upload to perspective stores.
