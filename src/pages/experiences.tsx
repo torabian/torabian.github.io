@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import Layout from "@theme/Layout";
 import styles from "./experiences.module.css";
-import { experiences, Experience } from "../data-sources/data";
+
 import Link from "@docusaurus/Link";
+import { experiences } from "../data-sources/experiences";
 
 export default function Experiences() {
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
@@ -42,10 +43,10 @@ export default function Experiences() {
     >
       <main className={styles.main}>
         <div className={styles.header}>
-          <h1>🚀 Development Experiences</h1>
+          <h1>🚀 Experiences</h1>
           <p>
             Real-world insights, lessons learned, and technical deep-dives from
-            building software solutions
+            building software solutions, and other stuff in life.
           </p>
         </div>
 
@@ -83,9 +84,11 @@ export default function Experiences() {
               <div className={styles.experienceHeader}>
                 <div className={styles.experienceMeta}>
                   <span className={styles.category}>{experience.category}</span>
-                  <span className={styles.date}>
-                    {formatDate(experience.date)}
-                  </span>
+                  {experience.date ? (
+                    <span className={styles.date}>
+                      {formatDate(experience.date)}
+                    </span>
+                  ) : null}
                   {experience.featured && (
                     <span className={styles.featuredBadge}>Featured</span>
                   )}
@@ -98,7 +101,7 @@ export default function Experiences() {
               </div>
 
               <div className={styles.experienceDescription}>
-                <p>{experience.description}</p>
+                <p>{experience.description}...</p>
               </div>
 
               <div className={styles.experienceTags}>
