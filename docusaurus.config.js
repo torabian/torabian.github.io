@@ -103,7 +103,7 @@ const config = {
           { to: "/trainings", label: "Trainings", position: "left" },
           { to: "/services", label: "Services", position: "left" },
           { to: "/workshops", label: "Workshops", position: "left" },
-          // { to: "/experiences", label: "Experiences", position: "left" },
+          { to: "/experiences", label: "Experiences", position: "left" },
           { to: "/skills", label: "Skills", position: "left" },
           {
             href: "https://github.com/torabian",
