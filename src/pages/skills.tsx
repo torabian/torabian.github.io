@@ -10,6 +10,7 @@ import {
   LanguageSkill,
   OtherSkill,
 } from "../data-sources/data";
+import Link from "@docusaurus/Link";
 
 export default function Skills() {
   return (
@@ -113,7 +114,11 @@ function SkillCategoryCard({ category }: { category: SkillCategory }) {
       <div className={styles.skillsList}>
         {category.skills.map((skill, index) => (
           <span key={index} className={styles.skillTag}>
-            {skill}
+            {skill.id ? (
+              <Link to={`/skill/${skill.id}`}>{skill.title}</Link>
+            ) : (
+              skill.title
+            )}
           </span>
         ))}
       </div>

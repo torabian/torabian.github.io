@@ -1360,7 +1360,10 @@ Ready to get expert technical guidance? Let's discuss your challenges and find t
 export interface SkillCategory {
   id: string;
   title: string;
-  skills: string[];
+  skills: Array<{
+    title: string;
+    id?: string;
+  }>;
   description?: string;
 }
 
@@ -1382,26 +1385,28 @@ export const skillCategories: SkillCategory[] = [
     title: "Programming Languages",
     description: "Core programming languages I work with regularly",
     skills: [
-      "Go",
-      "React",
-      "React Native",
-      "JavaScript",
-      "Node.js",
-      "SQLite",
-      "MySQL",
+      { title: "Go", id: "golang" },
+      { title: "React" },
+      { title: "React Native" },
+      { title: "JavaScript" },
+      { title: "Node.js" },
+      { title: "SQLite" },
+      { title: "MySQL" },
     ],
   },
   {
     id: "other-technologies",
     title: "Other Technologies",
     description: "Additional technologies and frameworks I work with",
-    skills: ["SwiftUI", "Android", "MongoDB", "SpringBoot"],
-  },
-  {
-    id: "archived-knowledge",
-    title: "Archived Knowledge",
-    description: "Deep knowledge in these areas, though not actively used",
-    skills: ["C#", "PHP", "WordPress"],
+    skills: [
+      { title: "SwiftUI" },
+      { title: "Android" },
+      { title: "MongoDB" },
+      { title: "SpringBoot" },
+      { title: "C#" },
+      { title: "PHP" },
+      { title: "WordPress" },
+    ],
   },
 ];
 

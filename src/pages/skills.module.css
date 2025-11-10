@@ -94,6 +94,9 @@
   font-weight: 500;
   transition: all 0.2s ease;
 }
+.skillTag a {
+    color: var(--ifm-color-primary-contrast-foreground);
+}
 
 .skillTag:hover {
   background: var(--ifm-color-primary-dark);
