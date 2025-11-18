@@ -297,6 +297,51 @@ It might sound impossible, but let's watch this video and I will show you me cod
 
 export const workshops: Workshop[] = [
   {
+    id: "react-architecture-workshop",
+    title: "React Architecture Workshops",
+    description:
+      "A practical workshop on building scalable, maintainable React applications. Covers component architecture, state management, data fetching patterns, design systems, performance optimization, and production best practices.",
+    language: "English",
+    totalDuration: "4h 30m",
+    level: "intermediate",
+    category: "Frontend Development",
+    prerequisites: [
+      "Solid understanding of JavaScript or TypeScript",
+      "Basic knowledge of React",
+      "Familiarity with modern frontend tooling"
+    ],
+    tools: [
+      "React",
+      "TypeScript",
+      "Vite or Next.js",
+      "Redux Toolkit / Zustand / Jotai",
+      "Tailwind CSS",
+      "React Query"
+    ],
+    sections: [
+      {
+        title: "React/React Native modals and overlays like a pro",
+        description: `Tired of the react modal repeating components on building react modals? Take a look with me how did I do it in the Fireback react.js a clean approach, chainable, without code repeat.`,
+        duration: "27m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/mjAZ3yVzEd8?si=1YNph2m1ywhMSgat"
+        },
+        content: "",
+        id: "react-react-native-modals"
+      },
+      {
+        title: "Material explorer architecture in React",
+        description: `I have created a Material explorer for Izadom software. Resolving material types, was really challenging, I wanted a good structure which would work long term, and react hook that supports it.`,
+        duration: "11m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/xaW-ZH8wf4c?si=Xj_loLbs-soeiYu-"
+        },
+        content: "",
+        id: "react-material-explorer"
+      }
+    ]
+  },
+  {
     id: "mastering-fireback-workshop",
     title: "Mastering Fireback",
     description:
@@ -696,6 +741,7 @@ export const products: Product[] = [
     title: "Izadom",
     thumbnail: "/izadom/demo.png",
     type: "3D Design Program",
+    mainVideo: 'https://www.youtube.com/embed/aP_8FSqxvW4?si=aEwCxFcKr_TIL_Dj',
     description:
       "Izadom — a structural 3D house design tool that calculates precise material needs based on the Polish construction market.",
     details:

@@ -50,6 +50,8 @@ export default function IzadomProduct() {
       <ProductPage product={product!}>
         <h3>Demo</h3>
 
+
+
         <button onClick={handleFullscreen}>Fullscreen</button>
 
         <iframe
