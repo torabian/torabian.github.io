@@ -44,3 +44,4 @@ export const experiences: Experience[] = ${JSON.stringify(
 
 fs.writeFileSync(outputFile, tsContent);
 console.log(`Generated ${outputFile} with ${experiences.length} experiences.`);
+

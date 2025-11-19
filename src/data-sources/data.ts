@@ -342,6 +342,29 @@ export const workshops: Workshop[] = [
     ]
   },
   {
+    id: "adc-keyboard-workshop",
+    title: "Building an ADC Keyboard on ESP32",
+    description:
+      "A hands-on workshop where you learn how to build, read, and decode an analog (ADC) keyboard on the ESP32. We go from the hardware theory—voltage dividers, key ladders, and ADC channels—to writing a reusable driver with debouncing, long-press detection, callbacks, and multi-keyboard support. Perfect for anyone building IoT devices, custom controllers, or embedded UX.",
+    language: "English",
+    totalDuration: "2h 15m",
+    level: "intermediate",
+    category: "Embedded Development",
+    prerequisites: [
+      "Basic C programming",
+      "General knowledge of microcontrollers",
+      "Minimal ESP-IDF experience"
+    ],
+    tools: [
+      "ESP32 board with ADC keypad",
+      "ESP-IDF v5.x",
+      "VSCode + ESP-IDF extension",
+      "Multimeter (optional)",
+      "Logic analyzer (optional)"
+    ],
+    sections: []
+  },
+  {
     id: "mastering-fireback-workshop",
     title: "Mastering Fireback",
     description:

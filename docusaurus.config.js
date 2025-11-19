@@ -14,6 +14,26 @@ const config = {
   tagline: "Passionate engineer, architect, and programmer",
   favicon: "img/favicon.ico",
 
+    plugins: [
+    function rawLoaderPlugin() {
+      return {
+        name: 'raw-loader-plugin',
+        configureWebpack() {
+          return {
+            module: {
+              rules: [
+                {
+                  test: /\.(c|h|cpp|txt)$/i,
+                  type: 'asset/source',
+                },
+              ],
+            },
+          };
+        },
+      };
+    },
+  ],
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
