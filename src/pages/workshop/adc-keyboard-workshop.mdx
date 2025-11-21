@@ -9,6 +9,13 @@ import CodeBlock from '@theme/CodeBlock';
 In this workshop, we are going to implement a production level ADC keyboard using ESP32, and native development
 kit - ESP IDF. Some knowledge can be transfered to Arduino, but this code works right away on ESP IDF 5 projects.
 
+## Workshop video
+
+You can watch also the video, which I have explained a lot of details and code here:
+
+<iframe width="100%" style={{height: 600}} src="https://www.youtube.com/embed/H4qN3ECmUfY?si=9SM2Ha1qt_r2BPAT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 ## What is AD Keyboard?
 
 Ad keyboard is a 3 wire (GND, Input, Output) keypad system, often controlling 2 or more keys using the same wire.
@@ -17,6 +24,8 @@ Hence, by reading an analog gpio on a microcontroller, we can understand which k
 because allows you to consume single gpio for many keys, vs digital input that requires 1 pin per button.
 
 <img width="300" src="/workshops/esp32-adc-keyboard/main/images/adc_keyboard_1.avif" />
+
+
 
 
 ## Challenges
