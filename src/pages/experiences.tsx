@@ -66,9 +66,8 @@ export default function Experiences() {
             {categories.map((category) => (
               <button
                 key={category}
-                className={`${styles.categoryButton} ${
-                  selectedCategory === category ? styles.active : ""
-                }`}
+                className={`${styles.categoryButton} ${selectedCategory === category ? styles.active : ""
+                  }`}
                 onClick={() => setSelectedCategory(category)}
               >
                 {category === "all" ? "All" : category}
@@ -104,6 +103,7 @@ export default function Experiences() {
                 <p>{experience.description}...</p>
               </div>
 
+
               <div className={styles.experienceTags}>
                 {experience.tags.map((tag, index) => (
                   <span key={index} className={styles.tag}>
@@ -118,7 +118,7 @@ export default function Experiences() {
                     src={experience.videoUrl}
                     title={experience.videoTitle || experience.title}
                     width="100%"
-                    height="200"
+                    height="300"
                     frameBorder="0"
                     allowFullScreen
                   />
