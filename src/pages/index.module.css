@@ -52,7 +52,18 @@
 
   transition: transform 0.2s;
   border: 1px solid var(--ifm-color-emphasis-200);
+  
 }
+
+@media (max-width: 768px) {
+  .productCard {
+    padding: 8px;
+    flex-direction: column;
+  }
+}
+
+
+/* Responsive design */
 
 .productCard:hover {
   transform: translateY(-5px);
