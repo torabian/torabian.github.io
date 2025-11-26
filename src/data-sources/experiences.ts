@@ -5,32 +5,59 @@ export const experiences: Experience[] = [
     "category": "Project",
     "content": "",
     "date": "",
-    "description": "Airport kiosk app was developed with me and other colleages for checkin system of a major airline",
-    "featured": true,
-    "id": "airport-kiosk-app",
-    "tags": [],
-    "title": "Airport kiosk app"
-  },
-  {
-    "category": "Project",
-    "content": "",
-    "date": "",
     "description": "Amazing timepicker, is a unique experience in my career, which was written by me, and a friend as an open-source,",
     "featured": true,
     "id": "amazing-time-picker",
     "tags": [],
+    "videoUrl": "https://www.youtube.com/embed/w-5uu3Srmfs?si=dVt-va4dSpKw-JPS",
     "title": "Amazing time picker"
   },
   {
     "category": "Project",
     "content": "",
     "date": "",
+    "videoUrl": "https://www.youtube.com/embed/ij8R7YHt5Q8?si=5VTV15EHWauTgMpy",
     "description": "In this video, I am explaining my backend-end experience. I have highlighted web backend-end only in this video.",
     "featured": true,
     "id": "backend-experience",
     "tags": [],
     "title": "Back-end experience"
   },
+  {
+    "category": "Project",
+    "content": "",
+    "date": "",
+    "description": "In this video, I am explaining my front-end experience. I have highlighted web front-end only in this video.",
+    "featured": true,
+    "id": "frontend-experience",
+    "videoUrl": "https://www.youtube.com/embed/kwFtGI6fJQk?si=9Ot3rdoENp7bPJaQ",
+
+    "tags": [],
+    "title": "Front-end experience"
+  },
+
+  {
+    "category": "Project",
+    "content": "",
+    "date": "",
+    "description": "In this video, I am explaining my mobile experience. I have highlighted web mobile only in this video.",
+    "featured": true,
+    "id": "mobile-experience",
+    "videoUrl": "https://www.youtube.com/embed/IggQEhKKOY0?si=6d2nGQVY8eqdcxTW",
+    "tags": [],
+    "title": "Mobile experience"
+  },
+  {
+    "category": "Project",
+    "content": "",
+    "date": "",
+    "description": "Airport kiosk app was developed with me and other colleages for checkin system of a major airline",
+    "id": "airport-kiosk-app",
+    "tags": [],
+    "title": "Airport kiosk app"
+  },
+
+
   {
     "category": "Project",
     "content": "",
@@ -51,16 +78,7 @@ export const experiences: Experience[] = [
     "tags": [],
     "title": "Engraving tool"
   },
-  {
-    "category": "Project",
-    "content": "",
-    "date": "",
-    "description": "In this video, I am explaining my front-end experience. I have highlighted web front-end only in this video.",
-    "featured": true,
-    "id": "frontend-experience",
-    "tags": [],
-    "title": "Front-end experience"
-  },
+
   {
     "category": "Project",
     "content": "",

@@ -836,7 +836,7 @@ export interface Experience {
   date: string;
   category: string;
   tags: string[];
-  featured: boolean;
+  featured?: boolean;
 }
 
 // Service interfaces
