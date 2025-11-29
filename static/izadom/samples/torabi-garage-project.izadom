@@ -5909,24 +5909,6 @@
       "uniqueId": "particle-e4ee9ee5-da4d-4e10-b827-9bd15820ad71"
     },
     {
-      "type": "garageDoor",
-      "element": {
-        "width": 220,
-        "height": 220
-      },
-      "position": [
-        750.102459723659,
-        0,
-        115.06699497700882
-      ],
-      "rotation": [
-        0,
-        -1.5707963267948966,
-        0
-      ],
-      "uniqueId": "particle-20dde998-d4f7-450d-b99a-3b73ab3a295a"
-    },
-    {
       "element": null,
       "children": [
         {
@@ -7730,7 +7712,7 @@
           },
           "position": [
             60,
-            150,
+            160.1915688996072,
             0
           ],
           "rotation": [
@@ -10296,40 +10278,6 @@
         0
       ],
       "uniqueId": "particle-f9bf7b37-6f9a-4e3a-98ae-740d4020383d"
-    },
-    {
-      "type": "prefabricatedBetonBeam",
-      "element": {
-        "length": 500
-      },
-      "position": [
-        239.7702954931286,
-        271.50955048485224,
-        -22.35329798440915
-      ],
-      "rotation": [
-        0,
-        -1.5707963267948966,
-        0
-      ],
-      "uniqueId": "particle-edd4f3fa-732c-4ff8-b4ef-c2105f77c83f"
-    },
-    {
-      "type": "prefabricatedBetonBeam",
-      "element": {
-        "length": 500
-      },
-      "position": [
-        319.36206802254156,
-        266,
-        -21.07691121955918
-      ],
-      "rotation": [
-        0,
-        -1.5707963267948966,
-        0
-      ],
-      "uniqueId": "particle-fd5d0a40-e06a-4d7e-b801-d7425c03a9c2"
     },
     {
       "name": "Dimension Wall",
@@ -13340,33 +13288,419 @@
       "uniqueId": "particle-fdd84b30-d8c4-42f0-8323-a0aa7ac3b9bd"
     },
     {
-      "type": "prefabricatedBetonBeam",
       "element": {
-        "length": 480
+        "content": {
+          "name": "Teriva Roof",
+          "length": "764",
+          "width": "490"
+        },
+        "resolver": "terivaRoof"
       },
       "position": [
-        673.05844002016,
-        261,
-        -5.17665278270789
+        0,
+        263,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "particle-46251073-ba3a-4cbf-ab18-a86cc592e6d8"
+    },
+    {
+      "name": "Brick Grid Wall",
+      "element": null,
+      "children": [
+        {
+          "type": "gazobeon",
+          "element": {
+            "bottom": 59,
+            "topLeft": 0,
+            "topRight": 0,
+            "height": 24,
+            "depth": 24,
+            "label": "",
+            "isCut": false
+          },
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uniqueId": "particle-c2fe253e-ffe7-45de-a22e-6814bfa3e942"
+        },
+        {
+          "type": "gazobeon",
+          "element": {
+            "bottom": 24,
+            "topLeft": 0,
+            "topRight": 0,
+            "height": 24,
+            "depth": 24,
+            "label": "",
+            "isCut": false
+          },
+          "position": [
+            0,
+            25,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uniqueId": "particle-26b176d2-c351-4953-b20a-560dfcab6a45"
+        },
+        {
+          "type": "gazobeon",
+          "element": {
+            "bottom": 59,
+            "topLeft": 0,
+            "topRight": 0,
+            "height": 24,
+            "depth": 24,
+            "label": "",
+            "isCut": false
+          },
+          "position": [
+            25,
+            25,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uniqueId": "particle-dc0ee669-7ff9-40d6-a04b-d671531a3c80"
+        },
+        {
+          "type": "gazobeon",
+          "element": {
+            "bottom": 59,
+            "topLeft": 0,
+            "topRight": 0,
+            "height": 24,
+            "depth": 24,
+            "label": "",
+            "isCut": false
+          },
+          "position": [
+            0,
+            50,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uniqueId": "particle-9739e48f-11fd-48cd-9cab-a31586353cf3"
+        },
+        {
+          "type": "gazobeon",
+          "element": {
+            "bottom": 24,
+            "topLeft": 0,
+            "topRight": 0,
+            "height": 24,
+            "depth": 24,
+            "label": "",
+            "isCut": false
+          },
+          "position": [
+            0,
+            75,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uniqueId": "particle-e1fef787-5153-4f29-b720-d3812ddf1011"
+        },
+        {
+          "type": "gazobeon",
+          "element": {
+            "bottom": 59,
+            "topLeft": 0,
+            "topRight": 0,
+            "height": 24,
+            "depth": 24,
+            "label": "",
+            "isCut": false
+          },
+          "position": [
+            25,
+            75,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uniqueId": "particle-2231cc9b-751f-4354-b2cc-9d5946942173"
+        },
+        {
+          "type": "gazobeon",
+          "element": {
+            "bottom": 59,
+            "topLeft": 0,
+            "topRight": 0,
+            "height": 24,
+            "depth": 24,
+            "label": "",
+            "isCut": false
+          },
+          "position": [
+            0,
+            100,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uniqueId": "particle-a7f479db-9581-4db4-b107-7977ba4b1354"
+        },
+        {
+          "type": "gazobeon",
+          "element": {
+            "bottom": 24,
+            "topLeft": 0,
+            "topRight": 0,
+            "height": 24,
+            "depth": 24,
+            "label": "",
+            "isCut": false
+          },
+          "position": [
+            0,
+            125,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uniqueId": "particle-65e2b2fb-901b-4353-bc41-778a4865b9bc"
+        },
+        {
+          "type": "gazobeon",
+          "element": {
+            "bottom": 59,
+            "topLeft": 0,
+            "topRight": 0,
+            "height": 24,
+            "depth": 24,
+            "label": "",
+            "isCut": false
+          },
+          "position": [
+            25,
+            125,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uniqueId": "particle-c345bf9f-43ad-4a61-9725-4c4fddf11a92"
+        },
+        {
+          "type": "gazobeon",
+          "element": {
+            "bottom": 59,
+            "topLeft": 0,
+            "topRight": 0,
+            "height": 24,
+            "depth": 24,
+            "label": "",
+            "isCut": false
+          },
+          "position": [
+            0,
+            150,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uniqueId": "particle-07a1db77-ef77-437e-9dcc-d1738f373183"
+        },
+        {
+          "type": "gazobeon",
+          "element": {
+            "bottom": 24,
+            "topLeft": 0,
+            "topRight": 0,
+            "height": 24,
+            "depth": 24,
+            "label": "",
+            "isCut": false
+          },
+          "position": [
+            0,
+            175,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uniqueId": "particle-8c79d267-436d-477c-bae3-55a2ba8345f7"
+        },
+        {
+          "type": "gazobeon",
+          "element": {
+            "bottom": 59,
+            "topLeft": 0,
+            "topRight": 0,
+            "height": 24,
+            "depth": 24,
+            "label": "",
+            "isCut": false
+          },
+          "position": [
+            25,
+            175,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uniqueId": "particle-b78643be-eaab-4875-aa2d-cfa9ccb8d831"
+        },
+        {
+          "type": "gazobeon",
+          "element": {
+            "bottom": 59,
+            "topLeft": 0,
+            "topRight": 0,
+            "height": 24,
+            "depth": 24,
+            "label": "",
+            "isCut": false
+          },
+          "position": [
+            0,
+            200,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uniqueId": "particle-fb48407f-7e96-4459-986c-37358962aab2"
+        },
+        {
+          "type": "gazobeon",
+          "element": {
+            "bottom": 24,
+            "topLeft": 0,
+            "topRight": 0,
+            "height": 24,
+            "depth": 24,
+            "label": "",
+            "isCut": false
+          },
+          "position": [
+            0,
+            225,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uniqueId": "particle-371ced4e-b58f-457a-abc3-843605dc2083"
+        },
+        {
+          "type": "gazobeon",
+          "element": {
+            "bottom": 59,
+            "topLeft": 0,
+            "topRight": 0,
+            "height": 24,
+            "depth": 24,
+            "label": "",
+            "isCut": false
+          },
+          "position": [
+            25,
+            225,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "uniqueId": "particle-9036cb92-1369-4714-843a-88428293fb4f"
+        }
+      ],
+      "position": [
+        731.1195386963062,
+        12,
+        82.80377706603002
+      ],
+      "type": "group",
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "uniqueId": "particle-6173ed20-6523-4e01-b26a-f3b4df76337f"
+    },
+    {
+      "type": "garageDoor",
+      "element": {
+        "width": 320,
+        "height": 240
+      },
+      "position": [
+        762.0427476543662,
+        15.131214913488066,
+        87.2850533218671
       ],
       "rotation": [
         0,
         -1.5707963267948966,
         0
       ],
-      "uniqueId": "particle-fc8d48bf-5156-4f75-afef-31210a00cedb"
+      "uniqueId": "particle-f13d8170-605f-4f28-9797-eb8c443af184"
     }
   ],
   "camera": {
     "position": [
-      1990.4878006637302,
-      873.971960833191,
-      -325.21648803978144
+      1816.6497585517711,
+      626.6786071529906,
+      210.7899584415878
     ],
     "target": [
-      568.9098364385679,
-      13.32843167350925,
-      97.60305957631577
+      490.72588511691885,
+      -1.837425298843973,
+      119.50014818605808
     ]
   }
 }
