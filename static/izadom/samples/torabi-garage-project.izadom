@@ -3997,7 +3997,7 @@
           "position": [
             741,
             -39,
-            195
+            196
           ],
           "rotation": [
             0,
@@ -6352,47 +6352,6 @@
         0
       ],
       "uniqueId": "particle-25d8a259-8476-4767-911c-cfc0f8db6247"
-    },
-    {
-      "element": null,
-      "children": [
-        {
-          "x": 0,
-          "y": 0,
-          "z": 0,
-          "element": {
-            "width": 90,
-            "height": 220,
-            "depth": 5,
-            "isTriangle": false
-          },
-          "type": "commonWindow",
-          "position": [
-            0,
-            0,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-48c0e3d3-31b6-4e4b-92da-56cb8da38c73"
-        }
-      ],
-      "name": "Winstar 90x220",
-      "position": [
-        354.83962957119746,
-        10,
-        463.7560843119136
-      ],
-      "type": "group",
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "uniqueId": "particle-39c1bc46-5a98-4600-b38b-3a6ac6ab7ae4"
     },
     {
       "name": "Brick Grid Wall",
@@ -9455,829 +9414,6 @@
         0
       ],
       "uniqueId": "particle-87e9bfbd-dbfe-4b49-b1f4-31044201ae60"
-    },
-    {
-      "name": "Dimension Wall",
-      "element": null,
-      "children": [
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            0,
-            0,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-4b230dbf-3d2e-458e-83f7-514256cbba39"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            60,
-            0,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-e50d7a67-b7e4-4959-bfb8-5a125599db98"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            120,
-            0,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-c504ed68-3136-4979-bc14-1ca261dfc92e"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 24,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            0,
-            25,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-776cc8d8-63ce-4bc2-bad4-7b061fe874b1"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            25,
-            25,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-6d1d9d3f-bdb9-4db5-8c2b-f582a3c97066"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            85,
-            25,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-e3c8da11-dcf1-48d3-bc29-23705340b79c"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 35,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            145,
-            25,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-224f5db1-d4ec-492b-9f89-87c76e7f3e8b"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            0,
-            50,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-2fa2b0c3-8051-4643-a916-b994606a037e"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            60,
-            50,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-defff8ee-d3e9-4898-8a64-20f7ffa96897"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            120,
-            50,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-0d5df1a9-8509-4c17-878b-d3af45b85cbe"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 24,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            0,
-            75,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-9eaab2ad-6744-469a-93b4-858f673187f0"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            25,
-            75,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-9d8eace7-f3e1-42ef-a8f1-5a973a97a9c7"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            85,
-            75,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-f8ad68af-7515-4b16-8f89-f26f84a63fcf"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 35,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            145,
-            75,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-ef6685fe-b860-4dbc-8f81-aa67ba3b0f45"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            0,
-            100,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-d4c44874-03fe-4dd5-a4dc-4c1c1b1b2ab8"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            60,
-            100,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-ee4890be-6829-46d0-bdc4-cb205394ad0c"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            120,
-            100,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-a31fe141-aa5e-45b4-88f9-9343645243fc"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 24,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            0,
-            125,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-7e15184a-8206-46ce-b871-f6e9d32ad1f9"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            25,
-            125,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-6bf90a59-a06e-47f9-b23c-52b1cd6e073d"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            85,
-            125,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-4b7edd82-4bed-44d1-a338-229f29dcfc8e"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 35,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            145,
-            125,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-f06015db-cc92-4365-8df6-35618cfdc2a6"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            0,
-            150,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-d66f9a57-d8e0-47fe-8b70-aba12297768c"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            60,
-            150,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-e20c7bde-9e45-4e9e-90a7-edaab8213a4b"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            120,
-            150,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-52441bc6-e906-47d9-a621-fd4fad73d467"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 24,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            0,
-            175,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-54e5f6f2-e19a-467b-87a0-5fbc9c6e12f1"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            25,
-            175,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-787f3399-bfc5-4dff-9208-11ac41dc8fde"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            85,
-            175,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-aa11a96a-9aec-4fac-aa50-be7f0d81ff24"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 35,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            145,
-            175,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-acffb044-6010-48df-b082-9e558e5494d4"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            0,
-            200,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-06388e51-a3b7-47be-903c-26ed93661902"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            60,
-            200,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-1d42e2ae-6f99-4452-a5d8-4a88573b9cad"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            120,
-            200,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-ab866c75-3a8b-474c-a845-c00ec0994744"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 24,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            0,
-            225,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-4cddcaf5-6201-457f-ae73-b8e16389644d"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            25,
-            225,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-831ad4ca-9cea-4685-a437-9864c01ead4f"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 59,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            85,
-            225,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-baf0bfd2-b9d8-4eae-9482-725a2339bcf7"
-        },
-        {
-          "type": "gazobeon",
-          "element": {
-            "bottom": 35,
-            "topLeft": 0,
-            "topRight": 0,
-            "height": 24,
-            "depth": 24,
-            "label": "",
-            "isCut": false
-          },
-          "position": [
-            145,
-            225,
-            0
-          ],
-          "rotation": [
-            0,
-            0,
-            0
-          ],
-          "uniqueId": "particle-1f727135-a0a1-4f82-8369-b2135c63da4e"
-        }
-      ],
-      "position": [
-        174.2364271692054,
-        12,
-        466.5010050029015
-      ],
-      "type": "group",
-      "rotation": [
-        0,
-        0,
-        0
-      ],
-      "uniqueId": "particle-f9bf7b37-6f9a-4e3a-98ae-740d4020383d"
     },
     {
       "name": "Dimension Wall",
@@ -13689,18 +12825,119 @@
         0
       ],
       "uniqueId": "particle-f13d8170-605f-4f28-9797-eb8c443af184"
+    },
+    {
+      "type": "exteriorDoor",
+      "element": {
+        "length": 100,
+        "height": 207
+      },
+      "position": [
+        442.9367065985283,
+        11,
+        477.89646217822474
+      ],
+      "rotation": [
+        -3.141592653589793,
+        1.2246467991473532e-16,
+        -3.141592653589793
+      ],
+      "uniqueId": "particle-65cdb710-fda2-4d99-a7a4-cf8aa310f121"
+    },
+    {
+      "element": {
+        "content": {
+          "name": "Dimension Wall",
+          "wallHeight": "240",
+          "wallWidth": "162",
+          "invertPlacement": false,
+          "centerCut": false,
+          "centerCutRatio": 0.5,
+          "interlockAtStart": false,
+          "interlockAtEnd": false,
+          "mortarSize": 1,
+          "masonaryMaterial": {
+            "id": "gazobetonBlock59x24x24",
+            "name": "Gazobeton Block 590x240x240 mm",
+            "characteristics": [
+              {
+                "trait": "solid",
+                "data": {}
+              },
+              {
+                "trait": "loadBearing",
+                "data": {
+                  "value": true
+                }
+              },
+              {
+                "trait": "masonaryCompatible"
+              },
+              {
+                "trait": "brick"
+              },
+              {
+                "trait": "cuttable",
+                "data": {
+                  "angleCut": false,
+                  "tools": [
+                    "block-cutter"
+                  ]
+                }
+              },
+              {
+                "trait": "materialKind",
+                "data": {
+                  "kind": "aac"
+                }
+              },
+              {
+                "trait": "dimensions",
+                "data": {
+                  "length": 59,
+                  "width": 24,
+                  "height": 24
+                }
+              }
+            ],
+            "extends": [
+              "baseGazobeton"
+            ],
+            "sources": [],
+            "assets": [
+              {
+                "type": "image",
+                "url": "beton59x24x24.jpeg"
+              }
+            ]
+          }
+        },
+        "resolver": "dimensionWall"
+      },
+      "position": [
+        180.29585911919324,
+        15,
+        468.7589835811887
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "particle-8655063f-08d6-4096-bf3b-1cb99494d786"
     }
   ],
   "camera": {
     "position": [
-      1816.6497585517711,
-      626.6786071529906,
-      210.7899584415878
+      -63.08987632696693,
+      606.3007831120849,
+      1727.6727427959243
     ],
     "target": [
-      490.72588511691885,
-      -1.837425298843973,
-      119.50014818605808
+      331.05449475956794,
+      -11.985533668782496,
+      177.59538739713864
     ]
   }
 }
