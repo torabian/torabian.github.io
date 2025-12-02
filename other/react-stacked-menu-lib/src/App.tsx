@@ -1,6 +1,6 @@
-import { StackedMenuProvider } from './lib/context'
-import { sampleMenu } from './lib/mocks'
-import { StackedMenuManaged } from './lib/StackedMenuManaged'
+import { StackedMenuProvider } from './react-stacked-menu/context'
+import { sampleMenu } from './react-stacked-menu/mocks'
+import { StackedMenuManaged } from './react-stacked-menu/StackedMenuManaged'
 
 
 function App() {

@@ -16,7 +16,11 @@
   border: none;
 }
 
-.react-stacked-menu  ul:not(.active) {
+/* 
+This rule, makes the menu items to be invisible, while not selected.
+In react-stacked-menu, we do not use them
+ */
+.react-stacked-menu ul:not(.active) {
   display: none;
 }
 
