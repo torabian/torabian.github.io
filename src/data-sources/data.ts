@@ -349,7 +349,7 @@ export const workshops: Workshop[] = [
         `,
         duration: "20m",
         mainVideo: {
-          url: "https://www.youtube.com/embed/xxxxxx"
+          url: "https://www.youtube.com/embed/EK6sR9AmVH8?si=zp3jbkTsg5yOfaQs"
         },
         content: `
 You can check the demo for this library here:
