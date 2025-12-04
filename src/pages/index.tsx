@@ -136,31 +136,6 @@ export default function Home() {
           </Link>
         </section>
 
-        {/* Services */}
-        <section className={styles.fullSection}>
-          <h2>🛠️ Professional Services</h2>
-          <div className={styles.cardRow}>
-            <ServiceCard
-              title="Custom Software Development"
-              description="Build tailored software solutions using modern technologies like Go, React, and TypeScript."
-              link="/service/custom-software-development"
-              icon="💻"
-              priceRange="$5,000 - $50,000"
-              duration="2-6 months"
-            />
-            <ServiceCard
-              title="Mobile App Development"
-              description="Create beautiful, performant mobile applications for iOS and Android using React Native."
-              link="/service/mobile-app-development"
-              icon="📱"
-              priceRange="$10,000 - $50,000"
-              duration="6-20 weeks"
-            />
-          </div>
-          <Link to="/services" className={styles.moreLink}>
-            View all services →
-          </Link>
-        </section>
 
         {/* Skills */}
         <section className={styles.fullSection}>
