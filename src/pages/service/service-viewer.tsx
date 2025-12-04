@@ -44,10 +44,10 @@ export default function ServiceViewer({ service }: { service: Service }) {
                 <span className={styles.detailLabel}>Price Range</span>
                 <span className={styles.detailValue}>{service.priceRange}</span>
               </div>
-              <div className={styles.detailItem}>
+              {service.duration ? <div className={styles.detailItem}>
                 <span className={styles.detailLabel}>Duration</span>
                 <span className={styles.detailValue}>{service.duration}</span>
-              </div>
+              </div> : null}
             </div>
           </div>
         </div>

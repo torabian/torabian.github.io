@@ -36,8 +36,7 @@ export default function Services() {
         <div className={styles.header}>
           <h1>🛠️ Professional Services</h1>
           <p>
-            Comprehensive development services to bring your ideas to life with
-            modern technologies and best practices
+            Need a developer to join your project fast, and bring value in the first day? Let's have a talk.
           </p>
         </div>
 
@@ -57,9 +56,8 @@ export default function Services() {
             {categories.map((category) => (
               <button
                 key={category}
-                className={`${styles.categoryButton} ${
-                  selectedCategory === category ? styles.active : ""
-                }`}
+                className={`${styles.categoryButton} ${selectedCategory === category ? styles.active : ""
+                  }`}
                 onClick={() => setSelectedCategory(category)}
               >
                 {category === "all" ? "All" : category}
@@ -137,7 +135,7 @@ export default function Services() {
                   Learn More →
                 </Link>
                 <a
-                  href="mailto:contact@example.com"
+                  href="https://calendly.com/ali-torabian/30min"
                   className={styles.contactButton}
                 >
                   Get Quote

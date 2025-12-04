@@ -910,582 +910,62 @@ export interface Service {
   icon: string;
   category: string;
   priceRange: string;
-  duration: string;
+  duration?: string;
   features: string[];
   technologies: string[];
   featured: boolean;
 }
-
 export const services: Service[] = [
   {
-    id: "custom-software-development",
-    title: "Custom Software Development",
-    description:
-      "Build tailored software solutions using modern technologies like Go, React, and TypeScript.",
-    content: `# Custom Software Development
-
-## What I Offer
-
-I specialize in building custom software solutions that are perfectly tailored to your business needs. Whether you need a web application, mobile app, or backend API, I can help you bring your ideas to life.
-
-## Technologies I Work With
-
-### Backend Development
-- **Go**: High-performance APIs and microservices
-- **Node.js**: JavaScript/TypeScript backend services
-- **Python**: Data processing and machine learning applications
-- **PostgreSQL**: Robust relational database design
-- **Redis**: Caching and session management
-- **Docker**: Containerization and deployment
-
-### Frontend Development
-- **React**: Modern, interactive user interfaces
-- **TypeScript**: Type-safe development
-- **Next.js**: Full-stack React applications
-- **Tailwind CSS**: Utility-first styling
-- **React Native**: Cross-platform mobile development
-
-### DevOps & Infrastructure
-- **AWS**: Cloud infrastructure and services
-- **Docker**: Containerization
-- **Kubernetes**: Container orchestration
-- **CI/CD**: Automated deployment pipelines
-- **Monitoring**: Application performance monitoring
-
-## Development Process
-
-### 1. Discovery & Planning
-- Requirements gathering and analysis
-- Technical architecture design
-- Project timeline and milestone planning
-- Technology stack selection
-
-### 2. Design & Prototyping
-- User experience (UX) design
-- User interface (UI) mockups
-- Technical architecture diagrams
-- Proof of concept development
-
-### 3. Development & Testing
-- Agile development methodology
-- Regular progress updates
-- Comprehensive testing (unit, integration, e2e)
-- Code reviews and quality assurance
-
-### 4. Deployment & Maintenance
-- Production deployment
-- Performance optimization
-- Ongoing maintenance and support
-- Feature enhancements and updates
-
-## What Makes Me Different
-
-### 1. Full-Stack Expertise
-I can handle both frontend and backend development, ensuring seamless integration between all parts of your application.
-
-### 2. Modern Best Practices
-I follow industry best practices for code quality, security, performance, and maintainability.
-
-### 3. Scalable Architecture
-I design systems that can grow with your business, from MVP to enterprise-scale applications.
-
-### 4. Clear Communication
-I provide regular updates and clear documentation throughout the development process.
-
-## Project Types
-
-### Web Applications
-- E-commerce platforms
-- Content management systems
-- Business process automation
-- Data visualization dashboards
-- Real-time applications
-
-### Mobile Applications
-- Cross-platform mobile apps
-- Native iOS/Android development
-- Progressive web applications
-- Mobile API development
-
-### Backend Services
-- RESTful APIs
-- GraphQL endpoints
-- Microservices architecture
-- Database design and optimization
-- Third-party integrations
-
-## Pricing & Timeline
-
-### Project-Based Pricing
-- Fixed price for well-defined projects
-- Milestone-based payments
-- Transparent pricing with no hidden costs
-
-### Hourly Consulting
-- $150/hour for consulting and development
-- Flexible engagement models
-- Minimum 4-hour blocks
-
-### Timeline
-- **Small Projects**: 2-4 weeks
-- **Medium Projects**: 1-3 months
-- **Large Projects**: 3-6 months
-- **Ongoing Support**: Available
-
-## Getting Started
-
-1. **Initial Consultation**: Free 30-minute discovery call
-2. **Project Proposal**: Detailed scope and timeline
-3. **Contract & Payment**: Clear terms and milestones
-4. **Development**: Regular updates and communication
-5. **Delivery**: Testing, deployment, and handover
-
-## Recent Projects
-
-### E-commerce Platform
-Built a full-stack e-commerce platform with React frontend, Go backend, and PostgreSQL database. Features include user authentication, product catalog, shopping cart, payment processing, and admin dashboard.
-
-### Mobile Banking App
-Developed a React Native mobile app for a fintech startup with features like account management, money transfers, bill payments, and transaction history.
-
-### API Integration Service
-Created a microservices-based API integration platform that connects various third-party services with proper error handling, retry mechanisms, and monitoring.
-
-Ready to start your project? Let's discuss your requirements and create something amazing together!`,
+    id: "frontend-development",
+    title: "Front-end Development",
+    description: "I build clean, interactive web interfaces with React and TypeScript.",
+    content: "Front-end web apps using React, TypeScript, Next.js, and Tailwind. I focus on performance, usability, and maintainable code.",
     icon: "💻",
     category: "Development",
-    priceRange: "$5,000 - $50,000",
-    duration: "2-6 months",
-    features: [
-      "Full-stack development",
-      "Modern tech stack",
-      "Scalable architecture",
-      "Code quality assurance",
-      "Ongoing support",
-      "Documentation",
-    ],
-    technologies: ["Go", "React", "TypeScript", "PostgreSQL", "Docker", "AWS"],
+    priceRange: "180 zł/hour",
+    features: ["React & TypeScript", "Responsive UI", "Clean code", "Performance focus"],
+    technologies: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
     featured: true,
   },
   {
-    id: "mobile-app-development",
-    title: "Mobile App Development",
-    description:
-      "Create beautiful, performant mobile applications for iOS and Android using React Native and native technologies.",
-    content: `# Mobile App Development
-
-## Cross-Platform Mobile Solutions
-
-I specialize in creating mobile applications that work seamlessly across iOS and Android platforms, using React Native for maximum code reuse and native performance.
-
-## Development Approach
-
-### React Native Development
-- **Single Codebase**: Write once, run on both platforms
-- **Native Performance**: Access to native APIs and components
-- **Hot Reloading**: Fast development and testing
-- **TypeScript**: Type-safe development
-- **Modern Hooks**: Functional components and hooks
-
-### Native Development
-- **iOS**: Swift and SwiftUI for native iOS apps
-- **Android**: Kotlin and Jetpack Compose for native Android apps
-- **Platform-Specific Features**: Camera, GPS, push notifications
-- **App Store Optimization**: ASO and store compliance
-
-## App Categories
-
-### Business Applications
-- Customer relationship management (CRM)
-- Inventory management systems
-- Field service applications
-- Employee management tools
-- Business process automation
-
-### E-commerce & Retail
-- Online shopping apps
-- Product catalog applications
-- Payment processing integration
-- Inventory tracking
-- Customer loyalty programs
-
-### Social & Communication
-- Chat applications
-- Social media platforms
-- Video calling apps
-- Community forums
-- Messaging services
-
-### Productivity & Utilities
-- Task management apps
-- Note-taking applications
-- File management tools
-- Calendar and scheduling
-- Utility applications
-
-## Key Features I Implement
-
-### User Interface
-- Responsive design for all screen sizes
-- Platform-specific UI guidelines
-- Dark mode support
-- Accessibility compliance
-- Smooth animations and transitions
-
-### Backend Integration
-- RESTful API integration
-- GraphQL endpoints
-- Real-time data synchronization
-- Offline functionality
-- Data caching strategies
-
-### Native Features
-- Camera and photo library access
-- GPS and location services
-- Push notifications
-- Biometric authentication
-- Deep linking and URL schemes
-
-### Performance Optimization
-- Image optimization and lazy loading
-- Memory management
-- Bundle size optimization
-- List virtualization
-- Background task handling
-
-## Development Process
-
-### 1. Planning & Design
-- Requirements analysis
-- User experience (UX) design
-- User interface (UI) mockups
-- Technical architecture planning
-- Platform-specific considerations
-
-### 2. Development
-- Cross-platform development with React Native
-- Native module integration when needed
-- API integration and data management
-- State management implementation
-- Testing and quality assurance
-
-### 3. Testing & Optimization
-- Device testing on multiple platforms
-- Performance optimization
-- Bug fixing and refinement
-- User acceptance testing
-- App store preparation
-
-### 4. Deployment & Launch
-- App store submission
-- Beta testing programs
-- Production deployment
-- Performance monitoring
-- Ongoing maintenance and updates
-
-## Technologies & Tools
-
-### Frontend
-- **React Native**: Cross-platform development
-- **TypeScript**: Type-safe development
-- **Redux Toolkit**: State management
-- **React Navigation**: Navigation library
-- **React Query**: Data fetching and caching
-
-### Backend Integration
-- **REST APIs**: Standard API integration
-- **GraphQL**: Flexible data fetching
-- **WebSocket**: Real-time communication
-- **Firebase**: Backend-as-a-Service
-- **AWS**: Cloud services integration
-
-### Development Tools
-- **Expo**: Development and deployment platform
-- **Flipper**: Mobile debugging
-- **Detox**: End-to-end testing
-- **Fastlane**: Automated deployment
-- **CodePush**: Over-the-air updates
-
-## App Store Optimization
-
-### iOS App Store
-- App Store Connect setup
-- Metadata optimization
-- Screenshot and preview creation
-- Review and rating management
-- App Store guidelines compliance
-
-### Google Play Store
-- Google Play Console setup
-- Store listing optimization
-- A/B testing for store listings
-- Play Store policies compliance
-- Release management
-
-## Pricing & Packages
-
-### Basic App Package
-- **Price**: $10,000 - $25,000
-- **Timeline**: 6-12 weeks
-- **Features**: Standard UI, basic functionality, API integration
-- **Platforms**: iOS and Android
-
-### Premium App Package
-- **Price**: $25,000 - $50,000
-- **Timeline**: 12-20 weeks
-- **Features**: Custom UI, advanced features, native integrations
-- **Platforms**: iOS, Android, and web
-
-### Enterprise App Package
-- **Price**: $50,000+
-- **Timeline**: 20+ weeks
-- **Features**: Complex business logic, enterprise integrations, custom native modules
-- **Platforms**: All platforms with custom requirements
-
-## Ongoing Support
-
-### Maintenance & Updates
-- Bug fixes and performance improvements
-- Feature enhancements
-- OS compatibility updates
-- Security updates
-- Performance monitoring
-
-### App Store Management
-- Regular updates and releases
-- Store listing optimization
-- Review and rating management
-- Analytics and reporting
-- User feedback handling
-
-Ready to build your mobile app? Let's discuss your requirements and create an app that your users will love!`,
+    id: "hybrid-mobile-apps",
+    title: "Hybrid Mobile Apps",
+    description: "I create cross-platform apps for iOS and Android using React Native.",
+    content: "Build hybrid apps with React Native. One codebase, runs smoothly on iOS & Android.",
     icon: "📱",
     category: "Mobile",
-    priceRange: "$10,000 - $50,000",
-    duration: "6-20 weeks",
-    features: [
-      "Cross-platform development",
-      "Native performance",
-      "App store optimization",
-      "Push notifications",
-      "Offline functionality",
-      "Ongoing maintenance",
-    ],
-    technologies: [
-      "React Native",
-      "TypeScript",
-      "iOS",
-      "Android",
-      "Firebase",
-      "AWS",
-    ],
+    priceRange: "140 zł/hour",
+    features: ["React Native", "Cross-platform", "TypeScript", "Native API access"],
+    technologies: ["React Native", "TypeScript", "iOS", "Android"],
     featured: true,
   },
   {
-    id: "technical-consulting",
-    title: "Technical Consulting",
-    description:
-      "Get expert advice on architecture, technology choices, and development best practices for your projects.",
-    content: `# Technical Consulting
-
-## Expert Guidance for Your Technology Decisions
-
-I provide strategic technical consulting to help you make informed decisions about your technology stack, architecture, and development processes.
-
-## Consulting Areas
-
-### Architecture & System Design
-- **Microservices vs Monolith**: Choosing the right architecture
-- **Database Design**: Relational vs NoSQL, optimization strategies
-- **API Design**: RESTful vs GraphQL, versioning strategies
-- **Scalability Planning**: Performance optimization and scaling strategies
-- **Security Architecture**: Authentication, authorization, and data protection
-
-### Technology Stack Selection
-- **Frontend Technologies**: React, Vue, Angular comparison
-- **Backend Technologies**: Go, Node.js, Python, Java evaluation
-- **Database Technologies**: PostgreSQL, MongoDB, Redis selection
-- **Cloud Platforms**: AWS, Azure, GCP comparison
-- **DevOps Tools**: Docker, Kubernetes, CI/CD pipeline design
-
-### Development Process Optimization
-- **Agile Methodologies**: Scrum, Kanban implementation
-- **Code Quality**: Testing strategies, code review processes
-- **DevOps Practices**: CI/CD, monitoring, deployment strategies
-- **Team Structure**: Technical team organization and roles
-- **Documentation**: Technical documentation best practices
-
-## Consulting Services
-
-### 1. Technical Architecture Review
-- **Current State Analysis**: Evaluate existing systems and processes
-- **Gap Analysis**: Identify areas for improvement
-- **Recommendations**: Provide actionable improvement plans
-- **Implementation Roadmap**: Step-by-step implementation guide
-
-### 2. Technology Selection
-- **Requirements Analysis**: Understand your specific needs
-- **Technology Evaluation**: Compare different options
-- **Proof of Concept**: Build small prototypes to validate choices
-- **Migration Planning**: Plan technology transitions
-
-### 3. Code Review & Quality Assessment
-- **Code Quality Audit**: Review existing codebase
-- **Best Practices**: Identify areas for improvement
-- **Performance Analysis**: Identify bottlenecks and optimization opportunities
-- **Security Review**: Assess security vulnerabilities
-
-### 4. Team Training & Mentoring
-- **Technical Training**: Train your team on new technologies
-- **Code Review Sessions**: Improve code quality practices
-- **Architecture Workshops**: Design system architecture together
-- **Best Practices**: Implement development best practices
-
-## Industries I Serve
-
-### E-commerce & Retail
-- Online marketplace architecture
-- Payment processing systems
-- Inventory management solutions
-- Customer relationship management
-- Supply chain optimization
-
-### Fintech & Banking
-- Financial application architecture
-- Payment gateway integration
-- Compliance and security
-- Risk management systems
-- Mobile banking solutions
-
-### Healthcare & MedTech
-- Electronic health records (EHR)
-- Telemedicine platforms
-- Medical device integration
-- HIPAA compliance
-- Patient data management
-
-### SaaS & Enterprise
-- Multi-tenant architecture
-- Subscription management
-- API monetization
-- Enterprise integrations
-- Scalability planning
-
-## Consulting Process
-
-### 1. Initial Discovery
-- **Free Consultation**: 30-minute discovery call
-- **Requirements Gathering**: Understand your challenges
-- **Scope Definition**: Define consulting engagement
-- **Proposal Creation**: Detailed consulting plan
-
-### 2. Analysis & Assessment
-- **Current State Review**: Analyze existing systems
-- **Technology Audit**: Evaluate current tech stack
-- **Process Review**: Assess development processes
-- **Team Assessment**: Evaluate team capabilities
-
-### 3. Recommendations & Planning
-- **Solution Design**: Create technical solutions
-- **Implementation Plan**: Detailed roadmap
-- **Risk Assessment**: Identify potential challenges
-- **Success Metrics**: Define success criteria
-
-### 4. Implementation Support
-- **Guided Implementation**: Support during execution
-- **Regular Check-ins**: Progress monitoring
-- **Problem Solving**: Address implementation challenges
-- **Knowledge Transfer**: Ensure team understanding
-
-## Deliverables
-
-### Technical Documentation
-- Architecture diagrams and specifications
-- Technology comparison reports
-- Implementation roadmaps
-- Best practices guides
-- Code review reports
-
-### Presentations & Workshops
-- Technical presentations to stakeholders
-- Team training sessions
-- Architecture workshops
-- Best practices seminars
-- Technology demos
-
-### Code & Prototypes
-- Proof of concept implementations
-- Reference architectures
-- Code examples and templates
-- Migration scripts
-- Testing frameworks
-
-## Pricing & Engagement Models
-
-### Hourly Consulting
-- **Rate**: $200/hour
-- **Minimum**: 4-hour blocks
-- **Flexibility**: On-demand availability
-- **Best For**: Specific technical questions
-
-### Project-Based Consulting
-- **Fixed Price**: Based on project scope
-- **Timeline**: 2-8 weeks typically
-- **Deliverables**: Defined outcomes
-- **Best For**: Complete architecture reviews
-
-### Retainer Consulting
-- **Monthly Fee**: $5,000 - $15,000/month
-- **Availability**: Regular check-ins and support
-- **Ongoing Support**: Continuous guidance
-- **Best For**: Long-term technical guidance
-
-## Why Choose My Consulting Services
-
-### 1. Real-World Experience
-- 10+ years of hands-on development experience
-- Experience with various industries and company sizes
-- Proven track record of successful projects
-
-### 2. Practical Approach
-- Focus on practical, implementable solutions
-- Consider your team's capabilities and constraints
-- Balance ideal solutions with realistic timelines
-
-### 3. Clear Communication
-- Explain complex technical concepts clearly
-- Provide actionable recommendations
-- Regular updates and progress reports
-
-### 4. Ongoing Support
-- Available for follow-up questions
-- Support during implementation
-- Long-term relationship building
-
-Ready to get expert technical guidance? Let's discuss your challenges and find the best solutions for your needs.`,
-    icon: "🎯",
-    category: "Consulting",
-    priceRange: "$200/hour",
-    duration: "Flexible",
-    features: [
-      "Architecture design",
-      "Technology selection",
-      "Code review",
-      "Team training",
-      "Process optimization",
-      "Ongoing support",
-    ],
-    technologies: [
-      "Architecture",
-      "Go",
-      "React",
-      "AWS",
-      "Docker",
-      "Kubernetes",
-    ],
-    featured: false,
+    id: "native-mobile-apps",
+    title: "Native Mobile Apps",
+    description: "I develop high-performance native apps for iOS and Android.",
+    content: "Native iOS apps with Swift/SwiftUI and Android apps with Kotlin/Jetpack Compose.",
+    icon: "📱",
+    category: "Mobile",
+    priceRange: "250 zł/hour",
+    features: ["Swift & Kotlin", "Platform-specific UI", "App Store ready"],
+    technologies: ["Swift", "SwiftUI", "Kotlin", "Jetpack Compose"],
+    featured: true,
+  },
+  {
+    id: "backend-development",
+    title: "Backend Development",
+    description: "I build reliable APIs and server-side logic with Go and Node.js.",
+    content: "Backend services, REST/GraphQL APIs, microservices, and database design.",
+    icon: "🖥️",
+    category: "Development",
+    priceRange: "180 zł/hour",
+    features: ["Go & Node.js", "REST & GraphQL", "Database design", "Scalable services"],
+    technologies: ["Go", "Node.js", "PostgreSQL", "Redis", "Docker"],
+    featured: true,
   },
 ];
+
 
 // Skills interfaces
 export interface SkillCategory {
