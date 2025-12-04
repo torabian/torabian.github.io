@@ -338,6 +338,29 @@ export const workshops: Workshop[] = [
         },
         content: "",
         id: "react-material-explorer"
+      },
+      {
+        title: "React Stacked Menu",
+        description: `
+        In this workshop I explain how did I create a shopisticated menu system, which can handle dynamic elements adjustment, and more importantly, how to plan building such elements.
+        
+
+
+        `,
+        duration: "20m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/xxxxxx"
+        },
+        content: `
+You can check the demo for this library here:
+
+[https://torabian.github.io/workshops/react-stacked-menu/](https://torabian.github.io/workshops/react-stacked-menu/)
+
+Also the source is here:
+
+[https://github.com/torabian/torabian.github.io/tree/main/other/react-stacked-menu-lib](https://github.com/torabian/torabian.github.io/tree/main/other/react-stacked-menu-lib)
+        `,
+        id: "react-stacked-menu"
       }
     ]
   },

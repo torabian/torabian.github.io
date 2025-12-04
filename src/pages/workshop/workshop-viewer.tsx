@@ -110,9 +110,8 @@ export default function WorkshopViewer({ workshop }: { workshop: Workshop }) {
               {workshop.sections.map((section, index) => (
                 <div
                   key={section.id}
-                  className={`${styles.sectionItem} ${
-                    selectedSection?.id === section.id ? styles.selected : ""
-                  }`}
+                  className={`${styles.sectionItem} ${selectedSection?.id === section.id ? styles.selected : ""
+                    }`}
                   onClick={() => handleSectionSelect(section)}
                 >
                   <div className={styles.sectionNumber}>{index + 1}</div>
@@ -170,7 +169,7 @@ export default function WorkshopViewer({ workshop }: { workshop: Workshop }) {
                 </div>
 
                 <div className={styles.markdownContent}>
-                  <ReactMarkdown>{selectedSection.content}</ReactMarkdown>
+                  <ReactMarkdown>{selectedSection.content?.trim()}</ReactMarkdown>
                 </div>
 
                 <div className={styles.sectionActions}>
