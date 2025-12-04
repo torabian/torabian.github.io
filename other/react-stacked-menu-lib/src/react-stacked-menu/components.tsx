@@ -12,9 +12,9 @@ import type { BaseStackedMenuUlRenderProps, StackMenuItemProps } from "./definit
 export const DefaultLiItemComponent = (props: StackMenuItemProps) => {
 
     const M = props.item.content as ComponentType<any>
-    const Content = typeof props.item.content === 'string' ? props.item.content : <M />
+    const Content = typeof props.item.content === 'string' ? props.item.content : <M item={props.item} />
     return <button onClick={() => props.setSelector(props.currentSelector)}>
-        {Content}
+        {props.item.content === undefined ? '' : Content}
     </button>
 }
 
@@ -38,7 +38,7 @@ export const DefaultUlComponent = ({
     const isSelected = currentSelection.startsWith(prefix || '') || depth === 0
 
 
-    return <ul className={`${isSelected ? 'active' : ''} stack-menu-ul-depth-${depth}`}>
+    return <ul className={`${isSelected ? 'active' : ''} stacked-menu-ul-depth-${depth}`}>
         {menuItems.map(item => {
             const Component = item.Component || LiItemComponent
             const currentSelector = (prefix ? prefix + '.' : '') + item.key
@@ -47,7 +47,7 @@ export const DefaultUlComponent = ({
                     depth={depth}
                     currentSelector={currentSelector}
                     item={item}
-                    setSelector={item.children ? setSelector : () => onTrigger?.(currentSelector)}
+                    setSelector={item.children ? setSelector : () => onTrigger?.(currentSelector, item.meta)}
                 /> : null}
                 {item.children ?
                     <DefaultUlComponent

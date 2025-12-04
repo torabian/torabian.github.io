@@ -15,7 +15,7 @@ export const StackedMenu = ({
 
     const menu = useMemo(() => {
         return computeFinalMenu(layers)
-    }, [])
+    }, [layers])
 
     // If developer wants to override the menu
     const wrapperClass = ("react-stacked-menu" + (" " + (appendClass || ""))).trim()

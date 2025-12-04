@@ -30,6 +30,8 @@ export const mergeItems = (base: MenuItem[], incoming: MenuItem[]): MenuItem[] =
 
 export const computeFinalMenu = (layers: MenuLayer[]): MenuItem[] => {
     let result: MenuItem[] = [];
-    for (const layer of (layers || [])) result = mergeItems(result, layer.items);
+    for (const layer of (layers || [])) {
+        result = mergeItems(result, layer.items);
+    }
     return result;
 };

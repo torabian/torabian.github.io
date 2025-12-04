@@ -15,24 +15,49 @@ export type StackMenuItemProps = {
 }
 
 export type MenuItem = {
-    key: string;
-    content?: string | ComponentType<any>;
 
-    /// How to make this a react component, with specific props
+    /// Id of the item, unique, across the menu.
+    key: string;
+
+    /// String, or react component factory, to create the display value
+    content?: string | ComponentType<{ item: MenuItem }>;
+
+    /// Custom wrapper component, instead of default <button> ...
     Component?: ComponentType<StackMenuItemProps>;
-    icon?: string;
-    onSelect?: () => void;
-    href?: string;
+
+    /// If menu has children, it needs to come here.
     children?: MenuItem[];
+
+
+    /// Meta content, anything, which onTrigger happens will be passed as second parameter
+    meta?: any;
 };
 
 export type MenuLayer = {
-    id: string; // layer id, e.g., "default", "page-xyz", "component-abc"
+
+    /**
+     * @description Layer id. It has nothing to do with id/key of elements visible in the menu.
+     * It's a way, to add/remove layers. Layers, in the end, will be computed, into a renderable
+     * menu items, which will be drawn by react as html elements.
+     */
+    id: string;
+
+    /**
+     * @description Menu items which this layer provide, either new menu, or if has the same menu key as a layer before,
+     * it would be merged with them.
+     */
     items: MenuItem[];
 };
 
 export type MenuContextType = {
     layers: { [key: string]: MenuLayer[] };
+
+    /** Push a new layer onto a stack. */
+    addLayer: (key: string, layer: MenuLayer) => void;
+
+    /** Remove a layer from a stack by its id. */
+    removeLayer: (key: string, layerId: string) => void;
+
 };
 
 /**
@@ -72,7 +97,7 @@ export type BaseStackedMenuUlRenderProps = {
     LiItemComponent: ComponentType<StackMenuItemProps>
 
 
-    onTrigger?: (selector: string) => void
+    onTrigger?: (selector: string, meta?: any) => void
 }
 
 
@@ -87,7 +112,26 @@ export type StackedMenuContextProps = {
     UlComponent?: ComponentType<BaseStackedMenuUlRenderProps>,
     id: string;
 
-    onTrigger?: (selector: string) => void
+    /**
+     * @description When a menu item (without children) is being selected, it would trigger this, and you
+     * need to capture that in order to react to user selection
+     * @param selector the path of selection, separated by .
+     * @param meta 
+     * @returns 
+     */
+    onTrigger?: (selector: string, meta: any) => void
+
+    /**
+     * By default, the menu has a wrapper class name.
+     * If appendClass property is there, it would add something to that class, instead of cleaning it all
+     */
+    appendClass?: string;
+
+
+    /**
+     * Preselect a menu item path
+     */
+    defaultSelector?: string;
 }
 
 /**
@@ -143,5 +187,5 @@ export type StackedMenuProps = {
      * @param selector 
      * @returns 
      */
-    onTrigger?: (selector: string) => void
+    onTrigger?: (selector: string, meta?: any) => void
 }

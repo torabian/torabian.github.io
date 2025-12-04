@@ -365,6 +365,45 @@ export const workshops: Workshop[] = [
     sections: []
   },
   {
+    id: "developer-coaching-workshop",
+    title: "Developer Coaching Workshop",
+    description:
+      "A workshop focused on leveling up developers by fixing mindset traps, improving engineering judgment, and avoiding common long-term career pitfalls. Practical, direct, and based on real-world software experience.",
+    language: "English",
+    totalDuration: "45m",
+    level: "intermediate",
+    category: "Software Engineering",
+    prerequisites: [
+      "General programming experience",
+      "Basic understanding of modern frontend or backend workflows",
+    ],
+    tools: [],
+    sections: [
+      {
+        title: "Side Projects Hurt Programmers",
+        description:
+          "Breaking down why random side projects often waste years, create fragmented skills, and block real career progress — and what to do instead.",
+        duration: "20m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/vle1OgvoFgc?si=2U3neWomyuU7QcE3", // replace with real link
+        },
+        content: "",
+        id: "side-projects-hurt-programmers",
+      },
+      {
+        title: "Why Shared Component Libraries Are Bad",
+        description:
+          "Why centralizing UI components looks smart but usually kills speed, ownership, and product quality. A candid look at real-world failures and better alternatives.",
+        duration: "25m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/7cRfr48kYZE?si=dOjkyF_WotQZexpV", // replace with real link
+        },
+        content: "",
+        id: "why-shared-component-library-is-bad",
+      }
+    ],
+  },
+  {
     id: "mastering-fireback-workshop",
     title: "Mastering Fireback",
     description:

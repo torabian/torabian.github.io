@@ -1,0 +1,58 @@
+
+.ribbon-menu button {
+  background: transparent;
+  border: 0;
+}
+
+.ribbon-menu.react-stacked-menu ul .stacked-menu-ul-depth-2 {
+  display: flex;
+}
+
+.ribbon-menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 ;
+}
+
+/* First leve, is basically, the menu bar. */
+.ribbon-menu .stacked-menu-ul-depth-0 {
+  position: relative;
+  padding-top: 5px;
+}
+
+.ribbon-menu .stacked-menu-ul-depth-1 li {
+  display: flex;
+}
+
+.ribbon-menu .stacked-menu-ul-depth-2 > li > button {
+  white-space: nowrap;
+}
+
+.ribbon-menu .stacked-menu-ul-depth-1 > li > button {
+  transform: rotate(43deg);
+  font-size: 6px;
+  pointer-events: none;
+}
+
+.ribbon-menu .stacked-menu-ul-depth-1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20px;
+  display: flex;
+  background-color: silver;
+  max-width: 100%;
+  overflow: auto;
+  height: 40px;
+  align-items: center;
+  padding-top: 10px;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.ribbon-menu .stacked-menu-ul-depth-1::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
