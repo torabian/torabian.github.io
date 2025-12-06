@@ -41,96 +41,108 @@ export default function Workshops() {
         <div className={styles.workshopsGrid}>
           {workshops.map((workshop) => (
             <div key={workshop.id} className={styles.workshopCard}>
-              <div className={styles.workshopHeader}>
-                <div className={styles.workshopInfo}>
-                  <h2 className={styles.workshopTitle}>
-                    <Link to={`/workshop/${workshop.id}`}>
-                      {workshop.title}
-                    </Link>
-                  </h2>
-                  <div className={styles.workshopMeta}>
-                    <span
-                      className={styles.level}
-                      style={{ backgroundColor: getLevelColor(workshop.level) }}
-                    >
-                      {workshop.level}
-                    </span>
-                    <span className={styles.category}>{workshop.category}</span>
-                    <span className={styles.language}>{workshop.language}</span>
-                    <span className={styles.duration}>
-                      {workshop.totalDuration}
-                    </span>
-                  </div>
-                </div>
-                <button
-                  className={styles.expandButton}
-                  onClick={() => toggleWorkshop(workshop.id)}
-                  aria-label={`${
-                    expandedWorkshop === workshop.id ? "Collapse" : "Expand"
-                  } workshop details`}
-                >
-                  {expandedWorkshop === workshop.id ? "−" : "+"}
-                </button>
-              </div>
+              {workshop.mainVideo ?
+                <iframe
+                  width="300"
+                  src={workshop.mainVideo}
+                  title={`Video`}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
 
-              <div className={styles.workshopDescription}>
-                <p>{workshop.description}</p>
-              </div>
-
-              {expandedWorkshop === workshop.id && (
-                <div className={styles.detailsSection}>
-                  <div className={styles.prerequisitesSection}>
-                    <h3>Prerequisites</h3>
-                    <ul className={styles.prerequisitesList}>
-                      {workshop.prerequisites.map((prereq, index) => (
-                        <li key={index}>{prereq}</li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  <div className={styles.toolsSection}>
-                    <h3>Tools & Technologies</h3>
-                    <div className={styles.toolsList}>
-                      {workshop.tools.map((tool, index) => (
-                        <span key={index} className={styles.toolTag}>
-                          {tool}
-                        </span>
-                      ))}
+                : null}
+              <div style={{ flex: 1, marginLeft: '25px' }}>
+                <div className={styles.workshopHeader}>
+                  <div className={styles.workshopInfo}>
+                    <h2 className={styles.workshopTitle}>
+                      <Link to={`/workshop/${workshop.id}`}>
+                        {workshop.title}
+                      </Link>
+                    </h2>
+                    <div className={styles.workshopMeta}>
+                      <span
+                        className={styles.level}
+                        style={{ backgroundColor: getLevelColor(workshop.level) }}
+                      >
+                        {workshop.level}
+                      </span>
+                      <span className={styles.category}>{workshop.category}</span>
+                      <span className={styles.language}>{workshop.language}</span>
+                      <span className={styles.duration}>
+                        {workshop.totalDuration}
+                      </span>
                     </div>
                   </div>
+                  <button
+                    className={styles.expandButton}
+                    onClick={() => toggleWorkshop(workshop.id)}
+                    aria-label={`${expandedWorkshop === workshop.id ? "Collapse" : "Expand"
+                      } workshop details`}
+                  >
+                    {expandedWorkshop === workshop.id ? "−" : "+"}
+                  </button>
+                </div>
 
-                  <div className={styles.sectionsSection}>
-                    <h3>Workshop Sections ({workshop.sections.length})</h3>
-                    <div className={styles.sectionsList}>
-                      {workshop.sections.map((section, index) => (
-                        <div key={section.id} className={styles.sectionItem}>
-                          <div className={styles.sectionNumber}>
-                            {index + 1}
-                          </div>
-                          <div className={styles.sectionContent}>
-                            <h4 className={styles.sectionTitle}>
-                              {section.title}
-                            </h4>
-                            <p className={styles.sectionDescription}>
-                              {section.description}
-                            </p>
-                            <div className={styles.sectionMeta}>
-                              <span className={styles.sectionDuration}>
-                                {section.duration}
-                              </span>
-                              {section.isCompleted && (
-                                <span className={styles.completedBadge}>
-                                  ✓ Completed
+                <div className={styles.workshopDescription}>
+                  <p>{workshop.description}</p>
+                </div>
+
+                {expandedWorkshop === workshop.id && (
+                  <div className={styles.detailsSection}>
+                    <div className={styles.prerequisitesSection}>
+                      <h3>Prerequisites</h3>
+                      <ul className={styles.prerequisitesList}>
+                        {workshop.prerequisites.map((prereq, index) => (
+                          <li key={index}>{prereq}</li>
+                        ))}
+                      </ul>
+                    </div>
+
+                    <div className={styles.toolsSection}>
+                      <h3>Tools & Technologies</h3>
+                      <div className={styles.toolsList}>
+                        {workshop.tools.map((tool, index) => (
+                          <span key={index} className={styles.toolTag}>
+                            {tool}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div className={styles.sectionsSection}>
+                      <h3>Workshop Sections ({workshop.sections.length})</h3>
+                      <div className={styles.sectionsList}>
+                        {workshop.sections.map((section, index) => (
+                          <div key={section.id} className={styles.sectionItem}>
+                            <div className={styles.sectionNumber}>
+                              {index + 1}
+                            </div>
+                            <div className={styles.sectionContent}>
+                              <h4 className={styles.sectionTitle}>
+                                {section.title}
+                              </h4>
+                              <p className={styles.sectionDescription}>
+                                {section.description}
+                              </p>
+                              <div className={styles.sectionMeta}>
+                                <span className={styles.sectionDuration}>
+                                  {section.duration}
                                 </span>
-                              )}
+                                {section.isCompleted && (
+                                  <span className={styles.completedBadge}>
+                                    ✓ Completed
+                                  </span>
+                                )}
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      ))}
+                        ))}
+                      </div>
                     </div>
                   </div>
-                </div>
-              )}
+                )}
+              </div>
             </div>
           ))}
         </div>

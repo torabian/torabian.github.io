@@ -114,6 +114,19 @@ export default function Services() {
                 </ul>
               </div>
 
+              {service.mainVideo ? (
+                <iframe
+                  width="100%"
+                  style={{ flex: 1 }}
+                  height="270"
+                  src={service.mainVideo}
+                  title={`Video`}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+
+              ) : null}
               <div className={styles.serviceTechnologies}>
                 {service.technologies.slice(0, 4).map((tech, index) => (
                   <span key={index} className={styles.techTag}>

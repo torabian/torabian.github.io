@@ -76,7 +76,7 @@ export interface WorkshopSection {
 export interface Workshop {
   id: string;
   title: string;
-
+  mainVideo?: string;
   description: string;
   language: string;
   totalDuration: string;
@@ -297,6 +297,7 @@ It might sound impossible, but let's watch this video and I will show you me cod
 
 export const workshops: Workshop[] = [
   {
+    mainVideo: 'https://www.youtube.com/embed/mjAZ3yVzEd8?si=1YNph2m1ywhMSgat',
     id: "react-architecture-workshop",
     title: "React Architecture Workshops",
     description:
@@ -373,6 +374,7 @@ Also the source is here:
     totalDuration: "2h 15m",
     level: "intermediate",
     category: "Embedded Development",
+    mainVideo: 'https://www.youtube.com/embed/H4qN3ECmUfY?si=9SM2Ha1qt_r2BPAT',
     prerequisites: [
       "Basic C programming",
       "General knowledge of microcontrollers",
@@ -390,6 +392,7 @@ Also the source is here:
   {
     id: "developer-coaching-workshop",
     title: "Developer Coaching Workshop",
+    mainVideo: 'https://www.youtube.com/embed/vle1OgvoFgc?si=2U3neWomyuU7QcE3',
     description:
       "A workshop focused on leveling up developers by fixing mindset traps, improving engineering judgment, and avoiding common long-term career pitfalls. Practical, direct, and based on real-world software experience.",
     language: "English",
@@ -449,6 +452,7 @@ Also the source is here:
       "Android Studio",
       "Xcode",
     ],
+    mainVideo: 'https://www.youtube.com/embed/jEgbZGyhMNw?si=BZrYVkOddeXGFNAg',
     sections: [
       {
         title: "XHTML and Fireback",
@@ -508,6 +512,7 @@ negatively impacting the brand's reputation.`,
     totalDuration: "1 hour",
     prerequisites: [],
     sections: [],
+    mainVideo: 'https://www.youtube.com/embed/-vVQ9iI2CNU?si=iRFH9tvQIrJiGkvU',
     tools: ["react", "fireback"],
   },
   {
@@ -523,6 +528,7 @@ and cohesive across screens, enhancing both developer efficiency and user satisf
     level: "advanced",
     title: "ATS-01 Standard for React Native List based projects",
     totalDuration: "1 hour",
+    mainVideo: 'https://www.youtube.com/embed/ZLnImRfvRC8?si=CV1R6qEF4HseXf5n',
     prerequisites: [
       "React Native fundamentals",
       "Basic performance optimization concepts",
@@ -909,6 +915,7 @@ export interface Service {
   content: string; // Markdown content
   icon: string;
   category: string;
+  mainVideo?: string;
   priceRange: string;
   duration?: string;
   features: string[];
@@ -927,6 +934,7 @@ export const services: Service[] = [
     features: ["React & TypeScript", "Responsive UI", "Clean code", "Performance focus"],
     technologies: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
     featured: true,
+    mainVideo: 'https://www.youtube.com/embed/kwFtGI6fJQk?si=9Ot3rdoENp7bPJaQ',
   },
   {
     id: "hybrid-mobile-apps",
@@ -939,6 +947,7 @@ export const services: Service[] = [
     features: ["React Native", "Cross-platform", "TypeScript", "Native API access"],
     technologies: ["React Native", "TypeScript", "iOS", "Android"],
     featured: true,
+    mainVideo: 'https://www.youtube.com/embed/IggQEhKKOY0?si=6d2nGQVY8eqdcxTW',
   },
   {
     id: "native-mobile-apps",
@@ -951,6 +960,7 @@ export const services: Service[] = [
     features: ["Swift & Kotlin", "Platform-specific UI", "App Store ready"],
     technologies: ["Swift", "SwiftUI", "Kotlin", "Jetpack Compose"],
     featured: true,
+    mainVideo: 'https://www.youtube.com/embed/IggQEhKKOY0?si=6d2nGQVY8eqdcxTW',
   },
   {
     id: "backend-development",
@@ -963,6 +973,7 @@ export const services: Service[] = [
     features: ["Go & Node.js", "REST & GraphQL", "Database design", "Scalable services"],
     technologies: ["Go", "Node.js", "PostgreSQL", "Redis", "Docker"],
     featured: true,
+    mainVideo: 'https://www.youtube.com/embed/ij8R7YHt5Q8?si=5VTV15EHWauTgMpy',
   },
 ];
 
@@ -1076,7 +1087,7 @@ export const futureLanguages = ["Spanish", "Japanese"];
 
 export const featuredVideos = [
   {
-    src: "https://www.youtube.com/embed/-vVQ9iI2CNU?si=OEmqBuHB5dfRp9gw",
+    src: "https://www.youtube.com/embed/H4qN3ECmUfY?si=9SM2Ha1qt_r2BPATw",
     info: {
       title: "YouTube video player",
       width: 560,
@@ -1084,7 +1095,7 @@ export const featuredVideos = [
     },
   },
   {
-    src: "https://www.youtube.com/embed/kZQIbAEawp4?si=UvAdmSi1q08YlVyx",
+    src: "https://www.youtube.com/embed/-vVQ9iI2CNU?si=iRFH9tvQIrJiGkvU",
     info: {
       title: "YouTube video player",
       width: 560,
@@ -1092,7 +1103,7 @@ export const featuredVideos = [
     },
   },
   {
-    src: "https://www.youtube.com/embed/RCDr3Am_-bQ?si=wEYosku4vzONZhgn",
+    src: "https://www.youtube.com/embed/aP_8FSqxvW4?si=aEwCxFcKr_TIL_Dj",
     info: {
       title: "YouTube video player",
       width: 560,

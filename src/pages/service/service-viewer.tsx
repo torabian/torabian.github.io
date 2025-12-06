@@ -52,8 +52,23 @@ export default function ServiceViewer({ service }: { service: Service }) {
           </div>
         </div>
 
+
         {/* Features Section */}
         <div className={styles.featuresSection}>
+
+          {service.mainVideo ? (
+            <iframe
+              width="100%"
+              style={{ flex: 1 }}
+              height="470"
+              src={service.mainVideo}
+              title={`Video`}
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+
+          ) : null}
           <h2>Key Features</h2>
           <div className={styles.featuresGrid}>
             {service.features.map((feature, index) => (
