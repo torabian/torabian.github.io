@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Plugin Host</title>
+  <!-- Load React and ReactDOM globally -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="module">
+    // Global plugin registry
+    window.pluginRegistry = window.pluginRegistry || {
+      plugins: {},
+      registerPlugin(name, plugin) {
+        this.plugins[name] = plugin;
+        // For demo, call plugin immediately
+        plugin({
+          registerRoute: ({ path, label, component }) => {
+            console.log("Registered route:", path, label);
+            // Render component in root for demo
+            const el = React.createElement(component);
+            ReactDOM.render(el, document.getElementById("root"));
+          },
+          unregisterRoute: (path) => {
+            console.log("Unregistered route:", path);
+            // For demo, just clear root
+            ReactDOM.render(null, document.getElementById("root"));
+          }
+        });
+      },
+      unregisterPlugin(name, api) {
+        const plugin = this.plugins[name];
+        if (!plugin) return;
+        if (plugin._cleanup) plugin._cleanup(api);
+        delete this.plugins[name];
+      }
+    };
+
+    // Load plugin dynamically
+    const s = document.createElement("script");
+    s.src = "./plugin.js"; // your plugin file
+    s.type = "module";
+    document.head.appendChild(s);
+  </script>
+</body>
+</html>
