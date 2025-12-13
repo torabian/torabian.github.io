@@ -373,7 +373,7 @@ Also the source is here:
     description:
       "A hands-on workshop on building a plugin system first in React, then extending it to Go (Fireback). Covers host-plugin architecture, hooks, dynamic plugin loading, and rendering user-uploaded plugins.",
     language: "English",
-    totalDuration: "5h 0m",
+    totalDuration: "2h 0m",
     level: "intermediate to advanced",
     category: "Fullstack Development",
     download: "https://torabian.github.io/workshops/plugin-system-workshop.zip",
