@@ -76,6 +76,18 @@ export default function WorkshopViewer({ workshop }: { workshop: Workshop }) {
             </div>
             <p className={styles.workshopDescription}>{workshop.description}</p>
 
+            {workshop.download && (
+              <a
+                href={workshop.download}
+                target="_blank"
+                style={{ backgroundColor: 'green' }}
+                rel="noopener noreferrer"
+                className={"actionButton"}
+              >
+                ⬇️ Download Files
+              </a>
+            )}
+
             {/* Prerequisites and Tools */}
             <div className={styles.workshopDetails}>
               <div className={styles.prerequisitesSection}>

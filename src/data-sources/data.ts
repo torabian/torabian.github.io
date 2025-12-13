@@ -78,6 +78,7 @@ export interface Workshop {
   title: string;
   mainVideo?: string;
   description: string;
+  download?: string;
   language: string;
   totalDuration: string;
   sections: WorkshopSection[];
@@ -366,7 +367,7 @@ Also the source is here:
     ],
   },
   {
-    mainVideo: "https://www.youtube.com/embed/your-main-video-id",
+    mainVideo: "https://www.youtube.com/embed/lyw-NSCqk3E?si=bjaAwcndvyv3mXqN",
     id: "plugin-system-workshop",
     title: "React & Go Plugin System Workshop",
     description:
@@ -375,6 +376,7 @@ Also the source is here:
     totalDuration: "5h 0m",
     level: "intermediate to advanced",
     category: "Fullstack Development",
+    download: "https://torabian.github.io/workshops/plugin-system-workshop.zip",
     prerequisites: [
       "Solid understanding of JavaScript or TypeScript",
       "Basic knowledge of React and hooks",
@@ -384,66 +386,57 @@ Also the source is here:
     tools: ["React", "TypeScript", "Vite", "Golang", "Fireback"],
     sections: [
       {
-        title: "React Plugin System: Host & Plugin Projects",
-        description:
-          "Learn how to create a modular plugin system in React. We start with a host app and a plugin project, allowing dynamic plugin integration.",
-        duration: "1h 15m",
-        mainVideo: {
-          url: "https://www.youtube.com/embed/your-react-plugin-video-id",
+        "title": "Chapter 0: Full stack plugin system workshop introduction",
+        "description": "\nTrue modular system implementation using JavaScript (react or not) and Golang. Goal of this workshop:\n\n- Understanding the modular projects, plugins, monorepo, and benefits and consequences of each\n- Create a plugin project, focused on React section\n- Create a host project, which handles plugins\n- Create a backend project, which manages client plugins\n- Create plugin system for backend before coming to front-end, at all\n- Advanced topics and future proofing our work\n",
+        "duration": "2m",
+        "mainVideo": {
+          "url": "https://www.youtube.com/embed/lyw-NSCqk3E?si=bjaAwcndvyv3mXqN"
         },
-        content:
-          "We will create a Vite React project for the host and separate plugin projects. Plugins will be loaded dynamically, demonstrating isolation and communication between host and plugin.",
-        id: "react-plugin-host-plugin",
+        "content": "True modular system implementation using JavaScript (react or not) and Golang. Goal of this workshop:\n\n- Understanding the modular projects, plugins, monorepo, and benefits and consequences of each\n- Create a plugin project, focused on React section\n- Create a host project, which handles plugins\n- Create a backend project, which manages client plugins\n- Create plugin system for backend before coming to front-end, at all\n- Advanced topics and future proofing our work",
+        "id": "chapter-0-full-stack-plugin-system-workshop-introduction"
       },
       {
-        title: "Adding Hooks to React Plugins",
-        description:
-          "Extend your plugin system by integrating hooks, allowing plugins to interact with the host app’s state and lifecycle.",
-        duration: "45m",
-        mainVideo: {
-          url: "https://www.youtube.com/embed/your-react-hooks-video-id",
+        "title": "Chapter 1: Architectural knowledge about plugin system",
+        "description": "\nWhat is a modular system?\n\n- Anything which allows multiple parts to build a product from multiple smaller products\n- Microservices\n- Micro front-ends\n- Multi-project with a central routing\n- A serious plugin systems\n\nScenarios which you need a plugin system\n- In a system which is developed outside of main team\n- Developed features, by unknown teams\n- No way to anticipate what plugins will offer.\n- Massively modifiable, based on region, laws, more.\n- You have determined there is no other way.\n",
+        "duration": "22m",
+        "mainVideo": {
+          "url": "https://www.youtube.com/embed/fFtUhNiPu1k?si=oe1O7mHVIK6xCdsp"
         },
-        content:
-          "We’ll create custom hooks for plugin registration, state management, and event propagation between host and plugins.",
-        id: "react-plugin-hooks",
+        "content": "What is a modular system?\n\n- Anything which allows multiple parts to build a product from multiple smaller products\n- Microservices\n- Micro front-ends\n- Multi-project with a central routing\n- A serious plugin systems\n\nScenarios which you need a plugin system\n- In a system which is developed outside of main team\n- Developed features, by unknown teams\n- No way to anticipate what plugins will offer.\n- Massively modifiable, based on region, laws, more.\n- You have determined there is no other way.\n",
+        "id": "chapter-1-architectural-knowledge-about-plugin-system"
       },
       {
-        title: "Golang Plugin System with Fireback",
-        description:
-          "Implement a backend plugin system in Go using Fireback, demonstrating how to define, load, and render plugins dynamically.",
-        duration: "1h 30m",
-        mainVideo: {
-          url: "https://www.youtube.com/embed/your-go-plugin-video-id",
+        "title": "Chapter 2: Create front end plugin project",
+        "description": "\nAs plugin, what things to consider?\n\n- It should be able to run normally, as its own project\n- We export different parts, which can be as plugin\n- Can have multiple different builds, standalone, html only, in react, or full content\n- We do not depend on any module, such as module federation or webpack.\n- Keeping the Host API consistent.\n- Testing and marking the versions that plugin is compatible with host itself.\n- Keep styling out, as an option to be imported.\n- Keeping the markup very clean\n- Avoid as many as libraries we can.\n",
+        "duration": "21m",
+        "mainVideo": {
+          "url": "https://www.youtube.com/embed/CRHPiSl8xFc?si=fEiW2OxY-6RI0u44"
         },
-        content:
-          "We will create a Fireback server that can load Go plugins at runtime. Users will be able to upload plugin code, and the server will compile and render the plugin dynamically.",
-        id: "golang-fireback-plugins",
+        "content": "\nAs plugin, what things to consider?\n\n- It should be able to run normally, as its own project\n- We export different parts, which can be as plugin\n- Can have multiple different builds, standalone, html only, in react, or full content\n- We do not depend on any module, such as module federation or webpack.\n- Keeping the Host API consistent.\n- Testing and marking the versions that plugin is compatible with host itself.\n- Keep styling out, as an option to be imported.\n- Keeping the markup very clean\n- Avoid as many as libraries we can.\n",
+        "id": "chapter-2-create-front-end-plugin-project"
       },
       {
-        title: "Integrating User-Uploaded Plugins",
-        description:
-          "Allow end-users to upload plugins that your system can dynamically render. Focus on security, isolation, and rendering in both React and Go.",
-        duration: "1h 0m",
-        mainVideo: {
-          url: "https://www.youtube.com/embed/your-user-upload-plugin-video-id",
+        "title": "Chapter 3: Create front end host plugin manager",
+        "description": "\nWe need to register hooks, and routes\n\n- We need somewhere to store the hooks and routes (pages) from plugins\n- We need a register plugin mechanism\n- A mechanism to share the Host API\n- Documentation, how the plugin system works.\n- All the events, and screens a plugin can add (host/plugin)\n- Create things as plugin, from beginning if that’s the way to go.\n- Provide so much details via Host API, even if it’s not planned now\n",
+        "duration": "1h 0m",
+        "mainVideo": {
+          "url": "https://www.youtube.com/embed/iGH-JTZ7uT8?si=P2icyFqeeq5xboTc"
         },
-        content:
-          "We'll handle file uploads, validate plugin code, and integrate with the existing host system so that user plugins work seamlessly without breaking the core application.",
-        id: "user-uploaded-plugins",
+        "content": "\nWe need to register hooks, and routes\n\n- We need somewhere to store the hooks and routes (pages) from plugins\n- We need a register plugin mechanism\n- A mechanism to share the Host API\n- Documentation, how the plugin system works.\n- All the events, and screens a plugin can add (host/plugin)\n- Create things as plugin, from beginning if that’s the way to go.\n- Provide so much details via Host API, even if it’s not planned now\n",
+        "id": "chapter-3-create-front-end-host-plugin-manager"
       },
       {
-        title: "Workshop Wrap-Up & Best Practices",
-        description:
-          "Summarize key concepts, best practices for plugin systems, and ideas for extending this architecture in production.",
-        duration: "30m",
-        mainVideo: {
-          url: "https://www.youtube.com/embed/your-wrapup-video-id",
+        "title": "Chapter 4:  Manage plugins via a backend system",
+        "description": "\n          In this video, we implement a backend system, which would service the plugins for front-end, and enabled and disable them programmatically without compiling the plugin into the code base.\n          ",
+        "duration": "30m",
+        "mainVideo": {
+          "url": "https://www.youtube.com/embed/iOglPncUKOQ?si=59rXoHbG-PT2qi_c"
         },
-        content:
-          "Tips on structuring plugin systems, handling security, ensuring maintainability, and scaling React + Go plugin architectures.",
-        id: "plugin-workshop-wrapup",
-      },
-    ],
+        "content": "\n          In this video, we implement a backend system, which would service the plugins for front-end, and enabled and disable them programmatically without compiling the plugin into the code base.\n          ",
+        "id": "chapter-4-manage-plugins-via-a-backend-system"
+      }
+    ]
+    ,
   },
   {
     id: "adc-keyboard-workshop",
