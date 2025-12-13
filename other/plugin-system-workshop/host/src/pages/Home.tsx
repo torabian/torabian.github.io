@@ -3,9 +3,20 @@ import { useHooks } from "../pluginManager";
 
 export const BMICalculator: React.FC = () => {
     const [height, setHeight] = useState("");
-    const [weight, setWeight] = useState("");
+    const [weight, setWeight$] = useState("");
     const [bmi, setBMI] = useState<number | null>(null);
     const [category, setCategory] = useState("");
+
+
+    const setWeight = (value: string) => {
+        if (hasHook('on_bmi_weight_entered')) {
+            if (callHook('on_bmi_weight_entered', value) === null) {
+                return
+            }
+        }
+
+        setWeight$(value)
+    }
 
     const { callHook, hasHook } = useHooks()
 

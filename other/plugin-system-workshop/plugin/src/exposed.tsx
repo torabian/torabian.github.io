@@ -1,4 +1,4 @@
-import type { HostAPI } from "../../host/src/plugin-api";
+import type { HostAPI } from "../../host/src/host-api";
 import { PluginPage } from "./PluginPage";
 
 // Default export function that host will call
@@ -7,9 +7,17 @@ export default function register(api: HostAPI) {
 
     api.registerRoute({
         path,
-        label: "Plugin Page",
+        label: "Plugin Page 222",
         component: PluginPage,
     });
+
+
+    api.registerRoute({
+        path: '/page2',
+        label: "Page 2",
+        component: () => <span>My page 2</span>,
+    });
+
 
     // Attach cleanup so host can unregister later
     (register as any)._cleanup = (api: HostAPI) => {
@@ -17,7 +25,7 @@ export default function register(api: HostAPI) {
     };
 
 
-    api.registerHook('on_bmi_calculated', function (value) {
+    api.registerHook('on_bmi_calculated', function (value: string) {
         const selectedColor = localStorage.getItem('selected_color')
 
         if (selectedColor) {
@@ -25,6 +33,15 @@ export default function register(api: HostAPI) {
         }
 
         return 'No color selected!:' + value
+    })
+
+    api.registerHook('on_bmi_weight_entered', function (value: string) {
+
+        if (+value > 100) {
+            return null
+        }
+        
+        console.log("Weight entered", value)
     })
 }
 

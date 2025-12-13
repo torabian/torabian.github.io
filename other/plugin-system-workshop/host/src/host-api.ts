@@ -18,7 +18,7 @@ export interface PluginRoute {
  * A callback function that can be registered as a hook.
  * Plugins can register functions to react to certain events or modify data.
  */
-export type HookCallback = (...args: any[]) => void;
+export type HookCallback = (...args: any[]) => any;
 
 /**
  * API exposed by the host application to plugins.

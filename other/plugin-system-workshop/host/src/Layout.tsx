@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 
-export default function Layout({ routes, children }) {
+export default function Layout({ routes, children }: any) {
     const loc = useLocation();
 
     return (
@@ -14,12 +14,11 @@ export default function Layout({ routes, children }) {
             >
                 <h3>App</h3>
                 <ul style={{ listStyle: "none", padding: 0 }}>
-                    {routes.map(r => (
+                    {routes.map((r: any) => (
                         <li key={r.path} style={{ margin: "8px 0" }}>
                             <Link
                                 to={r.path}
                                 style={{
-                                    color: loc.pathname === r.path ? "black" : "#555",
                                     fontWeight: loc.pathname === r.path ? "bold" : "normal",
                                     textDecoration: "none",
                                 }}

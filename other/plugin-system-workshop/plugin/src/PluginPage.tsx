@@ -13,7 +13,7 @@ export const PluginPage = () => {
 
     return <>
         <Title />
-        <span>
+        <span className="heaer bt-2 bold">
             This is react from plugin. We have installed color picker, to show this plugin
             can easily include npm package and work correctly.
             <br />

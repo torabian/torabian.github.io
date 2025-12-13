@@ -1,8 +1,10 @@
 import React, { createContext, useContext, useEffect, useRef, useState, type ReactNode } from "react";
-import type { HostAPI, PluginRoute } from "./plugin-api";
+
 import { baseRoutes } from "./routes";
+import type { HostAPI, PluginRoute } from "./host-api";
 
 type HookCallback<R = any> = (...args: any[]) => R;
+
 
 interface HooksContextType {
     registerHook: (name: string, cb: HookCallback) => void;
@@ -102,7 +104,7 @@ export const HooksProvider = ({ children }: { children: ReactNode }) => {
 
 
     useEffect(() => {
-        for (const plugin of window.PluginsEnabled) {
+        for (const plugin of (window as any).PluginsEnabled) {
             loadPlugin(plugin.location, plugin.name, api)
                 .then(() => console.log("Plugin loaded"))
                 .catch(err => console.error(err));
@@ -110,7 +112,7 @@ export const HooksProvider = ({ children }: { children: ReactNode }) => {
         }
 
         return () => {
-            for (const plugin of window.PluginsEnabled) {
+            for (const plugin of (window as any).PluginsEnabled) {
                 pluginRegistry.unregisterPlugin(plugin.name, api);
             }
         }

@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build --config plugin.vite.config.ts && rm -rf ../host/public/assets && cp -R ./dist ../host/public",
+    "build:plugin": "tsc -b && vite build --config plugin.vite.config.ts && rm -rf ../host/public/assets && cp -R ./dist ../host/public",
+    "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
