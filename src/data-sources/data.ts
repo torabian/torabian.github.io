@@ -297,7 +297,7 @@ It might sound impossible, but let's watch this video and I will show you me cod
 
 export const workshops: Workshop[] = [
   {
-    mainVideo: 'https://www.youtube.com/embed/mjAZ3yVzEd8?si=1YNph2m1ywhMSgat',
+    mainVideo: "https://www.youtube.com/embed/mjAZ3yVzEd8?si=1YNph2m1ywhMSgat",
     id: "react-architecture-workshop",
     title: "React Architecture Workshops",
     description:
@@ -309,7 +309,7 @@ export const workshops: Workshop[] = [
     prerequisites: [
       "Solid understanding of JavaScript or TypeScript",
       "Basic knowledge of React",
-      "Familiarity with modern frontend tooling"
+      "Familiarity with modern frontend tooling",
     ],
     tools: [
       "React",
@@ -317,7 +317,7 @@ export const workshops: Workshop[] = [
       "Vite or Next.js",
       "Redux Toolkit / Zustand / Jotai",
       "Tailwind CSS",
-      "React Query"
+      "React Query",
     ],
     sections: [
       {
@@ -325,20 +325,20 @@ export const workshops: Workshop[] = [
         description: `Tired of the react modal repeating components on building react modals? Take a look with me how did I do it in the Fireback react.js a clean approach, chainable, without code repeat.`,
         duration: "27m",
         mainVideo: {
-          url: "https://www.youtube.com/embed/mjAZ3yVzEd8?si=1YNph2m1ywhMSgat"
+          url: "https://www.youtube.com/embed/mjAZ3yVzEd8?si=1YNph2m1ywhMSgat",
         },
         content: "",
-        id: "react-react-native-modals"
+        id: "react-react-native-modals",
       },
       {
         title: "Material explorer architecture in React",
         description: `I have created a Material explorer for Izadom software. Resolving material types, was really challenging, I wanted a good structure which would work long term, and react hook that supports it.`,
         duration: "11m",
         mainVideo: {
-          url: "https://www.youtube.com/embed/xaW-ZH8wf4c?si=Xj_loLbs-soeiYu-"
+          url: "https://www.youtube.com/embed/xaW-ZH8wf4c?si=Xj_loLbs-soeiYu-",
         },
         content: "",
-        id: "react-material-explorer"
+        id: "react-material-explorer",
       },
       {
         title: "React Stacked Menu",
@@ -350,7 +350,7 @@ export const workshops: Workshop[] = [
         `,
         duration: "20m",
         mainVideo: {
-          url: "https://www.youtube.com/embed/EK6sR9AmVH8?si=zp3jbkTsg5yOfaQs"
+          url: "https://www.youtube.com/embed/EK6sR9AmVH8?si=zp3jbkTsg5yOfaQs",
         },
         content: `
 You can check the demo for this library here:
@@ -361,9 +361,89 @@ Also the source is here:
 
 [https://github.com/torabian/torabian.github.io/tree/main/other/react-stacked-menu-lib](https://github.com/torabian/torabian.github.io/tree/main/other/react-stacked-menu-lib)
         `,
-        id: "react-stacked-menu"
-      }
-    ]
+        id: "react-stacked-menu",
+      },
+    ],
+  },
+  {
+    mainVideo: "https://www.youtube.com/embed/your-main-video-id",
+    id: "plugin-system-workshop",
+    title: "React & Go Plugin System Workshop",
+    description:
+      "A hands-on workshop on building a plugin system first in React, then extending it to Go (Fireback). Covers host-plugin architecture, hooks, dynamic plugin loading, and rendering user-uploaded plugins.",
+    language: "English",
+    totalDuration: "5h 0m",
+    level: "intermediate to advanced",
+    category: "Fullstack Development",
+    prerequisites: [
+      "Solid understanding of JavaScript or TypeScript",
+      "Basic knowledge of React and hooks",
+      "Familiarity with Go and Fireback",
+      "Experience with Vite or similar tooling",
+    ],
+    tools: ["React", "TypeScript", "Vite", "Golang", "Fireback"],
+    sections: [
+      {
+        title: "React Plugin System: Host & Plugin Projects",
+        description:
+          "Learn how to create a modular plugin system in React. We start with a host app and a plugin project, allowing dynamic plugin integration.",
+        duration: "1h 15m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/your-react-plugin-video-id",
+        },
+        content:
+          "We will create a Vite React project for the host and separate plugin projects. Plugins will be loaded dynamically, demonstrating isolation and communication between host and plugin.",
+        id: "react-plugin-host-plugin",
+      },
+      {
+        title: "Adding Hooks to React Plugins",
+        description:
+          "Extend your plugin system by integrating hooks, allowing plugins to interact with the host app’s state and lifecycle.",
+        duration: "45m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/your-react-hooks-video-id",
+        },
+        content:
+          "We’ll create custom hooks for plugin registration, state management, and event propagation between host and plugins.",
+        id: "react-plugin-hooks",
+      },
+      {
+        title: "Golang Plugin System with Fireback",
+        description:
+          "Implement a backend plugin system in Go using Fireback, demonstrating how to define, load, and render plugins dynamically.",
+        duration: "1h 30m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/your-go-plugin-video-id",
+        },
+        content:
+          "We will create a Fireback server that can load Go plugins at runtime. Users will be able to upload plugin code, and the server will compile and render the plugin dynamically.",
+        id: "golang-fireback-plugins",
+      },
+      {
+        title: "Integrating User-Uploaded Plugins",
+        description:
+          "Allow end-users to upload plugins that your system can dynamically render. Focus on security, isolation, and rendering in both React and Go.",
+        duration: "1h 0m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/your-user-upload-plugin-video-id",
+        },
+        content:
+          "We'll handle file uploads, validate plugin code, and integrate with the existing host system so that user plugins work seamlessly without breaking the core application.",
+        id: "user-uploaded-plugins",
+      },
+      {
+        title: "Workshop Wrap-Up & Best Practices",
+        description:
+          "Summarize key concepts, best practices for plugin systems, and ideas for extending this architecture in production.",
+        duration: "30m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/your-wrapup-video-id",
+        },
+        content:
+          "Tips on structuring plugin systems, handling security, ensuring maintainability, and scaling React + Go plugin architectures.",
+        id: "plugin-workshop-wrapup",
+      },
+    ],
   },
   {
     id: "adc-keyboard-workshop",
@@ -374,25 +454,25 @@ Also the source is here:
     totalDuration: "2h 15m",
     level: "intermediate",
     category: "Embedded Development",
-    mainVideo: 'https://www.youtube.com/embed/H4qN3ECmUfY?si=9SM2Ha1qt_r2BPAT',
+    mainVideo: "https://www.youtube.com/embed/H4qN3ECmUfY?si=9SM2Ha1qt_r2BPAT",
     prerequisites: [
       "Basic C programming",
       "General knowledge of microcontrollers",
-      "Minimal ESP-IDF experience"
+      "Minimal ESP-IDF experience",
     ],
     tools: [
       "ESP32 board with ADC keypad",
       "ESP-IDF v5.x",
       "VSCode + ESP-IDF extension",
       "Multimeter (optional)",
-      "Logic analyzer (optional)"
+      "Logic analyzer (optional)",
     ],
-    sections: []
+    sections: [],
   },
   {
     id: "developer-coaching-workshop",
     title: "Developer Coaching Workshop",
-    mainVideo: 'https://www.youtube.com/embed/vle1OgvoFgc?si=2U3neWomyuU7QcE3',
+    mainVideo: "https://www.youtube.com/embed/vle1OgvoFgc?si=2U3neWomyuU7QcE3",
     description:
       "A workshop focused on leveling up developers by fixing mindset traps, improving engineering judgment, and avoiding common long-term career pitfalls. Practical, direct, and based on real-world software experience.",
     language: "English",
@@ -426,7 +506,7 @@ Also the source is here:
         },
         content: "",
         id: "why-shared-component-library-is-bad",
-      }
+      },
     ],
   },
   {
@@ -452,7 +532,7 @@ Also the source is here:
       "Android Studio",
       "Xcode",
     ],
-    mainVideo: 'https://www.youtube.com/embed/jEgbZGyhMNw?si=BZrYVkOddeXGFNAg',
+    mainVideo: "https://www.youtube.com/embed/jEgbZGyhMNw?si=BZrYVkOddeXGFNAg",
     sections: [
       {
         title: "XHTML and Fireback",
@@ -512,7 +592,7 @@ negatively impacting the brand's reputation.`,
     totalDuration: "1 hour",
     prerequisites: [],
     sections: [],
-    mainVideo: 'https://www.youtube.com/embed/-vVQ9iI2CNU?si=iRFH9tvQIrJiGkvU',
+    mainVideo: "https://www.youtube.com/embed/-vVQ9iI2CNU?si=iRFH9tvQIrJiGkvU",
     tools: ["react", "fireback"],
   },
   {
@@ -528,7 +608,7 @@ and cohesive across screens, enhancing both developer efficiency and user satisf
     level: "advanced",
     title: "ATS-01 Standard for React Native List based projects",
     totalDuration: "1 hour",
-    mainVideo: 'https://www.youtube.com/embed/ZLnImRfvRC8?si=CV1R6qEF4HseXf5n',
+    mainVideo: "https://www.youtube.com/embed/ZLnImRfvRC8?si=CV1R6qEF4HseXf5n",
     prerequisites: [
       "React Native fundamentals",
       "Basic performance optimization concepts",
@@ -832,7 +912,7 @@ export const products: Product[] = [
     title: "Izadom",
     thumbnail: "/izadom/demo.png",
     type: "3D Design Program",
-    mainVideo: 'https://www.youtube.com/embed/aP_8FSqxvW4?si=aEwCxFcKr_TIL_Dj',
+    mainVideo: "https://www.youtube.com/embed/aP_8FSqxvW4?si=aEwCxFcKr_TIL_Dj",
     description:
       "Izadom — a structural 3D house design tool that calculates precise material needs based on the Polish construction market.",
     details:
@@ -926,57 +1006,78 @@ export const services: Service[] = [
   {
     id: "frontend-development",
     title: "Front-end Development",
-    description: "I build clean, interactive web interfaces with React and TypeScript.",
-    content: "Front-end web apps using React, TypeScript, Next.js, and Tailwind. I focus on performance, usability, and maintainable code.",
+    description:
+      "I build clean, interactive web interfaces with React and TypeScript.",
+    content:
+      "Front-end web apps using React, TypeScript, Next.js, and Tailwind. I focus on performance, usability, and maintainable code.",
     icon: "💻",
     category: "Development",
     priceRange: "180 zł/hour",
-    features: ["React & TypeScript", "Responsive UI", "Clean code", "Performance focus"],
+    features: [
+      "React & TypeScript",
+      "Responsive UI",
+      "Clean code",
+      "Performance focus",
+    ],
     technologies: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
     featured: true,
-    mainVideo: 'https://www.youtube.com/embed/kwFtGI6fJQk?si=9Ot3rdoENp7bPJaQ',
+    mainVideo: "https://www.youtube.com/embed/kwFtGI6fJQk?si=9Ot3rdoENp7bPJaQ",
   },
   {
     id: "hybrid-mobile-apps",
     title: "Hybrid Mobile Apps",
-    description: "I create cross-platform apps for iOS and Android using React Native.",
-    content: "Build hybrid apps with React Native. One codebase, runs smoothly on iOS & Android.",
+    description:
+      "I create cross-platform apps for iOS and Android using React Native.",
+    content:
+      "Build hybrid apps with React Native. One codebase, runs smoothly on iOS & Android.",
     icon: "📱",
     category: "Mobile",
     priceRange: "140 zł/hour",
-    features: ["React Native", "Cross-platform", "TypeScript", "Native API access"],
+    features: [
+      "React Native",
+      "Cross-platform",
+      "TypeScript",
+      "Native API access",
+    ],
     technologies: ["React Native", "TypeScript", "iOS", "Android"],
     featured: true,
-    mainVideo: 'https://www.youtube.com/embed/IggQEhKKOY0?si=6d2nGQVY8eqdcxTW',
+    mainVideo: "https://www.youtube.com/embed/IggQEhKKOY0?si=6d2nGQVY8eqdcxTW",
   },
   {
     id: "native-mobile-apps",
     title: "Native Mobile Apps",
     description: "I develop high-performance native apps for iOS and Android.",
-    content: "Native iOS apps with Swift/SwiftUI and Android apps with Kotlin/Jetpack Compose.",
+    content:
+      "Native iOS apps with Swift/SwiftUI and Android apps with Kotlin/Jetpack Compose.",
     icon: "📱",
     category: "Mobile",
     priceRange: "250 zł/hour",
     features: ["Swift & Kotlin", "Platform-specific UI", "App Store ready"],
     technologies: ["Swift", "SwiftUI", "Kotlin", "Jetpack Compose"],
     featured: true,
-    mainVideo: 'https://www.youtube.com/embed/IggQEhKKOY0?si=6d2nGQVY8eqdcxTW',
+    mainVideo: "https://www.youtube.com/embed/IggQEhKKOY0?si=6d2nGQVY8eqdcxTW",
   },
   {
     id: "backend-development",
     title: "Backend Development",
-    description: "I build reliable APIs and server-side logic with Go and Node.js.",
-    content: "Backend services, REST/GraphQL APIs, microservices, and database design.",
+    description:
+      "I build reliable APIs and server-side logic with Go and Node.js.",
+    content:
+      "Backend services, REST/GraphQL APIs, microservices, and database design.",
     icon: "🖥️",
     category: "Development",
     priceRange: "180 zł/hour",
-    features: ["Go & Node.js", "REST & GraphQL", "Database design", "Scalable services"],
+    features: [
+      "Go & Node.js",
+      "REST & GraphQL",
+      "Database design",
+      "Scalable services",
+    ],
     technologies: ["Go", "Node.js", "PostgreSQL", "Redis", "Docker"],
     featured: true,
-    mainVideo: 'https://www.youtube.com/embed/ij8R7YHt5Q8?si=5VTV15EHWauTgMpy',
+    mainVideo: "https://www.youtube.com/embed/ij8R7YHt5Q8?si=5VTV15EHWauTgMpy",
   },
 ];
-
 
 // Skills interfaces
 export interface SkillCategory {
