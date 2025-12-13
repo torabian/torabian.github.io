@@ -6,7 +6,7 @@ import ReactMarkdown from "react-markdown";
 
 export default function WorkshopViewer({ workshop }: { workshop: Workshop }) {
   const [selectedSection, setSelectedSection] =
-    useState<WorkshopSection | null>(null);
+    useState<WorkshopSection | null>(workshop.sections?.[0]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
