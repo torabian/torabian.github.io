@@ -4,7 +4,7 @@ import styles from "./training.module.css";
 import { trainings, Training, Chapter } from "../../data-sources/data";
 
 export default function TrainingViewer({ training }: { training: Training }) {
-  const [selectedChapter, setSelectedChapter] = useState<Chapter | null>(null);
+  const [selectedChapter, setSelectedChapter] = useState<Chapter | null>(training?.chapters?.[0]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -85,9 +85,8 @@ export default function TrainingViewer({ training }: { training: Training }) {
               {training.chapters.map((chapter, index) => (
                 <div
                   key={chapter.id}
-                  className={`${styles.chapterItem} ${
-                    selectedChapter?.id === chapter.id ? styles.selected : ""
-                  }`}
+                  className={`${styles.chapterItem} ${selectedChapter?.id === chapter.id ? styles.selected : ""
+                    }`}
                   onClick={() => handleChapterSelect(chapter)}
                 >
                   <div className={styles.chapterNumber}>{index + 1}</div>
