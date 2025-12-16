@@ -1,0 +1,57 @@
+{{ if .IsSqlite }}
+    {{ if .IsCounter }}
+    select
+        count(*) total_items
+    from
+        category_entities
+    where
+        parent_id is null
+    {{ else }}
+    WITH RECURSIVE
+        category_entities_cte(level, unique_id, parent_id,visibility,updated_at,created_at,name,parameters,attributes) AS (
+        select * from (
+            SELECT 0, category_entities.unique_id, category_entities.parent_id,category_entities.visibility,category_entities.updated_at,category_entities.created_at,category_entities.name,category_entities.parameters,category_entities.attributes from category_entities
+            where parent_id is null
+            (internalCondition)
+            (extraCondition)
+            limit @limit offset @offset
+        )
+        UNION ALL
+        SELECT category_entities_cte.level+1,category_entities.unique_id, category_entities.parent_id,category_entities.visibility,category_entities.updated_at,category_entities.created_at,category_entities.name,category_entities.parameters,category_entities.attributes
+            FROM category_entities JOIN category_entities_cte ON category_entities.parent_id=category_entities_cte.unique_id
+            ORDER BY 2 DESC
+        )
+    SELECT DISTINCT
+        category_entities_cte.level,
+        category_entities_cte.unique_id,
+        category_entities_cte.parent_id,category_entities_cte.visibility,category_entities_cte.updated_at,category_entities_cte.created_at,category_entity_polyglots.name
+,category_entities_cte.parameters
+,category_entities_cte.attributes
+        FROM category_entities_cte
+    LEFT JOIN category_entity_polyglots on category_entity_polyglots.linker_id = category_entities_cte.unique_id
+    and category_entity_polyglots.language_id = '(language)'
+    {{ end }}
+{{ end }}
+{{ if .IsMysql }}
+    {{ if .IsCounter }}
+    select
+        count(*) total_items
+    from
+        category_entities
+    where
+        parent_id is null
+    {{ else }}
+        with
+            category_entities_cte as (
+                select * from category_entities
+            )
+        select 
+            category_entities_cte.unique_id,
+            category_entities_cte.parent_id,category_entities_cte.visibility,category_entities_cte.updated_at,category_entities_cte.created_at,category_entity_polyglots.name
+,category_entities_cte.parameters
+,category_entities_cte.attributes
+        from category_entities_cte
+            LEFT JOIN category_entity_polyglots on category_entity_polyglots.linker_id = category_entities_cte.unique_id
+            and category_entity_polyglots.language_id = '(language)'
+    {{ end }}
+{{ end }}

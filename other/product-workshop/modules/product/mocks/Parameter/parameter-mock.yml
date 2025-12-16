@@ -1,0 +1,6 @@
+items:
+  - name: Color
+    uniqueId: color
+    description:
+      General color for the products
+    parameterTypeId: enum

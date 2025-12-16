@@ -1,0 +1,5 @@
+.jsonschemas
+cachemap.json
+./artifacts
+./app
+*.db
