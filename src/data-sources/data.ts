@@ -298,6 +298,102 @@ It might sound impossible, but let's watch this video and I will show you me cod
 
 export const workshops: Workshop[] = [
   {
+    mainVideo: "https://www.youtube.com/embed/pCa5xAXYwp0?si=co1nZZ_x_gJzVQIC",
+    id: "golang-react-ecommerce-workshop",
+    title: "E-commerce Platform with Golang & React",
+    description:
+      "A hands-on, end-to-end workshop on building a production-ready e-commerce platform using Golang for the backend and React for the frontend. Focused on clean architecture, long-term maintainability, real business flows, and performance.",
+    language: "English",
+    totalDuration: "6h 15m",
+    level: "intermediate",
+    category: "Full-Stack Development",
+    prerequisites: [
+      "Comfortable with JavaScript or TypeScript",
+      "Basic React knowledge",
+      "Basic understanding of HTTP and REST APIs",
+      "Some exposure to Go is helpful but not required",
+    ],
+    tools: [
+      "Golang",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "REST / OpenAPI",
+      "JWT",
+      "Docker",
+      "Tailwind CSS",
+    ],
+    sections: [
+      {
+        title: "Chapter 0: Introduction to E-Commerce Product Management Software Workshop",
+        description:
+          "In this long workshop, we are going to create a system, which can manage products in a single database, without much dependencies, in a advanced mode which can handle millions of products.",
+        duration: "7m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/pCa5xAXYwp0?si=co1nZZ_x_gJzVQIC",
+        },
+        content: "",
+        id: "ecommerce-domain-design",
+      },
+      {
+        title: "Chapter 1: Creating parameters, parameter types and categories",
+        description:
+          `In this chapter we put the ground layer of our product, adding 3 main entities to build e-commerce system on top of them and move forward from there.`,
+        duration: "30m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/S-yVM9nSISc?si=1ST9rIjzp_-FOIZu",
+        },
+        content: "",
+        id: "ecommerce-creating-parameters-and-parameter-types",
+      },
+      {
+        title: "Chapter 2: Creating basic category, product, and expanding our database structure.",
+        description:
+          `In this video, we are adding the category, and parameters into the project.`,
+        duration: "16m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/sput9ua6YLA?si=US7wtnQauaJkV3dK",
+        },
+        content: "",
+        id: "ecommerce-category-and-product-definitions",
+      },
+      {
+        title: "Chapter 3: Data mocking, seeders, mocks and making tangible data",
+        description:
+          `One of the practical things to do before we move on, is to put some mock content into the structure which would make what we are building more tangible.`,
+        duration: "21m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/-P-ALab0LbE?si=LGbkk2epJ3Eg8la8",
+        },
+        content: "",
+        id: "ecommerce-mocking-products-and-other-content",
+      },
+      {
+        title: "Chapter 4: 100K product with images in 220GB",
+        description:
+          `In this video I am storing all images in the database, over 100,000 products with 3-7MB of pictures into the database.`,
+        duration: "12m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/ZCeWdgezkwk?si=LcNJqwmIe-g6h6VC",
+        },
+        content: "",
+        id: "ecommerce-mocking-products-and-other-content",
+      },
+      {
+        title: "Chapter 5: Combining binaries into single one",
+        description:
+          `In this video we are testing if we combine entire assets, images, binaries together in a single blob, it would improve the performance? Watch and be suprised!`,
+        duration: "4m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/Rv5JWpZxkQE?si=V7YWJoLPbltauc3M",
+        },
+        content: "",
+        id: "ecommerce-mocking-products-and-other-content",
+      },
+
+    ],
+  },
+  {
     mainVideo: "https://www.youtube.com/embed/mjAZ3yVzEd8?si=1YNph2m1ywhMSgat",
     id: "react-architecture-workshop",
     title: "React Architecture Workshops",
