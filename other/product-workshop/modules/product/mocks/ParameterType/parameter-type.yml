@@ -1,0 +1,12 @@
+items:
+  - name: integer
+    uniqueId: integer
+    description:
+      Any numeric values without precision, such as 0, 1, 2
+    bindingKey: integer
+  - name: enum
+    uniqueId: enum
+    description:
+      Any value which consists of multiple options, such as Color (which is red, green, etc... not color code)
+    bindingKey: enum
+    

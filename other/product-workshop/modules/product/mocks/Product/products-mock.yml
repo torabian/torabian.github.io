@@ -1,0 +1,8 @@
+items:
+  - name: IPhone 17
+    uniqueId: iphone-17
+    description:
+      IPhone 17 is super cool. Please give your money to us.
+    parameters:
+    - parameterId: color
+      value: red

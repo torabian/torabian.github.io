@@ -1,0 +1,19 @@
+items:
+  - name: Main category
+    uniqueId: main-category
+  - name: Middle category
+    uniqueId: middle-category
+    parentId: main-category
+  - name: Inner Middle category
+    uniqueId: inner-middle-category
+    parentId: main-category
+  - name: Child Leaf 1
+    uniqueId: leaf-1
+    parentId: inner-middle-category
+    parameters:
+    - parameterId: color
+      isRequired: true
+
+  - name: Child Leaf 2
+    uniqueId: leaf-2
+    parentId: inner-middle-category
