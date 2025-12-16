@@ -2,4 +2,8 @@
 cachemap.json
 ./artifacts
 ./app
+*.dbapp
+artifacts
 *.db
+./app
+app

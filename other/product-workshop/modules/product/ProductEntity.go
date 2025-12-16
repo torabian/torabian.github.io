@@ -1,7 +1,10 @@
 package product
 
 import (
+	"bytes"
+	"encoding/binary"
 	"fmt"
+	"io"
 
 	"github.com/torabian/fireback/modules/fireback"
 )
@@ -20,9 +23,9 @@ func printMB(name string, b []byte) {
 func init() {
 
 	image, _ := GeneratePNGBlob(500, 500, 10, 0)
-	image1, _ := GeneratePNGBlob(250, 250, 10, 0)
-	image2, _ := GeneratePNGBlob(250, 250, 10, 0)
-	image3, _ := GeneratePNGBlob(250, 250, 10, 0)
+	image1, _ := GeneratePNGBlob(500, 500, 10, 0)
+	image2, _ := GeneratePNGBlob(500, 500, 10, 0)
+	image3, _ := GeneratePNGBlob(500, 250, 10, 0)
 	image4, _ := GeneratePNGBlob(250, 250, 10, 0)
 
 	printMB("image", image)
@@ -30,6 +33,31 @@ func init() {
 	printMB("image2", image2)
 	printMB("image3", image3)
 	printMB("image4", image4)
+
+	items := []ImageItem{
+		{
+
+			Data: image,
+			Tag:  "general-image",
+		},
+		{
+			Data: image1,
+			Tag:  "slide-1",
+		},
+		{
+			Data: image2,
+			Tag:  "slide-2",
+		},
+		{
+			Data: image3,
+			Tag:  "slide-3",
+		},
+		{
+
+			Data: image4,
+			Tag:  "slide-4",
+		},
+	}
 
 	// You can override default actions that fireback generates here,
 	// or use this file to implement some extra business logic, related to the entity.
@@ -43,27 +71,64 @@ func init() {
 			Description: "Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.Product description here.",
 			Assets: []*ProductAssets{
 				{
-					Asset: fireback.XFile{Blob: image},
-					Tag:   "general-image",
-				},
-				{
-					Asset: fireback.XFile{Blob: image1},
-					Tag:   "slide-1",
-				},
-				{
-					Asset: fireback.XFile{Blob: image2},
-					Tag:   "slide-2",
-				},
-				{
-					Asset: fireback.XFile{Blob: image3},
-					Tag:   "slide-3",
-				},
-				{
-					Asset: fireback.XFile{Blob: image4},
-					Tag:   "slide-4",
+					Asset: fireback.XFile{Blob: PackImages(items)},
+					Tag:   "combined-image",
 				},
 			},
 		}
 	}
 
+}
+
+type ImageItem struct {
+	Tag  string
+	Data []byte
+}
+
+func PackImages(items []ImageItem) []byte {
+	var buf bytes.Buffer
+
+	for _, it := range items {
+		binary.Write(&buf, binary.LittleEndian, uint32(len(it.Tag)))
+		buf.WriteString(it.Tag)
+
+		binary.Write(&buf, binary.LittleEndian, uint32(len(it.Data)))
+		buf.Write(it.Data)
+	}
+
+	return buf.Bytes()
+}
+
+func UnpackImages(packed []byte) ([]ImageItem, error) {
+	r := bytes.NewReader(packed)
+	var out []ImageItem
+
+	for {
+		var nameLen uint32
+		if err := binary.Read(r, binary.LittleEndian, &nameLen); err != nil {
+			break // EOF = done
+		}
+
+		name := make([]byte, nameLen)
+		if _, err := io.ReadFull(r, name); err != nil {
+			return nil, err
+		}
+
+		var dataLen uint32
+		if err := binary.Read(r, binary.LittleEndian, &dataLen); err != nil {
+			return nil, err
+		}
+
+		data := make([]byte, dataLen)
+		if _, err := io.ReadFull(r, data); err != nil {
+			return nil, err
+		}
+
+		out = append(out, ImageItem{
+			Tag:  string(name),
+			Data: data,
+		})
+	}
+
+	return out, nil
 }
