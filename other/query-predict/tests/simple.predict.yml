@@ -7,7 +7,7 @@ queries:
     query: |
       SELECT u.id AS user_id,
             u.name AS user_name,
-            field(u.email, 'int64') AS user_email,
+            field(u.email, 'string') AS user_email,
             o.id AS order_id,
             o.total AS order_total
       FROM users u

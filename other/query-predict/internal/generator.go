@@ -100,26 +100,6 @@ func ProcessQueryPredicts(document QueryDocument) ([]VirtualFile, error) {
 			)
 		}
 
-		// _, sqlCleaned, err := ExtractColumnsAndCleanSql(spec.Query)
-		// if err != nil {
-		// 	return nil, err
-		// }
-
-		// For manual define.
-		// for _, column := range spec.Out {
-		// 	from := column.From
-		// 	if from == "" {
-		// 		from = column.Name
-		// 	}
-		// 	fields = append(fields,
-		// 		Field{
-		// 			Name: column.Name,
-		// 			Type: column.Type,
-		// 			From: from,
-		// 		},
-		// 	)
-		// }
-
 		cleanSQL := spec.Query
 
 		re := regexp.MustCompile(`field\(\s*([^,]+),[^\)]*\)`)

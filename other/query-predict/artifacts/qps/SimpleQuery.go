@@ -7,17 +7,16 @@ import (
 	"strings"
 )
 
-const GetUsersWithOrdersSQL = `SELECT u.id AS user_id,
-      u.name AS user_name,
-      u.email AS user_email,
-      o.id AS order_id,
-      o.total AS order_total
+const SimpleQuerySQL = `SELECT u.id AS user_id,
+    u.name AS user_name,
+    u.email AS user_email,
+    o.id AS order_id,
+    o.total AS order_total
 FROM users u
 LEFT JOIN orders o ON u.id = o.user_id
-where filter() and restriction()
-`
+where filter() and restriction()`
 
-type GetUsersWithOrdersRow struct {
+type SimpleQueryRow struct {
 	UserId string
 	UserName string
 	UserEmail string
@@ -25,14 +24,14 @@ type GetUsersWithOrdersRow struct {
 	OrderTotal string
 }
 
-type GetUsersWithOrdersContext struct {
+type SimpleQueryContext struct {
     Filter string
     Having string
     Restriction string
 }
 
-func GetUsersWithOrders(db *sql.DB, ctx GetUsersWithOrdersContext,) ([]GetUsersWithOrdersRow, error) {
-    script := GetUsersWithOrdersSQL
+func SimpleQuery(db *sql.DB, ctx SimpleQueryContext,) ([]SimpleQueryRow, error) {
+    script := SimpleQuerySQL
     filter := "1"
 	if ctx.Filter != "" {
 		filter = ctx.Filter
@@ -56,7 +55,7 @@ func GetUsersWithOrders(db *sql.DB, ctx GetUsersWithOrdersContext,) ([]GetUsersW
 
 	rows, err := db.Query(script)
 	if err != nil {
-		return nil, fmt.Errorf("query GetUsersWithOrders failed: %w", err)
+		return nil, fmt.Errorf("query SimpleQuery failed: %w", err)
 	}
 	defer rows.Close()
 
@@ -65,9 +64,9 @@ func GetUsersWithOrders(db *sql.DB, ctx GetUsersWithOrdersContext,) ([]GetUsersW
 		return nil, err
 	}
 
-	var results []GetUsersWithOrdersRow
+	var results []SimpleQueryRow
 	for rows.Next() {
-		var r GetUsersWithOrdersRow
+		var r SimpleQueryRow
 
 		scanArgs := make([]interface{}, len(cols))
 		for i, col := range cols {
