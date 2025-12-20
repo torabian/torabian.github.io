@@ -30,6 +30,17 @@ func (m *Manifest) GetUsersWithOrders(ctx GetUsersWithOrdersContext) ([]GetUsers
 	return GetUsersWithOrders(m.DB, ctx)
 }
 
+func (m *Manifest) BasicNaming(ctx BasicNamingContext) ([]BasicNamingRow, error) {
+	if m.FilterResolver != nil {
+		filter, err := m.FilterResolver(ctx.Filter)
+		if err != nil {
+			return []BasicNamingRow{}, err
+		}
+		ctx.Filter = filter
+	}
+	return BasicNaming(m.DB, ctx)
+}
+
 func (m *Manifest) VirtualUserOrder(ctx VirtualUserOrderContext) ([]VirtualUserOrderRow, error) {
 	if m.FilterResolver != nil {
 		filter, err := m.FilterResolver(ctx.Filter)

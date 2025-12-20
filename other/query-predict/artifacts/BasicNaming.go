@@ -7,32 +7,20 @@ import (
 	"strings"
 )
 
-const GetUsersWithOrdersSQL = `SELECT u.id AS user_id,
-      u.name AS user_name,
-      u.email AS user_email,
-      o.id AS order_id,
-      o.total AS order_total
-FROM users u
-LEFT JOIN orders o ON u.id = o.user_id
-where filter() and restriction()
-`
+const BasicNamingSQL = `Select table1.firstColumn as ali;`
 
-type GetUsersWithOrdersRow struct {
-	UserId string
-	UserName string
-	UserEmail int64
-	OrderId string
-	OrderTotal string
+type BasicNamingRow struct {
+	Ali int64
 }
 
-type GetUsersWithOrdersContext struct {
+type BasicNamingContext struct {
     Filter string
     Having string
     Restriction string
 }
 
-func GetUsersWithOrders(db *sql.DB, ctx GetUsersWithOrdersContext,) ([]GetUsersWithOrdersRow, error) {
-    script := GetUsersWithOrdersSQL
+func BasicNaming(db *sql.DB, ctx BasicNamingContext,) ([]BasicNamingRow, error) {
+    script := BasicNamingSQL
     filter := "1"
 	if ctx.Filter != "" {
 		filter = ctx.Filter
@@ -56,7 +44,7 @@ func GetUsersWithOrders(db *sql.DB, ctx GetUsersWithOrdersContext,) ([]GetUsersW
 
 	rows, err := db.Query(script)
 	if err != nil {
-		return nil, fmt.Errorf("query GetUsersWithOrders failed: %w", err)
+		return nil, fmt.Errorf("query BasicNaming failed: %w", err)
 	}
 	defer rows.Close()
 
@@ -65,23 +53,15 @@ func GetUsersWithOrders(db *sql.DB, ctx GetUsersWithOrdersContext,) ([]GetUsersW
 		return nil, err
 	}
 
-	var results []GetUsersWithOrdersRow
+	var results []BasicNamingRow
 	for rows.Next() {
-		var r GetUsersWithOrdersRow
+		var r BasicNamingRow
 
 		scanArgs := make([]interface{}, len(cols))
 		for i, col := range cols {
 			switch col {
-			case "user_id":
-				scanArgs[i] = &r.UserId
-			case "user_name":
-				scanArgs[i] = &r.UserName
-			case "user_email":
-				scanArgs[i] = &r.UserEmail
-			case "order_id":
-				scanArgs[i] = &r.OrderId
-			case "order_total":
-				scanArgs[i] = &r.OrderTotal
+			case "ali":
+				scanArgs[i] = &r.Ali
 			default:
 				var discard interface{}
 				scanArgs[i] = &discard

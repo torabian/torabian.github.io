@@ -14,14 +14,16 @@ queries:
       LEFT JOIN orders o ON u.id = o.user_id
       where filter() and restriction()
 
+  - name: BasicNaming
+    query: Select field(table1.firstColumn, 'int64') as ali;
 
   - name: VirtualUserOrder
     query: |
         SELECT 
             u.user_id as user_id,
-            u.user_name as user_name,
+            field(u.user_name, 'string') as UserName,
             u.user_email,
-            COUNT(o.order_id) AS total_orders,
+            field(COUNT(o.order_id), 'int64') AS total_orders,
             COALESCE(SUM(o.total), 0) AS total_spent,
             MAX(o.total) AS max_order,
             (

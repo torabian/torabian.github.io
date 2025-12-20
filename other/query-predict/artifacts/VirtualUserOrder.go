@@ -9,7 +9,7 @@ import (
 
 const VirtualUserOrderSQL = `SELECT 
     u.user_id as user_id,
-    u.user_name as user_name,
+    u.user_name as UserName,
     u.user_email,
     COUNT(o.order_id) AS total_orders,
     COALESCE(SUM(o.total), 0) AS total_spent,
@@ -58,8 +58,8 @@ ORDER BY total_spent DESC;
 type VirtualUserOrderRow struct {
 	UserId string
 	UserName string
-	UUserEmail string
-	TotalOrders string
+	UserEmail string
+	TotalOrders int64
 	TotalSpent string
 	MaxOrder string
 	BigOrdersCount string
@@ -114,10 +114,10 @@ func VirtualUserOrder(db *sql.DB, ctx VirtualUserOrderContext,) ([]VirtualUserOr
 			switch col {
 			case "user_id":
 				scanArgs[i] = &r.UserId
-			case "user_name":
+			case "UserName":
 				scanArgs[i] = &r.UserName
-			case "u.user_email":
-				scanArgs[i] = &r.UUserEmail
+			case "user_email":
+				scanArgs[i] = &r.UserEmail
 			case "total_orders":
 				scanArgs[i] = &r.TotalOrders
 			case "total_spent":
