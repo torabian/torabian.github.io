@@ -16,8 +16,7 @@ type SelectColumn struct {
 	Expr       sqlparser.Expr // original AST node
 }
 
-// ExtractColumnsFromSql parses SQL and extracts structured column info
-func ExtractColumnsFromSql(sql string) ([]SelectColumn, error) {
+func GetSelectStatementFromQuery(sql string) (*sqlparser.Select, error) {
 	stmt, err := sqlparser.Parse(sql)
 	if err != nil {
 		return nil, fmt.Errorf("failed to parse sql: %w", err)
@@ -27,6 +26,12 @@ func ExtractColumnsFromSql(sql string) ([]SelectColumn, error) {
 	if !ok {
 		return nil, fmt.Errorf("not a SELECT statement")
 	}
+
+	return sel, err
+}
+
+// ExtractColumnsFromSql parses SQL and extracts structured column info
+func ExtractColumnsFromSqlSelect(sel *sqlparser.Select) ([]SelectColumn, error) {
 
 	var cols []SelectColumn
 
@@ -88,7 +93,6 @@ func handleFuncExpr(fn *sqlparser.FuncExpr, parentCol SelectColumn) SelectColumn
 
 	case "optional":
 		fmt.Println("Optional detectd!")
-		break
 	case "field":
 		// field(sqlExpr, goName?, optional?, type?)
 		if len(fn.Exprs) >= 1 {

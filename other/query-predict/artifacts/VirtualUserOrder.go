@@ -72,9 +72,11 @@ type VirtualUserOrderContext struct {
     Having string
     Restriction string
     Params      map[string]interface{}
+    Placeholders      []any
 }
 
-func VirtualUserOrder(db *sql.DB, ctx VirtualUserOrderContext,) ([]VirtualUserOrderRow, error) {
+
+func VirtualUserOrderPrepreSql(ctx VirtualUserOrderContext) (string, error) {
     replaceUseVal := func(sql string, values map[string]interface{}) string {
         re := regexp.MustCompile(`useval\(\s*['"]([^'"]+)['"]\s*\)`)
         return re.ReplaceAllStringFunc(sql, func(match string) string {
@@ -113,10 +115,19 @@ func VirtualUserOrder(db *sql.DB, ctx VirtualUserOrderContext,) ([]VirtualUserOr
     }
     script = strings.ReplaceAll(script, "having()", having)
 
+    return script, nil
+}
+
+
+func VirtualUserOrder(db *sql.DB, ctx VirtualUserOrderContext,) ([]VirtualUserOrderRow, error) {
+    script, err := VirtualUserOrderPrepreSql(ctx)
+    if err != nil {
+		return nil, err
+	}
 
     log.Default().Println(script)
 
-	rows, err := db.Query(script)
+	rows, err := db.Query(script, ctx.Placeholders...)
 	if err != nil {
 		return nil, fmt.Errorf("query VirtualUserOrder failed: %w", err)
 	}

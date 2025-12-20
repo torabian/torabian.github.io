@@ -8,22 +8,20 @@ import (
     "regexp"
 )
 
-const BasicNamingSQL = `Select table1.firstColumn as ali;`
+const DeleteDataSQL = `Update users set name = '?', lastname = '?'`
 
-type BasicNamingRow struct {
-	Ali int64
-}
-
-type BasicNamingContext struct {
+type DeleteDataContext struct {
     Filter string
     Having string
     Restriction string
     Params      map[string]interface{}
-    Placeholders      []any
+
+	// Native sql placeholder values such as where id = ?
+	Placeholders []any
 }
 
 
-func BasicNamingPrepreSql(ctx BasicNamingContext) (string, error) {
+func DeleteDataPrepreSql(ctx DeleteDataContext) (string, error) {
     replaceUseVal := func(sql string, values map[string]interface{}) string {
         re := regexp.MustCompile(`useval\(\s*['"]([^'"]+)['"]\s*\)`)
         return re.ReplaceAllStringFunc(sql, func(match string) string {
@@ -43,7 +41,7 @@ func BasicNamingPrepreSql(ctx BasicNamingContext) (string, error) {
         })
     }
 
-    script := replaceUseVal(BasicNamingSQL, ctx.Params)
+    script := replaceUseVal(DeleteDataSQL, ctx.Params)
     filter := "1"
 	if ctx.Filter != "" {
 		filter = ctx.Filter
@@ -66,45 +64,19 @@ func BasicNamingPrepreSql(ctx BasicNamingContext) (string, error) {
 }
 
 
-func BasicNaming(db *sql.DB, ctx BasicNamingContext,) ([]BasicNamingRow, error) {
-    script, err := BasicNamingPrepreSql(ctx)
+func DeleteData(db *sql.DB, ctx DeleteDataContext,) (sql.Result, error) {
+    script, err := DeleteDataPrepreSql(ctx)
     if err != nil {
 		return nil, err
 	}
 
+
     log.Default().Println(script)
 
-	rows, err := db.Query(script, ctx.Placeholders...)
+	res, err := db.Exec(script, ctx.Placeholders...)
 	if err != nil {
-		return nil, fmt.Errorf("query BasicNaming failed: %w", err)
-	}
-	defer rows.Close()
-
-	cols, err := rows.Columns()
-	if err != nil {
-		return nil, err
+		return res, fmt.Errorf("exec DeleteData failed: %w", err)
 	}
 
-	var results []BasicNamingRow
-	for rows.Next() {
-		var r BasicNamingRow
-
-		scanArgs := make([]interface{}, len(cols))
-		for i, col := range cols {
-			switch col {
-			case "ali":
-				scanArgs[i] = &r.Ali
-			default:
-				var discard interface{}
-				scanArgs[i] = &discard
-			}
-		}
-
-		if err := rows.Scan(scanArgs...); err != nil {
-			return nil, err
-		}
-		results = append(results, r)
-	}
-
-	return results, nil
+	return res, nil
 }

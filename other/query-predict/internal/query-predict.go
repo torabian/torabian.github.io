@@ -7,9 +7,9 @@ type QuerySpecColumn struct {
 }
 
 type QuerySpec struct {
-	Name  string            `yaml:"name"`
-	Query string            `yaml:"query"`
-	Out   []QuerySpecColumn `yaml:"out"`
+	Name  string `yaml:"name"`
+	Query string `yaml:"query"`
+	Force bool   `yaml:"force"`
 }
 
 type QueryDocument struct {

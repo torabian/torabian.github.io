@@ -7,12 +7,12 @@ type Manifest struct {
 	FilterResolver func(string) (string, error)
 }
 
-{{ range .Queries }}
-func (m *Manifest) {{ .Name }}(ctx {{ .Name }}Context) ([]{{ .Name }}Row, error) {
+{{ range .Items }}
+func (m *Manifest) {{ .Name }}(ctx {{ .CtxName }}) ({{ .Return }}, error) {
 	if m.FilterResolver != nil {
 		filter, err := m.FilterResolver(ctx.Filter)
 		if err != nil {
-			return []{{ .Name }}Row{}, err
+			return {{ .ErrorValue }}, err
 		}
 		ctx.Filter = filter
 	}

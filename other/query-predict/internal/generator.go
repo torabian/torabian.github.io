@@ -3,13 +3,14 @@ package internal
 import (
 	"bytes"
 	"embed"
+	"fmt"
 	"regexp"
 	"strings"
 	"text/template"
 	"unicode"
 )
 
-//go:embed query.tpl manifest.tpl
+//go:embed query.tpl manifest.tpl exec.tpl shared.tpl
 var tplFS embed.FS
 
 type Field struct {
@@ -19,11 +20,11 @@ type Field struct {
 }
 
 type QueryData struct {
-	FuncName  string
-	SQL       string
-	Fields    []Field
-	Params    string // e.g., "active bool"
-	ParamArgs string // e.g., "active"
+	FuncName string
+	SQL      string
+	Fields   []Field
+	Params   string // e.g., "active bool"
+
 }
 
 // helper for template: detect last element
@@ -55,65 +56,126 @@ func MakeValidGoField(col string) string {
 	return string(runes)
 }
 
+func LoadTemplate(name string) (*template.Template, error) {
+	// Start with a new template with funcs
+	tpl := template.New(name).Funcs(template.FuncMap{
+		"last": lastFunc,
+	})
+
+	// Parse shared templates first
+	if _, err := tpl.ParseFS(tplFS, "shared.tpl"); err != nil {
+		return nil, fmt.Errorf("parse shared template: %w", err)
+	}
+
+	// Parse the main template
+	tplContent, err := tplFS.ReadFile(name)
+	if err != nil {
+		return nil, fmt.Errorf("read template %s: %w", name, err)
+	}
+
+	if _, err := tpl.Parse(string(tplContent)); err != nil {
+		return nil, fmt.Errorf("parse template %s: %w", name, err)
+	}
+
+	return tpl, nil
+}
+
+type ManifestItem struct {
+	CtxName    string
+	Return     string
+	Name       string
+	ErrorValue string
+}
+
+type Manifest struct {
+	Items []ManifestItem
+}
+
 // ProcessQueryPredicts generates Go code files in memory
 func ProcessQueryPredicts(document QueryDocument) ([]VirtualFile, error) {
 	files := []VirtualFile{}
+	manifest := Manifest{}
 
-	// load template from embedded FS
-	tplContent, err := tplFS.ReadFile("query.tpl")
+	queryTpl, err := LoadTemplate("query.tpl")
 	if err != nil {
 		return nil, err
 	}
 
-	tpl, err := template.New("query.tpl").
-		Funcs(template.FuncMap{"last": lastFunc}).
-		Parse(string(tplContent))
+	execTpl, err := LoadTemplate("exec.tpl")
 	if err != nil {
 		return nil, err
 	}
 
 	for _, spec := range document.Queries {
-
-		fields := []Field{}
-
-		fields2, err := ExtractColumnsFromSql(spec.Query)
-		if err != nil {
-			return nil, err
-		}
-
-		for _, column := range fields2 {
-			goName := column.GoName
-			if goName == "" {
-				goName = MakeValidGoField(column.ActualName)
-			}
-
-			typeof := "string"
-			if column.Type != "" {
-				typeof = column.Type
-			}
-			fields = append(fields,
-				Field{
-					Name: goName,
-					From: column.ActualName,
-					Type: typeof,
-				},
-			)
-		}
-
-		cleanSQL := spec.Query
-
-		re := regexp.MustCompile(`field\(\s*([^,]+),[^\)]*\)`)
-		cleanSQL = re.ReplaceAllString(cleanSQL, "$1")
-
+		var buf bytes.Buffer
 		data := QueryData{
 			FuncName: spec.Name,
-			SQL:      cleanSQL,
-			Fields:   fields,
 		}
 
-		var buf bytes.Buffer
-		if err := tpl.Execute(&buf, data); err != nil {
-			return nil, err
+		sel, err := GetSelectStatementFromQuery(spec.Query)
+		if err != nil && err.Error() != "not a SELECT statement" {
+			if !spec.Force {
+				return files, err
+			}
+		}
+
+		if err == nil {
+			/// It means the statement is not a select - then we render exec.tpl instead
+			fields := []Field{}
+			fields2, err := ExtractColumnsFromSqlSelect(sel)
+			if err != nil {
+				return nil, err
+			}
+
+			for _, column := range fields2 {
+				goName := column.GoName
+				if goName == "" {
+					goName = MakeValidGoField(column.ActualName)
+				}
+
+				typeof := "string"
+				if column.Type != "" {
+					typeof = column.Type
+				}
+				fields = append(fields,
+					Field{
+						Name: goName,
+						From: column.ActualName,
+						Type: typeof,
+					},
+				)
+			}
+
+			cleanSQL := spec.Query
+
+			re := regexp.MustCompile(`field\(\s*([^,]+),[^\)]*\)`)
+			cleanSQL = re.ReplaceAllString(cleanSQL, "$1")
+
+			data.SQL = cleanSQL
+			data.Fields = fields
+
+			if err := queryTpl.Execute(&buf, data); err != nil {
+				return nil, err
+			}
+
+			manifest.Items = append(manifest.Items, ManifestItem{
+				Name:       spec.Name,
+				CtxName:    spec.Name + "Context",
+				Return:     "[]" + spec.Name + "Row",
+				ErrorValue: fmt.Sprintf("[]%vRow{}", spec.Name),
+			})
+		} else {
+			data.SQL = spec.Query
+			if err := execTpl.Execute(&buf, data); err != nil {
+				return nil, err
+			}
+
+			manifest.Items = append(manifest.Items, ManifestItem{
+				Name:       spec.Name,
+				CtxName:    spec.Name + "Context",
+				Return:     "sql.Result",
+				ErrorValue: "nil",
+			})
 		}
 
 		file := VirtualFile{
@@ -139,7 +201,7 @@ func ProcessQueryPredicts(document QueryDocument) ([]VirtualFile, error) {
 
 	// --- generate manifest.go ---
 	var manifestBuf bytes.Buffer
-	if err := manifestTpl.Execute(&manifestBuf, document); err != nil {
+	if err := manifestTpl.Execute(&manifestBuf, manifest); err != nil {
 		return nil, err
 	}
 

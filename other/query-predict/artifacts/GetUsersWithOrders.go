@@ -31,9 +31,11 @@ type GetUsersWithOrdersContext struct {
     Having string
     Restriction string
     Params      map[string]interface{}
+    Placeholders      []any
 }
 
-func GetUsersWithOrders(db *sql.DB, ctx GetUsersWithOrdersContext,) ([]GetUsersWithOrdersRow, error) {
+
+func GetUsersWithOrdersPrepreSql(ctx GetUsersWithOrdersContext) (string, error) {
     replaceUseVal := func(sql string, values map[string]interface{}) string {
         re := regexp.MustCompile(`useval\(\s*['"]([^'"]+)['"]\s*\)`)
         return re.ReplaceAllStringFunc(sql, func(match string) string {
@@ -72,10 +74,19 @@ func GetUsersWithOrders(db *sql.DB, ctx GetUsersWithOrdersContext,) ([]GetUsersW
     }
     script = strings.ReplaceAll(script, "having()", having)
 
+    return script, nil
+}
+
+
+func GetUsersWithOrders(db *sql.DB, ctx GetUsersWithOrdersContext,) ([]GetUsersWithOrdersRow, error) {
+    script, err := GetUsersWithOrdersPrepreSql(ctx)
+    if err != nil {
+		return nil, err
+	}
 
     log.Default().Println(script)
 
-	rows, err := db.Query(script)
+	rows, err := db.Query(script, ctx.Placeholders...)
 	if err != nil {
 		return nil, fmt.Errorf("query GetUsersWithOrders failed: %w", err)
 	}
