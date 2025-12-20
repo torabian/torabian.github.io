@@ -3,6 +3,7 @@ package artifacts
 import (
 	"database/sql"
 	"fmt"
+    "text/template"
 	"log"
 	"strings"
 )
@@ -69,10 +70,18 @@ type VirtualUserOrderContext struct {
     Filter string
     Having string
     Restriction string
+    Params      map[string]interface{}
 }
 
+var VirtualUserOrderTmpl = template.Must(template.New("VirtualUserOrder").Parse(VirtualUserOrderSQL))
+
 func VirtualUserOrder(db *sql.DB, ctx VirtualUserOrderContext,) ([]VirtualUserOrderRow, error) {
-    script := VirtualUserOrderSQL
+    var sb strings.Builder
+	if err := VirtualUserOrderTmpl.Execute(&sb, ctx.Params); err != nil {
+		return nil, fmt.Errorf("failed to execute template: %w", err)
+	}
+	script := sb.String()
+
     filter := "1"
 	if ctx.Filter != "" {
 		filter = ctx.Filter

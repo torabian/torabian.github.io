@@ -3,6 +3,7 @@ package artifacts
 import (
 	"database/sql"
 	"fmt"
+    "text/template"
 	"log"
 	"strings"
 )
@@ -19,10 +20,18 @@ type GetUsersContext struct {
     Filter string
     Having string
     Restriction string
+    Params      map[string]interface{}
 }
 
+var GetUsersTmpl = template.Must(template.New("GetUsers").Parse(GetUsersSQL))
+
 func GetUsers(db *sql.DB, ctx GetUsersContext,) ([]GetUsersRow, error) {
-    script := GetUsersSQL
+    var sb strings.Builder
+	if err := GetUsersTmpl.Execute(&sb, ctx.Params); err != nil {
+		return nil, fmt.Errorf("failed to execute template: %w", err)
+	}
+	script := sb.String()
+
     filter := "1"
 	if ctx.Filter != "" {
 		filter = ctx.Filter

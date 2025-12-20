@@ -3,6 +3,7 @@ package artifacts
 import (
 	"database/sql"
 	"fmt"
+    "text/template"
 	"log"
 	"strings"
 )
@@ -17,10 +18,18 @@ type BasicNamingContext struct {
     Filter string
     Having string
     Restriction string
+    Params      map[string]interface{}
 }
 
+var BasicNamingTmpl = template.Must(template.New("BasicNaming").Parse(BasicNamingSQL))
+
 func BasicNaming(db *sql.DB, ctx BasicNamingContext,) ([]BasicNamingRow, error) {
-    script := BasicNamingSQL
+    var sb strings.Builder
+	if err := BasicNamingTmpl.Execute(&sb, ctx.Params); err != nil {
+		return nil, fmt.Errorf("failed to execute template: %w", err)
+	}
+	script := sb.String()
+
     filter := "1"
 	if ctx.Filter != "" {
 		filter = ctx.Filter

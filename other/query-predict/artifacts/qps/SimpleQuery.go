@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"strings"
+	"text/template"
 )
 
 const SimpleQuerySQL = `SELECT u.id AS user_id,
@@ -16,42 +17,50 @@ FROM users u
 LEFT JOIN orders o ON u.id = o.user_id
 where filter() and restriction()`
 
+var simpleQueryTmpl = template.Must(template.New("SimpleQuery").Parse(SimpleQuerySQL))
+
 type SimpleQueryRow struct {
-	UserId string
-	UserName string
-	UserEmail string
-	OrderId string
+	UserId     string
+	UserName   string
+	UserEmail  string
+	OrderId    string
 	OrderTotal string
 }
 
 type SimpleQueryContext struct {
-    Filter string
-    Having string
-    Restriction string
+	Filter      string
+	Having      string
+	Restriction string
+	Params      map[string]interface{}
 }
 
-func SimpleQuery(db *sql.DB, ctx SimpleQueryContext,) ([]SimpleQueryRow, error) {
-    script := SimpleQuerySQL
-    filter := "1"
+func SimpleQuery(db *sql.DB, ctx SimpleQueryContext) ([]SimpleQueryRow, error) {
+
+	var sb strings.Builder
+	if err := simpleQueryTmpl.Execute(&sb, ctx.Params); err != nil {
+		return nil, fmt.Errorf("failed to execute template: %w", err)
+	}
+	script := sb.String()
+
+	filter := "1"
 	if ctx.Filter != "" {
 		filter = ctx.Filter
 	}
-	script = strings.ReplaceAll(script, "filter()", "(" +filter+ ")")
+	script = strings.ReplaceAll(script, "filter()", "("+filter+")")
 
-    restriction := "1"
-    if ctx.Restriction != "" {
-        restriction = ctx.Restriction
-    }
-    script = strings.ReplaceAll(script, "restriction()", "(" +restriction + ")")
-    
-    having := ""
-    if ctx.Having != "" {
-        having = ctx.Having
-    }
-    script = strings.ReplaceAll(script, "having()", having)
+	restriction := "1"
+	if ctx.Restriction != "" {
+		restriction = ctx.Restriction
+	}
+	script = strings.ReplaceAll(script, "restriction()", "("+restriction+")")
 
+	having := ""
+	if ctx.Having != "" {
+		having = ctx.Having
+	}
+	script = strings.ReplaceAll(script, "having()", having)
 
-    log.Default().Println(script)
+	log.Default().Println(script)
 
 	rows, err := db.Query(script)
 	if err != nil {

@@ -3,6 +3,7 @@ package artifacts
 import (
 	"database/sql"
 	"fmt"
+    "text/template"
 	"log"
 	"strings"
 )
@@ -19,10 +20,18 @@ type {{ .FuncName }}Context struct {
     Filter string
     Having string
     Restriction string
+    Params      map[string]interface{}
 }
 
+var {{ .FuncName }}Tmpl = template.Must(template.New("{{ .FuncName }}").Parse({{ .FuncName }}SQL))
+
 func {{ .FuncName }}(db *sql.DB, ctx {{ .FuncName }}Context,{{ if .Params }}, {{ .Params }}{{ end }}) ([]{{ .FuncName }}Row, error) {
-    script := {{ .FuncName }}SQL
+    var sb strings.Builder
+	if err := {{ .FuncName }}Tmpl.Execute(&sb, ctx.Params); err != nil {
+		return nil, fmt.Errorf("failed to execute template: %w", err)
+	}
+	script := sb.String()
+
     filter := "1"
 	if ctx.Filter != "" {
 		filter = ctx.Filter
