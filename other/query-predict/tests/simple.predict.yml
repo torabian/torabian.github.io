@@ -19,7 +19,7 @@ queries:
     query: |
         SELECT 
             u.user_id as user_id,
-            u.user_name   as user_name,
+            u.user_name as user_name,
             u.user_email,
             COUNT(o.order_id) AS total_orders,
             COALESCE(SUM(o.total), 0) AS total_spent,
