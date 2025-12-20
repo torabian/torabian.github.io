@@ -132,9 +132,6 @@ func handleFuncExpr(fn *sqlparser.FuncExpr, parentCol SelectColumn) SelectColumn
 				}
 			}
 		}
-
-	default:
-		fmt.Println("HERE!")
 	}
 
 	return parentCol
