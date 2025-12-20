@@ -64,4 +64,5 @@ queries:
         WHERE filter()
         GROUP BY u.user_id, u.user_name, u.user_email
         HAVING MAX(o.total) > 100        -- filter groups after aggregation
-        ORDER BY total_spent DESC;
+        ORDER BY total_spent DESC
+        limit useval('limit')

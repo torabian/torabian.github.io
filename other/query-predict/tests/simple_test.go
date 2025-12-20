@@ -105,6 +105,9 @@ func TestVirtualTableWhereHaving(t *testing.T) {
 
 	rows, err := m.VirtualUserOrder(artifacts.VirtualUserOrderContext{
 		Filter: `{"and": [{"!=": [{"var": "u.user_name"}, "Alicex"]}]}`,
+		Params: map[string]interface{}{
+			"limit": 2,
+		},
 	})
 
 	if err != nil {

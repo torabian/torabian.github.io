@@ -3,9 +3,9 @@ package artifacts
 import (
 	"database/sql"
 	"fmt"
-    "text/template"
 	"log"
 	"strings"
+    "regexp"
 )
 
 const BasicNamingSQL = `Select table1.firstColumn as ali;`
@@ -21,15 +21,27 @@ type BasicNamingContext struct {
     Params      map[string]interface{}
 }
 
-var BasicNamingTmpl = template.Must(template.New("BasicNaming").Parse(BasicNamingSQL))
-
 func BasicNaming(db *sql.DB, ctx BasicNamingContext,) ([]BasicNamingRow, error) {
-    var sb strings.Builder
-	if err := BasicNamingTmpl.Execute(&sb, ctx.Params); err != nil {
-		return nil, fmt.Errorf("failed to execute template: %w", err)
-	}
-	script := sb.String()
+    replaceUseVal := func(sql string, values map[string]interface{}) string {
+        re := regexp.MustCompile(`useval\(\s*['"]([^'"]+)['"]\s*\)`)
+        return re.ReplaceAllStringFunc(sql, func(match string) string {
+            if m := re.FindStringSubmatch(match); len(m) > 1 {
+                if val, ok := values[m[1]]; ok {
+                    // escape the value safely
+                    switch v := val.(type) {
+                    case string:
+                        safe := strings.ReplaceAll(v, `'`, `''`)
+                        return "'" + safe + "'"
+                    default:
+                        return fmt.Sprintf("%v", v)
+                    }
+                }
+            }
+            return match
+        })
+    }
 
+    script := replaceUseVal(BasicNamingSQL, ctx.Params)
     filter := "1"
 	if ctx.Filter != "" {
 		filter = ctx.Filter

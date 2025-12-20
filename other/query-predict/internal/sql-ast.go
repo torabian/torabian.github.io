@@ -86,6 +86,9 @@ func handleFuncExpr(fn *sqlparser.FuncExpr, parentCol SelectColumn) SelectColumn
 
 	switch name {
 
+	case "optional":
+		fmt.Println("Optional detectd!")
+		break
 	case "field":
 		// field(sqlExpr, goName?, optional?, type?)
 		if len(fn.Exprs) >= 1 {
