@@ -3,9 +3,10 @@ package artifacts
 import "database/sql"
 
 type Manifest struct {
-	DB             *sql.DB
+	DB            *sql.DB
 	FilterResolver func(string) (string, error)
 }
+
 
 func (m *Manifest) DeleteData(ctx DeleteDataContext) (sql.Result, error) {
 	if m.FilterResolver != nil {
@@ -27,6 +28,17 @@ func (m *Manifest) InsertInto(ctx InsertIntoContext) (sql.Result, error) {
 		ctx.Filter = filter
 	}
 	return InsertInto(m.DB, ctx)
+}
+
+func (m *Manifest) UpdateDynamic(ctx UpdateDynamicContext) (sql.Result, error) {
+	if m.FilterResolver != nil {
+		filter, err := m.FilterResolver(ctx.Filter)
+		if err != nil {
+			return nil, err
+		}
+		ctx.Filter = filter
+	}
+	return UpdateDynamic(m.DB, ctx)
 }
 
 func (m *Manifest) TransactionSample(ctx TransactionSampleContext) (sql.Result, error) {
@@ -83,3 +95,4 @@ func (m *Manifest) VirtualUserOrder(ctx VirtualUserOrderContext) ([]VirtualUserO
 	}
 	return VirtualUserOrder(m.DB, ctx)
 }
+

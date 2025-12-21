@@ -22,6 +22,12 @@ func GetSelectStatementFromQuery(sql string) (*sqlparser.Select, error) {
 		return nil, fmt.Errorf("failed to parse sql: %w", err)
 	}
 
+	upd, ok := stmt.(*sqlparser.Update)
+	if ok {
+		res := ExtractUpdateColumns(upd)
+		fmt.Println(res[1].IsOptional)
+	}
+
 	sel, ok := stmt.(*sqlparser.Select)
 	if !ok {
 		return nil, fmt.Errorf("not a SELECT statement")
@@ -55,6 +61,24 @@ func ExtractColumnsFromSqlSelect(sel *sqlparser.Select) ([]SelectColumn, error) 
 	}
 
 	return cols, nil
+}
+func ExtractUpdateColumns(sel *sqlparser.Update) []SelectColumn {
+	var cols []SelectColumn
+	for _, upd := range sel.Exprs {
+		col := SelectColumn{
+			ActualName: upd.Name.Name.String(),
+			GoName:     MakeValidGoField(upd.Name.Name.String()),
+			Expr:       upd.Expr,
+		}
+
+		// detect if Expr is a function
+		if fn, ok := upd.Expr.(*sqlparser.FuncExpr); ok {
+			col = handleFuncExpr(fn, col)
+		}
+
+		cols = append(cols, col)
+	}
+	return cols
 }
 
 // handleExpr recursively extracts info from AliasedExpr
