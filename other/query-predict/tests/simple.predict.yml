@@ -1,26 +1,41 @@
 name: UserQueries
 queries:
   - name: DeleteData
-    query:
-      Update users set name = '?', lastname = '?'
+    query: |
+      Update users set 
+        name = valueof(?, 'string', 'Nameee', true),
+        lastnamevalue = ?,
+        last_order_total = valueof(
+          (
+            SELECT total
+            FROM orders
+            WHERE orders.user_id = users.id
+            ORDER BY id DESC
+            LIMIT 1
+          ),
+          'string',
+          'LastOrderTotal',
+          true
+        )
+
   - name: InsertInto
     query:
       INSERT INTO users (id, name, email)
       VALUES (1, 'Alice', 'alice@example.com'), ( 'Alice', 'alice@example.com');
-  - name: UpdateDynamic
-    query: |
-      UPDATE users
-      SET last_order_total = (
-          SELECT total
-          FROM orders
-          WHERE orders.user_id = users.id
-          ORDER BY id DESC
-          LIMIT 1
-      ),
-      name = field("asdasd", 'int64', 'Name', true)
-      WHERE EXISTS (
-          SELECT 1 FROM orders WHERE orders.user_id = users.id
-      );
+  # - name: UpdateDynamic
+  #   query: |
+  #     UPDATE users
+  #     SET last_order_total = (
+  #         SELECT total
+  #         FROM orders
+  #         WHERE orders.user_id = users.id
+  #         ORDER BY id DESC
+  #         LIMIT 1
+  #     ),
+  #     name = field("asdasd", 'int64', 'Name', true)
+  #     WHERE EXISTS (
+  #         SELECT 1 FROM orders WHERE orders.user_id = users.id
+  #     );
 
   - name: TransactionSample
     force: true

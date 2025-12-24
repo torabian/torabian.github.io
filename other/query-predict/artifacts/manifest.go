@@ -30,17 +30,6 @@ func (m *Manifest) InsertInto(ctx InsertIntoContext) (sql.Result, error) {
 	return InsertInto(m.DB, ctx)
 }
 
-func (m *Manifest) UpdateDynamic(ctx UpdateDynamicContext) (sql.Result, error) {
-	if m.FilterResolver != nil {
-		filter, err := m.FilterResolver(ctx.Filter)
-		if err != nil {
-			return nil, err
-		}
-		ctx.Filter = filter
-	}
-	return UpdateDynamic(m.DB, ctx)
-}
-
 func (m *Manifest) TransactionSample(ctx TransactionSampleContext) (sql.Result, error) {
 	if m.FilterResolver != nil {
 		filter, err := m.FilterResolver(ctx.Filter)

@@ -1,6 +1,7 @@
 package internal
 
 import (
+	"encoding/json"
 	"fmt"
 	"strings"
 
@@ -9,6 +10,15 @@ import (
 
 // SelectColumn holds information for code generation
 type SelectColumn struct {
+	ActualName string         // SQL expression or alias
+	GoName     string         // Go struct field name
+	IsOptional bool           // true if column is optional
+	Type       string         // Go type (string, int64, sql.NullString, etc)
+	Expr       sqlparser.Expr // original AST node
+}
+
+type UpdateColumn struct {
+	NewValue   string         // SQL expression or alias
 	ActualName string         // SQL expression or alias
 	GoName     string         // Go struct field name
 	IsOptional bool           // true if column is optional
@@ -25,7 +35,8 @@ func GetSelectStatementFromQuery(sql string) (*sqlparser.Select, error) {
 	upd, ok := stmt.(*sqlparser.Update)
 	if ok {
 		res := ExtractUpdateColumns(upd)
-		fmt.Println(res[1].IsOptional)
+		m, _ := json.MarshalIndent(res, "", "  ")
+		fmt.Println(string(m))
 	}
 
 	sel, ok := stmt.(*sqlparser.Select)
@@ -36,7 +47,6 @@ func GetSelectStatementFromQuery(sql string) (*sqlparser.Select, error) {
 	return sel, err
 }
 
-// ExtractColumnsFromSql parses SQL and extracts structured column info
 func ExtractColumnsFromSqlSelect(sel *sqlparser.Select) ([]SelectColumn, error) {
 
 	var cols []SelectColumn
@@ -62,22 +72,32 @@ func ExtractColumnsFromSqlSelect(sel *sqlparser.Select) ([]SelectColumn, error) 
 
 	return cols, nil
 }
-func ExtractUpdateColumns(sel *sqlparser.Update) []SelectColumn {
-	var cols []SelectColumn
+
+func ExtractUpdateColumns(sel *sqlparser.Update) []UpdateColumn {
+	var cols []UpdateColumn
 	for _, upd := range sel.Exprs {
-		col := SelectColumn{
+		col := UpdateColumn{
 			ActualName: upd.Name.Name.String(),
-			GoName:     MakeValidGoField(upd.Name.Name.String()),
-			Expr:       upd.Expr,
 		}
 
-		// detect if Expr is a function
 		if fn, ok := upd.Expr.(*sqlparser.FuncExpr); ok {
-			col = handleFuncExpr(fn, col)
+			col = handleFuncExprUpdate(fn, col)
+		}
+
+		if fn, ok := upd.Expr.(*sqlparser.SQLVal); ok {
+			if fn.Type == sqlparser.ValArg {
+				col.GoName = MakeValidGoField(col.ActualName)
+				col.Type = "any"
+			}
+		}
+
+		if !strings.HasPrefix(col.NewValue, ":v") && col.Type != "any" {
+			continue
 		}
 
 		cols = append(cols, col)
 	}
+
 	return cols
 }
 
@@ -109,14 +129,68 @@ func handleExpr(e *sqlparser.AliasedExpr) SelectColumn {
 	return col
 }
 
-// handleFuncExpr detects custom functions like field() and selectable()
+func handleFuncExprUpdate(fn *sqlparser.FuncExpr, parentCol UpdateColumn) UpdateColumn {
+	name := strings.ToLower(fn.Name.Lowered())
+
+	switch name {
+
+	case "valueof":
+		if len(fn.Exprs) >= 1 {
+			if arg0, ok := fn.Exprs[0].(*sqlparser.AliasedExpr); ok {
+
+				switch expr := arg0.Expr.(type) {
+
+				case *sqlparser.ColName:
+					// just take the column name, ignore table prefix
+					parentCol.NewValue = expr.Name.String()
+
+				default:
+					fmt.Println(99, expr)
+					// fallback for any other expression
+					parentCol.NewValue = sqlparser.String(expr)
+				}
+				parentCol.Expr = arg0.Expr
+			}
+		}
+		if len(fn.Exprs) >= 2 {
+			if arg3, ok := fn.Exprs[1].(*sqlparser.AliasedExpr); ok {
+				if strVal, ok := arg3.Expr.(*sqlparser.SQLVal); ok && strVal.Type == sqlparser.StrVal {
+					parentCol.Type = string(strVal.Val)
+				}
+			}
+		}
+		if len(fn.Exprs) >= 3 {
+			if arg1, ok := fn.Exprs[2].(*sqlparser.AliasedExpr); ok {
+				if strVal, ok := arg1.Expr.(*sqlparser.SQLVal); ok && strVal.Type == sqlparser.StrVal {
+					parentCol.GoName = string(strVal.Val)
+				}
+			}
+		}
+		if len(fn.Exprs) >= 4 {
+			if arg2, ok := fn.Exprs[3].(*sqlparser.AliasedExpr); ok {
+				switch val := arg2.Expr.(type) {
+				case *sqlparser.SQLVal:
+					// string or number
+					if val.Type == sqlparser.StrVal {
+						parentCol.IsOptional = strings.ToLower(string(val.Val)) == "true"
+					} else if val.Type == sqlparser.IntVal {
+						parentCol.IsOptional = string(val.Val) != "0"
+					}
+				case sqlparser.BoolVal:
+					// boolean literal true/false
+					parentCol.IsOptional = bool(val)
+				}
+			}
+		}
+	}
+
+	return parentCol
+}
 func handleFuncExpr(fn *sqlparser.FuncExpr, parentCol SelectColumn) SelectColumn {
 	name := strings.ToLower(fn.Name.Lowered())
 
 	switch name {
 
-	case "optional":
-		fmt.Println("Optional detectd!")
 	case "field":
 		// field(sqlExpr, goName?, optional?, type?)
 		if len(fn.Exprs) >= 1 {

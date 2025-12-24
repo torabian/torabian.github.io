@@ -110,6 +110,7 @@ var GenerateCommand = cli.Command{
 		return nil
 	},
 }
+
 var DirCommand = cli.Command{
 	Name:        "dir",
 	Description: "Searches for .sql files in given directory, considering maximum depth, and would generate querypredict golang files in output ",
