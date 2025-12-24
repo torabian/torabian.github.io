@@ -149,3 +149,23 @@
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
+
+.images-view {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images-view .image-item {
+  width: 30%;
+}
+
+@media (max-width: 768px) {
+  .images-view {
+    flex-direction: column;
+  }
+  .images-view .image-item {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+}
