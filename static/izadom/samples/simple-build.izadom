@@ -1,0 +1,268 @@
+{
+  "particles": [
+    {
+      "element": {
+        "content": {
+          "name": "Foundation blocks",
+          "widthCount": "7",
+          "heightCount": "7",
+          "rowsCount": "2",
+          "brickDepth": 12,
+          "brickWidth": 38,
+          "brickHeight": 24
+        },
+        "resolver": "createFoundation"
+      },
+      "position": [
+        0,
+        -3,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "5a429da4-456d-4f88-8f55-4fe77364964b",
+      "name": "Foundation blocks"
+    },
+    {
+      "element": {
+        "resolver": "FoundationInsulation",
+        "content": {
+          "height": "265",
+          "width": "341",
+          "insulationRating": 0.01,
+          "layers": 1,
+          "color": "blue",
+          "depth": "27",
+          "sourceMaterialSizeHeight": 60,
+          "sourceMaterialSizeThickness": 5,
+          "sourceMaterialSizeWidth": 65,
+          "name": "Polystyrene"
+        }
+      },
+      "position": [
+        -1.3911634787248452,
+        -15.000018748574481,
+        -4.793342980247498
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "6cf53131-62f3-41b2-ba39-dc52ce31e75c",
+      "name": "Polystyrene"
+    },
+    {
+      "element": {
+        "resolver": "reinforcedSlab",
+        "content": {
+          "name": "Reinforced Slab",
+          "width": "211",
+          "height": "287",
+          "depth": "10",
+          "depthRatio": 0.5,
+          "heightOffset": "15",
+          "widthOffset": 15
+        }
+      },
+      "position": [
+        24.523131369382803,
+        2,
+        21.303120272221378
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "0873c26a-e1ed-4aca-9de3-53075278ee03",
+      "name": "Reinforced Slab"
+    },
+    {
+      "element": {
+        "resolver": "dimensionWall",
+        "content": {
+          "name": "Dimension Wall",
+          "masonaryMaterial": {
+            "id": "gazobetonBlock59x24x24",
+            "name": "Gazobeton Block 590x240x240 mm",
+            "characteristics": [
+              {
+                "trait": "solid",
+                "data": {}
+              },
+              {
+                "trait": "loadBearing",
+                "data": {
+                  "value": true
+                }
+              },
+              {
+                "trait": "masonaryCompatible"
+              },
+              {
+                "trait": "brick"
+              },
+              {
+                "trait": "cuttable",
+                "data": {
+                  "angleCut": false,
+                  "tools": [
+                    "block-cutter"
+                  ]
+                }
+              },
+              {
+                "trait": "materialKind",
+                "data": {
+                  "kind": "aac"
+                }
+              },
+              {
+                "trait": "dimensions",
+                "data": {
+                  "length": 59,
+                  "width": 24,
+                  "height": 24
+                }
+              }
+            ],
+            "extends": [
+              "baseGazobeton"
+            ],
+            "sources": [],
+            "assets": [
+              {
+                "type": "image",
+                "url": "beton59x24x24.jpeg"
+              }
+            ]
+          },
+          "wallHeight": "194",
+          "wallWidth": "337",
+          "invertPlacement": false,
+          "centerCut": true,
+          "centerCutRatio": 0.5,
+          "interlockAtStart": false,
+          "interlockAtEnd": false,
+          "mortarSize": 1
+        }
+      },
+      "position": [
+        0.9960888708492135,
+        13,
+        1.084850382216075
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "49a553bc-9630-4391-97ee-e43d75f30e1f",
+      "name": "Dimension Wall"
+    },
+    {
+      "element": {
+        "resolver": "dimensionWall",
+        "content": {
+          "name": "Dimension Wall",
+          "masonaryMaterial": {
+            "id": "gazobetonBlock59x24x24",
+            "name": "Gazobeton Block 590x240x240 mm",
+            "characteristics": [
+              {
+                "trait": "solid",
+                "data": {}
+              },
+              {
+                "trait": "loadBearing",
+                "data": {
+                  "value": true
+                }
+              },
+              {
+                "trait": "masonaryCompatible"
+              },
+              {
+                "trait": "brick"
+              },
+              {
+                "trait": "cuttable",
+                "data": {
+                  "angleCut": false,
+                  "tools": [
+                    "block-cutter"
+                  ]
+                }
+              },
+              {
+                "trait": "materialKind",
+                "data": {
+                  "kind": "aac"
+                }
+              },
+              {
+                "trait": "dimensions",
+                "data": {
+                  "length": 59,
+                  "width": 24,
+                  "height": 24
+                }
+              }
+            ],
+            "extends": [
+              "baseGazobeton"
+            ],
+            "sources": [],
+            "assets": [
+              {
+                "type": "image",
+                "url": "beton59x24x24.jpeg"
+              }
+            ]
+          },
+          "wallHeight": "194",
+          "wallWidth": "337",
+          "invertPlacement": false,
+          "centerCut": true,
+          "centerCutRatio": 0.5,
+          "interlockAtStart": false,
+          "interlockAtEnd": false,
+          "mortarSize": 1
+        }
+      },
+      "position": [
+        2.985106268539141,
+        13,
+        238.39601813510194
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "2bec797d-a790-46a7-93f4-42b50216bb41",
+      "name": "Dimension Wall"
+    }
+  ],
+  "camera": {
+    "position": [
+      -424.97630698628177,
+      234.87684228928316,
+      80.74831341977068
+    ],
+    "target": [
+      165.8135019895924,
+      11.532811226084512,
+      28.66368144761683
+    ]
+  }
+}
