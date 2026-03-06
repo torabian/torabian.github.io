@@ -1,0 +1,268 @@
+{
+  "particles": [
+    {
+      "element": {
+        "resolver": "boundaryBox",
+        "content": {
+          "name": "Electricity",
+          "length": "2500",
+          "width": "3000",
+          "color": "#ffccbc"
+        }
+      },
+      "position": [
+        -13.112028191533,
+        0,
+        -15.202442030146727
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "aeb21871-1298-44ea-8a8a-3c897b9ffc92",
+      "name": "Boundary box",
+      "locked": true
+    },
+    {
+      "element": {
+        "resolver": "excavationArea",
+        "content": {
+          "name": "Electricity dig",
+          "width": "700",
+          "length": "20",
+          "depth": "111",
+          "surfaceWidth": "0",
+          "color": "#f44336"
+        }
+      },
+      "position": [
+        368.01513225346287,
+        1,
+        -13.85617290148167
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "16dcce9d-5e82-49b2-853f-644614dfc9c8",
+      "name": "Excavation Area"
+    },
+    {
+      "element": {
+        "content": {
+          "name": "Electricity",
+          "length": "757",
+          "width": "1000",
+          "color": "#194d33"
+        },
+        "resolver": "boundaryBox"
+      },
+      "position": [
+        253.49780701757163,
+        0,
+        740.6396041417667
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "998a216e-bfc7-4448-9252-fb6c222b6a1b",
+      "name": "Boundary box",
+      "locked": true
+    },
+    {
+      "element": {
+        "content": {
+          "name": "Septic2",
+          "length": "351",
+          "width": "240",
+          "color": "#525252"
+        },
+        "resolver": "boundaryBox"
+      },
+      "position": [
+        2008.998033352535,
+        0.000004382557628453495,
+        1093.1524931530407
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "6be56990-5047-44a4-9d10-28c5861daf4c",
+      "name": "Septic"
+    },
+    {
+      "element": {
+        "content": {
+          "name": "Gas box",
+          "length": "260",
+          "width": "125",
+          "color": "#f57f17"
+        },
+        "resolver": "boundaryBox"
+      },
+      "position": [
+        1986.6276881934987,
+        0,
+        2468.310192140257
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "c44cd016-8036-4dd2-b150-34e1514ca509",
+      "name": "Gas box"
+    },
+    {
+      "element": {
+        "content": {
+          "name": "Well",
+          "length": "140",
+          "width": "140",
+          "color": "#01579b"
+        },
+        "resolver": "boundaryBox"
+      },
+      "position": [
+        2106.279236754401,
+        0,
+        1433.3078550678292
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "38694c07-f35d-43bb-a200-96ad994697de",
+      "name": "Well"
+    },
+    {
+      "element": {
+        "resolver": "excavationArea",
+        "content": {
+          "name": "Electricity dig",
+          "width": "1100",
+          "length": "20",
+          "depth": "111",
+          "surfaceWidth": "0",
+          "color": "#ffd54f"
+        }
+      },
+      "position": [
+        2089.691156701747,
+        1,
+        1647.657605878135
+      ],
+      "rotation": [
+        1.6631796297235502e-15,
+        -1.5653799425043429,
+        1.6630836107901388e-15
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "66480371-b206-4841-869c-911676baccd7",
+      "name": "Excavation Area"
+    },
+    {
+      "element": {
+        "resolver": "excavationArea",
+        "content": {
+          "name": "Electricity dig",
+          "width": "840",
+          "length": "20",
+          "depth": "111",
+          "surfaceWidth": "0",
+          "color": "#ffd54f"
+        }
+      },
+      "position": [
+        2089.962871639293,
+        1,
+        1647.4793247378625
+      ],
+      "rotation": [
+        9.008508113833955e-18,
+        0.005416384290553557,
+        -1.204157639706626e-19
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "6ca1c3e0-6a9f-4117-b221-2299830d94ee",
+      "name": "Excavation Area"
+    },
+    {
+      "element": {
+        "resolver": "excavationArea",
+        "content": {
+          "name": "Water pipe dig",
+          "width": "1100",
+          "length": "20",
+          "depth": "111",
+          "surfaceWidth": "0",
+          "color": "#0d47a1"
+        }
+      },
+      "position": [
+        2108.104647913677,
+        1,
+        1496.7666600103648
+      ],
+      "rotation": [
+        1.6631796297235502e-15,
+        -1.5653799425043429,
+        1.6630836107901388e-15
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "afa104a9-b02c-4335-a429-234893fe037b",
+      "name": "Excavation Area"
+    },
+    {
+      "element": {
+        "resolver": "excavationArea",
+        "content": {
+          "name": "Septic pipe dig",
+          "width": "1100",
+          "length": "20",
+          "depth": "111",
+          "surfaceWidth": "0",
+          "color": "#ff5722"
+        }
+      },
+      "position": [
+        2026.0233642410083,
+        1,
+        1104.5452014257753
+      ],
+      "rotation": [
+        1.9791068981236368e-17,
+        -1.0982289356131072,
+        1.755039711053008e-17
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "7631d860-6548-40f4-b4d2-d503b3b8f915",
+      "name": "Excavation Area"
+    }
+  ],
+  "camera": {
+    "position": [
+      2446.033103534496,
+      1368.5481586193514,
+      5.862953198904847
+    ],
+    "target": [
+      1721.615366660806,
+      -293.52837040302217,
+      850.0907389153234
+    ]
+  }
+}
