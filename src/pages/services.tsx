@@ -22,7 +22,7 @@ export default function Services() {
       service.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
       service.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
       service.technologies.some((tech) =>
-        tech.toLowerCase().includes(searchTerm.toLowerCase())
+        tech.toLowerCase().includes(searchTerm.toLowerCase()),
       );
     return matchesCategory && matchesSearch;
   });
@@ -36,7 +36,8 @@ export default function Services() {
         <div className={styles.header}>
           <h1>🛠️ Professional Services</h1>
           <p>
-            Need a developer to join your project fast, and bring value in the first day? Let's have a talk.
+            Need a developer to join your project fast, and bring value in the
+            first day? Let's have a talk.
           </p>
         </div>
 
@@ -56,8 +57,9 @@ export default function Services() {
             {categories.map((category) => (
               <button
                 key={category}
-                className={`${styles.categoryButton} ${selectedCategory === category ? styles.active : ""
-                  }`}
+                className={`${styles.categoryButton} ${
+                  selectedCategory === category ? styles.active : ""
+                }`}
                 onClick={() => setSelectedCategory(category)}
               >
                 {category === "all" ? "All" : category}
@@ -117,15 +119,13 @@ export default function Services() {
               {service.mainVideo ? (
                 <iframe
                   width="100%"
-                  style={{ flex: 1 }}
-                  height="270"
+                  height="370"
                   src={service.mainVideo}
                   title={`Video`}
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
-
               ) : null}
               <div className={styles.serviceTechnologies}>
                 {service.technologies.slice(0, 4).map((tech, index) => (

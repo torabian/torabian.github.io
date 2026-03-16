@@ -27,6 +27,12 @@ export interface Training {
   category: string;
 }
 
+export interface Insight {
+  id: string;
+  title: string;
+  description: string;
+}
+
 // Product interfaces
 export interface Product {
   id: string;
@@ -87,6 +93,15 @@ export interface Workshop {
   prerequisites: string[];
   tools: string[];
 }
+
+export const insights: Insight[] = [
+  {
+    id: "how-to-build-a-scalable-backend-that-costs-almost-nothing-to-run",
+    title: "How to Build a Scalable Backend That Costs Almost Nothing to Run",
+    description: `Almost every software, mobile application, or website needs a "backend." This part of a software product
+usually handles the database, manages users, and processes transactions. It also provides APIs for mobile apps and web applications.`,
+  },
+];
 
 export const trainings: Training[] = [
   {
@@ -325,7 +340,8 @@ export const workshops: Workshop[] = [
     ],
     sections: [
       {
-        title: "Chapter 0: Introduction to E-Commerce Product Management Software Workshop",
+        title:
+          "Chapter 0: Introduction to E-Commerce Product Management Software Workshop",
         description:
           "In this long workshop, we are going to create a system, which can manage products in a single database, without much dependencies, in a advanced mode which can handle millions of products.",
         duration: "7m",
@@ -337,8 +353,7 @@ export const workshops: Workshop[] = [
       },
       {
         title: "Chapter 1: Creating parameters, parameter types and categories",
-        description:
-          `In this chapter we put the ground layer of our product, adding 3 main entities to build e-commerce system on top of them and move forward from there.`,
+        description: `In this chapter we put the ground layer of our product, adding 3 main entities to build e-commerce system on top of them and move forward from there.`,
         duration: "30m",
         mainVideo: {
           url: "https://www.youtube.com/embed/S-yVM9nSISc?si=1ST9rIjzp_-FOIZu",
@@ -347,9 +362,9 @@ export const workshops: Workshop[] = [
         id: "ecommerce-creating-parameters-and-parameter-types",
       },
       {
-        title: "Chapter 2: Creating basic category, product, and expanding our database structure.",
-        description:
-          `In this video, we are adding the category, and parameters into the project.`,
+        title:
+          "Chapter 2: Creating basic category, product, and expanding our database structure.",
+        description: `In this video, we are adding the category, and parameters into the project.`,
         duration: "16m",
         mainVideo: {
           url: "https://www.youtube.com/embed/sput9ua6YLA?si=US7wtnQauaJkV3dK",
@@ -358,9 +373,9 @@ export const workshops: Workshop[] = [
         id: "ecommerce-category-and-product-definitions",
       },
       {
-        title: "Chapter 3: Data mocking, seeders, mocks and making tangible data",
-        description:
-          `One of the practical things to do before we move on, is to put some mock content into the structure which would make what we are building more tangible.`,
+        title:
+          "Chapter 3: Data mocking, seeders, mocks and making tangible data",
+        description: `One of the practical things to do before we move on, is to put some mock content into the structure which would make what we are building more tangible.`,
         duration: "21m",
         mainVideo: {
           url: "https://www.youtube.com/embed/-P-ALab0LbE?si=LGbkk2epJ3Eg8la8",
@@ -370,8 +385,7 @@ export const workshops: Workshop[] = [
       },
       {
         title: "Chapter 4: 100K product with images in 220GB",
-        description:
-          `In this video I am storing all images in the database, over 100,000 products with 3-7MB of pictures into the database.`,
+        description: `In this video I am storing all images in the database, over 100,000 products with 3-7MB of pictures into the database.`,
         duration: "12m",
         mainVideo: {
           url: "https://www.youtube.com/embed/ZCeWdgezkwk?si=LcNJqwmIe-g6h6VC",
@@ -381,8 +395,7 @@ export const workshops: Workshop[] = [
       },
       {
         title: "Chapter 5: Combining binaries into single one",
-        description:
-          `In this video we are testing if we combine entire assets, images, binaries together in a single blob, it would improve the performance? Watch and be suprised!`,
+        description: `In this video we are testing if we combine entire assets, images, binaries together in a single blob, it would improve the performance? Watch and be suprised!`,
         duration: "4m",
         mainVideo: {
           url: "https://www.youtube.com/embed/Rv5JWpZxkQE?si=V7YWJoLPbltauc3M",
@@ -390,7 +403,6 @@ export const workshops: Workshop[] = [
         content: "",
         id: "ecommerce-mocking-products-and-other-content",
       },
-
     ],
   },
   {
@@ -482,57 +494,66 @@ Also the source is here:
     tools: ["React", "TypeScript", "Vite", "Golang", "Fireback"],
     sections: [
       {
-        "title": "Chapter 0: Full stack plugin system workshop introduction",
-        "description": "\nTrue modular system implementation using JavaScript (react or not) and Golang. Goal of this workshop:\n\n- Understanding the modular projects, plugins, monorepo, and benefits and consequences of each\n- Create a plugin project, focused on React section\n- Create a host project, which handles plugins\n- Create a backend project, which manages client plugins\n- Create plugin system for backend before coming to front-end, at all\n- Advanced topics and future proofing our work\n",
-        "duration": "2m",
-        "mainVideo": {
-          "url": "https://www.youtube.com/embed/lyw-NSCqk3E?si=bjaAwcndvyv3mXqN"
+        title: "Chapter 0: Full stack plugin system workshop introduction",
+        description:
+          "\nTrue modular system implementation using JavaScript (react or not) and Golang. Goal of this workshop:\n\n- Understanding the modular projects, plugins, monorepo, and benefits and consequences of each\n- Create a plugin project, focused on React section\n- Create a host project, which handles plugins\n- Create a backend project, which manages client plugins\n- Create plugin system for backend before coming to front-end, at all\n- Advanced topics and future proofing our work\n",
+        duration: "2m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/lyw-NSCqk3E?si=bjaAwcndvyv3mXqN",
         },
-        "content": "True modular system implementation using JavaScript (react or not) and Golang. Goal of this workshop:\n\n- Understanding the modular projects, plugins, monorepo, and benefits and consequences of each\n- Create a plugin project, focused on React section\n- Create a host project, which handles plugins\n- Create a backend project, which manages client plugins\n- Create plugin system for backend before coming to front-end, at all\n- Advanced topics and future proofing our work",
-        "id": "chapter-0-full-stack-plugin-system-workshop-introduction"
+        content:
+          "True modular system implementation using JavaScript (react or not) and Golang. Goal of this workshop:\n\n- Understanding the modular projects, plugins, monorepo, and benefits and consequences of each\n- Create a plugin project, focused on React section\n- Create a host project, which handles plugins\n- Create a backend project, which manages client plugins\n- Create plugin system for backend before coming to front-end, at all\n- Advanced topics and future proofing our work",
+        id: "chapter-0-full-stack-plugin-system-workshop-introduction",
       },
       {
-        "title": "Chapter 1: Architectural knowledge about plugin system",
-        "description": "\nWhat is a modular system?\n\n- Anything which allows multiple parts to build a product from multiple smaller products\n- Microservices\n- Micro front-ends\n- Multi-project with a central routing\n- A serious plugin systems\n\nScenarios which you need a plugin system\n- In a system which is developed outside of main team\n- Developed features, by unknown teams\n- No way to anticipate what plugins will offer.\n- Massively modifiable, based on region, laws, more.\n- You have determined there is no other way.\n",
-        "duration": "22m",
-        "mainVideo": {
-          "url": "https://www.youtube.com/embed/fFtUhNiPu1k?si=oe1O7mHVIK6xCdsp"
+        title: "Chapter 1: Architectural knowledge about plugin system",
+        description:
+          "\nWhat is a modular system?\n\n- Anything which allows multiple parts to build a product from multiple smaller products\n- Microservices\n- Micro front-ends\n- Multi-project with a central routing\n- A serious plugin systems\n\nScenarios which you need a plugin system\n- In a system which is developed outside of main team\n- Developed features, by unknown teams\n- No way to anticipate what plugins will offer.\n- Massively modifiable, based on region, laws, more.\n- You have determined there is no other way.\n",
+        duration: "22m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/fFtUhNiPu1k?si=oe1O7mHVIK6xCdsp",
         },
-        "content": "What is a modular system?\n\n- Anything which allows multiple parts to build a product from multiple smaller products\n- Microservices\n- Micro front-ends\n- Multi-project with a central routing\n- A serious plugin systems\n\nScenarios which you need a plugin system\n- In a system which is developed outside of main team\n- Developed features, by unknown teams\n- No way to anticipate what plugins will offer.\n- Massively modifiable, based on region, laws, more.\n- You have determined there is no other way.\n",
-        "id": "chapter-1-architectural-knowledge-about-plugin-system"
+        content:
+          "What is a modular system?\n\n- Anything which allows multiple parts to build a product from multiple smaller products\n- Microservices\n- Micro front-ends\n- Multi-project with a central routing\n- A serious plugin systems\n\nScenarios which you need a plugin system\n- In a system which is developed outside of main team\n- Developed features, by unknown teams\n- No way to anticipate what plugins will offer.\n- Massively modifiable, based on region, laws, more.\n- You have determined there is no other way.\n",
+        id: "chapter-1-architectural-knowledge-about-plugin-system",
       },
       {
-        "title": "Chapter 2: Create front end plugin project",
-        "description": "\nAs plugin, what things to consider?\n\n- It should be able to run normally, as its own project\n- We export different parts, which can be as plugin\n- Can have multiple different builds, standalone, html only, in react, or full content\n- We do not depend on any module, such as module federation or webpack.\n- Keeping the Host API consistent.\n- Testing and marking the versions that plugin is compatible with host itself.\n- Keep styling out, as an option to be imported.\n- Keeping the markup very clean\n- Avoid as many as libraries we can.\n",
-        "duration": "21m",
-        "mainVideo": {
-          "url": "https://www.youtube.com/embed/CRHPiSl8xFc?si=fEiW2OxY-6RI0u44"
+        title: "Chapter 2: Create front end plugin project",
+        description:
+          "\nAs plugin, what things to consider?\n\n- It should be able to run normally, as its own project\n- We export different parts, which can be as plugin\n- Can have multiple different builds, standalone, html only, in react, or full content\n- We do not depend on any module, such as module federation or webpack.\n- Keeping the Host API consistent.\n- Testing and marking the versions that plugin is compatible with host itself.\n- Keep styling out, as an option to be imported.\n- Keeping the markup very clean\n- Avoid as many as libraries we can.\n",
+        duration: "21m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/CRHPiSl8xFc?si=fEiW2OxY-6RI0u44",
         },
-        "content": "\nAs plugin, what things to consider?\n\n- It should be able to run normally, as its own project\n- We export different parts, which can be as plugin\n- Can have multiple different builds, standalone, html only, in react, or full content\n- We do not depend on any module, such as module federation or webpack.\n- Keeping the Host API consistent.\n- Testing and marking the versions that plugin is compatible with host itself.\n- Keep styling out, as an option to be imported.\n- Keeping the markup very clean\n- Avoid as many as libraries we can.\n",
-        "id": "chapter-2-create-front-end-plugin-project"
+        content:
+          "\nAs plugin, what things to consider?\n\n- It should be able to run normally, as its own project\n- We export different parts, which can be as plugin\n- Can have multiple different builds, standalone, html only, in react, or full content\n- We do not depend on any module, such as module federation or webpack.\n- Keeping the Host API consistent.\n- Testing and marking the versions that plugin is compatible with host itself.\n- Keep styling out, as an option to be imported.\n- Keeping the markup very clean\n- Avoid as many as libraries we can.\n",
+        id: "chapter-2-create-front-end-plugin-project",
       },
       {
-        "title": "Chapter 3: Create front end host plugin manager",
-        "description": "\nWe need to register hooks, and routes\n\n- We need somewhere to store the hooks and routes (pages) from plugins\n- We need a register plugin mechanism\n- A mechanism to share the Host API\n- Documentation, how the plugin system works.\n- All the events, and screens a plugin can add (host/plugin)\n- Create things as plugin, from beginning if that’s the way to go.\n- Provide so much details via Host API, even if it’s not planned now\n",
-        "duration": "1h 0m",
-        "mainVideo": {
-          "url": "https://www.youtube.com/embed/iGH-JTZ7uT8?si=P2icyFqeeq5xboTc"
+        title: "Chapter 3: Create front end host plugin manager",
+        description:
+          "\nWe need to register hooks, and routes\n\n- We need somewhere to store the hooks and routes (pages) from plugins\n- We need a register plugin mechanism\n- A mechanism to share the Host API\n- Documentation, how the plugin system works.\n- All the events, and screens a plugin can add (host/plugin)\n- Create things as plugin, from beginning if that’s the way to go.\n- Provide so much details via Host API, even if it’s not planned now\n",
+        duration: "1h 0m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/iGH-JTZ7uT8?si=P2icyFqeeq5xboTc",
         },
-        "content": "\nWe need to register hooks, and routes\n\n- We need somewhere to store the hooks and routes (pages) from plugins\n- We need a register plugin mechanism\n- A mechanism to share the Host API\n- Documentation, how the plugin system works.\n- All the events, and screens a plugin can add (host/plugin)\n- Create things as plugin, from beginning if that’s the way to go.\n- Provide so much details via Host API, even if it’s not planned now\n",
-        "id": "chapter-3-create-front-end-host-plugin-manager"
+        content:
+          "\nWe need to register hooks, and routes\n\n- We need somewhere to store the hooks and routes (pages) from plugins\n- We need a register plugin mechanism\n- A mechanism to share the Host API\n- Documentation, how the plugin system works.\n- All the events, and screens a plugin can add (host/plugin)\n- Create things as plugin, from beginning if that’s the way to go.\n- Provide so much details via Host API, even if it’s not planned now\n",
+        id: "chapter-3-create-front-end-host-plugin-manager",
       },
       {
-        "title": "Chapter 4:  Manage plugins via a backend system",
-        "description": "\n          In this video, we implement a backend system, which would service the plugins for front-end, and enabled and disable them programmatically without compiling the plugin into the code base.\n          ",
-        "duration": "30m",
-        "mainVideo": {
-          "url": "https://www.youtube.com/embed/iOglPncUKOQ?si=59rXoHbG-PT2qi_c"
+        title: "Chapter 4:  Manage plugins via a backend system",
+        description:
+          "\n          In this video, we implement a backend system, which would service the plugins for front-end, and enabled and disable them programmatically without compiling the plugin into the code base.\n          ",
+        duration: "30m",
+        mainVideo: {
+          url: "https://www.youtube.com/embed/iOglPncUKOQ?si=59rXoHbG-PT2qi_c",
         },
-        "content": "\n          In this video, we implement a backend system, which would service the plugins for front-end, and enabled and disable them programmatically without compiling the plugin into the code base.\n          ",
-        "id": "chapter-4-manage-plugins-via-a-backend-system"
-      }
-    ]
-    ,
+        content:
+          "\n          In this video, we implement a backend system, which would service the plugins for front-end, and enabled and disable them programmatically without compiling the plugin into the code base.\n          ",
+        id: "chapter-4-manage-plugins-via-a-backend-system",
+      },
+    ],
   },
   {
     id: "adc-keyboard-workshop",
@@ -734,7 +755,7 @@ export const products: Product[] = [
     id: "fireback",
     title: "Fireback",
     relatedWorkshop: workshops.find(
-      (workshop) => workshop.id === "mastering-fireback-workshop"
+      (workshop) => workshop.id === "mastering-fireback-workshop",
     ),
     type: "Web Framework",
     description:

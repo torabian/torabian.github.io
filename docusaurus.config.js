@@ -14,17 +14,17 @@ const config = {
   tagline: "Passionate engineer, architect, and programmer",
   favicon: "img/favicon.ico",
 
-    plugins: [
+  plugins: [
     function rawLoaderPlugin() {
       return {
-        name: 'raw-loader-plugin',
+        name: "raw-loader-plugin",
         configureWebpack() {
           return {
             module: {
               rules: [
                 {
                   test: /\.(c|h|cpp|txt)$/i,
-                  type: 'asset/source',
+                  type: "asset/source",
                 },
               ],
             },
@@ -124,6 +124,7 @@ const config = {
           { to: "/services", label: "Services", position: "left" },
           { to: "/workshops", label: "Workshops", position: "left" },
           { to: "/experiences", label: "Experiences", position: "left" },
+          { to: "/insights", label: "Insights", position: "left" },
           { to: "/skills", label: "Skills", position: "left" },
           {
             href: "https://github.com/torabian",
