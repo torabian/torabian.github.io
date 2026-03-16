@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="mdx-wrapper mdx-page plugin-pages plugin-id-default" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.8.0">
+<title data-rh="true">How to Build a Scalable Backend That Costs Almost Nothing to Run | Ali Torabi</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://torabi.io/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://torabi.io/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://torabi.io/insight/how-to-build-a-scalable-backend-that-costs-almost-nothing-to-run"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docusaurus_tag" content="default"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docsearch:docusaurus_tag" content="default"><meta data-rh="true" property="og:title" content="How to Build a Scalable Backend That Costs Almost Nothing to Run | Ali Torabi"><meta data-rh="true" name="description" content="Almost every software, mobile application, or website needs a &quot;backend.&quot; This part of a software product"><meta data-rh="true" property="og:description" content="Almost every software, mobile application, or website needs a &quot;backend.&quot; This part of a software product"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://torabi.io/insight/how-to-build-a-scalable-backend-that-costs-almost-nothing-to-run"><link data-rh="true" rel="alternate" href="https://torabi.io/insight/how-to-build-a-scalable-backend-that-costs-almost-nothing-to-run" hreflang="en"><link data-rh="true" rel="alternate" href="https://torabi.io/insight/how-to-build-a-scalable-backend-that-costs-almost-nothing-to-run" hreflang="x-default"><meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="/lottie.min.js"></script><link rel="stylesheet" href="/assets/css/styles.7b3683cc.css">
+<script src="/assets/js/runtime~main.98662dc6.js" defer="defer"></script>
+<script src="/assets/js/main.362e6730.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t="light";var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",e||t),document.documentElement.setAttribute("data-theme-choice",e||t)}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><b class="navbar__title text--truncate">TORABI</b></a><a class="navbar__item navbar__link" href="/products">Products</a><a class="navbar__item navbar__link" href="/trainings">Trainings</a><a class="navbar__item navbar__link" href="/services">Services</a><a class="navbar__item navbar__link" href="/workshops">Workshops</a><a class="navbar__item navbar__link" href="/experiences">Experiences</a><a class="navbar__item navbar__link" href="/insights">Insights</a><a class="navbar__item navbar__link" href="/skills">Skills</a></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/torabian" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><main class="container container--fluid margin-vert--lg"><div class="row mdxPageWrapper_j9I6"><div class="col col--8"><article><header><h1>How to Build a Scalable Backend That Costs Almost Nothing to Run</h1></header>
+<p>Almost every software, mobile application, or website needs a &quot;backend.&quot; This part of a software product
+usually handles the database, manages users, and processes transactions. It also provides APIs for mobile apps and web applications.</p>
+<p>After 20 years of experience in the business, I have seen most of the paths small startups and large enterprises take, and what is helpful to consider from the beginning of a project.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-a-good-backend-matters-and-changes-the-future-of-a-digital-product">Why a Good Backend Matters and Changes the Future of a Digital Product<a href="#why-a-good-backend-matters-and-changes-the-future-of-a-digital-product" class="hash-link" aria-label="Direct link to Why a Good Backend Matters and Changes the Future of a Digital Product" title="Direct link to Why a Good Backend Matters and Changes the Future of a Digital Product">​</a></h2>
+<p>Let&#x27;s assume you&#x27;ve built the product and customers are using it. Over a short period,
+it becomes hard to add features, debugging takes longer, and release cycles slow down.
+The goal of the software or app was to solve a business problem, but now maintaining
+the software itself becomes the main task.</p>
+<p>Some product managers try to solve this issue by adding more people to the team, without
+addressing the real problem: a simple, reliable backend is often the bottleneck
+of any web or mobile app. The fact is, there isn&#x27;t a linear relation between resources needed
+to run software and the number of users. Large apps, such as WhatsApp, have been running with the same amount of
+human resources from 100K users to millions over a long period.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="top-strategies-to-expect-in-your-backend-systems">Top Strategies to Expect in Your Backend Systems<a href="#top-strategies-to-expect-in-your-backend-systems" class="hash-link" aria-label="Direct link to Top Strategies to Expect in Your Backend Systems" title="Direct link to Top Strategies to Expect in Your Backend Systems">​</a></h2>
+<p>Although building anything in life is challenging, the backend of a project
+doesn&#x27;t have to be unnecessarily hard. Regardless of who is building it, keep the following
+headlines in mind when creating your backend system.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="technology-doesnt-matter-thats-wrong">Technology Doesn&#x27;t Matter? That&#x27;s Wrong<a href="#technology-doesnt-matter-thats-wrong" class="hash-link" aria-label="Direct link to Technology Doesn&#x27;t Matter? That&#x27;s Wrong" title="Direct link to Technology Doesn&#x27;t Matter? That&#x27;s Wrong">​</a></h2>
+<p>You may have heard things like:</p>
+<ul>
+<li>“It would work with any programming language.”</li>
+<li>“It doesn’t matter which server it runs on.”</li>
+<li>“All databases are basically the same.”</li>
+</ul>
+<p>The reality is, subtle differences in any aspect of a project — not just software — can have a huge impact
+after the initial stages.</p>
+<p>For example, if you are using a programming language such as Golang, your binaries are small even for large
+projects, they are standalone installable, and often do not need advanced configuration to keep them running.
+They can also be configured to run automatically and installed by a sysadmin without access to the development team.
+Compare this to a scripting language such as Ruby, PHP, or Node.js, which require constant maintenance
+just to keep running. Of course, similar results can be achieved if someone really wants to, but that is not the usual practice.</p>
+<p>For a large enterprise owning 25% of the energy market in Europe, paying
+€90,000 monthly for a database and 20 people to maintain MongoDB may not matter. But for a small product,
+with a limited profit margin, even small cost differences matter. Reducing operational costs from $10,000 to $500
+is $9,500 saved — significant for a small team deciding the fate of their survival.</p>
+<p>Therefore, it is critical to choose the right tools for the job from the beginning. In most cases, you want
+a relational database with compiled, extremely fast binaries to execute your business logic,
+such as SQL databases and the Golang programming language.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="avoid-excessive-use-of-external-libraries">Avoid Excessive Use of External Libraries<a href="#avoid-excessive-use-of-external-libraries" class="hash-link" aria-label="Direct link to Avoid Excessive Use of External Libraries" title="Direct link to Avoid Excessive Use of External Libraries">​</a></h2>
+<p>Many projects I’ve seen over the past 10 years rely heavily on external tools: Keycloak, Firebase,
+build tools like Fastlane, and hundreds more. I remember when I was starting out,
+none of these existed, yet we managed to build all features with just 4–5 people.</p>
+<p>Outsourcing major parts of the application and depending on external tools does not save time;
+it adds cost and forces you to adapt your workflow.</p>
+<p>Examples:</p>
+<ul>
+<li>You don’t need external identity management. Build it inside your product. Security can be handled properly,
+and by not using common solutions in obvious ways, you can gain security through obscurity.</li>
+<li>Most apps do not need advanced CI/CD automation. If your app is released monthly, just build it locally and deploy.
+This saves hours of maintenance.</li>
+<li>Many projects can be maintained with 10–15 GB of SQL tables. Large 1TB databases are often unnecessary; careful design with standard tables is usually sufficient.</li>
+</ul>
+<p>Fear drives developers and project managers to avoid new approaches. If a major product solves an issue, take a look at how it works. Don’t be intimidated by terms like &quot;load balancer websocket handling&quot;; in the end, it’s just multiple instances of the same app and a pool of socket connections.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="avoid-shiny-tools-that-emerge-every-weekend">Avoid Shiny Tools That Emerge Every Weekend<a href="#avoid-shiny-tools-that-emerge-every-weekend" class="hash-link" aria-label="Direct link to Avoid Shiny Tools That Emerge Every Weekend" title="Direct link to Avoid Shiny Tools That Emerge Every Weekend">​</a></h2>
+<p>For most products, new tools are distractions: new deployment interfaces, databases, CI/CD tools.
+Many critical programs that generate billions of dollars are written in C, C++, and PHP — proving that core tools rarely change.</p>
+<p>For small teams with tight budgets, constantly chasing new front-end frameworks or libraries is unnecessary.
+The focus should always be on solving real-world problems, not rewriting code constantly.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="stick-to-established-databases">Stick to Established Databases<a href="#stick-to-established-databases" class="hash-link" aria-label="Direct link to Stick to Established Databases" title="Direct link to Stick to Established Databases">​</a></h2>
+<p>The database stores information — mostly the backend’s job. Relational databases have been the standard for decades.
+Oracle, MySQL, SQLite, and SQL Server have been dominant for a long time.</p>
+<p>The explosion of new databases can overwhelm teams. In most cases, sticking to a major database is enough.
+Adding new brands for such a critical part of the app complicates long-term maintenance.</p>
+<p>Although ORMs (like Entity Framework) accelerate work initially, serious applications often require writing plain SQL later.
+For new projects, I advise avoiding ORMs altogether and writing simple SQL directly, which makes maintenance minimal and extends the software’s life for decades.</p>
+<p>In the Node.js ecosystem, tools like TypeORM, Sequelize, and Sails ORM are distractions.
+Writing SQL scripts manually and managing them carefully is more reliable, especially for critical systems like banks.</p>
+<p>Non-relational databases like MongoDB may seem convenient at first, but they introduce long-term risks if the data is important or critical.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="export-a-clear-api-spec-or-sdks">Export a Clear API Spec or SDKs<a href="#export-a-clear-api-spec-or-sdks" class="hash-link" aria-label="Direct link to Export a Clear API Spec or SDKs" title="Direct link to Export a Clear API Spec or SDKs">​</a></h2>
+<p>A major cost in development comes from not knowing what exists in the system.
+Most projects plan only 2 weeks ahead, features get forgotten, and developers leave,
+leaving no clear understanding of the backend’s capabilities.</p>
+<p>API specs, via Swagger/OpenAPI, are essential, but only document request and response data.
+Documenting logic, error codes, and workflows adds enormous value.</p>
+<p>Even if you are the sole developer, proper documentation ensures that future you can understand the system in 2 years.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="avoid-premature-scaling">Avoid Premature Scaling<a href="#avoid-premature-scaling" class="hash-link" aria-label="Direct link to Avoid Premature Scaling" title="Direct link to Avoid Premature Scaling">​</a></h2>
+<p>There is a tendency to overinvest in scaling. Reality: 90% of products fail.
+Overbuilding infrastructure for a product unlikely to succeed is wasted effort and resources.</p>
+<p>Focus on making the backend reliable, avoiding flashy features like premature scaling.
+For most products, even useful apps will never reach thousands of users quickly.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="conclusion">Conclusion<a href="#conclusion" class="hash-link" aria-label="Direct link to Conclusion" title="Direct link to Conclusion">​</a></h2>
+<p>To say how to build a zero maintance backend is hard, but as summary:</p>
+<ul>
+<li>Use reliable languages, such as Go, and Java</li>
+<li>Write most things in house</li>
+<li>Avoid techy flashy stuff which doesn&#x27;t serve</li>
+<li>Document, code and API</li>
+<li>Make it self installable</li>
+</ul>
+<p>Hope this content did help a bit, so you can have best out of your budget.</p></article></div><div class="col col--2"><div class="tableOfContents_bqdL thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#why-a-good-backend-matters-and-changes-the-future-of-a-digital-product" class="table-of-contents__link toc-highlight">Why a Good Backend Matters and Changes the Future of a Digital Product</a></li><li><a href="#top-strategies-to-expect-in-your-backend-systems" class="table-of-contents__link toc-highlight">Top Strategies to Expect in Your Backend Systems</a></li><li><a href="#technology-doesnt-matter-thats-wrong" class="table-of-contents__link toc-highlight">Technology Doesn&#39;t Matter? That&#39;s Wrong</a></li><li><a href="#avoid-excessive-use-of-external-libraries" class="table-of-contents__link toc-highlight">Avoid Excessive Use of External Libraries</a></li><li><a href="#avoid-shiny-tools-that-emerge-every-weekend" class="table-of-contents__link toc-highlight">Avoid Shiny Tools That Emerge Every Weekend</a></li><li><a href="#stick-to-established-databases" class="table-of-contents__link toc-highlight">Stick to Established Databases</a></li><li><a href="#export-a-clear-api-spec-or-sdks" class="table-of-contents__link toc-highlight">Export a Clear API Spec or SDKs</a></li><li><a href="#avoid-premature-scaling" class="table-of-contents__link toc-highlight">Avoid Premature Scaling</a></li><li><a href="#conclusion" class="table-of-contents__link toc-highlight">Conclusion</a></li></ul></div></div></div></main></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2026 Ali Torabi Software services.</div></div></div></footer></div>
+</body>
+</html>
