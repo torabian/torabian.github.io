@@ -298,15 +298,6 @@ export default function Skills() {
           </p>
         </section>
 
-        {/* Programming Languages & Technologies */}
-        <section className={styles.section}>
-          <div className={styles.skillCategories}>
-            {skillCategories.map((category) => (
-              <SkillCategoryCard key={category.id} category={category} />
-            ))}
-          </div>
-        </section>
-
         {/* Language Skills */}
         <section className={styles.section}>
           <h2>Language Skills</h2>
