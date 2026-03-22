@@ -2,7 +2,7 @@ export const generalInfo = {
   introductionTitle: "Hi, I am Ali 👋",
   introductionLine: `I build digital products, share knowledge, and help others create.
 I’m deeply passionate about programming, engineering, and continuous learning — always pushing to master new technologies and understand how things work from the ground up.
-I enjoy bridging practical skills with digital innovation, from building software frameworks like Fireback to learning welding, electrical systems, and construction.
+I enjoy bridging practical skills with digital innovation, from building software frameworks like Fireback to welding, electrical systems, and construction.
 For me, creating — whether it’s code, a tool, or a physical structure — is both a craft and a lifelong pursuit of excellence.`,
 };
 
@@ -100,6 +100,13 @@ export const insights: Insight[] = [
     title: "How to Build a Scalable Backend That Costs Almost Nothing to Run",
     description: `Almost every software, mobile application, or website needs a "backend." This part of a software product
 usually handles the database, manages users, and processes transactions. It also provides APIs for mobile apps and web applications.`,
+  },
+  {
+    id: "mobile-app-development",
+    title:
+      "Mobile App Development — From Idea to Launch Without Wasted Time or Budget",
+    description: `If you're planning to build a new app—whether on your own or by outsourcing—this page will give you the key insights you need before getting started. It’s designed for both developers and non-technical founders with an idea.
+`,
   },
 ];
 
@@ -954,7 +961,7 @@ export const products: Product[] = [
     },
     trainingRelated: ["emi-compiler-training"],
     features: [
-      "Multi-language support (Go, Rust, C++)",
+      "Multi-language support (Go, JavaScript, TypeScript)",
       "Advanced dead code elimination",
       "Intelligent optimization algorithms",
       "Parallel compilation support",
@@ -1134,10 +1141,9 @@ export const services: Service[] = [
     mainVideo: "https://www.youtube.com/embed/kwFtGI6fJQk?si=9Ot3rdoENp7bPJaQ",
   },
   {
-    id: "hybrid-mobile-apps",
-    title: "Hybrid Mobile Apps",
-    description:
-      "I create cross-platform apps for iOS and Android using React Native.",
+    id: "mobile-app-evelopment",
+    title: "Mobile App Development",
+    description: `If you're planning to build a new app—whether on your own or by outsourcing—this page will give you the key insights you need before getting started. It’s designed for both developers and non-technical founders with an idea.`,
     content:
       "Build hybrid apps with React Native. One codebase, runs smoothly on iOS & Android.",
     icon: "📱",
@@ -1150,20 +1156,6 @@ export const services: Service[] = [
       "Native API access",
     ],
     technologies: ["React Native", "TypeScript", "iOS", "Android"],
-    featured: true,
-    mainVideo: "https://www.youtube.com/embed/IggQEhKKOY0?si=6d2nGQVY8eqdcxTW",
-  },
-  {
-    id: "native-mobile-apps",
-    title: "Native Mobile Apps",
-    description: "I develop high-performance native apps for iOS and Android.",
-    content:
-      "Native iOS apps with Swift/SwiftUI and Android apps with Kotlin/Jetpack Compose.",
-    icon: "📱",
-    category: "Mobile",
-    priceRange: "250 zł/hour",
-    features: ["Swift & Kotlin", "Platform-specific UI", "App Store ready"],
-    technologies: ["Swift", "SwiftUI", "Kotlin", "Jetpack Compose"],
     featured: true,
     mainVideo: "https://www.youtube.com/embed/IggQEhKKOY0?si=6d2nGQVY8eqdcxTW",
   },

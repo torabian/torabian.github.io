@@ -31,7 +31,7 @@ export default function Trainings() {
     >
       <main className={styles.main}>
         <div className={styles.header}>
-          <h1>🎓 Training Courses</h1>
+          <h1>Training Courses</h1>
           <p>Enhance your skills with our comprehensive training programs</p>
         </div>
 

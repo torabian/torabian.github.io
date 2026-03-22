@@ -19,46 +19,51 @@ export default function Products() {
         </div>
 
         <div className={styles.productsGrid}>
-          {products.sort((a, b) => (b.thumbnail ? 1 : 0) - (a.thumbnail ? 1 : 0)).map((product, index) => {
-            const hasThumb = Boolean(product.thumbnail)
+          {products
+            .sort((a, b) => (b.thumbnail ? 1 : 0) - (a.thumbnail ? 1 : 0))
+            .map((product, index) => {
+              const hasThumb = Boolean(product.thumbnail);
 
-            return <Link
-              key={index}
-              to={`/product/${product.id}`}
-              className={styles.productCard}
-            >
-              {hasThumb && (
-                <div className={styles.thumb}>
-                  <img src={product.thumbnail} alt={product.title} />
-                </div>
-              )}
-              <div className={styles.productHeader}>
-                <h2 className={styles.productName}>{product.title}</h2>
-                <span className={`${styles.status} ${styles[product.status]}`}>
-                  {product.status}
-                </span>
-              </div>
-              <div className={styles.productContent}>
-                <p className={styles.productType}>{product.type}</p>
-                <p className={styles.productDescription}>
-                  {product.description}
-                </p>
-                <div className={styles.productFeatures}>
-                  <ul>
-                    {product.features.slice(0, 3).map((feature, idx) => (
-                      <li key={idx}>{feature}</li>
-                    ))}
-                    {product.features.length > 3 && (
-                      <li className={styles.moreFeatures}>
-                        +{product.features.length - 3} more features
-                      </li>
-                    )}
-                  </ul>
-                </div>
-              </div>
-            </Link>
-          }
-          )}
+              return (
+                <Link
+                  key={index}
+                  to={`/product/${product.id}`}
+                  className={styles.productCard}
+                >
+                  {hasThumb && (
+                    <div className={styles.thumb}>
+                      <img src={product.thumbnail} alt={product.title} />
+                    </div>
+                  )}
+                  <div className={styles.productHeader}>
+                    <h2 className={styles.productName}>{product.title}</h2>
+                    <span
+                      className={`${styles.status} ${styles[product.status]}`}
+                    >
+                      {product.status}
+                    </span>
+                  </div>
+                  <div className={styles.productContent}>
+                    <p className={styles.productType}>{product.type}</p>
+                    <p className={styles.productDescription}>
+                      {product.description}
+                    </p>
+                    <div className={styles.productFeatures}>
+                      <ul>
+                        {product.features.slice(0, 3).map((feature, idx) => (
+                          <li key={idx}>{feature}</li>
+                        ))}
+                        {product.features.length > 3 && (
+                          <li className={styles.moreFeatures}>
+                            +{product.features.length - 3} more features
+                          </li>
+                        )}
+                      </ul>
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
         </div>
 
         {products.length === 0 && (

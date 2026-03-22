@@ -1,11 +1,13 @@
 .main {
   min-height: calc(100vh - 200px);
-  background: var(--ifm-color-emphasis-100);
+  
   padding: 2rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .header {
-  text-align: center;
+  text-align: left;
   margin-bottom: 3rem;
   padding: 0 2rem;
 }
@@ -25,7 +27,6 @@
   font-size: 1.2rem;
   color: var(--ifm-color-content-secondary);
   margin: 0;
-  max-width: 600px;
   margin: 0 auto;
 }
 

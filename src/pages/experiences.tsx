@@ -23,7 +23,7 @@ export default function Experiences() {
       experience.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
       experience.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
       experience.tags.some((tag) =>
-        tag.toLowerCase().includes(searchTerm.toLowerCase())
+        tag.toLowerCase().includes(searchTerm.toLowerCase()),
       );
     return matchesCategory && matchesSearch;
   });
@@ -43,7 +43,7 @@ export default function Experiences() {
     >
       <main className={styles.main}>
         <div className={styles.header}>
-          <h1>🚀 Experiences</h1>
+          <h1>Experiences</h1>
           <p>
             Real-world insights, lessons learned, and technical deep-dives from
             building software solutions, and other stuff in life.
@@ -66,8 +66,9 @@ export default function Experiences() {
             {categories.map((category) => (
               <button
                 key={category}
-                className={`${styles.categoryButton} ${selectedCategory === category ? styles.active : ""
-                  }`}
+                className={`${styles.categoryButton} ${
+                  selectedCategory === category ? styles.active : ""
+                }`}
                 onClick={() => setSelectedCategory(category)}
               >
                 {category === "all" ? "All" : category}
@@ -102,7 +103,6 @@ export default function Experiences() {
               <div className={styles.experienceDescription}>
                 <p>{experience.description}...</p>
               </div>
-
 
               <div className={styles.experienceTags}>
                 {experience.tags.map((tag, index) => (

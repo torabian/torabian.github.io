@@ -40,40 +40,50 @@ export default function Home() {
 
         {/* Products */}
         <section className={styles.fullSection}>
-          <h2>🧩 Products</h2>
+          <h2>Products</h2>
+          <p>Quick overview of products I have built and owning the IP work</p>
           <div className="container">
             <div className="row d-flex align-items-stretch">
-              {products.sort((a, b) => (b.thumbnail ? 1 : 0) - (a.thumbnail ? 1 : 0))
+              {products
+                .sort((a, b) => (b.thumbnail ? 1 : 0) - (a.thumbnail ? 1 : 0))
                 .map((product, index) => {
-                  const hasThumb = Boolean(product.thumbnail)
+                  const hasThumb = Boolean(product.thumbnail);
                   return (
-                    <div key={index} className={`col-sm-12 ${hasThumb ? '' : 'col-md-6'} `} style={{ marginBottom: '20px' }}>
+                    <div
+                      key={index}
+                      className={`col-sm-12 ${hasThumb ? "" : "col-md-6"} `}
+                      style={{ marginBottom: "20px" }}
+                    >
                       <div
-                        className={`${styles.productCard} ${hasThumb ? styles.productCardWithThumb : ''
-                          }`}
+                        className={`${styles.productCard} ${
+                          hasThumb ? styles.productCardWithThumb : ""
+                        }`}
                       >
                         {hasThumb && (
                           <div className={styles.thumb}>
                             <img src={product.thumbnail} alt={product.title} />
                           </div>
                         )}
-                        <div className={hasThumb ? styles.content : ''}>
+                        <div className={hasThumb ? styles.content : ""}>
                           <h3>
-                            <Link to={`/product/${product.id}`}>{product.title}</Link>
+                            <Link to={`/product/${product.id}`}>
+                              {product.title}
+                            </Link>
                           </h3>
                           <p className={styles.productDescription}>
                             {product.description}
                           </p>
-                          <p className={styles.productDetails}>{product.details}</p>
+                          <p className={styles.productDetails}>
+                            {product.details}
+                          </p>
                         </div>
                       </div>
                     </div>
-                  )
+                  );
                 })}
             </div>
           </div>
         </section>
-
 
         {/* Videos */}
         <section className={styles.fullSection}>
@@ -93,53 +103,32 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Experiences
         <section className={styles.fullSection}>
-          <h2>🚀 Development Experiences</h2>
+          <h2>Workshops</h2>
           <div className={styles.cardRow}>
-            <ExperienceCard
-              title="Building Scalable Go APIs"
-              description="A deep dive into creating high-performance, scalable APIs using Go and modern development practices."
-              link="/experience/building-scalable-go-apis"
-              category="Backend Development"
-              date="Jan 15, 2024"
-              featured={true}
-            />
-            <ExperienceCard
-              title="React Native Mobile Development"
-              description="From concept to production: building cross-platform mobile apps with React Native and best practices."
-              link="/experience/react-native-mobile-development"
-              category="Mobile Development"
-              date="Jan 10, 2024"
-              featured={true}
-            />
-          </div>
-          <Link to="/experiences" className={styles.moreLink}>
-            View all experiences →
-          </Link>
-        </section> */}
-
-        {/* Workshops */}
-        <section className={styles.fullSection}>
-          <h2>🛠️ Workshops</h2>
-          <div className={styles.cardRow}>
-            <WorkshopCard
-              title={workshop.title}
-              description={workshop.description}
-              link={`/workshop/${workshop.id}`}
-              duration={workshop.totalDuration}
-              level={workshop.level}
-            />
+            {workshops
+              .filter((_, index) => index < 6)
+              .map((workshop, index) => {
+                return (
+                  <WorkshopCard
+                    key={workshop.id}
+                    title={workshop.title}
+                    description={workshop.description}
+                    link={`/workshop/${workshop.id}`}
+                    duration={workshop.totalDuration}
+                    level={workshop.level}
+                  />
+                );
+              })}
           </div>
           <Link to="/workshops" className={styles.moreLink}>
             View all workshops →
           </Link>
         </section>
 
-
         {/* Skills */}
-        <section className={styles.fullSection}>
-          <h2>🛠️ Skills & Knowledge</h2>
+        {/* <section className={styles.fullSection}>
+          <h2>Skills & Knowledge</h2>
           <div className={styles.cardRow}>
             <SkillsCard
               title="Programming Languages"
@@ -157,7 +146,7 @@ export default function Home() {
           <Link to="/skills" className={styles.moreLink}>
             View all skills →
           </Link>
-        </section>
+        </section> */}
 
         {/* Contact */}
         <div className={"ctaSection"}>

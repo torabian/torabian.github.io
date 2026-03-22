@@ -121,7 +121,6 @@ const config = {
         items: [
           { to: "/products", label: "Products", position: "left" },
           { to: "/trainings", label: "Trainings", position: "left" },
-          { to: "/services", label: "Services", position: "left" },
           { to: "/workshops", label: "Workshops", position: "left" },
           { to: "/experiences", label: "Experiences", position: "left" },
           { to: "/insights", label: "Insights", position: "left" },

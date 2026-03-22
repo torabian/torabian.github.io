@@ -31,17 +31,17 @@ export default function Workshops() {
     >
       <main className={styles.main}>
         <div className={styles.header}>
-          <h1>🛠️ Development Workshops</h1>
+          <h1>Engineering workshops</h1>
           <p>
-            Hands-on learning experiences to master new technologies and
-            techniques
+            Sharing building things, exploring in different fields such as
+            electronics and programming
           </p>
         </div>
 
         <div className={styles.workshopsGrid}>
           {workshops.map((workshop) => (
             <div key={workshop.id} className={styles.workshopCard}>
-              {workshop.mainVideo ?
+              {workshop.mainVideo ? (
                 <iframe
                   width="300"
                   src={workshop.mainVideo}
@@ -50,9 +50,8 @@ export default function Workshops() {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
-
-                : null}
-              <div style={{ flex: 1, marginLeft: '25px' }}>
+              ) : null}
+              <div style={{ flex: 1, marginLeft: "25px" }}>
                 <div className={styles.workshopHeader}>
                   <div className={styles.workshopInfo}>
                     <h2 className={styles.workshopTitle}>
@@ -63,12 +62,18 @@ export default function Workshops() {
                     <div className={styles.workshopMeta}>
                       <span
                         className={styles.level}
-                        style={{ backgroundColor: getLevelColor(workshop.level) }}
+                        style={{
+                          backgroundColor: getLevelColor(workshop.level),
+                        }}
                       >
                         {workshop.level}
                       </span>
-                      <span className={styles.category}>{workshop.category}</span>
-                      <span className={styles.language}>{workshop.language}</span>
+                      <span className={styles.category}>
+                        {workshop.category}
+                      </span>
+                      <span className={styles.language}>
+                        {workshop.language}
+                      </span>
                       <span className={styles.duration}>
                         {workshop.totalDuration}
                       </span>
@@ -77,8 +82,9 @@ export default function Workshops() {
                   <button
                     className={styles.expandButton}
                     onClick={() => toggleWorkshop(workshop.id)}
-                    aria-label={`${expandedWorkshop === workshop.id ? "Collapse" : "Expand"
-                      } workshop details`}
+                    aria-label={`${
+                      expandedWorkshop === workshop.id ? "Collapse" : "Expand"
+                    } workshop details`}
                   >
                     {expandedWorkshop === workshop.id ? "−" : "+"}
                   </button>
