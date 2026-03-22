@@ -138,6 +138,125 @@ export default function Skills() {
             ionic, pure vanilla JavaScript, and yet believe it or not, years of
             writing jQuery and maintaing custom created JavaScript libraries.
           </p>
+
+          <h3>PHP</h3>
+          <p>
+            PHP is one of the languages that I have started my career with,
+            earlier than 2006. Used PHP for multiple projects on proprietary CMS
+            and CRM system, as main developer for few years. Later on in another
+            series of WordPress custom theme development it was one of the main
+            focuses. I have migrated a major commerical platform internal
+            services from PHP into Golang in recent years. PHP is a magic
+            language, easy, a simple file and it works. It got popular for the
+            fact allows plugin systems to work perfectly, that's why many
+            successful shop platforms, such as Magento and Prestashop are built
+            on top of it. Loved the syntax, and it's straightforward OOP model.
+          </p>
+        </section>
+
+        <section className={styles.section}>
+          <h2>Major Frameworks</h2>
+          <p>
+            Understanding a language is great but most of the work usually is
+            done on top of the major frameworks.
+          </p>
+          <h3>Angular 1...18</h3>
+          <p>
+            Started Angular since version 1 in plain JavaScript. Done 2 projects
+            in AngularJs, created build system, cli tools for it. After release
+            of Angular 2, I had to rewrite the project into Angular 2, which was
+            really difficult, basically a deep rewrite. I have worked on many
+            commerical projects with Angular, as well as Angular Material (CDK).
+            The strength of Angular is it's structure, and I love frameworks
+            which do not depend so much on external libraries and Angular has
+            done a perfect job in this area.
+          </p>
+
+          <h3>React</h3>
+          <p>
+            React and React ecosystem undoubtly are major player in terms of
+            front-end, server side rendering, and of course mobile development.
+            I have started working with react since a decade ago. I loved the
+            facted, that it's using classes, because I was coming from C# and
+            Angular background. React major strength is that it has a small
+            footprint, and it's a perfect tool for building fast UIs. In early
+            days, libraries available to it were not that reliable, but in 2020+
+            it has changed mostly. Worked many commerical projects on react and
+            its' ecosystem, it's one of the widest frameworks I have used
+            alongside React Native in my career.
+          </p>
+
+          <h3>Node.js (ecosystem)</h3>
+          <p>
+            Deep and competent knowledge has been built around the node.js eco
+            system, to build different kind of products, mostly focused on
+            traditional backend. I have done pure node.js scripting in it's
+            early days, then done projects in Sails.js framework, and later on
+            Nest.js. Nest.js is the missing part for commercial products in
+            node.js ecosystem, and honestly a copy of Angular in backend side. I
+            can fully conduct entire project in this.
+          </p>
+        </section>
+
+        <section className={styles.section}>
+          <h2>Databases</h2>
+          <p>
+            Through my career I have faced usage of different type of databases,
+            here I'll list the ones I feel most confident.
+          </p>
+
+          <h3>MySQL</h3>
+          <p>
+            Used MySQL with PHP, until to this day is a go to database for me.
+            Worked with it's advanced features, and maintained databases, up to
+            100GB alone in my career. I love to write queries and avoid ORM, if
+            possible in the projects, and I would prefer this product for it's
+            reliablity.
+          </p>
+
+          <h3>SQLite</h3>
+          <p>
+            SQLite has appeared very handy and useful in many places. From
+            mobile applications I have written, until microcontrollers that the
+            only option was SQLite to store data on them. SQLite is a very
+            powerful database, and I have reduced the database maintenance on a
+            few projects to minimum by using it, and even storing files in it.
+            It's quite compatible with MySQL with some small changes, and this
+            gives the power to run similar, if not same structure on a cloud
+            backend and microcontroller project with small amount of ram.
+          </p>
+
+          <h3>MongoDB</h3>
+          <p>
+            Faced Mongodb in couple of projects since it's inception. Having an
+            overall understanding of it's power and limits, can be used for
+            places the data structure is unknown, or snapshots of data is needed
+            instead of relations between them.
+          </p>
+        </section>
+
+        <section className={styles.section}>
+          <h2>Software skills</h2>
+          <p>
+            As a developer, not only I am focused on creating software, I also
+            highly focused on learning other people products to both be able to
+            do more, and as well get inspired.
+          </p>
+          <h3>Autodesk Fusion</h3>
+          <p>
+            Fusion is a Autodesk star, in CAM design and as of recent changes
+            it's possible to do electrical. I have good experience in the
+            product, able to create industrial elements, end to end, preparing
+            blueprints and toolpath for machining parts.
+          </p>
+
+          <h3>KiCad</h3>
+          <p>
+            Kicad is one of my favorite software and I use it for desiginig PCB.
+            It's open-source, missing some features but in general totally can
+            be used for 2 layer PCB projects which I mostly build as prototypes
+            for client or hobby. I have used software for quite sometime.
+          </p>
         </section>
 
         <section className={styles.section}>
@@ -165,6 +284,17 @@ export default function Skills() {
             behavior, texts and so on. Every application finally needs to be
             released, and with my experience it would forward with smallest
             hassles down the road.
+          </p>
+
+          <h3>Advanced cross-platform data structure synchronization</h3>
+          <p>
+            One of my strongest skills in overal software engineering I have
+            created is to share the data layer, in backend, with mobile apps,
+            desktop apps and web app partially, in order to give an application
+            offline feature with the same exact API signature. This is achieved
+            by a series of processes, coming from selective api choices, and
+            compiling parts of backend written in Golang or C, and running them
+            as system service.
           </p>
         </section>
 
