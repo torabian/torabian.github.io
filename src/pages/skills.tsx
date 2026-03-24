@@ -1,16 +1,12 @@
-import React from "react";
+import Link from "@docusaurus/Link";
 import Layout from "@theme/Layout";
-import styles from "./skills.module.css";
 import {
-  skillCategories,
-  languageSkills,
-  otherSkills,
-  futureLanguages,
-  SkillCategory,
   LanguageSkill,
   OtherSkill,
+  otherSkills,
+  SkillCategory,
 } from "../data-sources/data";
-import Link from "@docusaurus/Link";
+import styles from "./skills.module.css";
 
 const languages = [
   {
