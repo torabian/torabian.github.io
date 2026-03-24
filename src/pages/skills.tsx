@@ -363,6 +363,17 @@ export default function Skills() {
             on the protocol.
           </p>
 
+          <h3>Internationalization</h3>
+          <p>
+            I am specialized in creating internationalized digital products, on
+            web, mobile, desktop and other perspectives such as documentations.
+            Working many years in Iran, creating both right to left, and left to
+            right products, with custom calendar system is one of my skills when
+            it comes to building products. It goes as deep as maintaining a
+            multilingual database system, serving different product for specific
+            region and all necessary planning and configuration in between.
+          </p>
+
           <h3>WebSocket</h3>
           <p>
             In early days, I had written a chat system with long-polling and
