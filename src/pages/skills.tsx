@@ -152,6 +152,15 @@ export default function Skills() {
             successful shop platforms, such as Magento and Prestashop are built
             on top of it. Loved the syntax, and it's straightforward OOP model.
           </p>
+
+          <h3>C</h3>
+          <p>
+            I have used C across different projects, all in microcontroller
+            environment. I have good experience on writing reliable, memory leak
+            free code on electronic devices. For me C is very straight forward,
+            yet waiting to see if any language can become close to it's
+            usability in small memory systems.
+          </p>
         </section>
 
         <section className={styles.section}>
@@ -184,6 +193,25 @@ export default function Skills() {
             it has changed mostly. Worked many commerical projects on react and
             its' ecosystem, it's one of the widest frameworks I have used
             alongside React Native in my career.
+          </p>
+
+          <h3>React Native</h3>
+          <p>
+            I have encountered React Native from it's early days, when
+            installing and running a hello world was a major challenge. Still
+            remember, when we were hiring for React Native project at the time,
+            a candidate just was selected, by one my colleauges due to fact he
+            could run it in first few hours. Many things have changed ever, I
+            have built dozens of app in past 10 years which are in React Native,
+            in many different categories.
+          </p>
+
+          <h3>ESP-IDF</h3>
+          <p>
+            Deep experience with features on ESP series microcontrollers, with
+            official SDK coming from the chip. Worked on many core features,
+            advanced WIFI, Hotspot, BLE for creating hardware devices in IoT
+            field, mostly home automation and energy industry.
           </p>
 
           <h3>Node.js (ecosystem)</h3>
@@ -236,6 +264,51 @@ export default function Skills() {
         </section>
 
         <section className={styles.section}>
+          <h2>Libraries</h2>
+          <p>
+            Smaller than programming langauges and frameworks related to them,
+            are the libraries which worth to mention.
+          </p>
+          <h3>Cypress testing framework.</h3>
+          <p>
+            Got hands on experience on the framework since it came out, Cypress
+            is a great tool for doing all kind of testings. I have used it
+            successfully both on testing front-end projects, Angular, React, and
+            websites, as well as it used it few times for running integration
+            tests with backend. A perfect solution to write e2e tests overall,
+            with some challenges on cookies in the past.
+          </p>
+
+          <h3>Katex</h3>
+          <p>
+            Katex is formula writing library, and is doing a perfect job when
+            you need to work on scientific projects. I've used it in a product
+            that managed question bank, and authors needed to write the formulas
+            down, and we moved away from embedding pictures into using Katex.
+          </p>
+
+          <h3>Jest, React Testing Library</h3>
+          <p>
+            Writing tests for logic control, mostly on non-ui interactions is a
+            favorite task for me. When there are complicated calculations, for
+            example in time-series operation, I'd write tests to make sure pure
+            functions are working properly. React testing library also seems
+            promising, I have used it to test the logic of components rendering,
+            in React and React Native.
+          </p>
+
+          <h3>TinyMCE Text Editor</h3>
+          <p>
+            Many projects over past 2 decades needed a rich text editor, and
+            TinyMCE is my favorite. I am keen to see if there will be an easy
+            replacement, such as Gotenburg in WordPress, but still TinyMCE is
+            one of top options to go. One of challenges I had was adding formula
+            writing to it, using Katex and it really made me to be very focused
+            unti getting the task done.
+          </p>
+        </section>
+
+        <section className={styles.section}>
           <h2>Software skills</h2>
           <p>
             As a developer, not only I am focused on creating software, I also
@@ -273,6 +346,35 @@ export default function Skills() {
             client software. Implemented both client, and setup for on-premise
             broker, MQTT remains one of my skills, which also actively used on
             my own IP owned products, such as Meshora.
+          </p>
+
+          <h3>E-Commerce Systems</h3>
+          <p>
+            During my career, I have encountered projects which helped me to
+            learn deeper shops systems, such as WooCommerece and Prestashop, and
+            later on those experiences has been applied to commerical custom
+            built systems using Node.js and Golang. Deep understanding of the
+            online ecommerce platforms, inventory management, product info
+            caching, custom fields, recursive category management and storage in
+            database are unique experience in journey and shop systems.
+          </p>
+
+          <h3>OpenTherm</h3>
+          <p>
+            As a part of my IoT knowledge and experience, I had the chance to
+            dig deeper in OpenTherm protocol, both as Master and Slave, writing
+            communication code, simulations, and debugging actual boiler systems
+            on the protocol.
+          </p>
+
+          <h3>WebSocket</h3>
+          <p>
+            In early days, I had written a chat system with long-polling and
+            even page refresh in IE browser. Since WebSockets came out, if was
+            revolutionary for many projects which worked later on. I have deep
+            experience on both sending text and binary data over WebSockets,
+            managing load-balanced systems notification via sockets, and even
+            streaming audio content, are a part of my history.
           </p>
 
           <h3>AppStore and Google Play Management</h3>
