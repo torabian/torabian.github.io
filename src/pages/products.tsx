@@ -32,7 +32,11 @@ export default function Products() {
                 >
                   {hasThumb && (
                     <div className={styles.thumb}>
-                      <img src={product.thumbnail} alt={product.title} />
+                      <img
+                        style={{ maxHeight: "400px" }}
+                        src={product.thumbnail}
+                        alt={product.title}
+                      />
                     </div>
                   )}
                   <div className={styles.productHeader}>
@@ -50,7 +54,7 @@ export default function Products() {
                     </p>
                     <div className={styles.productFeatures}>
                       <ul>
-                        {product.features.slice(0, 3).map((feature, idx) => (
+                        {product.features.slice(0, 5).map((feature, idx) => (
                           <li key={idx}>{feature}</li>
                         ))}
                         {product.features.length > 3 && (

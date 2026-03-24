@@ -944,10 +944,12 @@ export const products: Product[] = [
     ],
     status: "active",
     lastUpdated: "2024-01-15",
+    thumbnail: "/fireback-logo.svg",
   },
   {
     id: "emi",
     title: "Emi",
+    thumbnail: "/emi-flowchart.png",
     type: "Compiler",
     mainVideo: "https://www.youtube.com/embed/p_hkbarIQjM?si=_wFU_XarYwcXDfHK",
     description:
@@ -1055,8 +1057,8 @@ export const products: Product[] = [
     lastUpdated: "2025-10-16",
   },
   {
-    id: "meshora-thermo",
-    title: "Meshora Thermo",
+    id: "meshora-opentherm",
+    title: "Meshora Opentherm",
     type: "DIY Heating Control",
     description:
       "Meshora Thermo — a DIY-friendly heat control system for underfloor heating circuits, pumps and wood-burner automation with live monitoring and consumption tracking.",
