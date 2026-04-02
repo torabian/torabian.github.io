@@ -277,6 +277,19 @@ export default function Skills() {
             with some challenges on cookies in the past.
           </p>
 
+          <h3>Three.js (React Three Fiber)</h3>
+          <p>
+            I have experience with Three.js and React Three Fiber, creating
+            interactive 3D web applications and immersive VR/AR experiences. I
+            build dynamic scenes, integrate 3D models and animations, and craft
+            engaging, responsive interfaces that combine visual appeal with
+            real-time interactivity. Maybe tak a look at{" "}
+            <a target="_blank" href="https://torabian.github.io/izadom">
+              https://torabian.github.io/izadom
+            </a>{" "}
+            for one of my major works in three fiber and react.js.
+          </p>
+
           <h3>Docusaurus (Project documentation)</h3>
           <p>
             Experienced in building and maintaining documentation platforms
