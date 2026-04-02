@@ -21,16 +21,16 @@ export default function Home() {
         <section className={styles.hero}>
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-sm-12 col-md-6">
+              <div className="col-sm-12 col-md-8">
                 <div className={styles.heroText}>
                   <h1>{generalInfo.introductionTitle}</h1>
                   <p>{generalInfo.introductionLine}</p>
                 </div>
               </div>
-              <div className="col-sm-12 col-md-6 text-center">
+              <div className="col-sm-12 col-md-4 text-center">
                 <img
                   className={styles.heroImg}
-                  src="/ali/ali3.png"
+                  src="/ali/2026-04-02-ali-round.jpeg"
                   alt="Ali Torabi"
                 />
               </div>
@@ -40,8 +40,12 @@ export default function Home() {
 
         {/* Products */}
         <section className={styles.fullSection}>
-          <h2>Products</h2>
-          <p>Quick overview of products I have built and owning the IP work</p>
+          <div style={{ padding: "0 15px" }}>
+            <h2>Products</h2>
+            <p>
+              Quick overview of products I have built and owning the IP work
+            </p>
+          </div>
           <div className="container">
             <div className="row d-flex align-items-stretch">
               {products
