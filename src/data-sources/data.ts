@@ -953,7 +953,7 @@ export const products: Product[] = [
     type: "Compiler",
     mainVideo: "https://www.youtube.com/embed/p_hkbarIQjM?si=_wFU_XarYwcXDfHK",
     description:
-      "The Emi compiler - a cutting-edge compilation tool for modern software development.",
+      "Emi Backend-For-Frontend code generation tool, converting project specification to Backend and Client boilerplate.",
     details:
       "Emi is an advanced compiler that brings innovative compilation techniques to help developers optimize their code, improve performance, and streamline the build process. It supports multiple languages and provides intelligent code analysis, dead code elimination, and advanced optimization strategies.",
     links: {
@@ -963,8 +963,7 @@ export const products: Product[] = [
     },
     trainingRelated: ["emi-compiler-training"],
     features: [
-      "Multi-language support (Go, JavaScript, TypeScript)",
-      "Advanced dead code elimination",
+      "Intuitive yaml definition",
       "Intelligent optimization algorithms",
       "Parallel compilation support",
       "Cross-platform compatibility",
@@ -1234,29 +1233,6 @@ export const skillCategories: SkillCategory[] = [
       { title: "PHP" },
       { title: "WordPress" },
     ],
-  },
-];
-
-export const otherSkills: OtherSkill[] = [
-  {
-    category: "Technical Certifications",
-    skills: ["Polish G1", "Polish G2", "Polish G3"],
-    description: "Polish technical certifications",
-  },
-  {
-    category: "Installation & Maintenance",
-    skills: ["Heating system installation", "Gas boiler installations"],
-    description: "Technical installation and maintenance skills",
-  },
-  {
-    category: "Design & Creative",
-    skills: ["3D design"],
-    description: "Creative and design capabilities",
-  },
-  {
-    category: "Driving Licenses",
-    skills: ["C driving license", "C+E driving license"],
-    description: "Professional driving qualifications",
   },
 ];
 

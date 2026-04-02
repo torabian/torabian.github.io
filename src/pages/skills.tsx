@@ -1,11 +1,6 @@
 import Link from "@docusaurus/Link";
 import Layout from "@theme/Layout";
-import {
-  LanguageSkill,
-  OtherSkill,
-  otherSkills,
-  SkillCategory,
-} from "../data-sources/data";
+import { LanguageSkill, OtherSkill, SkillCategory } from "../data-sources/data";
 import styles from "./skills.module.css";
 
 const languages = [
@@ -13,7 +8,7 @@ const languages = [
     name: "Persian(Farsi)",
     description: "Born and rised with the language",
     level: "C1/C2",
-    proof: "-",
+    proof: "Professional skilled in writing",
   },
   {
     name: "English",
@@ -45,7 +40,7 @@ const languages = [
     name: "Russian",
     description: "Slowly reading the texts, understanding in passive mode",
     level: "A1",
-    proof: "-",
+    proof: "Basic conversation, reading Russian texts",
   },
 ];
 
@@ -98,12 +93,12 @@ export default function Skills() {
           </p>
           <h3>Golang</h3>
           <p>
-            Extreamly passionate about Go, as an ecosystem and language, simple,
+            Extremely passionate about Go, as an ecosystem and language, simple,
             fast, compiled, small and easy to work with. I have built and
             contributed to dozens of projects in my programming journey, and
-            still thinking what can in future reach the level of reliablity of
+            still thinking what can in future reach the level of reliability of
             this language. My favorite features are cross compiling, goroutines
-            and it's simple package management service. I would use golang for
+            and its simple package management service. I would use golang for
             most cases, specially desktop apps, cli apps, shared common
             libraries, web servers, database tasks.
             <br />
@@ -115,24 +110,25 @@ export default function Skills() {
             <a href="https://torabian.github.io/emi/playground" target="_blank">
               Emi
             </a>
-            , are two flagship opensource products I have developed, and
-            Fireback easily could be said is one of most opiniated and
+            , are two flagship open-source products I have developed, and
+            Fireback easily could be said is one of most opinionated and
             complicated frameworks out there in Golang.
           </p>
 
-          <h3>JavaScript</h3>
+          <h3>JavaScript(?TypeScript)</h3>
           <p>
-            When I was learning VBScript, I've realised also a language is
+            When I was learning VBScript, I've realized also a language is
             gaining popularity which is called JavaScript. At the time VBScript
             was also actively used for web page interactions. My experience with
             JavaScript says it's gonna be around for decades to come, due to
-            wide spread, loosly typed features. Many people critise the language
-            for it's lack of type system, that's exactly what has made it so
-            famous and widely accepted. In fact that's its power, not weakness.
-            Amount of lines of code I have written in JavaScript is almost
-            countless, both in node.js, browser, electron.js, react native,
-            ionic, pure vanilla JavaScript, and yet believe it or not, years of
-            writing jQuery and maintaing custom created JavaScript libraries.
+            widespread, loosely typed features. Many people criticize the
+            language for its lack of type system, that's exactly what has made
+            it so famous and widely accepted. In fact that's its power, not
+            weakness. Amount of lines of code I have written in JavaScript is
+            almost countless, both in node.js, browser, electron.js, react
+            native, ionic, pure vanilla JavaScript, and yet believe it or not,
+            years of writing jQuery and maintaining custom created JavaScript
+            libraries.
           </p>
 
           <h3>PHP</h3>
@@ -141,21 +137,23 @@ export default function Skills() {
             earlier than 2006. Used PHP for multiple projects on proprietary CMS
             and CRM system, as main developer for few years. Later on in another
             series of WordPress custom theme development it was one of the main
-            focuses. I have migrated a major commerical platform internal
+            focuses. I have migrated a major commercial platform internal
             services from PHP into Golang in recent years. PHP is a magic
             language, easy, a simple file and it works. It got popular for the
             fact allows plugin systems to work perfectly, that's why many
             successful shop platforms, such as Magento and Prestashop are built
-            on top of it. Loved the syntax, and it's straightforward OOP model.
+            on top of it. Loved the syntax, and its straightforward OOP model.
           </p>
 
           <h3>C</h3>
           <p>
-            I have used C across different projects, all in microcontroller
+            I have used C across different projects, all in micro-controller
             environment. I have good experience on writing reliable, memory leak
-            free code on electronic devices. For me C is very straight forward,
-            yet waiting to see if any language can become close to it's
-            usability in small memory systems.
+            free code on electronic devices. For me C is very straightforward,
+            yet waiting to see if any language can become close to its usability
+            in small memory systems. Mostly focused on esp-idf platform, have a
+            good understanding of general purpose c code for small memory
+            devices.
           </p>
         </section>
 
@@ -171,51 +169,55 @@ export default function Skills() {
             in AngularJs, created build system, cli tools for it. After release
             of Angular 2, I had to rewrite the project into Angular 2, which was
             really difficult, basically a deep rewrite. I have worked on many
-            commerical projects with Angular, as well as Angular Material (CDK).
-            The strength of Angular is it's structure, and I love frameworks
+            commercial projects with Angular, as well as Angular Material (CDK).
+            The strength of Angular is its structure, and I love frameworks
             which do not depend so much on external libraries and Angular has
             done a perfect job in this area.
           </p>
 
           <h3>React</h3>
           <p>
-            React and React ecosystem undoubtly are major player in terms of
+            React and React ecosystem undoubtedly are major player in terms of
             front-end, server side rendering, and of course mobile development.
             I have started working with react since a decade ago. I loved the
-            facted, that it's using classes, because I was coming from C# and
+            fact, that it's using classes, because I was coming from C# and
             Angular background. React major strength is that it has a small
             footprint, and it's a perfect tool for building fast UIs. In early
             days, libraries available to it were not that reliable, but in 2020+
-            it has changed mostly. Worked many commerical projects on react and
+            it has changed mostly. Worked many commercial projects on react and
             its' ecosystem, it's one of the widest frameworks I have used
             alongside React Native in my career.
           </p>
 
           <h3>React Native</h3>
           <p>
-            I have encountered React Native from it's early days, when
-            installing and running a hello world was a major challenge. Still
-            remember, when we were hiring for React Native project at the time,
-            a candidate just was selected, by one my colleauges due to fact he
+            I have encountered React Native from its early days, when installing
+            and running a hello world was a major challenge. Still remember,
+            when we were hiring for React Native project at the time, a
+            candidate just was selected, by one my colleagues due to fact he
             could run it in first few hours. Many things have changed ever, I
-            have built dozens of app in past 10 years which are in React Native,
-            in many different categories.
+            have built dozens of apps in past 10 years which are in React
+            Native, in many different categories.
           </p>
 
           <h3>ESP-IDF</h3>
           <p>
-            Deep experience with features on ESP series microcontrollers, with
-            official SDK coming from the chip. Worked on many core features,
-            advanced WIFI, Hotspot, BLE for creating hardware devices in IoT
-            field, mostly home automation and energy industry.
+            Deep experience with ESP series micro-controllers using vendor SDKs
+            (ESP-IDF). Worked extensively with advanced Wi-Fi (station/AP,
+            provisioning, hotspot), BLE (GATT server/client), and dual-mode
+            connectivity for IoT devices, primarily in home automation and
+            energy systems. Experienced in FreeRTOS-based development, low-power
+            modes, OTA updates, secure communication (TLS), MQTT/HTTP protocols,
+            peripheral integration (GPIO, UART, SPI, I2C, ADC), and real-time
+            device control.
           </p>
 
           <h3>Node.js (ecosystem)</h3>
           <p>
-            Deep and competent knowledge has been built around the node.js eco
-            system, to build different kind of products, mostly focused on
-            traditional backend. I have done pure node.js scripting in it's
-            early days, then done projects in Sails.js framework, and later on
+            Deep and competent knowledge has been built around the node.js
+            ecosystem, to build different kinds of products, mostly focused on
+            traditional backend. I have done pure node.js scripting in its early
+            days, then done projects in Sails.js framework, and later on
             Nest.js. Nest.js is the missing part for commercial products in
             node.js ecosystem, and honestly a copy of Angular in backend side. I
             can fully conduct entire project in this.
@@ -234,26 +236,26 @@ export default function Skills() {
             Used MySQL with PHP, until to this day is a go to database for me.
             Worked with it's advanced features, and maintained databases, up to
             100GB alone in my career. I love to write queries and avoid ORM, if
-            possible in the projects, and I would prefer this product for it's
-            reliablity.
+            possible in the projects, and I would prefer this product for its
+            reliability.
           </p>
 
           <h3>SQLite</h3>
           <p>
             SQLite has appeared very handy and useful in many places. From
-            mobile applications I have written, until microcontrollers that the
+            mobile applications I have written, until micro-controllers that the
             only option was SQLite to store data on them. SQLite is a very
             powerful database, and I have reduced the database maintenance on a
             few projects to minimum by using it, and even storing files in it.
             It's quite compatible with MySQL with some small changes, and this
             gives the power to run similar, if not same structure on a cloud
-            backend and microcontroller project with small amount of ram.
+            backend and micro-controller project with small amount of ram.
           </p>
 
           <h3>MongoDB</h3>
           <p>
-            Faced Mongodb in couple of projects since it's inception. Having an
-            overall understanding of it's power and limits, can be used for
+            Faced Mongodb in couple of projects since its inception. Having an
+            overall understanding of its power and limits, can be used for
             places the data structure is unknown, or snapshots of data is needed
             instead of relations between them.
           </p>
@@ -262,7 +264,7 @@ export default function Skills() {
         <section className={styles.section}>
           <h2>Libraries</h2>
           <p>
-            Smaller than programming langauges and frameworks related to them,
+            Smaller than programming languages and frameworks related to them,
             are the libraries which worth to mention.
           </p>
           <h3>Cypress testing framework.</h3>
@@ -275,12 +277,34 @@ export default function Skills() {
             with some challenges on cookies in the past.
           </p>
 
+          <h3>Docusaurus (Project documentation)</h3>
+          <p>
+            Experienced in building and maintaining documentation platforms
+            using Docusaurus. Skilled in configuring versioned docs, custom
+            themes, and plugins, as well as writing and structuring Markdown/MDX
+            content. Familiar with integrating search, localization (i18n), and
+            deployment workflows (CI/CD), ensuring scalable, well-organized, and
+            developer-friendly documentation sites.
+          </p>
+
           <h3>Katex</h3>
           <p>
             Katex is formula writing library, and is doing a perfect job when
             you need to work on scientific projects. I've used it in a product
             that managed question bank, and authors needed to write the formulas
             down, and we moved away from embedding pictures into using Katex.
+          </p>
+
+          <h3>Maps & Geography (Google, Open-street map)</h3>
+          <p>
+            Hands-on experience integrating Google Maps and OpenStreetMap in
+            React, React Native, Angular, and vanilla JavaScript. Implemented
+            custom markers, clustering, and interactive overlays (polylines,
+            polygons, drawing tools), with event handling and map state
+            management. Worked with Geocoding/Reverse Geocoding APIs, address
+            autocomplete, and coordinate transformations. Familiar with map
+            performance optimization, mobile responsiveness, and integration of
+            third-party location services.
           </p>
 
           <h3>Jest, React Testing Library</h3>
@@ -297,10 +321,10 @@ export default function Skills() {
           <p>
             Many projects over past 2 decades needed a rich text editor, and
             TinyMCE is my favorite. I am keen to see if there will be an easy
-            replacement, such as Gotenburg in WordPress, but still TinyMCE is
+            replacement, such as Gotenberg in WordPress, but still TinyMCE is
             one of top options to go. One of challenges I had was adding formula
             writing to it, using Katex and it really made me to be very focused
-            unti getting the task done.
+            until getting the task done.
           </p>
         </section>
 
@@ -316,12 +340,12 @@ export default function Skills() {
             Fusion is a Autodesk star, in CAM design and as of recent changes
             it's possible to do electrical. I have good experience in the
             product, able to create industrial elements, end to end, preparing
-            blueprints and toolpath for machining parts.
+            blueprints and tool-path for machining parts.
           </p>
 
           <h3>KiCad</h3>
           <p>
-            Kicad is one of my favorite software and I use it for desiginig PCB.
+            Kicad is one of my favorite software and I use it for designing PCB.
             It's open-source, missing some features but in general totally can
             be used for 2 layer PCB projects which I mostly build as prototypes
             for client or hobby. I have used software for quite sometime.
@@ -337,22 +361,35 @@ export default function Skills() {
           </p>
           <h3>MQTT</h3>
           <p>
-            Deep experience with building MQTT centeric products, which require
+            Deep experience with building MQTT centric products, which require
             realtime full-duplex communication between servers, devices, and
             client software. Implemented both client, and setup for on-premise
             broker, MQTT remains one of my skills, which also actively used on
             my own IP owned products, such as Meshora.
           </p>
 
+          <h3>Bluetooth (BLE)</h3>
+          <p>
+            Strong experience with Bluetooth Classic and BLE across ESP
+            micro-controllers, STM-based circuits, Ubuntu desktop environments,
+            and React Native applications. Skilled in implementing GATT
+            server/client architectures, device provisioning, pairing/bonding,
+            and real-time data exchange. Worked with low-level drivers and
+            vendor SDKs, as well as higher-level libraries for mobile
+            integration, ensuring reliable connectivity, performance
+            optimization, and cross-platform interoperability.
+          </p>
+
           <h3>E-Commerce Systems</h3>
           <p>
             During my career, I have encountered projects which helped me to
-            learn deeper shops systems, such as WooCommerece and Prestashop, and
-            later on those experiences has been applied to commerical custom
-            built systems using Node.js and Golang. Deep understanding of the
-            online ecommerce platforms, inventory management, product info
-            caching, custom fields, recursive category management and storage in
-            database are unique experience in journey and shop systems.
+            learn deeper shops systems, such as <b>WooCommerece</b> and{" "}
+            <b>Prestashop</b>, and later on those experiences has been applied
+            to commercial custom built systems using Node.js and Golang. Deep
+            understanding of the online e-commerce platforms, inventory
+            management, product info caching, custom fields, recursive category
+            management and storage in database are unique experience in journey
+            and shop systems.
           </p>
 
           <h3>OpenTherm</h3>
@@ -386,7 +423,7 @@ export default function Skills() {
 
           <h3>AppStore and Google Play Management</h3>
           <p>
-            I can controll the entire application release process, from codebase
+            I can control the entire application release process, from codebase
             until it's reachable via stores to end user. This process includes
             setting CI/CD, creating products in stores, deep knowledge of
             approval process specially for Apple, details touching design,
@@ -397,7 +434,7 @@ export default function Skills() {
 
           <h3>Advanced cross-platform data structure synchronization</h3>
           <p>
-            One of my strongest skills in overal software engineering I have
+            One of my strongest skills in overall software engineering I have
             created is to share the data layer, in backend, with mobile apps,
             desktop apps and web app partially, in order to give an application
             offline feature with the same exact API signature. This is achieved
@@ -418,17 +455,6 @@ export default function Skills() {
           </p>
           <LanguageTable />
           <br />
-          As a future goal for language learning, I am considering between
-          following options:
-          <ul>
-            <li>Jumping B1/B2 level in Turkish</li>
-            <li>Jumping B2/C1 level in Polish</li>
-            <li>Spanish B1</li>
-            <li>Russian B1</li>
-            <li>Armenian B1</li>
-          </ul>
-          The decision is not made yet, based on other priorities in personal
-          life at this moment.
         </section>
 
         {/* Other Skills */}
@@ -438,15 +464,38 @@ export default function Skills() {
             I can carry independently entire operation of building single family
             concrete based houses, compatible with Polish laws.
           </p>
-          <div className={styles.otherSkillsGrid}>
-            {otherSkills.map((skillGroup, index) => (
-              <OtherSkillCard key={index} skillGroup={skillGroup} />
-            ))}
-          </div>
+
+          <h3>Heating system design and implementation (G3)</h3>
+          <p>
+            Independent designer of underfloor heating, gas, and multi-room
+            systems using Vaillant and Viessmann solutions. Experienced in heat
+            load calculations, hydraulic design, and PEX piping layout,
+            including manifolds, pumps, and boilers. Skilled in zoned and smart
+            control integration, delivering efficient and standards-compliant
+            system designs.
+          </p>
+
+          <h3>Residential electric design and implementation (G1)</h3>
+          <p>
+            Experienced in residential electrical installations, including
+            circuit design, load calculation, panel layout, and wiring for
+            lighting, sockets, and dedicated systems. Skilled in reading and
+            creating technical schematics, selecting protective devices, and
+            ensuring compliance with safety standards and regulations.
+          </p>
+
+          <h3>Smart and intelligence solutions</h3>
+          <p>
+            Proficient in designing and implementing smart home systems,
+            including automation of lighting, heating, and security. Experienced
+            with integrating sensors, controllers, and IoT devices, enabling
+            remote control, energy optimization, and scalable home automation
+            solutions.
+          </p>
         </section>
 
         <section className={styles.section}>
-          <h2>Semi/None professional licenses</h2>
+          <h2>Semi/Non-professional licenses</h2>
           <p>
             Besides professional life, I have some other licenses which allows
             me to conduct tasks.
