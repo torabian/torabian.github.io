@@ -21,7 +21,7 @@ export default function IzadomProduct() {
     if (isIframeReady && iframeRef.current) {
       iframeRef.current.contentWindow?.postMessage(
         { type: "loadData", payload: demoDrawing },
-        "*"
+        "*",
       );
     }
   }, [isIframeReady, demoDrawing]);
@@ -47,21 +47,7 @@ export default function IzadomProduct() {
 
   return (
     <>
-      <ProductPage product={product!}>
-        <h3>Demo</h3>
-
-
-
-        <button onClick={handleFullscreen}>Fullscreen</button>
-
-        <iframe
-          allowFullScreen
-          ref={iframeRef}
-          src="https://torabian.github.io/izadom/"
-          width={"100%"}
-          style={{ height: "60vh" }}
-        />
-      </ProductPage>
+      <ProductPage product={product!}></ProductPage>
     </>
   );
 }

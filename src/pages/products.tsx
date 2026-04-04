@@ -33,7 +33,7 @@ export default function Products() {
                   {hasThumb && (
                     <div className={styles.thumb}>
                       <img
-                        style={{ maxHeight: "400px" }}
+                        style={{ maxHeight: "250px" }}
                         src={product.thumbnail}
                         alt={product.title}
                       />

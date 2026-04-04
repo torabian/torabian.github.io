@@ -27,10 +27,3 @@ You can control with single device valves up to 12, to separate the room
 temperature, with additional Meshora Room Control.
 
 <img src="/meshora-thermo/demo.png" style={{'width': '400px'}} />
-
-<iframe
-    allowFullScreen
-    src="https://torabian.github.io/meshora-thermo/"
-    width={"100%"}
-    style={{ height: "60vh" }}
-/>
