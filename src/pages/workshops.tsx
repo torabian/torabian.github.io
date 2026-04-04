@@ -79,15 +79,6 @@ export default function Workshops() {
                       </span>
                     </div>
                   </div>
-                  <button
-                    className={styles.expandButton}
-                    onClick={() => toggleWorkshop(workshop.id)}
-                    aria-label={`${
-                      expandedWorkshop === workshop.id ? "Collapse" : "Expand"
-                    } workshop details`}
-                  >
-                    {expandedWorkshop === workshop.id ? "−" : "+"}
-                  </button>
                 </div>
 
                 <div className={styles.workshopDescription}>

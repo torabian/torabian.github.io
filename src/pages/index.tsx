@@ -62,10 +62,17 @@ export default function Home() {
                         className={`${styles.productCard} ${
                           hasThumb ? styles.productCardWithThumb : ""
                         }`}
+                        style={{ alignItems: "center" }}
                       >
                         {hasThumb && (
-                          <div className={styles.thumb}>
-                            <img src={product.thumbnail} alt={product.title} />
+                          <div style={{ minWidth: "250px" }}>
+                            <Link to={`/product/${product.id}`}>
+                              <img
+                                src={product.thumbnail}
+                                style={{ width: "250px", maxHeight: "250px" }}
+                                alt={product.title}
+                              />
+                            </Link>
                           </div>
                         )}
                         <div className={hasThumb ? styles.content : ""}>
