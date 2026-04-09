@@ -154,14 +154,14 @@ export default function TrainingViewer({ training }: { training: Training }) {
                   </div>
                 )}
 
-                <div className={styles.chapterActions}>
+                {/* <div className={styles.chapterActions}>
                   <button className={styles.watchButton}>
                     {selectedChapter.videoUrl ? "Watch Video" : "Read Content"}
                   </button>
                   <button className={styles.completeButton}>
                     Mark as Complete
                   </button>
-                </div>
+                </div> */}
               </div>
             ) : (
               <div className={styles.noChapterSelected}>

@@ -184,12 +184,12 @@ export default function WorkshopViewer({ workshop }: { workshop: Workshop }) {
                   <ReactMarkdown>{selectedSection.content?.trim()}</ReactMarkdown>
                 </div>
 
-                <div className={styles.sectionActions}>
+                {/* <div className={styles.sectionActions}>
                   <button className={styles.completeButton}>
                     Mark as Complete
                   </button>
                   <button className={styles.nextButton}>Next Section</button>
-                </div>
+                </div> */}
               </div>
             ) : (
               <div className={styles.noSectionSelected}>
