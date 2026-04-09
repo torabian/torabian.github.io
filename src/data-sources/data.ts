@@ -766,9 +766,29 @@ export const products: Product[] = [
     ),
     type: "Web Framework",
     description:
-      "A full-stack Golang framework for rapidly building web, mobile, and desktop apps — with built-in backend and client code generation.",
+      "A full-stack Golang framework for rapidly building web, mobile, and desktop apps — with built-in backend and client code generation. Based on famous libraries, such as gin, gorm, go-migrate, react.js, and emi compiler for JavaScript, TypeScript, Swift, Kotlin.",
     details:
-      "Fireback provides a comprehensive set of tools and utilities for Go developers, including routing, middleware, database integration, and more. It's designed to streamline the development process while maintaining high performance and scalability. Built with modern Go practices and designed for both beginners and experienced developers.",
+      `
+      Fireback is highly opinionated framework, which allows to write backend code in Golang, and generation of clients [such that api calls are facilitated]
+      in different famous targets, such as React.js. Fireback itself includes a backend project, which
+      allows you to create backend based on Gin, Gorm, and provides a lot of helpers. Fireback gives you
+      a basic structure, allows nested modules, and helps you to write any kind of project, such as traditional
+      backend, system service, desktop apps using Golang and Electron.js (and Wails).
+      
+      Fireback allows every action to be available both on cli and http, and it's very easy to add
+      other protocols, such as MQTT in between. Load balancing and multiple instance running is also
+      considered. Websocket connection on such scenarios is also available by default.
+      
+      Fireback comes with an ABAC module, on top of core, and you can use that to give your project a role, permission,
+      user management out of the box, and extend functionality there.
+
+      Fireback React.js project both is used to create new projects, or be installed as self-service, which is super useful
+      on projects you do not want to maintain such code, and by redirecting user to authentication page and getting
+      token or cookie, this feature is done.
+
+      ABAC module database structure allows for very complex projects itself, and got inspired by successful 
+      multi-tenant highly customized role permission projects in the past.
+      `,
     links: {
       github: "https://github.com/torabian/fireback",
       documentation: "https://torabian.github.io/fireback/docs/intro",
