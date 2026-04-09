@@ -1,0 +1,53 @@
+{
+  "particles": [
+    {
+      "element": {
+        "resolver": "AddRcStructure",
+        "content": {
+          "name": "House",
+          "totalFloors": "4",
+          "width": 750,
+          "length": 1000,
+          "height": 350
+        }
+      },
+      "position": [
+        -419.2007108954666,
+        0,
+        -436.29178181023735
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "362ebe7e-f2a8-4f1f-ac72-2658789ded6d",
+      "name": "House"
+    }
+  ],
+  "gridConfig": {
+    "width": 1000,
+    "height": 1000,
+    "cellSize": 50,
+    "cellThickness": 0.5,
+    "sectionSize": 250,
+    "sectionThickness": 2,
+    "fadeDistance": 3000,
+    "fadeStrength": 1,
+    "cellColor": "#b5d0f1",
+    "sectionColor": "#859bff"
+  },
+  "camera": {
+    "position": [
+      -1193.8053902705224,
+      1491.0491326586496,
+      -1224.1800582858245
+    ],
+    "target": [
+      169.26005846279418,
+      543.4079423680375,
+      323.1052363082826
+    ]
+  }
+}
