@@ -8,6 +8,7 @@
           "totalFloors": "4",
           "width": 750,
           "length": 1000,
+          "slantRoof": true,
           "height": 350
         }
       },
