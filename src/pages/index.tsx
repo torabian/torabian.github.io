@@ -9,6 +9,27 @@ import {
   workshops,
 } from "../data-sources/data";
 
+function getExcerpt(text: string) {
+  if (!text) return "";
+
+  const sentences = text
+    .split(".")
+    .map(s => s.trim())
+    .filter(Boolean);
+
+  let result = [];
+  let wordCount = 0;
+
+  for (const sentence of sentences) {
+    const words = sentence.split(/\s+/).filter(Boolean);
+    if (wordCount + words.length > 100) break;
+
+    result.push(sentence);
+    wordCount += words.length;
+  }
+
+  return result.length ? result.join(". ") + "." : "";
+}
 export default function Home() {
   const workshop = workshops[0];
   return (
@@ -85,7 +106,7 @@ export default function Home() {
                             {product.description}
                           </p>
                           <p className={styles.productDetails}>
-                            {product.details}
+                            {getExcerpt(product.details)}
                           </p>
                         </div>
                       </div>
