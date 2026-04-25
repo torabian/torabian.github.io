@@ -1,6 +1,6 @@
 import Layout from "@theme/Layout";
 import styles from "./skills.module.css";
-import { LatexEmploymentViewer } from "./latex_tools";
+import { LatexEmploymentViewer } from "../components/latex_tools";
 
 interface ProgrammingLangauge {
   uniqueId: string;
