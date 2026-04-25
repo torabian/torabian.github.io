@@ -307,6 +307,11 @@ export default function Skills() {
         </div>
 
         <section className={styles.section}>
+          <a target="_blank" href="/ali/ali-torabi-2026.pdf">
+            Download PDF Version for contracts and recruitment purposes.
+          </a>
+        </section>
+        <section className={styles.section}>
           <h2>Major programming languages</h2>
           <p>
             I am writing code since age 9, therefore over all these years of
