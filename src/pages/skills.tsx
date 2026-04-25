@@ -1,7 +1,227 @@
-import Link from "@docusaurus/Link";
 import Layout from "@theme/Layout";
-import { LanguageSkill, OtherSkill, SkillCategory } from "../data-sources/data";
 import styles from "./skills.module.css";
+import { LatexEmploymentViewer } from "./latex_tools";
+
+interface ProgrammingLangauge {
+  uniqueId: string;
+  title: string;
+}
+
+interface Industry {
+  uniqueId: string;
+  title: string;
+}
+
+const ProgrammingLanguagesMap: { [key: string]: ProgrammingLangauge } = {
+  jsts: {
+    title: "JavaScript/TypeScript?",
+    uniqueId: "jsts",
+  },
+};
+
+const industries: Industry[] = [
+  {
+    uniqueId: "energy",
+    title: "Energy",
+  },
+];
+
+const visa: EmployeeHistory = {
+  officialTitle: "Front-end Engineer",
+
+  start: new Date(2021, 5, 1), // June 2021
+  end: new Date(2023, 4, 1), // May 2023
+
+  industries: [], // add finance / banking industry if you have it
+
+  programming_languages: [], // e.g. JS/TS if you want
+
+  employerBlindName: "Major European Investment Bank (Banking Platform)",
+  employerPublic: "VISA",
+
+  excerpt: `Highly complex front-end banking tool for auditing currency exchange operations for a major European investment bank.`,
+
+  duties_conducted: [
+    "Handling rendering of nested objects with column locking and drag-and-drop reordering",
+    "Engineering advanced searching, filtering, and backend-driven cascading custom sorts",
+    "Designing multiple editing capabilities, view snapshots, and CSV/PDF export generation",
+    "Creating expandable rows for extra details while maintaining strict visual alignment",
+  ],
+};
+
+const tomsanat_llc: EmployeeHistory = {
+  officialTitle: "Software Engineer",
+
+  start: new Date(2023, 1, 1), // Feb 2023
+  end: new Date(2024, 1, 1), // Feb 2024
+
+  industries: [], // add your matching industry here
+
+  programming_languages: [], // add relevant ones if needed
+
+  employerBlindName: "Insurance / ERP SaaS Company",
+  employerPublic: "TOMSANAT LLC",
+
+  excerpt: `Insurance company internal ERP tooling SaaS product built from scratch to convert insurance leads into customers. Created "Fireback", an opinionated backend framework (Gin, Laravel, Nest.js replacement) supporting rapid UI generation and complex routing.`,
+
+  duties_conducted: [
+    "Creating a single executable CLI binary to reduce backend deployment pain",
+    "Implementing frontend lazy loading, custom styling, search functionality, and keyboard accessibility",
+    "Engineering the Fireback framework with multi-lingual support, SQL Pivot, gRPC, and built-in Socket entities",
+  ],
+};
+
+interface EmployeeHistory {
+  officialTitle: string;
+  start?: Date;
+  end?: Date;
+  industries: Industry[];
+  duties_conducted: string[];
+  programming_languages: ProgrammingLangauge[];
+  employerBlindName: string;
+  employerPublic: string;
+  excerpt: string;
+}
+
+const lohebartar_publication: EmployeeHistory = {
+  officialTitle: "C# & PHP Developer",
+
+  start: new Date(2009, 0, 1), // Jan 2009
+  end: new Date(2014, 3, 1), // Apr 2014
+
+  industries: [], // education / edtech if you have it
+
+  programming_languages: [], // C#, PHP
+
+  employerBlindName: "Educational Software Publisher",
+  employerPublic: "Lohebartar Publication",
+
+  excerpt: `Windows-based examination desktop application originally built independently and later adopted by Lohebartar Publication for school entrance exams, distributed at scale with over 100,000 copies sold.`,
+
+  duties_conducted: [
+    "Handling end-to-end technical business implementation using C# and Multimedia Builder",
+    "Developing an online PHP activation code tracking system",
+    "Building a lightweight internal CRM for managing students and teachers",
+  ],
+};
+
+const netware_studio_inc: EmployeeHistory = {
+  officialTitle: "PHP Developer",
+
+  start: new Date(2015, 5, 1), // June 2015
+  end: new Date(2017, 1, 1), // Feb 2017
+
+  industries: [], // web / IoT / smart home if available
+
+  programming_languages: [], // PHP, JS/TS (Node), C if relevant
+
+  employerBlindName: "Software & IoT Solutions Company",
+  employerPublic: "NETWARE STUDIO INC",
+
+  excerpt: `Developed multi-purpose localized WordPress templates (_tkpersian) to streamline project creation and built full-stack IoT smart home solutions integrating embedded devices and web systems.`,
+
+  duties_conducted: [
+    "Engineering reusable WordPress theme components extending the Underscores (_tk) open-source framework",
+    "Designing hardware/software systems to access IoT devices over local networks",
+    "Building administrative dashboard tools for device management",
+    "Developing drivers connecting embedded devices with computer systems",
+  ],
+};
+
+const pixelplux: EmployeeHistory = {
+  officialTitle: "React Native Developer & Team Lead",
+
+  start: new Date(2019, 5, 1), // June 2019
+  end: new Date(2023, 4, 1), // May 2023
+
+  industries: [], // real estate / healthtech / energy / fintech / gaming if you have taxonomy
+
+  programming_languages: [], // JS/TS, Golang, etc.
+
+  employerBlindName: "Software Product Studio (US Market Clients)",
+  employerPublic: "PIXELPLUX",
+
+  excerpt: `Led a team of 5–7 developers building multiple large-scale products for US markets, including real estate, education, healthcare routing, solar energy monitoring, accounting MVP systems, and esports tournament platforms.`,
+
+  duties_conducted: [
+    "Mentoring developers and leading engineering teams across multiple products",
+    "Implementing CI/CD pipelines using CircleCI and managing AppStore/Google Play deployments",
+    "Integrating Swagger and gRPC services for scalable backend communication",
+    "Building AcademyX system services with ABAC permissions, Zoom/Google Meet integration, and CI/CD binary installers",
+    "Designing Teamtelefon system with call routing algorithms, contact sync, and Firebase serverless architecture",
+    "Developing EverVolt dashboard with D3/SVG interactive charts, MPPT/battery logic, and hardware data synchronization",
+    "Building Gizer esports platform with NGRX state management, canvas/Lottie animations, and real-time webhook integrations",
+    "Creating Minifirma MVP with SQLite storage and camera-based invoice processing modules",
+  ],
+};
+
+const webelian: EmployeeHistory = {
+  officialTitle: "Full-stack Engineer",
+
+  start: new Date(2018, 3, 1), // April 2018
+  end: new Date(2019, 5, 1), // June 2019
+
+  industries: [], // aviation / manufacturing / networking / open-source if categorized
+
+  programming_languages: [], // JS/TS, etc.
+
+  employerBlindName: "Software Engineering Studio (Global Clients)",
+  employerPublic: "WEBELIAN",
+
+  excerpt: `Worked on diverse full-stack systems including airport check-in kiosk interfaces, industrial jewelry engraving tools for SISMA machines, open-source UI components, and real-time network latency visualization systems used across Japan and the US.`,
+
+  duties_conducted: [
+    "Designing airport kiosk UI with on-screen keyboard, strict tab navigation, joystick control logic, and accessibility audio feedback",
+    "Replacing legacy jQuery systems with React and building advanced Canvas-based text rendering and collision/protrusion detection for engraving tools",
+    "Developing real-time D3 heatmap systems for network monitoring, integrating time-series APIs, and managing state with React-Redux and RxJS",
+    "Maintaining and contributing to open-source TimePicker component including issue handling and pull request management",
+  ],
+};
+
+export function sortEmploymentByDateDesc(items) {
+  return [...items].sort((a, b) => {
+    const aEnd = a.end ? a.end.getTime() : Date.now();
+    const bEnd = b.end ? b.end.getTime() : Date.now();
+
+    return bEnd - aEnd;
+  });
+}
+
+const vaillant = {
+  officialTitle: "Lead Mobile Developer",
+  industries: industries.filter((item) => item.uniqueId === "energy"),
+  programming_languages: [ProgrammingLanguagesMap["jsts"]],
+  duties_conducted: [
+    `Implementing search for fault codes and first-time process handling`,
+    `Integrating live monitoring directly via EBUS controllers for portable
+      tablets`,
+    `Enabling end users to set room temperatures, weekly plans, and check
+      system status`,
+    `Supporting API Developer program features like external pumps and
+      cascading`,
+  ],
+  employerBlindName: "Gas and Heatpump manufacturer",
+  employerPublic: "Vaillant GmbH",
+  start: new Date(2024, 1, 1),
+  end: new Date(2026, 2, 1),
+  excerpt: `Development of applications to control
+heat pumps and gas boilers for a
+German top efficiency heating products
+manufacturer. Created an Installator
+app for servicing/commissioning and
+an End user app for tenants to manage
+temperature, schedules, and alarms.`,
+};
+
+const employement_history: EmployeeHistory[] = [
+  vaillant,
+  tomsanat_llc,
+  visa,
+  pixelplux,
+  webelian,
+  netware_studio_inc,
+  lohebartar_publication,
+];
 
 const languages = [
   {
@@ -43,6 +263,8 @@ const languages = [
     proof: "Basic conversation, reading Russian texts",
   },
 ];
+
+const programming_languages = [{}];
 
 export function LanguageTable() {
   return (
@@ -225,6 +447,31 @@ export default function Skills() {
         </section>
 
         <section className={styles.section}>
+          <LatexEmploymentViewer data={employement_history} />
+          <h2>Employement and Contribution history</h2>
+          {employement_history.map((employement, i) => {
+            return (
+              <div key={i}>
+                <h3>
+                  {employement.officialTitle} ({employement.employerBlindName})
+                </h3>
+                <p>{employement.excerpt}</p>
+                <div>
+                  <DateRange start={employement.start} end={employement.end} />
+                </div>
+                <p>
+                  <ul>
+                    {employement.duties_conducted.map((duty, index) => {
+                      return <li key={index}>{duty}</li>;
+                    })}
+                  </ul>
+                </p>
+              </div>
+            );
+          })}
+        </section>
+
+        <section className={styles.section}>
           <h2>Databases</h2>
           <p>
             Through my career I have faced usage of different type of databases,
@@ -257,7 +504,9 @@ export default function Skills() {
             Faced Mongodb in couple of projects since its inception. Having an
             overall understanding of its power and limits, can be used for
             places the data structure is unknown, or snapshots of data is needed
-            instead of relations between them.
+            instead of relations between them. I am not an advanced user, albeit
+            writing some queries against existing through my career here and
+            there.
           </p>
         </section>
 
@@ -527,60 +776,31 @@ export default function Skills() {
   );
 }
 
-function SkillCategoryCard({ category }: { category: SkillCategory }) {
-  return (
-    <div className={styles.skillCategoryCard}>
-      <div className={styles.skillCategoryHeader}>
-        <h3>{category.title}</h3>
-        {category.description && (
-          <p className={styles.skillCategoryDescription}>
-            {category.description}
-          </p>
-        )}
-      </div>
-      <div className={styles.skillsList}>
-        {category.skills.map((skill, index) => (
-          <span key={index} className={styles.skillTag}>
-            {skill.id ? (
-              <Link to={`/skill/${skill.id}`}>{skill.title}</Link>
-            ) : (
-              skill.title
-            )}
-          </span>
-        ))}
-      </div>
-    </div>
-  );
-}
+type Props = {
+  start?: Date | null;
+  end?: Date | null;
+  formatOptions?: Intl.DateTimeFormatOptions;
+};
+const formatDate = (date?: Date | null) => {
+  if (!date) return null;
 
-function LanguageCard({ language }: { language: LanguageSkill }) {
-  return (
-    <div className={styles.languageCard}>
-      <div className={styles.languageHeader}>
-        <h4>{language.language}</h4>
-        <span className={styles.languageLevel}>{language.level}</span>
-      </div>
-      {language.description && (
-        <p className={styles.languageDescription}>{language.description}</p>
-      )}
-    </div>
-  );
-}
+  return new Intl.DateTimeFormat("en-US", {
+    month: "short",
+    year: "numeric",
+  }).format(date);
+};
 
-function OtherSkillCard({ skillGroup }: { skillGroup: OtherSkill }) {
+export function DateRange({ start, end }: Props) {
+  const startStr = formatDate(start);
+  const endStr = formatDate(end);
+
+  if (!startStr && !endStr) return null;
+
   return (
-    <div className={styles.otherSkillCard}>
-      <h4>{skillGroup.category}</h4>
-      {skillGroup.description && (
-        <p className={styles.otherSkillDescription}>{skillGroup.description}</p>
-      )}
-      <div className={styles.otherSkillsList}>
-        {skillGroup.skills.map((skill, index) => (
-          <span key={index} className={styles.otherSkillTag}>
-            {skill}
-          </span>
-        ))}
-      </div>
-    </div>
+    <i>
+      {startStr && endStr && `${startStr} — ${endStr}`}
+      {startStr && !endStr && `Since ${startStr}`}
+      {!startStr && endStr && `Until ${endStr}`}
+    </i>
   );
 }
