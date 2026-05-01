@@ -1,0 +1,168 @@
+# User, Role, and Tenant Management in Modern Applications
+
+Unless you are building a very simple application with no authentication—or a static website without user accounts—most systems require some form of user management.
+In its simplest form, user management involves allowing users to register with an email address, optionally confirm that email, and gain access to the system. This model was sufficient in the early days of the web, particularly in the late 1990s and even into the 2005–2010 era, when many applications operated with minimal identity requirements.
+However, expectations have evolved significantly.
+
+Today, users interact with applications across multiple devices—mobile apps, web platforms, and integrated ecosystems. Identity management has become far more complex. A single account (such as a Google account) can span multiple applications, devices, roles, and workspaces, all tied to the same individual.
+At this scale, a dedicated identity system becomes necessary. These systems must handle numerous edge cases and typically require specialized teams to build, maintain, audit, and support them. They often provide SDKs for various platforms (iOS, Android, web) and include extensive feature sets.
+The challenge is that many of these features are no longer optional—even for relatively simple businesses. For example, an online ticketing platform may still need to support email and phone verification, password recovery, and multi-factor authentication, despite having a straightforward business model.
+
+In Software-as-a-Service (SaaS) environments, the complexity increases further. Data is no longer owned by individual users but by shared entities often referred to as “workspaces” or “tenants.” A tenant represents a group of users operating within a shared context, typically isolated from other tenants within the same system.
+This introduces a new set of requirements: role-based access control, user invitations, permission management, and fine-grained data visibility. These must integrate seamlessly with authentication flows such as OTP, TOTP, and other modern security mechanisms.
+As a result, user, role, and tenant management has evolved from a simple feature into a core architectural concern in modern software systems.
+
+## Evolving Alternatives for Identity Management
+
+Over the past decades, several solutions have emerged to simplify and standardize identity management across applications.
+One of the more accessible options is Firebase, which provides authentication services as part of a broader backend platform. It is relatively easy to integrate and works well for smaller applications or projects that don’t require deep customization, though its flexibility can be limited for more complex use cases.
+
+On the other end of the spectrum, Keycloak offers a powerful, open-source solution for centralized authentication and authorization. It supports advanced features such as single sign-on (SSO), identity brokering, and fine-grained access control, making it suitable for larger systems with more demanding requirements.
+
+In addition to these general-purpose solutions, more specialized approaches have emerged. For example, Fireback ABAC—built using Go within the Fireback ecosystem—focuses on attribute-based access control. This approach allows for more flexible and expressive permission systems, particularly in SaaS environments where roles alone are often insufficient.
+Each of these solutions reflects a different trade-off between simplicity, flexibility, and control. Choosing the right one depends less on current needs and more on how complex the system is expected to become over time—a decision that tends to have long-term architectural consequences.
+
+## The Real Issue with Third-Party Identity Services
+
+In practice, third-party identity solutions often introduce more complexity than they remove—especially as a system evolves.
+
+From experience building libraries, solutions that are embedded directly within the project’s codebase tend to be significantly easier to work with. They offer full control, predictable behavior, and faster iteration. In contrast, external identity services often require extensive configuration to align with specific business needs.
+
+User identity management is rarely generic. It depends heavily on factors such as the type of business, regulatory requirements, and the geographical location of both the company and its users. As a result, adapting a shared, third-party solution to fit these constraints often leads to continuous adjustments and workarounds, making long-term maintenance harder rather than easier.
+
+Another practical challenge is user experience. Seamless integration of authentication flows is difficult when relying on external systems. Many third-party providers require redirecting users to external domains for login and then returning them to the application. On the web, this typically involves subdomains; on mobile, it often relies on embedded web views.
+
+While functional, this approach can feel disjointed and limits control over the user experience. In contrast, implementing authentication directly within the application allows for tighter integration, better consistency, and more flexibility in tailoring the flow to the product’s needs.
+
+In the long run, the trade-off becomes clear: third-party services may accelerate initial development, but they often introduce constraints that become increasingly costly as the product grows.
+
+In order to also seamlessly integrate authentication flow into the app, those screens
+are required to be created instead of redirecting user to a different software to authenticate
+and send them back, which is done via subdomain on web or webview is mobile applications.
+
+## Solution
+
+In the long run, building your own identity management system is not optional—it’s inevitable.
+At the early stages of a project, investing in a custom solution may seem unnecessary. Third-party services are attractive because they reduce initial development time and allow you to move faster. However, this advantage is temporary.
+As your application grows, identity management becomes deeply tied to your core business logic. You will want full control over every aspect: backend behavior, frontend experience, and the entire user journey—from registration to authentication and beyond.
+At that point, external solutions start to feel restrictive. Custom flows, edge cases, and business-specific rules become harder to implement cleanly. What once saved time begins to slow you down.
+Building your own system gives you control where it actually matters:
+
+- You define authentication flows without compromise
+
+- You design user experiences without redirections or external dependencies
+
+- You adapt quickly to new requirements without fighting a third-party abstraction
+
+A more realistic strategy is not “build everything from day one,” but rather:
+start simple, and gradually take ownership of identity as your system proves its value.
+Because if your product succeeds, identity management stops being a feature—and becomes infrastructure.
+
+## Understanding Real User Management Requirements
+
+Even if you use a third-party solution, you need to understand how user management actually works.
+
+If you don’t, you’ll likely underestimate the complexity and face painful refactoring later—especially at the database level, where changes are costly and risky.
+
+User management goes beyond authentication. It affects data ownership, access control, and how your system evolves. Ignoring this early creates long-term limitations.
+
+In the following sections, these concepts are explained using the Fireback ABAC module—but the requirements themselves apply to any serious application.
+
+## User, Passport, Role, Workspace, and Permissions
+
+From a database perspective, a reliable long-term structure requires a few fundamental tables.
+
+### User entity (table)
+
+A **User** is an entity that represents an actor in the system, not necessarily a person.
+A common mistake is assigning first name and last name to this entity in database design.
+In such scenarios, you cannot distinguish between a real person, a bot, or a service worker
+that also operates within the system. A person can be associated with a user in a many-to-one
+relationship. This means that, in theory, a person can have multiple users in the system,
+although in most cases this relationship is one-to-one.
+
+### Passport entity (table)
+
+**Passport** is an entity that represents how a user can authenticate within the system.
+
+In many systems, the `user` table contains fields like `username` and `email`. This approach quickly becomes limiting when adding new authentication methods such as OAuth providers, SMS-based login, or other mechanisms.
+
+Instead, a user can have none, one, or multiple passports. For example:
+
+- A user may authenticate without a passport, such as a guest user where the system assigns a temporary identity upon visiting the website.
+- A user may have multiple email-based passports, allowing authentication with different email addresses under the same account.
+- A user may add a phone number and use it as their primary authentication method.
+- A user may link a Facebook account and log in through it.
+
+With a dedicated passport table, all authentication methods are tracked in a unified way. When a new authentication method is introduced, it can be added as a new record instead of requiring schema changes or migrations.
+
+This design also enables dynamic configuration of authentication strategies. For example, SMS login can be enabled only in specific countries, or the system can be restricted to Google-only authentication without requiring structural changes in the future.
+
+### Role entity
+
+Role entity has no direct connection to the user. Roles are defined in the system by administration. This can also be nested. For example, a root admin defines a set of available roles, while a workspace owner can define custom roles within their own organization.
+
+Each role can contain zero to many permissions. Each permission is represented as a string describing an allowed action. These can also be wildcards, such as `user/*`, meaning all actions under the user service are permitted if enabled for that role.
+
+Having a role entity is very important. It can be used to limit workspace types. A further discussion is needed here, but for now assume a web application with "Student" and "Teacher" sections. In this case, the system may have three workspace types: `root`, `teacher`, and `student`. Each workspace is restricted using roles, and further access levels are defined from there.
+
+Therefore, a role table is required to store sets of permissions, along with a linking table for capabilities. Capabilities themselves are not stored directly in the database, which allows adding or removing them later without major changes to the application, even for features that did not exist at the initial stage.
+
+### Workspace
+
+Workspace is the heart of this whole design. It links users into workspaces and defines the roles they can have. This is achieved through a few tables; the most important are **User Workspace** and **Workspace Role**.
+
+Using this combination, we control who belongs to a workspace and, more importantly, which role they have within it. In this setup, _Ali_ can belong to both Google and Microsoft workspaces. In Google, he may have a developer role, while in Microsoft he may be a consultant.
+
+Adding a user to a workspace requires a record in both tables. If a user belongs to a workspace but does not have a role, they can only perform actions that do not require permissions, which is obviously quite rare.
+
+The same user can also have multiple roles within a workspace. A common example is a financial application, where the same person can be both CEO and accountant at the same time. However, accepting an invoice is only possible through the accountant role, even if the person is CEO and therefore cannot perform that action through the CEO role alone.
+
+### Permission table
+
+Another important table is the permissions table, as mentioned earlier. This table only contains permission strings and a label, which can be translated into different languages.
+
+In Fireback, you can define as many permissions as needed and manage users based on whether they have those permissions.
+
+## Interface Strucutre
+
+All we have discussed so far is how to organize the database to provide as much flexibility as possible. Now let’s dive into an actual implementation of this structure.
+
+When you download the Fireback project or install it as a single binary, all the topics covered in this article are already implemented. In the following sections, we will go through these methods and explain them.
+
+### Discovering the available passport methods.
+
+Before a user begins authentication (assuming they are not authenticated or are using an anonymous guest mode), the system needs to retrieve information through a `check passport` endpoint.
+
+This endpoint is publicly available and can be cached if there are no frequent changes in the system configuration.
+
+Below is an example of how it can be accessed via CLI and the expected response.
+
+```bash
+$ fireback passport check-passport-methods
+```
+
+```json
+{
+  "email": true,
+  "phone": true,
+  "google": false,
+  "facebook": false,
+  "googleOAuthClientKey": "",
+  "facebookAppId": "",
+  "enabledRecaptcha2": false,
+  "recaptcha2ClientKey": ""
+}
+```
+
+As you can see, there are flags returned that allow the front-end (web or mobile app) to understand what is available in the system, so the interface can be adjusted accordingly. For example, if `facebook` is true, a “Login with Facebook” button can be shown.
+
+The content of this response can vary depending on the user. For instance, in Germany you may allow phone login, while Facebook login is only available in the United States for certain reasons.
+
+Fireback already provides basic options for this, but in most cases you will need to extend it.
+
+From this point, the interface is rendered and presented to the user.
+
+## Conclusion
+
+As shown throughout this article, user management is not straightforward. However, it is also not overly complex. The goal here is simply to demonstrate the scale and importance of such systems.

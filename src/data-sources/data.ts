@@ -108,6 +108,16 @@ usually handles the database, manages users, and processes transactions. It also
     description: `If you're planning to build a new app—whether on your own or by outsourcing—this page will give you the key insights you need before getting started. It’s designed for both developers and non-technical founders with an idea.
 `,
   },
+  {
+    id: "user-role-tenant-control-in-projects",
+    title:
+      "User, Role, and Tenant Management in Modern Applications",
+    description: ` 
+    Unless you are building a very simple application with no authentication—or a static website without user accounts—most systems require some form of user management.
+In its simplest form, user management involves allowing users to register with an email address, optionally confirm that email, and gain access to the system. This model was sufficient in the early days of the web, particularly in the late 1990s and even into the 2005–2010 era, when many applications operated with minimal identity requirements.
+However, expectations have evolved significantly.
+`,
+  },
 ];
 
 export const trainings: Training[] = [
