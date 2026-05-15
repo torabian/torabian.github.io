@@ -531,6 +531,34 @@ export default function Skills() {
             with some challenges on cookies in the past.
           </p>
 
+          <h3>Loki and Alloy</h3>
+          <p>
+            Used the Loki, and Alloy in log processing projects. Loki is a super
+            useful project to ingest logs at scale, and LogQL query language
+            helps to query them with ease in mind.
+          </p>
+
+          <h3>Apache Traffic Server</h3>
+          <p>
+            Good knowledge of apache traffic server, for caching and reverse
+            proxy
+          </p>
+
+          <h3>HAProxy</h3>
+          <p>
+            HAProxy is a super flexible and useful reverse proxy, capable of L7
+            reverse proxy mechanism. It can be used for high availablity
+            scenarios, limiting access, and it's powerful ACL strucutre gives
+            flexibility of managing requests.
+          </p>
+
+          <h3>OpenBao</h3>
+          <p>
+            Deep knowledge in OpenBao, a secret manager which works based on
+            restful api. Used different featuers, such as postgres database cred
+            rotation, stroing certificates, and connecting it to Go application.
+          </p>
+
           <h3>Three.js (React Three Fiber)</h3>
           <p>
             I have experience with Three.js and React Three Fiber, creating
