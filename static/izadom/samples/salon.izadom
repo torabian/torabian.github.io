@@ -1,0 +1,787 @@
+{
+  "views": {},
+  "particles": [
+    {
+      "element": {
+        "content": {
+          "platformWidth": 900,
+          "platformLength": 700,
+          "width": 24,
+          "height": 24,
+          "length": 250,
+          "mainBarDiameter": 1.2,
+          "mainBarCountWidth": 0,
+          "mainBarCountHeight": 0,
+          "stirrupDiameter": 0.6,
+          "stirrupSpacing": 20,
+          "startOffset": 20,
+          "endOffset": 20,
+          "copies": 1,
+          "isColumn": false,
+          "openingBendAngle": 0
+        },
+        "resolver": "ringBeam"
+      },
+      "position": [
+        0,
+        -28,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "f7858fbb-a872-4570-8f03-a0dfcf2f0646",
+      "locked": true
+    },
+    {
+      "element": {
+        "content": {
+          "name": "Foundation blocks",
+          "width": 900,
+          "height": 700,
+          "rowsCount": 4,
+          "brickDepth": 12,
+          "brickWidth": 38,
+          "brickHeight": 24
+        },
+        "resolver": "cuttedFoundation"
+      },
+      "position": [
+        -0.0953806516416762,
+        -1,
+        0.4506707766258984
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "9030e7e1-5ef2-4b17-9028-79c058e09658",
+      "name": "Foundation blocks",
+      "locked": true
+    },
+    {
+      "element": {
+        "content": {
+          "name": "Dimension Wall",
+          "masonaryMaterial": {
+            "id": "gazobetonBlock59x24x24",
+            "name": "Gazobeton Block 590x240x240 mm",
+            "characteristics": [
+              {
+                "trait": "solid",
+                "data": {}
+              },
+              {
+                "trait": "loadBearing",
+                "data": {
+                  "value": true
+                }
+              },
+              {
+                "trait": "masonaryCompatible"
+              },
+              {
+                "trait": "brick"
+              },
+              {
+                "trait": "cuttable",
+                "data": {
+                  "angleCut": false,
+                  "tools": [
+                    "block-cutter"
+                  ]
+                }
+              },
+              {
+                "trait": "materialKind",
+                "data": {
+                  "kind": "aac"
+                }
+              },
+              {
+                "trait": "dimensions",
+                "data": {
+                  "length": 59,
+                  "width": 24,
+                  "height": 24
+                }
+              }
+            ],
+            "extends": [
+              "baseGazobeton"
+            ],
+            "sources": [],
+            "assets": [
+              {
+                "type": "image",
+                "url": "beton59x24x24.jpeg"
+              }
+            ]
+          },
+          "wallHeight": 280,
+          "wallWidth": "900",
+          "invertPlacement": false,
+          "centerCut": false,
+          "centerCutRatio": 0.5,
+          "interlockAtStart": true,
+          "interlockAtEnd": true,
+          "mortarSize": 1
+        },
+        "resolver": "dimensionWall"
+      },
+      "position": [
+        -446.83431169655785,
+        53,
+        326.2430296936457
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "72ea42ea-f7c6-4c92-90fa-eb24bf1ce71a",
+      "name": "Dimension Wall",
+      "locked": true
+    },
+    {
+      "element": {
+        "resolver": "dimensionWall",
+        "content": {
+          "name": "Dimension Wall",
+          "masonaryMaterial": {
+            "id": "gazobetonBlock59x24x24",
+            "name": "Gazobeton Block 590x240x240 mm",
+            "characteristics": [
+              {
+                "trait": "solid",
+                "data": {}
+              },
+              {
+                "trait": "loadBearing",
+                "data": {
+                  "value": true
+                }
+              },
+              {
+                "trait": "masonaryCompatible"
+              },
+              {
+                "trait": "brick"
+              },
+              {
+                "trait": "cuttable",
+                "data": {
+                  "angleCut": false,
+                  "tools": [
+                    "block-cutter"
+                  ]
+                }
+              },
+              {
+                "trait": "materialKind",
+                "data": {
+                  "kind": "aac"
+                }
+              },
+              {
+                "trait": "dimensions",
+                "data": {
+                  "length": 59,
+                  "width": 24,
+                  "height": 24
+                }
+              }
+            ],
+            "extends": [
+              "baseGazobeton"
+            ],
+            "sources": [],
+            "assets": [
+              {
+                "type": "image",
+                "url": "beton59x24x24.jpeg"
+              }
+            ]
+          },
+          "wallHeight": 280,
+          "wallWidth": "900",
+          "invertPlacement": false,
+          "centerCut": false,
+          "centerCutRatio": 0.5,
+          "interlockAtStart": true,
+          "interlockAtEnd": true,
+          "mortarSize": 1
+        }
+      },
+      "position": [
+        -449.80147659759257,
+        53,
+        -349.4447044101195
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "8061c286-eea3-42c3-b131-948a4f6a673a",
+      "name": "Dimension Wall",
+      "locked": true
+    },
+    {
+      "element": {
+        "resolver": "brickGridWall",
+        "content": {
+          "name": "Brick grid Wall2",
+          "horizontalCount": "1",
+          "verticalCount": "12",
+          "invertPlacement": false,
+          "interlockAtStart": true,
+          "interlockAtEnd": false,
+          "mortarSize": 1,
+          "masonaryMaterial": {
+            "id": "gazobetonBlock59x24x24",
+            "name": "Gazobeton Block 590x240x240 mm",
+            "characteristics": [
+              {
+                "trait": "solid",
+                "data": {}
+              },
+              {
+                "trait": "loadBearing",
+                "data": {
+                  "value": true
+                }
+              },
+              {
+                "trait": "masonaryCompatible"
+              },
+              {
+                "trait": "brick"
+              },
+              {
+                "trait": "cuttable",
+                "data": {
+                  "angleCut": false,
+                  "tools": [
+                    "block-cutter"
+                  ]
+                }
+              },
+              {
+                "trait": "materialKind",
+                "data": {
+                  "kind": "aac"
+                }
+              },
+              {
+                "trait": "dimensions",
+                "data": {
+                  "length": 59,
+                  "width": 24,
+                  "height": 24
+                }
+              }
+            ],
+            "extends": [
+              "baseGazobeton"
+            ],
+            "sources": [],
+            "assets": [
+              {
+                "type": "image",
+                "url": "beton59x24x24.jpeg"
+              }
+            ]
+          }
+        }
+      },
+      "position": [
+        -447.4672154741797,
+        53.37549193785088,
+        352.172700578323
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "1c2896e7-8a43-4f32-9a6e-b0a6a64aa5da",
+      "name": "Brick grid Wall"
+    },
+    {
+      "element": {
+        "resolver": "brickGridWall",
+        "content": {
+          "name": "Brick grid Wall2",
+          "horizontalCount": "1",
+          "verticalCount": "12",
+          "invertPlacement": true,
+          "interlockAtStart": false,
+          "interlockAtEnd": true,
+          "mortarSize": 1,
+          "masonaryMaterial": {
+            "id": "gazobetonBlock59x24x24",
+            "name": "Gazobeton Block 590x240x240 mm",
+            "characteristics": [
+              {
+                "trait": "solid",
+                "data": {}
+              },
+              {
+                "trait": "loadBearing",
+                "data": {
+                  "value": true
+                }
+              },
+              {
+                "trait": "masonaryCompatible"
+              },
+              {
+                "trait": "brick"
+              },
+              {
+                "trait": "cuttable",
+                "data": {
+                  "angleCut": false,
+                  "tools": [
+                    "block-cutter"
+                  ]
+                }
+              },
+              {
+                "trait": "materialKind",
+                "data": {
+                  "kind": "aac"
+                }
+              },
+              {
+                "trait": "dimensions",
+                "data": {
+                  "length": 59,
+                  "width": 24,
+                  "height": 24
+                }
+              }
+            ],
+            "extends": [
+              "baseGazobeton"
+            ],
+            "sources": [],
+            "assets": [
+              {
+                "type": "image",
+                "url": "beton59x24x24.jpeg"
+              }
+            ]
+          }
+        }
+      },
+      "position": [
+        -449.79928212490853,
+        53.37549193785088,
+        -266.3667905629171
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "7b56fb57-767d-4860-826d-65c9ac6379a1",
+      "name": "Brick grid Wall"
+    },
+    {
+      "element": {
+        "resolver": "brickGridWall",
+        "content": {
+          "name": "Brick grid Wall2",
+          "horizontalCount": "1",
+          "verticalCount": "12",
+          "invertPlacement": false,
+          "interlockAtStart": true,
+          "interlockAtEnd": false,
+          "mortarSize": 1,
+          "masonaryMaterial": {
+            "id": "gazobetonBlock59x24x24",
+            "name": "Gazobeton Block 590x240x240 mm",
+            "characteristics": [
+              {
+                "trait": "solid",
+                "data": {}
+              },
+              {
+                "trait": "loadBearing",
+                "data": {
+                  "value": true
+                }
+              },
+              {
+                "trait": "masonaryCompatible"
+              },
+              {
+                "trait": "brick"
+              },
+              {
+                "trait": "cuttable",
+                "data": {
+                  "angleCut": false,
+                  "tools": [
+                    "block-cutter"
+                  ]
+                }
+              },
+              {
+                "trait": "materialKind",
+                "data": {
+                  "kind": "aac"
+                }
+              },
+              {
+                "trait": "dimensions",
+                "data": {
+                  "length": 59,
+                  "width": 24,
+                  "height": 24
+                }
+              }
+            ],
+            "extends": [
+              "baseGazobeton"
+            ],
+            "sources": [],
+            "assets": [
+              {
+                "type": "image",
+                "url": "beton59x24x24.jpeg"
+              }
+            ]
+          }
+        }
+      },
+      "position": [
+        428.4085178130729,
+        53.37549193785088,
+        350.45990079103274
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "fa2f9c22-27f9-4508-a9ba-024bddcc228e",
+      "name": "Brick grid Wall"
+    },
+    {
+      "element": {
+        "resolver": "brickGridWall",
+        "content": {
+          "name": "Brick grid Wall2",
+          "horizontalCount": "1",
+          "verticalCount": "12",
+          "invertPlacement": true,
+          "interlockAtStart": false,
+          "interlockAtEnd": true,
+          "mortarSize": 1,
+          "masonaryMaterial": {
+            "id": "gazobetonBlock59x24x24",
+            "name": "Gazobeton Block 590x240x240 mm",
+            "characteristics": [
+              {
+                "trait": "solid",
+                "data": {}
+              },
+              {
+                "trait": "loadBearing",
+                "data": {
+                  "value": true
+                }
+              },
+              {
+                "trait": "masonaryCompatible"
+              },
+              {
+                "trait": "brick"
+              },
+              {
+                "trait": "cuttable",
+                "data": {
+                  "angleCut": false,
+                  "tools": [
+                    "block-cutter"
+                  ]
+                }
+              },
+              {
+                "trait": "materialKind",
+                "data": {
+                  "kind": "aac"
+                }
+              },
+              {
+                "trait": "dimensions",
+                "data": {
+                  "length": 59,
+                  "width": 24,
+                  "height": 24
+                }
+              }
+            ],
+            "extends": [
+              "baseGazobeton"
+            ],
+            "sources": [],
+            "assets": [
+              {
+                "type": "image",
+                "url": "beton59x24x24.jpeg"
+              }
+            ]
+          }
+        }
+      },
+      "position": [
+        425.3666895101573,
+        53.37549193785088,
+        -265.4022924668037
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "aa89bd6c-309d-4d02-91ea-43111e04cf1b",
+      "name": "Brick grid Wall"
+    },
+    {
+      "element": {
+        "content": {
+          "name": "Dimension Wall",
+          "masonaryMaterial": {
+            "id": "gazobetonBlock59x24x24",
+            "name": "Gazobeton Block 590x240x240 mm",
+            "characteristics": [
+              {
+                "trait": "solid",
+                "data": {}
+              },
+              {
+                "trait": "loadBearing",
+                "data": {
+                  "value": true
+                }
+              },
+              {
+                "trait": "masonaryCompatible"
+              },
+              {
+                "trait": "brick"
+              },
+              {
+                "trait": "cuttable",
+                "data": {
+                  "angleCut": false,
+                  "tools": [
+                    "block-cutter"
+                  ]
+                }
+              },
+              {
+                "trait": "materialKind",
+                "data": {
+                  "kind": "aac"
+                }
+              },
+              {
+                "trait": "dimensions",
+                "data": {
+                  "length": 59,
+                  "width": 24,
+                  "height": 24
+                }
+              }
+            ],
+            "extends": [
+              "baseGazobeton"
+            ],
+            "sources": [],
+            "assets": [
+              {
+                "type": "image",
+                "url": "beton59x24x24.jpeg"
+              }
+            ]
+          },
+          "wallHeight": 280,
+          "wallWidth": "200",
+          "invertPlacement": false,
+          "centerCut": false,
+          "centerCutRatio": 0.5,
+          "interlockAtStart": false,
+          "interlockAtEnd": false,
+          "mortarSize": 1
+        },
+        "resolver": "dimensionWall"
+      },
+      "position": [
+        -450.2552142814251,
+        52,
+        92.39660828030735
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "45c92e83-73a7-4121-b586-79ffeea1dc47",
+      "name": "Dimension Wall"
+    },
+    {
+      "element": {
+        "resolver": "createSlab",
+        "content": {
+          "name": "Floor Slab",
+          "width": "652",
+          "height": "852",
+          "depth": 10
+        }
+      },
+      "position": [
+        -422.6918911884933,
+        42,
+        -324.2633865017481
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "b8a2f46b-5587-4690-9ae7-bbfc8df56ef8",
+      "name": "Floor Slab"
+    },
+    {
+      "element": {
+        "resolver": "terivaRoof",
+        "content": {
+          "name": "Teriva Roof",
+          "length": "884",
+          "width": "700",
+          "showBlocks": false
+        }
+      },
+      "position": [
+        -449.7024199218622,
+        353,
+        -350.7435044090256
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "ed261acd-aa3e-4525-850e-b8ddd4ced954",
+      "name": "Teriva Roof"
+    }
+  ],
+  "gridConfig": {
+    "width": 1000,
+    "height": 1000,
+    "cellSize": 50,
+    "cellThickness": 0.5,
+    "sectionSize": 250,
+    "sectionThickness": 2,
+    "fadeDistance": 3000,
+    "fadeStrength": 1,
+    "cellColor": "#b5d0f1",
+    "sectionColor": "#859bff"
+  },
+  "camera": {
+    "position": [
+      996.958295591914,
+      650.5516327280749,
+      -303.9880471593554
+    ],
+    "target": [
+      204.62930632388225,
+      25.523024390768384,
+      68.55725506939801
+    ]
+  },
+  "architectural": {
+    "unit": "cm",
+    "layers": {
+      "layer-1": {
+        "id": "layer-1",
+        "altitude": 0,
+        "order": 0,
+        "opacity": 1,
+        "name": "default",
+        "visible": true,
+        "vertices": {},
+        "lines": {},
+        "holes": {},
+        "areas": {},
+        "items": {},
+        "selected": {
+          "vertices": [],
+          "lines": [],
+          "holes": [],
+          "areas": [],
+          "items": []
+        }
+      }
+    },
+    "grids": {
+      "h1": {
+        "id": "h1",
+        "type": "horizontal-streak",
+        "properties": {
+          "step": 20,
+          "colors": [
+            "#808080",
+            "#ddd",
+            "#ddd",
+            "#ddd",
+            "#ddd"
+          ]
+        }
+      },
+      "v1": {
+        "id": "v1",
+        "type": "vertical-streak",
+        "properties": {
+          "step": 20,
+          "colors": [
+            "#808080",
+            "#ddd",
+            "#ddd",
+            "#ddd",
+            "#ddd"
+          ]
+        }
+      }
+    },
+    "selectedLayer": "layer-1",
+    "groups": {},
+    "width": 1000,
+    "height": 1000,
+    "meta": {},
+    "guides": {
+      "horizontal": {},
+      "vertical": {},
+      "circular": {}
+    }
+  }
+}
