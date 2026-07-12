@@ -677,7 +677,7 @@
           "name": "Teriva Roof",
           "length": "884",
           "width": "700",
-          "showBlocks": false
+          "showBlocks": true
         }
       },
       "position": [
@@ -693,6 +693,442 @@
       "type": "dynamicElement",
       "uniqueId": "ed261acd-aa3e-4525-850e-b8ddd4ced954",
       "name": "Teriva Roof"
+    },
+    {
+      "element": {
+        "resolver": "dimensionWall",
+        "content": {
+          "name": "Dimension Wall",
+          "masonaryMaterial": {
+            "id": "gazobetonBlock59x24x24",
+            "name": "Gazobeton Block 590x240x240 mm",
+            "characteristics": [
+              {
+                "trait": "solid",
+                "data": {}
+              },
+              {
+                "trait": "loadBearing",
+                "data": {
+                  "value": true
+                }
+              },
+              {
+                "trait": "masonaryCompatible"
+              },
+              {
+                "trait": "brick"
+              },
+              {
+                "trait": "cuttable",
+                "data": {
+                  "angleCut": false,
+                  "tools": [
+                    "block-cutter"
+                  ]
+                }
+              },
+              {
+                "trait": "materialKind",
+                "data": {
+                  "kind": "aac"
+                }
+              },
+              {
+                "trait": "dimensions",
+                "data": {
+                  "length": 59,
+                  "width": 24,
+                  "height": 24
+                }
+              }
+            ],
+            "extends": [
+              "baseGazobeton"
+            ],
+            "sources": [],
+            "assets": [
+              {
+                "type": "image",
+                "url": "beton59x24x24.jpeg"
+              }
+            ]
+          },
+          "wallHeight": "120",
+          "wallWidth": "900",
+          "invertPlacement": false,
+          "centerCut": false,
+          "centerCutRatio": 0.5,
+          "interlockAtStart": false,
+          "interlockAtEnd": true,
+          "mortarSize": 1
+        }
+      },
+      "position": [
+        -452.405408967579,
+        375,
+        327.3474961269876
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "392de09b-3067-4a9a-8528-20be7fb3b44a",
+      "name": "Dimension Wall"
+    },
+    {
+      "element": {
+        "resolver": "dimensionWall",
+        "content": {
+          "name": "Dimension Wall",
+          "masonaryMaterial": {
+            "id": "gazobetonBlock59x24x24",
+            "name": "Gazobeton Block 590x240x240 mm",
+            "characteristics": [
+              {
+                "trait": "solid",
+                "data": {}
+              },
+              {
+                "trait": "loadBearing",
+                "data": {
+                  "value": true
+                }
+              },
+              {
+                "trait": "masonaryCompatible"
+              },
+              {
+                "trait": "brick"
+              },
+              {
+                "trait": "cuttable",
+                "data": {
+                  "angleCut": false,
+                  "tools": [
+                    "block-cutter"
+                  ]
+                }
+              },
+              {
+                "trait": "materialKind",
+                "data": {
+                  "kind": "aac"
+                }
+              },
+              {
+                "trait": "dimensions",
+                "data": {
+                  "length": 59,
+                  "width": 24,
+                  "height": 24
+                }
+              }
+            ],
+            "extends": [
+              "baseGazobeton"
+            ],
+            "sources": [],
+            "assets": [
+              {
+                "type": "image",
+                "url": "beton59x24x24.jpeg"
+              }
+            ]
+          },
+          "wallHeight": "120",
+          "wallWidth": "700",
+          "invertPlacement": false,
+          "centerCut": false,
+          "centerCutRatio": 0.5,
+          "interlockAtStart": false,
+          "interlockAtEnd": true,
+          "mortarSize": 1
+        }
+      },
+      "position": [
+        -451.1714318718662,
+        375,
+        346.41086952123425
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "a50a1df9-d2b1-44db-affe-26e2848d431a",
+      "name": "Dimension Wall"
+    },
+    {
+      "element": {
+        "resolver": "dimensionWall",
+        "content": {
+          "name": "Dimension Wall",
+          "masonaryMaterial": {
+            "id": "gazobetonBlock59x24x24",
+            "name": "Gazobeton Block 590x240x240 mm",
+            "characteristics": [
+              {
+                "trait": "solid",
+                "data": {}
+              },
+              {
+                "trait": "loadBearing",
+                "data": {
+                  "value": true
+                }
+              },
+              {
+                "trait": "masonaryCompatible"
+              },
+              {
+                "trait": "brick"
+              },
+              {
+                "trait": "cuttable",
+                "data": {
+                  "angleCut": false,
+                  "tools": [
+                    "block-cutter"
+                  ]
+                }
+              },
+              {
+                "trait": "materialKind",
+                "data": {
+                  "kind": "aac"
+                }
+              },
+              {
+                "trait": "dimensions",
+                "data": {
+                  "length": 59,
+                  "width": 24,
+                  "height": 24
+                }
+              }
+            ],
+            "extends": [
+              "baseGazobeton"
+            ],
+            "sources": [],
+            "assets": [
+              {
+                "type": "image",
+                "url": "beton59x24x24.jpeg"
+              }
+            ]
+          },
+          "wallHeight": "120",
+          "wallWidth": "900",
+          "invertPlacement": false,
+          "centerCut": false,
+          "centerCutRatio": 0.5,
+          "interlockAtStart": false,
+          "interlockAtEnd": true,
+          "mortarSize": 1
+        }
+      },
+      "position": [
+        -448.8088625402155,
+        375,
+        -354.3992374267735
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "e17d68ac-c354-451b-bddd-4d7da077b876",
+      "name": "Dimension Wall"
+    },
+    {
+      "element": {
+        "resolver": "boundaryBox",
+        "content": {
+          "name": "Boundary box",
+          "length": "700",
+          "width": "20",
+          "color": "#b71c1c"
+        }
+      },
+      "position": [
+        -465.67922614375186,
+        51.68836595001913,
+        -15.048562074179245
+      ],
+      "rotation": [
+        0,
+        0,
+        1.5707963267948963
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "cdedaa1d-c819-48d7-b057-be81e8dd4700",
+      "name": "Boundary box"
+    },
+    {
+      "element": {
+        "resolver": "createGableWall",
+        "content": {
+          "wallHeight": "400",
+          "wallBase": "700",
+          "wallLeftOffset": "350",
+          "loadBalance": false,
+          "masonaryMaterial": {
+            "id": "gazobetonBlock59x24x24",
+            "name": "Gazobeton Block 590x240x240 mm",
+            "characteristics": [
+              {
+                "trait": "solid",
+                "data": {}
+              },
+              {
+                "trait": "loadBearing",
+                "data": {
+                  "value": true
+                }
+              },
+              {
+                "trait": "masonaryCompatible"
+              },
+              {
+                "trait": "brick"
+              },
+              {
+                "trait": "cuttable",
+                "data": {
+                  "angleCut": false,
+                  "tools": [
+                    "block-cutter"
+                  ]
+                }
+              },
+              {
+                "trait": "materialKind",
+                "data": {
+                  "kind": "aac"
+                }
+              },
+              {
+                "trait": "dimensions",
+                "data": {
+                  "length": 59,
+                  "width": 24,
+                  "height": 24
+                }
+              }
+            ],
+            "extends": [
+              "baseGazobeton"
+            ],
+            "sources": [],
+            "assets": [
+              {
+                "type": "image",
+                "url": "beton59x24x24.jpeg"
+              }
+            ]
+          },
+          "name": "Gable wall"
+        }
+      },
+      "position": [
+        -450.1941856933534,
+        502,
+        345.06209750706415
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "a4276ff8-2e8b-44b1-8465-23e686d8211d",
+      "name": "Gable wall"
+    },
+    {
+      "element": {
+        "resolver": "createGableWall",
+        "content": {
+          "wallHeight": "400",
+          "wallBase": "700",
+          "wallLeftOffset": "350",
+          "loadBalance": false,
+          "masonaryMaterial": {
+            "id": "gazobetonBlock59x24x24",
+            "name": "Gazobeton Block 590x240x240 mm",
+            "characteristics": [
+              {
+                "trait": "solid",
+                "data": {}
+              },
+              {
+                "trait": "loadBearing",
+                "data": {
+                  "value": true
+                }
+              },
+              {
+                "trait": "masonaryCompatible"
+              },
+              {
+                "trait": "brick"
+              },
+              {
+                "trait": "cuttable",
+                "data": {
+                  "angleCut": false,
+                  "tools": [
+                    "block-cutter"
+                  ]
+                }
+              },
+              {
+                "trait": "materialKind",
+                "data": {
+                  "kind": "aac"
+                }
+              },
+              {
+                "trait": "dimensions",
+                "data": {
+                  "length": 59,
+                  "width": 24,
+                  "height": 24
+                }
+              }
+            ],
+            "extends": [
+              "baseGazobeton"
+            ],
+            "sources": [],
+            "assets": [
+              {
+                "type": "image",
+                "url": "beton59x24x24.jpeg"
+              }
+            ]
+          },
+          "name": "Gable wall"
+        }
+      },
+      "position": [
+        422.87505933497556,
+        502,
+        345.6163254012365
+      ],
+      "rotation": [
+        0,
+        1.5707963267948966,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "75fdf8ad-d523-461c-ab9b-19dc082b0149",
+      "name": "Gable wall"
     }
   ],
   "gridConfig": {
@@ -709,14 +1145,14 @@
   },
   "camera": {
     "position": [
-      996.958295591914,
-      650.5516327280749,
-      -303.9880471593554
+      1009.6422951774443,
+      697.7154652664444,
+      -820.4321631301731
     ],
     "target": [
-      204.62930632388225,
-      25.523024390768384,
-      68.55725506939801
+      77.34707108047621,
+      344.15071524317335,
+      45.688737298860524
     ]
   },
   "architectural": {
