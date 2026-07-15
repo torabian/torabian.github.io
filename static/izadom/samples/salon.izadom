@@ -1039,7 +1039,7 @@
       "position": [
         -450.1941856933534,
         502,
-        345.06209750706415
+        350.5441037261082
       ],
       "rotation": [
         0,
@@ -1052,83 +1052,31 @@
     },
     {
       "element": {
-        "resolver": "createGableWall",
+        "resolver": "WoodenRoof",
         "content": {
-          "wallHeight": "400",
-          "wallBase": "700",
-          "wallLeftOffset": "350",
-          "loadBalance": false,
-          "masonaryMaterial": {
-            "id": "gazobetonBlock59x24x24",
-            "name": "Gazobeton Block 590x240x240 mm",
-            "characteristics": [
-              {
-                "trait": "solid",
-                "data": {}
-              },
-              {
-                "trait": "loadBearing",
-                "data": {
-                  "value": true
-                }
-              },
-              {
-                "trait": "masonaryCompatible"
-              },
-              {
-                "trait": "brick"
-              },
-              {
-                "trait": "cuttable",
-                "data": {
-                  "angleCut": false,
-                  "tools": [
-                    "block-cutter"
-                  ]
-                }
-              },
-              {
-                "trait": "materialKind",
-                "data": {
-                  "kind": "aac"
-                }
-              },
-              {
-                "trait": "dimensions",
-                "data": {
-                  "length": 59,
-                  "width": 24,
-                  "height": 24
-                }
-              }
-            ],
-            "extends": [
-              "baseGazobeton"
-            ],
-            "sources": [],
-            "assets": [
-              {
-                "type": "image",
-                "url": "beton59x24x24.jpeg"
-              }
-            ]
-          },
-          "name": "Gable wall"
+          "platformWidth": 900,
+          "platformLength": 700,
+          "rise": "390",
+          "run": "350",
+          "seatCut": 24,
+          "wallWidth": 12,
+          "overhangLength": 50,
+          "name": "adasd"
         }
       },
       "position": [
-        422.87505933497556,
-        502,
-        345.6163254012365
+        -26.74565666824934,
+        433.3926967276973,
+        50.30629228265293
       ],
       "rotation": [
         0,
-        1.5707963267948966,
+        0,
         0
       ],
       "type": "dynamicElement",
-      "uniqueId": "75fdf8ad-d523-461c-ab9b-19dc082b0149",
-      "name": "Gable wall"
+      "uniqueId": "48a92411-2474-495a-a985-12b35fd6104d",
+      "name": "adasd"
     }
   ],
   "gridConfig": {
@@ -1145,14 +1093,14 @@
   },
   "camera": {
     "position": [
-      1009.6422951774443,
-      697.7154652664444,
-      -820.4321631301731
+      1247.0755576254187,
+      859.4512991144143,
+      -526.426950931081
     ],
     "target": [
-      77.34707108047621,
-      344.15071524317335,
-      45.688737298860524
+      314.55939317046546,
+      439.15595967828614,
+      85.5760242279064
     ]
   },
   "architectural": {
