@@ -659,7 +659,7 @@
       "position": [
         -422.6918911884933,
         42,
-        -324.2633865017481
+        -321.09360170672227
       ],
       "rotation": [
         0,
@@ -765,9 +765,9 @@
         }
       },
       "position": [
-        -452.405408967579,
+        -447.42565125428536,
         375,
-        327.3474961269876
+        323.854358122715
       ],
       "rotation": [
         0,
@@ -849,9 +849,9 @@
         }
       },
       "position": [
-        -451.1714318718662,
+        -450.6771870425359,
         375,
-        346.41086952123425
+        344.47290098467846
       ],
       "rotation": [
         0,
@@ -933,9 +933,9 @@
         }
       },
       "position": [
-        -448.8088625402155,
+        -448.5289525714562,
         375,
-        -354.3992374267735
+        -350.40904314461255
       ],
       "rotation": [
         0,
@@ -1054,20 +1054,20 @@
       "element": {
         "resolver": "WoodenRoof",
         "content": {
-          "platformWidth": 900,
-          "platformLength": 700,
-          "rise": "390",
+          "platformWidth": "700",
+          "platformLength": "900",
+          "rise": "383",
           "run": "350",
           "seatCut": 24,
           "wallWidth": 12,
           "overhangLength": 50,
-          "name": "adasd"
+          "name": "adasdJUUUU"
         }
       },
       "position": [
-        -26.74565666824934,
-        433.3926967276973,
-        50.30629228265293
+        -7.779158163847518,
+        499.3926967276973,
+        -0.9908038099335961
       ],
       "rotation": [
         0,
@@ -1077,6 +1077,70 @@
       "type": "dynamicElement",
       "uniqueId": "48a92411-2474-495a-a985-12b35fd6104d",
       "name": "adasd"
+    },
+    {
+      "element": {
+        "resolver": "WoodenRoof",
+        "content": {
+          "platformWidth": 700,
+          "platformLength": 900,
+          "rise": "390",
+          "run": 150,
+          "wallWidth": 12,
+          "overhangLength": 50,
+          "timberDepth": 4.5,
+          "timberLength": 500,
+          "timberHeight": "14.5",
+          "name": "we're"
+        }
+      },
+      "position": [
+        1.5267772985460826,
+        519,
+        -1.0217198153290226
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "8dc28d4b-dc30-43c2-ad4d-b39983441c19",
+      "name": "we're"
+    },
+    {
+      "element": {
+        "content": {
+          "platformWidth": 900,
+          "platformLength": 700,
+          "width": "18",
+          "height": "18",
+          "length": 250,
+          "mainBarDiameter": 1.2,
+          "mainBarCountWidth": 0,
+          "mainBarCountHeight": 0,
+          "stirrupDiameter": 0.6,
+          "stirrupSpacing": 20,
+          "startOffset": 20,
+          "endOffset": 20,
+          "copies": 1,
+          "isColumn": false,
+          "openingBendAngle": 0
+        },
+        "resolver": "ringBeam"
+      },
+      "position": [
+        0,
+        500,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "type": "dynamicElement",
+      "uniqueId": "ec81850d-54c0-4cae-8f3f-4291f219b9e5"
     }
   ],
   "gridConfig": {
@@ -1093,14 +1157,14 @@
   },
   "camera": {
     "position": [
-      1247.0755576254187,
-      859.4512991144143,
-      -526.426950931081
+      1014.9888633013228,
+      718.8713688163416,
+      295.4360245317066
     ],
     "target": [
-      314.55939317046546,
-      439.15595967828614,
-      85.5760242279064
+      592.9562374259112,
+      595.0595948053952,
+      72.30775076461025
     ]
   },
   "architectural": {
