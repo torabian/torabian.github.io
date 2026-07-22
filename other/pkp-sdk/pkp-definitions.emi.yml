@@ -454,3 +454,33 @@ actions:
 
             - name: departureTime
               type: string
+  - name: getRoutesByDate
+    url: https://pdp-api.plk-sa.pl/api/v1/schedules/routes/:date
+    out:
+      fields:
+      - name: generatedAt
+        type: string
+
+      - name: date
+        type: string
+
+      - name: count
+        type: int
+
+      - name: routes
+        type: array
+        fields:
+          - name: scheduleId
+            type: int
+
+          - name: orderId
+            type: int
+
+          - name: trainOrderId
+            type: int
+
+          - name: name
+            type: string
+
+          - name: carrierCode
+            type: string

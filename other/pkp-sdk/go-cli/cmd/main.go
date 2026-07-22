@@ -94,6 +94,18 @@ func main() {
 				ArgsUsage: "<token>",
 			},
 			{
+				Name:  "routes-by-date",
+				Usage: "List all train routes for a given date",
+				Flags: []cli.Flag{
+					&cli.StringFlag{
+						Name:     "date",
+						Usage:    "Date in YYYY-MM-DD format",
+						Required: true,
+					},
+				},
+				Action: routesByDate,
+			},
+			{
 				Name:   "schedules",
 				Usage:  "Show planned train schedules",
 				Action: schedules,
@@ -801,6 +813,69 @@ func route(ctx context.Context, cmd *cli.Command) error {
 			station.ArrivalTime,
 			station.DepartureTime,
 			platform,
+		})
+	}
+
+	table.Render()
+
+	return nil
+}
+
+func routesByDate(ctx context.Context, cmd *cli.Command) error {
+
+	api, err := client()
+	if err != nil {
+		return err
+	}
+
+	date := cmd.String("date")
+
+	res, err := external.GetRoutesByDateActionCall(
+		external.GetRoutesByDateActionRequest{
+			Params: external.GetRoutesByDateActionPathParameter{
+				Date: date,
+			},
+		},
+		api,
+	)
+	if err != nil {
+		return err
+	}
+
+	data, err := res.AsIdeal()
+	if err != nil {
+		return err
+	}
+
+	title("Routes")
+
+	fmt.Println("Generated at:", data.GeneratedAt)
+	fmt.Println("Date:", data.Date)
+	fmt.Println("Count:", data.Count)
+	fmt.Println()
+
+	if len(data.Routes.Items) == 0 {
+		fmt.Println("No routes found.")
+		return nil
+	}
+
+	table := tablewriter.NewWriter(os.Stdout)
+
+	table.Header([]string{
+		"Schedule",
+		"Order",
+		"Train Order",
+		"Name",
+		"Carrier",
+	})
+
+	for _, route := range data.Routes.Items {
+		table.Append([]string{
+			fmt.Sprint(route.ScheduleId),
+			fmt.Sprint(route.OrderId),
+			fmt.Sprint(route.TrainOrderId),
+			route.Name,
+			route.CarrierCode,
 		})
 	}
 
