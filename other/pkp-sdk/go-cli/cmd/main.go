@@ -6,6 +6,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"strings"
 
 	"github.com/charmbracelet/lipgloss"
 	"github.com/joho/godotenv"
@@ -93,9 +94,19 @@ func main() {
 				ArgsUsage: "<token>",
 			},
 			{
+				Name:   "schedules",
+				Usage:  "Show planned train schedules",
+				Action: schedules,
+			},
+			{
 				Name:   "disruptions",
 				Usage:  "Show current railway disruptions",
 				Action: disruptions,
+			},
+			{
+				Name:   "operations",
+				Usage:  "Show current railway operations",
+				Action: operations,
 			},
 			{
 				Name:   "carriers",
@@ -450,6 +461,193 @@ func disruptions(ctx context.Context, _ *cli.Command) error {
 
 		fmt.Println()
 	}
+
+	return nil
+}
+
+func operations(ctx context.Context, _ *cli.Command) error {
+
+	api, err := client()
+	if err != nil {
+		return err
+	}
+
+	res, err := external.GetOperationsActionCall(
+		external.GetOperationsActionRequest{},
+		api,
+	)
+	if err != nil {
+		return err
+	}
+
+	data, err := res.AsIdeal()
+	if err != nil {
+		return err
+	}
+
+	title("Trains")
+
+	fmt.Println("Generated at:", data.GeneratedAt)
+	fmt.Println()
+
+	fmt.Printf(
+		"Page %d/%d (%d trains)\n",
+		data.Pagination.Page,
+		data.Pagination.TotalPages,
+		data.Pagination.TotalCount,
+	)
+	fmt.Println()
+
+	if len(data.Trains.Items) == 0 {
+		fmt.Println("No trains found.")
+		return nil
+	}
+
+	table := tablewriter.NewWriter(os.Stdout)
+
+	table.Header([]string{
+		"Schedule",
+		"Order",
+		"Train Order",
+		"Date",
+		"Status",
+		"Stations",
+	})
+
+	for _, train := range data.Trains.Items {
+
+		stations := make([]string, 0)
+
+		for _, station := range train.Stations.Items {
+
+			name := fmt.Sprintf("%d", station.StationId)
+
+			if stationName, ok := data.Stations[name]; ok {
+				name = fmt.Sprintf(
+					"%s (%d)",
+					stationName,
+					station.StationId,
+				)
+			}
+
+			stations = append(
+				stations,
+				fmt.Sprintf(
+					"%s #%d",
+					name,
+					station.PlannedSequenceNumber,
+				),
+			)
+		}
+
+		table.Append([]string{
+			fmt.Sprint(train.ScheduleId),
+			fmt.Sprint(train.OrderId),
+			fmt.Sprint(train.TrainOrderId),
+			train.OperatingDate,
+			train.TrainStatus,
+			strings.Join(stations, ", "),
+		})
+	}
+
+	table.Render()
+
+	if data.Pagination.HasNextPage {
+		fmt.Println()
+		fmt.Printf(
+			"More results available (%d/%d pages)\n",
+			data.Pagination.Page,
+			data.Pagination.TotalPages,
+		)
+	}
+
+	return nil
+}
+
+func schedules(ctx context.Context, _ *cli.Command) error {
+
+	api, err := client()
+	if err != nil {
+		return err
+	}
+
+	res, err := external.GetSchedulesActionCall(
+		external.GetSchedulesActionRequest{},
+		api,
+	)
+	if err != nil {
+		return err
+	}
+
+	data, err := res.AsIdeal()
+	if err != nil {
+		return err
+	}
+
+	title("Schedules")
+
+	fmt.Println("Generated at:", data.GeneratedAt)
+	fmt.Println(
+		"Period:",
+		data.Period.From,
+		"-",
+		data.Period.To,
+	)
+	fmt.Println()
+
+	if len(data.Routes.Items) == 0 {
+		fmt.Println("No schedules found.")
+		return nil
+	}
+
+	table := tablewriter.NewWriter(os.Stdout)
+
+	table.Header([]string{
+		"Train",
+		"Carrier",
+		"Category",
+		"From Date",
+		"Stations",
+	})
+
+	for _, route := range data.Routes.Items {
+
+		stations := ""
+
+		for _, station := range route.Stations.Items {
+
+			name := fmt.Sprintf(
+				"%d",
+				station.StationId,
+			)
+
+			// if stationName, ok := data.Stations[name]; ok {
+			// 	name = stationName
+			// }
+
+			if stations != "" {
+				stations += " → "
+			}
+
+			stations += name
+		}
+
+		date := ""
+
+		if len(route.OperatingDates) > 0 {
+			date = route.OperatingDates[0]
+		}
+
+		table.Append([]string{
+			route.NationalNumber,
+			route.CarrierCode,
+			route.CommercialCategorySymbol,
+			date,
+			stations,
+		})
+	}
+
+	table.Render()
 
 	return nil
 }

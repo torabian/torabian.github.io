@@ -103,6 +103,26 @@ actions:
     description:
       Returns current railway disruptions and affected routes.
     url: https://pdp-api.plk-sa.pl/api/v1/disruptions
+    qs:
+    - name: dateFrom
+      type: string
+      description: "Data początkowa. Domyślnie: dzisiaj"
+
+    - name: dateTo
+      type: string
+      description: "Data końcowa (max 31 dni). Domyślnie: dzisiaj"
+
+    - name: stations
+      type: string
+      description: "Lista ID stacji. Domyślnie: wszystkie stacje"
+
+    - name: carriersInclude
+      type: string
+      description: "Lista przewoźników do uwzględnienia"
+
+    - name: carriersExclude
+      type: string
+      description: "Lista przewoźników do wykluczenia"
     out:
       fields:
         - name: generatedAt
@@ -135,3 +155,189 @@ actions:
           type: map
           mapKeyOf: string
           mapPairOf: string
+
+  - name: getOperations
+    url: https://pdp-api.plk-sa.pl/api/v1/operations
+    out:
+      fields:
+      - name: generatedAt
+        type: string
+
+      - name: pagination
+        type: object
+        fields:
+          - name: page
+            type: int
+
+          - name: pageSize
+            type: int
+
+          - name: totalCount
+            type: int
+
+          - name: totalPages
+            type: int
+
+          - name: hasNextPage
+            type: bool
+      
+      - name: stations
+        type: map
+        mapKeyOf: string
+        mapPairOf: string
+
+      - name: trains
+        type: array
+        fields:
+          - name: scheduleId
+            type: int
+
+          - name: orderId
+            type: int
+
+          - name: trainOrderId
+            type: int
+
+          - name: operatingDate
+            type: string
+
+          - name: trainStatus
+            type: string
+
+          - name: stations
+            type: array
+            fields:
+              - name: stationId
+                type: int
+
+              - name: plannedSequenceNumber
+                type: int
+
+              - name: actualSequenceNumber
+                type: int
+
+              - name: actualArrival
+                type: string
+
+              - name: actualDeparture
+                type: string
+    qs:
+    - name: stations
+      type: string
+      description: "Lista ID stacji oddzielonych przecinkami. Domyślnie: wszystkie stacje"
+
+    - name: carriersInclude
+      type: string
+      description: "Lista przewoźników do uwzględnienia"
+
+    - name: carriersExclude
+      type: string
+      description: "Lista przewoźników do wykluczenia"
+
+    - name: fullRoutes
+      type: bool
+      description: "Jeśli true, zwraca pełne trasy pociągów (domyślnie: false)"
+
+    - name: withPlanned
+      type: bool
+      description: "Jeśli true, dołącza planowe czasy i obliczone opóźnienia w minutach (domyślnie: false)"
+
+    - name: page
+      type: int
+      description: "Numer strony (domyślnie: 1)"
+
+    - name: pageSize
+      type: int
+      description: "Liczba rekordów na stronę (domyślnie: 1000, max: 10000)"
+
+  - name: getSchedules
+    description:
+      Returns planned train schedules and routes.
+    url: https://pdp-api.plk-sa.pl/api/v1/schedules
+
+    qs:
+      - name: dateFrom
+        type: string
+        description: "Data początkowa (YYYY-MM-DD). Domyślnie: dzisiaj"
+
+      - name: dateTo
+        type: string
+        description: "Data końcowa (YYYY-MM-DD). Domyślnie: dzisiaj"
+
+      - name: stations
+        type: string
+        description: "Lista ID stacji oddzielonych przecinkami (np. \"33506,33512\"). Domyślnie: wszystkie stacje"
+
+      - name: carriersInclude
+        type: string
+        description: "Lista przewoźników do uwzględnienia (np. \"IC,KM\"). Zobacz /dictionaries/carriers"
+
+      - name: carriersExclude
+        type: string
+        description: "Lista przewoźników do wykluczenia. Zobacz /dictionaries/carriers"
+
+    out:
+      fields:
+        - name: generatedAt
+          type: string
+
+        - name: period
+          type: object
+          fields:
+            - name: from
+              type: string
+
+            - name: to
+              type: string
+
+        - name: routes
+          type: array
+          fields:
+            - name: scheduleId
+              type: int
+
+            - name: orderId
+              type: int
+
+            - name: trainOrderId
+              type: int
+
+            - name: carrierCode
+              type: string
+
+            - name: nationalNumber
+              type: string
+
+            - name: commercialCategorySymbol
+              type: string
+
+            - name: operatingDates
+              type: slice
+              primitive: string
+
+            - name: stations
+              type: array
+              fields:
+                - name: stationId
+                  type: int
+
+                - name: orderNumber
+                  type: int
+
+                - name: arrivalCommercialCategory
+                  type: string
+
+                - name: arrivalPlatform
+                  type: string
+
+                - name: departureCommercialCategory
+                  type: string
+
+                - name: departureTrainNumber
+                  type: string
+
+                - name: departurePlatform
+                  type: string
+
+                - name: departureTime
+                  type: string

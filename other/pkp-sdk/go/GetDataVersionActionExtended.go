@@ -86,3 +86,29 @@ func (x *GetDisruptionsActionResponse) AsIdeal() (*GetDisruptionsActionRes, erro
 
 	return &res, nil
 }
+func (x *GetOperationsActionResponse) AsIdeal() (*GetOperationsActionRes, error) {
+	b, err := json.Marshal(x.GetPayload())
+	if err != nil {
+		return nil, err
+	}
+
+	var res GetOperationsActionRes
+	if err := json.Unmarshal(b, &res); err != nil {
+		return nil, err
+	}
+
+	return &res, nil
+}
+func (x *GetSchedulesActionResponse) AsIdeal() (*GetSchedulesActionRes, error) {
+	b, err := json.Marshal(x.GetPayload())
+	if err != nil {
+		return nil, err
+	}
+
+	var res GetSchedulesActionRes
+	if err := json.Unmarshal(b, &res); err != nil {
+		return nil, err
+	}
+
+	return &res, nil
+}

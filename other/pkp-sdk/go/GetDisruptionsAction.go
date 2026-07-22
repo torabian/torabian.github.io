@@ -243,6 +243,11 @@ type GetDisruptionsActionQuery struct {
 	values url.Values
 	mapped map[string]interface{}
 	// Typesafe fields
+	DateFrom        string `json:"dateFrom"`
+	DateTo          string `json:"dateTo"`
+	Stations        string `json:"stations"`
+	CarriersInclude string `json:"carriersInclude"`
+	CarriersExclude string `json:"carriersExclude"`
 }
 
 func GetDisruptionsActionQueryFromString(rawQuery string) GetDisruptionsActionQuery {
