@@ -93,6 +93,11 @@ func main() {
 				ArgsUsage: "<token>",
 			},
 			{
+				Name:   "disruptions",
+				Usage:  "Show current railway disruptions",
+				Action: disruptions,
+			},
+			{
 				Name:   "carriers",
 				Usage:  "List carriers",
 				Action: carriers,
@@ -361,6 +366,90 @@ func statistics(ctx context.Context, _ *cli.Command) error {
 	})
 
 	table.Render()
+
+	return nil
+}
+func disruptions(ctx context.Context, _ *cli.Command) error {
+
+	api, err := client()
+	if err != nil {
+		return err
+	}
+
+	res, err := external.GetDisruptionsActionCall(
+		external.GetDisruptionsActionRequest{},
+		api,
+	)
+	if err != nil {
+		return err
+	}
+
+	data, err := res.AsIdeal()
+	if err != nil {
+		return err
+	}
+
+	title("Disruptions")
+
+	fmt.Println("Generated at:", data.GeneratedAt)
+	fmt.Println()
+
+	if len(data.Disruptions.Items) == 0 {
+		fmt.Println("No disruptions found.")
+		return nil
+	}
+
+	for _, disruption := range data.Disruptions.Items {
+
+		fmt.Println(headerStyle.Render(
+			fmt.Sprintf("Disruption #%d", disruption.DisruptionId),
+		))
+
+		fmt.Println()
+		fmt.Println(disruption.Message)
+		fmt.Println()
+
+		if len(disruption.AffectedRoutes.Items) == 0 {
+			fmt.Println("No affected routes")
+			fmt.Println()
+			continue
+		}
+
+		table := tablewriter.NewWriter(os.Stdout)
+
+		table.Header([]string{
+			"Schedule",
+			"Order",
+			"Date",
+			"Station",
+			"Sequence",
+		})
+
+		for _, route := range disruption.AffectedRoutes.Items {
+
+			station := fmt.Sprintf("%d", route.StationId)
+
+			if name, ok := data.Stations[station]; ok {
+				station = fmt.Sprintf(
+					"%s (%d)",
+					name,
+					route.StationId,
+				)
+			}
+
+			table.Append([]string{
+				fmt.Sprint(route.ScheduleId),
+				fmt.Sprint(route.OrderId),
+				route.OperatingDate,
+				station,
+				fmt.Sprint(route.SequenceNumber),
+			})
+		}
+
+		table.Render()
+
+		fmt.Println()
+	}
 
 	return nil
 }

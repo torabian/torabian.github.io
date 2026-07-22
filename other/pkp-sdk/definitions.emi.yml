@@ -99,3 +99,39 @@ actions:
               primitive: string
             - name: description
               type: string
+  - name: getDisruptions
+    description:
+      Returns current railway disruptions and affected routes.
+    url: https://pdp-api.plk-sa.pl/api/v1/disruptions
+    out:
+      fields:
+        - name: generatedAt
+          type: string
+        - name: disruptions
+          type: array
+          fields:
+            - name: disruptionId
+              type: int
+            - name: message
+              type: string
+            - name: affectedRoutes
+              type: array
+              fields:
+                - name: scheduleId
+                  type: int
+                - name: orderId
+                  type: int
+                - name: operatingDate
+                  type: string
+                - name: stationId
+                  type: int
+                - name: sequenceNumber
+                  type: int
+        - name: disruptionTypes
+          type: map
+          mapKeyOf: string
+          mapPairOf: string
+        - name: stations
+          type: map
+          mapKeyOf: string
+          mapPairOf: string

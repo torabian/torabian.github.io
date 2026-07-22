@@ -73,3 +73,16 @@ func (x *GetCarriersActionResponse) AsIdeal() (*GetCarriersActionRes, error) {
 
 	return &res, nil
 }
+func (x *GetDisruptionsActionResponse) AsIdeal() (*GetDisruptionsActionRes, error) {
+	b, err := json.Marshal(x.GetPayload())
+	if err != nil {
+		return nil, err
+	}
+
+	var res GetDisruptionsActionRes
+	if err := json.Unmarshal(b, &res); err != nil {
+		return nil, err
+	}
+
+	return &res, nil
+}
