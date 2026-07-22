@@ -1,6 +1,9 @@
 targets:
   - compiler: go
     output: go
+    tags:
+      - skip-gin
+      - skip-http
 
 actions:
   - name: getDataVersion
