@@ -116,6 +116,26 @@ func main() {
 				Action: disruptions,
 			},
 			{
+				Name:  "train-operation",
+				Usage: "Show the execution of a train",
+				Flags: []cli.Flag{
+					&cli.StringFlag{
+						Name:     "schedule-id",
+						Required: true,
+					},
+					&cli.StringFlag{
+						Name:     "order-id",
+						Required: true,
+					},
+					&cli.StringFlag{
+						Name:     "operating-date",
+						Usage:    "Date in YYYY-MM-DD format",
+						Required: true,
+					},
+				},
+				Action: trainOperation,
+			},
+			{
 				Name:   "commercial-categories",
 				Usage:  "List commercial categories",
 				Action: commercialCategories,
@@ -876,6 +896,78 @@ func routesByDate(ctx context.Context, cmd *cli.Command) error {
 			fmt.Sprint(route.TrainOrderId),
 			route.Name,
 			route.CarrierCode,
+		})
+	}
+
+	table.Render()
+
+	return nil
+}
+
+func trainOperation(ctx context.Context, cmd *cli.Command) error {
+
+	api, err := client()
+	if err != nil {
+		return err
+	}
+
+	res, err := external.GetTrainOperationActionCall(
+		external.GetTrainOperationActionRequest{
+			Params: external.GetTrainOperationActionPathParameter{
+				ScheduleId:    cmd.String("schedule-id"),
+				OrderId:       cmd.String("order-id"),
+				OperatingDate: cmd.String("operating-date"),
+			},
+		},
+		api,
+	)
+	if err != nil {
+		return err
+	}
+
+	data, err := res.AsIdeal()
+	if err != nil {
+		return err
+	}
+
+	title("Train Operation")
+
+	fmt.Printf("Schedule ID   : %d\n", data.ScheduleId)
+	fmt.Printf("Order ID      : %d\n", data.OrderId)
+	fmt.Printf("Train Order ID: %d\n", data.TrainOrderId)
+	fmt.Printf("Operating Date: %s\n", data.OperatingDate)
+	fmt.Printf("Status        : %s\n", data.TrainStatus)
+	fmt.Println()
+
+	if len(data.Stations.Items) == 0 {
+		fmt.Println("No stations found.")
+		return nil
+	}
+
+	table := tablewriter.NewWriter(os.Stdout)
+
+	table.Header([]string{
+		"Planned",
+		"Actual",
+		"Station",
+		"Arrival",
+		"Departure",
+	})
+
+	for _, station := range data.Stations.Items {
+
+		name := fmt.Sprintf("%d", station.StationId)
+
+		// if stationName, ok := stationNames[fmt.Sprint(station.StationId)]; ok {
+		// 	name = fmt.Sprintf("%s (%d)", stationName, station.StationId)
+		// }
+
+		table.Append([]string{
+			fmt.Sprint(station.PlannedSequenceNumber),
+			fmt.Sprint(station.ActualSequenceNumber),
+			name,
+			station.ActualArrival,
+			station.ActualDeparture,
 		})
 	}
 

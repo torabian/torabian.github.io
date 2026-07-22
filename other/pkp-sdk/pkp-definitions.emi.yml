@@ -484,3 +484,39 @@ actions:
 
           - name: carrierCode
             type: string
+  - name: getTrainOperation
+    url: https://pdp-api.plk-sa.pl/api/v1/operations/train/:scheduleId/:orderId/:operatingDate
+    out:
+      fields:
+        - name: scheduleId
+          type: int
+
+        - name: orderId
+          type: int
+
+        - name: trainOrderId
+          type: int
+
+        - name: operatingDate
+          type: string
+
+        - name: trainStatus
+          type: string
+
+        - name: stations
+          type: array
+          fields:
+            - name: stationId
+              type: int
+
+            - name: plannedSequenceNumber
+              type: int
+
+            - name: actualSequenceNumber
+              type: int
+
+            - name: actualArrival
+              type: string
+
+            - name: actualDeparture
+              type: string
