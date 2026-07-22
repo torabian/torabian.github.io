@@ -211,6 +211,19 @@ func (x *GetDisruptionsActionResponse) WithIdeal(payload GetDisruptionsActionRes
 	x.Payload = payload
 	return x
 }
+
+// Use this for client calls, so the payload is being casted
+func (x *GetDisruptionsActionResponse) AsIdeal() (*GetDisruptionsActionRes, error) {
+	b, err := json.Marshal(x.GetPayload())
+	if err != nil {
+		return nil, err
+	}
+	var res GetDisruptionsActionRes
+	if err := json.Unmarshal(b, &res); err != nil {
+		return nil, err
+	}
+	return &res, nil
+}
 func (x *GetDisruptionsActionResponse) AsHTML(payload string) *GetDisruptionsActionResponse {
 	x.Payload = payload
 	x.SetContentType("text/html; charset=utf-8")

@@ -291,6 +291,19 @@ func (x *GetOperationsActionResponse) WithIdeal(payload GetOperationsActionRes) 
 	x.Payload = payload
 	return x
 }
+
+// Use this for client calls, so the payload is being casted
+func (x *GetOperationsActionResponse) AsIdeal() (*GetOperationsActionRes, error) {
+	b, err := json.Marshal(x.GetPayload())
+	if err != nil {
+		return nil, err
+	}
+	var res GetOperationsActionRes
+	if err := json.Unmarshal(b, &res); err != nil {
+		return nil, err
+	}
+	return &res, nil
+}
 func (x *GetOperationsActionResponse) AsHTML(payload string) *GetOperationsActionResponse {
 	x.Payload = payload
 	x.SetContentType("text/html; charset=utf-8")
