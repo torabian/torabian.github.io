@@ -1,0 +1,101 @@
+targets:
+  - compiler: go
+    output: go
+
+actions:
+  - name: getDataVersion
+    description: 
+      Returns information about content version, hash code information if data has changed.
+    url: https://pdp-api.plk-sa.pl/api/v1/data-version
+    out:
+      fields:
+        - name: dataVersion
+          type: string
+        - name: schedulesVersion
+          type: string
+        - name: operationsVersion
+          type: string
+        - name: timestamp
+          type: string
+
+  - name: getOperationsStatistics
+    url: https://pdp-api.plk-sa.pl/api/v1/operations/statistics
+    out:
+      fields:
+        - name: generatedAt
+          type: string
+        - name: date
+          type: string
+        - name: totalTrains
+          type: int
+        - name: notStarted
+          type: int
+        - name: inProgress
+          type: int
+        - name: completed
+          type: int
+        - name: cancelled
+          type: int
+        - name: partialCancelled
+          type: int
+  - name: getStopTypes
+    url: https://pdp-api.plk-sa.pl/api/v1/dictionaries/stop-types
+    out:
+      fields:
+        - name: generatedAt
+          type: string
+        - name: stopTypes
+          type: array
+          fields:
+            - name: id
+              type: int
+            - name: description
+              type: string
+  - name: getStations
+    url: https://pdp-api.plk-sa.pl/api/v1/dictionaries/stations
+    qs:
+      - name: search
+        type: string
+        description: Wyszukiwanie po nazwie stacji
+      - name: page
+        type: int
+        description: "Numer strony (domyślnie: 1)"
+      - name: pageSize
+        type: int
+        description: "Liczba wyników na stronę (domyślnie: 500, max: 5000)"
+    out:
+      fields:
+        - name: generatedAt
+          type: string
+        - name: stations
+          type: array
+          fields:
+            - name: id
+              type: int
+            - name: name
+              type: string
+  - name: getCarriers
+    url: https://pdp-api.plk-sa.pl/api/v1/dictionaries/carriers
+    out:
+      fields:
+        - name: generatedAt
+          type: string
+        - name: carriers
+          type: array
+          fields:
+            - name: code
+              type: string
+            - name: name
+              type: string
+            - name: validFrom
+              type: string
+            - name: validTo
+              type: string
+        - name: usage
+          type: object
+          fields:
+            - name: examples
+              type: slice
+              primitive: string
+            - name: description
+              type: string
