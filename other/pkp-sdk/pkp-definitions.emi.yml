@@ -293,6 +293,36 @@ actions:
             - name: to
               type: string
 
+        - name: dictionaries
+          type: object
+          fields:
+            - name: stations
+              type: map
+              mapKeyOf: string
+              description: 
+                Emi compiler doesn't support map[string]object
+                at this moment. It will become any.
+              fields:
+                - name: id
+                  type: string
+                - name: name
+                  type: string
+            - name: connectionTypes
+              type: map
+              mapKeyOf: string
+              mapPairOf: string
+            - name: carriers
+              type: map
+              mapKeyOf: string
+              mapPairOf: string
+            - name: commercialCategories
+              type: map
+              mapKeyOf: string
+              mapPairOf: string
+            - name: stopTypes
+              type: map
+              mapKeyOf: string
+              mapPairOf: string
         - name: routes
           type: array
           fields:
@@ -344,3 +374,83 @@ actions:
 
                 - name: departureTime
                   type: string
+
+  - name: getCommercialCategories
+    url: https://pdp-api.plk-sa.pl/api/v1/dictionaries/commercial-categories
+    out:
+      fields:
+      - name: generatedAt
+        type: string
+
+      - name: commercialCategories
+        type: array
+        fields:
+          - name: code
+            type: string
+
+          - name: name
+            type: string
+
+          - name: carrierCode
+            type: string
+
+          - name: speedCategoryCode
+            type: string
+  - name: getSchedulesRoute
+    url: https://pdp-api.plk-sa.pl/api/v1/schedules/route/:scheduleId/:orderId
+    out:
+      fields:
+        - name: scheduleId
+          type: int
+
+        - name: orderId
+          type: int
+
+        - name: trainOrderId
+          type: int
+
+        - name: carrierCode
+          type: string
+
+        - name: nationalNumber
+          type: string
+
+        - name: commercialCategorySymbol
+          type: string
+
+        - name: operatingDates
+          type: slice
+          primitive: string
+
+        - name: stations
+          type: array
+          fields:
+            - name: stationId
+              type: int
+
+            - name: orderNumber
+              type: int
+
+            - name: arrivalCommercialCategory
+              type: string
+
+            - name: arrivalTrainNumber
+              type: string
+
+            - name: arrivalPlatform
+              type: string
+
+            - name: arrivalTime
+              type: string
+
+            - name: departureCommercialCategory
+              type: string
+
+            - name: departureTrainNumber
+              type: string
+
+            - name: departurePlatform
+              type: string
+
+            - name: departureTime
+              type: string

@@ -104,6 +104,11 @@ func main() {
 				Action: disruptions,
 			},
 			{
+				Name:   "commercial-categories",
+				Usage:  "List commercial categories",
+				Action: commercialCategories,
+			},
+			{
 				Name:   "operations",
 				Usage:  "Show current railway operations",
 				Action: operations,
@@ -122,6 +127,21 @@ func main() {
 				Name:   "stop-types",
 				Usage:  "List stop types",
 				Action: stopTypes,
+			},
+			{
+				Name:  "route",
+				Usage: "Show the timetable for a train",
+				Flags: []cli.Flag{
+					&cli.StringFlag{
+						Name:     "schedule-id",
+						Required: true,
+					},
+					&cli.StringFlag{
+						Name:     "order-id",
+						Required: true,
+					},
+				},
+				Action: route,
 			},
 			{
 				Name:   "versions",
@@ -644,6 +664,143 @@ func schedules(ctx context.Context, _ *cli.Command) error {
 			route.CommercialCategorySymbol,
 			date,
 			stations,
+		})
+	}
+
+	table.Render()
+
+	return nil
+}
+func commercialCategories(ctx context.Context, _ *cli.Command) error {
+
+	api, err := client()
+	if err != nil {
+		return err
+	}
+
+	res, err := external.GetCommercialCategoriesActionCall(
+		external.GetCommercialCategoriesActionRequest{},
+		api,
+	)
+	if err != nil {
+		return err
+	}
+
+	data, err := res.AsIdeal()
+	if err != nil {
+		return err
+	}
+
+	title("Commercial Categories")
+
+	fmt.Println("Generated at:", data.GeneratedAt)
+	fmt.Println()
+
+	if len(data.CommercialCategories.Items) == 0 {
+		fmt.Println("No commercial categories found.")
+		return nil
+	}
+
+	table := tablewriter.NewWriter(os.Stdout)
+
+	table.Header([]string{
+		"Code",
+		"Name",
+		"Carrier",
+		"Speed Category",
+	})
+
+	for _, category := range data.CommercialCategories.Items {
+		table.Append([]string{
+			category.Code,
+			category.Name,
+			category.CarrierCode,
+			category.SpeedCategoryCode,
+		})
+	}
+
+	table.Render()
+
+	return nil
+}
+func route(ctx context.Context, cmd *cli.Command) error {
+
+	api, err := client()
+	if err != nil {
+		return err
+	}
+
+	scheduleID := cmd.String("schedule-id")
+	orderID := cmd.String("order-id")
+
+	fmt.Println("-", scheduleID, orderID)
+
+	res, err := external.GetSchedulesRouteActionCall(
+		external.GetSchedulesRouteActionRequest{
+			Params: external.GetSchedulesRouteActionPathParameter{
+				ScheduleId: scheduleID,
+				OrderId:    orderID,
+			},
+		},
+		api,
+	)
+	if err != nil {
+		return err
+	}
+
+	data, err := res.AsIdeal()
+	if err != nil {
+		return err
+	}
+
+	title("Train Route")
+
+	fmt.Printf("Schedule ID : %d\n", data.ScheduleId)
+	fmt.Printf("Order ID    : %d\n", data.OrderId)
+	fmt.Printf("Train Order : %d\n", data.TrainOrderId)
+	fmt.Printf("Carrier     : %s\n", data.CarrierCode)
+	fmt.Printf("Train No.   : %s\n", data.NationalNumber)
+	fmt.Printf("Category    : %s\n", data.CommercialCategorySymbol)
+
+	if len(data.OperatingDates) > 0 {
+		fmt.Printf("Operating   : %s → %s (%d days)\n",
+			data.OperatingDates[0],
+			data.OperatingDates[len(data.OperatingDates)-1],
+			len(data.OperatingDates),
+		)
+	}
+
+	fmt.Println()
+
+	table := tablewriter.NewWriter(os.Stdout)
+
+	table.Header([]string{
+		"#",
+		"Station",
+		"Arrival",
+		"Departure",
+		"Platform",
+	})
+
+	for _, station := range data.Stations.Items {
+
+		name := fmt.Sprintf("%d", station.StationId)
+
+		// if stationName, ok := api.Stations()[name]; ok {
+		// 	name = fmt.Sprintf("%s (%d)", stationName, station.StationId)
+		// }
+
+		platform := station.DeparturePlatform
+		if platform == "" {
+			platform = station.ArrivalPlatform
+		}
+
+		table.Append([]string{
+			fmt.Sprint(station.OrderNumber),
+			name,
+			station.ArrivalTime,
+			station.DepartureTime,
+			platform,
 		})
 	}
 

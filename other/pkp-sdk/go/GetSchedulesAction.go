@@ -45,15 +45,32 @@ func GetSchedulesActionMeta() struct {
 
 // The base class definition for getSchedulesActionRes
 type GetSchedulesActionRes struct {
-	GeneratedAt string                                   `json:"generatedAt" yaml:"generatedAt"`
-	Period      GetSchedulesActionResPeriod              `json:"period" yaml:"period"`
-	Routes      emigo.Array[GetSchedulesActionResRoutes] `json:"routes" yaml:"routes"`
+	GeneratedAt  string                                   `json:"generatedAt" yaml:"generatedAt"`
+	Period       GetSchedulesActionResPeriod              `json:"period" yaml:"period"`
+	Dictionaries GetSchedulesActionResDictionaries        `json:"dictionaries" yaml:"dictionaries"`
+	Routes       emigo.Array[GetSchedulesActionResRoutes] `json:"routes" yaml:"routes"`
 }
 
 // The base class definition for period
 type GetSchedulesActionResPeriod struct {
 	From string `json:"from" yaml:"from"`
 	To   string `json:"to" yaml:"to"`
+}
+
+// The base class definition for dictionaries
+type GetSchedulesActionResDictionaries struct {
+	// Emi compiler doesn't support map[string]object at this moment. It will become any.
+	Stations             map[string]GetSchedulesActionResDictionariesStations `json:"stations" yaml:"stations"`
+	ConnectionTypes      map[string]string                                    `json:"connectionTypes" yaml:"connectionTypes"`
+	Carriers             map[string]string                                    `json:"carriers" yaml:"carriers"`
+	CommercialCategories map[string]string                                    `json:"commercialCategories" yaml:"commercialCategories"`
+	StopTypes            map[string]string                                    `json:"stopTypes" yaml:"stopTypes"`
+}
+
+// The base class definition for stations
+type GetSchedulesActionResDictionariesStations struct {
+	Id   string `json:"id" yaml:"id"`
+	Name string `json:"name" yaml:"name"`
 }
 
 // The base class definition for routes
@@ -99,6 +116,11 @@ func GetGetSchedulesActionResCliFlags(prefix string) []emigo.CliFlag {
 			Children: GetGetSchedulesActionResPeriodCliFlags("period-"),
 		},
 		{
+			Name:     prefix + "dictionaries",
+			Type:     "object",
+			Children: GetGetSchedulesActionResDictionariesCliFlags("dictionaries-"),
+		},
+		{
 			Name: prefix + "routes",
 			Type: "array",
 		},
@@ -111,6 +133,9 @@ func CastGetSchedulesActionResFromCli(c emigo.CliCastable) GetSchedulesActionRes
 	}
 	if c.IsSet("period") {
 		data.Period = CastGetSchedulesActionResPeriodFromCli(c)
+	}
+	if c.IsSet("dictionaries") {
+		data.Dictionaries = CastGetSchedulesActionResDictionariesFromCli(c)
 	}
 	if c.IsSet("routes") {
 		data.Routes = emigo.CapturePossibleArray(CastGetSchedulesActionResRoutesFromCli, "routes", c)
@@ -136,6 +161,57 @@ func CastGetSchedulesActionResPeriodFromCli(c emigo.CliCastable) GetSchedulesAct
 	}
 	if c.IsSet("to") {
 		data.To = c.String("to")
+	}
+	return data
+}
+func GetGetSchedulesActionResDictionariesCliFlags(prefix string) []emigo.CliFlag {
+	return []emigo.CliFlag{
+		{
+			Name:        prefix + "stations",
+			Type:        "map",
+			Description: "Emi compiler doesn't support map[string]object at this moment. It will become any.",
+		},
+		{
+			Name: prefix + "connection-types",
+			Type: "map",
+		},
+		{
+			Name: prefix + "carriers",
+			Type: "map",
+		},
+		{
+			Name: prefix + "commercial-categories",
+			Type: "map",
+		},
+		{
+			Name: prefix + "stop-types",
+			Type: "map",
+		},
+	}
+}
+func CastGetSchedulesActionResDictionariesFromCli(c emigo.CliCastable) GetSchedulesActionResDictionaries {
+	data := GetSchedulesActionResDictionaries{}
+	return data
+}
+func GetGetSchedulesActionResDictionariesStationsCliFlags(prefix string) []emigo.CliFlag {
+	return []emigo.CliFlag{
+		{
+			Name: prefix + "id",
+			Type: "string",
+		},
+		{
+			Name: prefix + "name",
+			Type: "string",
+		},
+	}
+}
+func CastGetSchedulesActionResDictionariesStationsFromCli(c emigo.CliCastable) GetSchedulesActionResDictionariesStations {
+	data := GetSchedulesActionResDictionariesStations{}
+	if c.IsSet("id") {
+		data.Id = c.String("id")
+	}
+	if c.IsSet("name") {
+		data.Name = c.String("name")
 	}
 	return data
 }
