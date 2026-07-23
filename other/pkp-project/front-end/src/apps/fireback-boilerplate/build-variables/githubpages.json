@@ -1,0 +1,14 @@
+{
+  "VITE_REMOTE_SERVICE": "/fireback-boilerplate/",
+  "PUBLIC_URL": "/fireback-boilerplate/",
+  "VITE_PUBLIC_URL": "/fireback-boilerplate/",
+  "VITE_DEFAULT_ROUTE": "/{locale}/dashboard",
+  "VITE_TARGET_APP": "fireback-boilerplate",
+  "VITE_ALLOW_OS_LOGIN": "true",
+  "VITE_SUPPORTED_LANGUAGES": "fa,en",
+  "VITE_USE_HASH_ROUTER": "true",
+  "VITE_INACCURATE_MOCK_MODE": "true",
+  "VITE_TITLE": "fireback-boilerplate",
+  "VITE_GITHUB_DEMO": "true",
+  "VITE_DESCRIPTION": "fireback-boilerplate"
+}

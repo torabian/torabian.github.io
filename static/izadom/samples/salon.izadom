@@ -1058,8 +1058,7 @@
           "platformLength": "900",
           "rise": "383",
           "run": "350",
-          "seatCut": 24,
-          "wallWidth": 12,
+          "seatCut": 12,
           "overhangLength": 50,
           "name": "adasdJUUUU"
         }
@@ -1091,7 +1090,9 @@
           "timberDepth": 4.5,
           "timberLength": 500,
           "timberHeight": "14.5",
-          "name": "we're"
+          "name": "we're",
+          "seatCut": "12",
+          "rigidBoardThickness": "4"
         }
       },
       "position": [
@@ -1157,14 +1158,14 @@
   },
   "camera": {
     "position": [
-      1014.9888633013228,
-      718.8713688163416,
-      295.4360245317066
+      855.3330731889546,
+      1049.2149098729906,
+      15.963288596783253
     ],
     "target": [
-      592.9562374259112,
-      595.0595948053952,
-      72.30775076461025
+      405.9470491170631,
+      846.4390448815448,
+      3.264108026993423
     ]
   },
   "architectural": {

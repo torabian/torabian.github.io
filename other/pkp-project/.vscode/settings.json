@@ -1,0 +1,13 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\Module3.yml$",
+        "cmd": "${workspaceFolder}/artifacts/pkp-server/pkp gen gof --relative-to ${workspaceFolder} --def ${file} --no-cache true --gof-module github.com/myorg/mynewbackend && ./artifacts/pkp-server/pkp gen module3spec --out ${workspaceFolder}/.jsonschemas/${relativeFile}"
+      }
+    ]
+  },
+  "yaml.schemas": {
+    ".jsonschemas/module3-json-schema.json": ["*Module3.yml"]
+  }
+}
