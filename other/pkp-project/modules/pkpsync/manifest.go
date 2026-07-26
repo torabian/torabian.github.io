@@ -1,4 +1,4 @@
-package pkpInfo
+package pkpSync
 
 import "database/sql"
 

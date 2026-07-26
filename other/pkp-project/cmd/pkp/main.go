@@ -1,14 +1,13 @@
 package main
 
 import (
-	"github.com/myorg/mynewbackend/modules/pkp-info"
-
 	"os"
 
 	"github.com/gin-gonic/gin"
 
 	"github.com/myorg/mynewbackend/cmd/pkp/menu"
 
+	pkpSync "github.com/myorg/mynewbackend/modules/pkpsync"
 	telegram "github.com/myorg/mynewbackend/modules/telegram-bot"
 	"github.com/torabian/fireback/modules/fireback"
 
@@ -72,8 +71,7 @@ var xapp = &fireback.FirebackApp{
 		abac.PassportsModuleSetup(),
 
 		// do not remove this comment line - it's used by fireback to append new modules
-		pkp-info.Pkp-infoModuleSetup(nil),
-
+		pkpSync.PkpSyncModuleSetup(nil),
 	},
 }
 
