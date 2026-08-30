@@ -110,8 +110,7 @@ usually handles the database, manages users, and processes transactions. It also
   },
   {
     id: "user-role-tenant-control-in-projects",
-    title:
-      "User, Role, and Tenant Management in Modern Applications",
+    title: "User, Role, and Tenant Management in Modern Applications",
     description: ` 
     Unless you are building a very simple application with no authentication—or a static website without user accounts—most systems require some form of user management.
 In its simplest form, user management involves allowing users to register with an email address, optionally confirm that email, and gain access to the system. This model was sufficient in the early days of the web, particularly in the late 1990s and even into the 2005–2010 era, when many applications operated with minimal identity requirements.
@@ -777,8 +776,7 @@ export const products: Product[] = [
     type: "Web Framework",
     description:
       "A full-stack Golang framework for rapidly building web, mobile, and desktop apps — with built-in backend and client code generation. Based on famous libraries, such as gin, gorm, go-migrate, react.js, and emi compiler for JavaScript, TypeScript, Swift, Kotlin.",
-    details:
-      `
+    details: `
       Fireback is highly opinionated framework, which allows to write backend code in Golang, and generation of clients [such that api calls are facilitated]
       in different famous targets, such as React.js. Fireback itself includes a backend project, which
       allows you to create backend based on Gin, Gorm, and provides a lot of helpers. Fireback gives you
@@ -800,117 +798,9 @@ export const products: Product[] = [
       multi-tenant highly customized role permission projects in the past.
       `,
     links: {
-      github: "https://github.com/torabian/fireback",
-      documentation: "https://torabian.github.io/fireback/docs/intro",
-      demo: "https://torabian.github.io/fireback/demo",
+      demo: "https://torabian.github.io/fireback",
     },
-    artifacts: [
-      {
-        name: "Installer",
-        url: "https://github.com/torabian/fireback/releases/latest/download/fireback-amd64.deb",
-        os: "linux",
-        arch: "x64",
-        type: "installer",
-      },
-      {
-        name: "Installer",
-        url: "https://github.com/torabian/fireback/releases/latest/download/fireback-arm64.deb",
-        os: "linux",
-        arch: "arm64",
-        type: "installer",
-      },
-      {
-        name: "Monolith",
-        url: "https://github.com/torabian/fireback/releases/latest/download/fireback-boilerplate.zip",
-        os: "other",
-        arch: "",
-        type: "archive",
-      },
-      {
-        name: "Android Demo",
-        url: "https://github.com/torabian/fireback/releases/latest/download/fireback-capcitor.apk",
-        os: "other",
-        arch: "arm64",
-        type: "apk",
-      },
-      {
-        name: "Microservice",
-        url: "https://github.com/torabian/fireback/releases/latest/download/fireback-microservice-boilerplate.zip",
-        os: "other",
-        arch: "",
-        type: "archive",
-      },
-      {
-        name: "Binary",
-        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_amd64_darwin.zip",
-        os: "macos",
-        arch: "x64",
-        type: "binary",
-      },
-      {
-        name: "Binary",
-        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_amd64_linux.zip",
-        os: "linux",
-        arch: "x64",
-        type: "binary",
-      },
-      {
-        name: "Binary",
-        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_amd64_windows.zip",
-        os: "windows",
-        arch: "x64",
-        type: "binary",
-      },
-      {
-        name: "Binary",
-        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_arm64_darwin.zip",
-        os: "macos",
-        arch: "arm64",
-        type: "binary",
-      },
-      {
-        name: "Binary",
-        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_arm64_linux.zip",
-        os: "linux",
-        arch: "arm64",
-        type: "binary",
-      },
-      {
-        name: "Binary",
-        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_arm64_windows.zip",
-        os: "windows",
-        arch: "arm64",
-        type: "binary",
-      },
-      {
-        name: "Installer",
-        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_intel_amd64.pkg",
-        os: "macos",
-        arch: "x64",
-        type: "installer",
-      },
-      {
-        name: "Installer",
-        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_silicon_arm64.pkg",
-        os: "macos",
-        arch: "arm64",
-        type: "installer",
-      },
-      {
-        name: "Installer",
-        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_win_amd64_installer.msi",
-        os: "windows",
-        arch: "x64",
-        type: "installer",
-      },
-      {
-        name: "Installer",
-        url: "https://github.com/torabian/fireback/releases/latest/download/fireback_win_arm64_installer.msi",
-        os: "windows",
-        arch: "arm64",
-        type: "installer",
-      },
-    ],
+    artifacts: [],
 
     // trainingRelated: ["avoid-software-failure"],
     features: [
